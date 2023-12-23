@@ -43,6 +43,7 @@ install_pkgs(){
 
     sudo chmod +x ./config/polybar/launch.sh
     sudo chmod +x ./config/polybar/uptime.sh
+    sudo chmod +x ./config/i3/set_background.sh
 }
 
 install_aur_pkgs(){
