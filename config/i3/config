@@ -6,7 +6,7 @@
 set $mod Mod4
 
 # set font
-#font pango:Open sans 11
+font pango:Open sans 11
 
 ### Runnig apps in background ###
 
@@ -14,7 +14,7 @@ set $mod Mod4
 exec_always --no-startup-id picom &
 
 # run mpd
-# exec_always --no-startup-id mpd &
+exec_always --no-startup-id mpd &
 
 # run dunst
 # exec_always --no-startup-id dunst &
@@ -27,7 +27,7 @@ exec_always --no-startup-id killall -q
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # run battery low warning
-#exec_always --no-startup-id battery&
+exec_always --no-startup-id battery&
 
 # start i3 components
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -106,10 +106,10 @@ bindsym $mod+p exec killall -q polybar
 bindsym $mod+b move workspace to output right
 
 # focus the parent container
-#bindsym $mod+a focus parent
+bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+d focus child
 
 # run rofi programs
 bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
@@ -120,26 +120,26 @@ bindsym $mod+x exec "rofi-powermenu"
 bindsym $mod+c exec "rofi-screenshot"
 
 # take a screenshot
-#bindsym Pause exec screenshot -sa
-#bindsym Print exec screenshot -sf
+bindsym Pause exec screenshot -sa
+bindsym Print exec screenshot -sf
 
 # brightness control
-#exec_always --no-startup-id light -I
-#bindsym XF86MonBrightnessUp exec light -A 2 && light -O && brightness &
-#bindsym XF86MonBrightnessDown exec light -U 2 && light -O && brightness &
+exec_always --no-startup-id light -I
+bindsym XF86MonBrightnessUp exec light -A 2 && light -O && brightness &
+bindsym XF86MonBrightnessDown exec light -U 2 && light -O && brightness &
 
 # brightness control hdmi
-#bindsym Ctrl+F7 exec brightness_hdmi down
-#bindsym Ctrl+F8 exec brightness_hdmi up
+bindsym Ctrl+F7 exec brightness_hdmi down
+bindsym Ctrl+F8 exec brightness_hdmi up
 
 # audio control
-#bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ && volume &
-#bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- && volume &
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && mute &
-#bindsym XF86AudioMicMute exec --no-startup-id amixer -D pulse sset Master 5%+ && volume &
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ && volume &
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- && volume &
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && mute &
+bindsym XF86AudioMicMute exec --no-startup-id amixer -D pulse sset Master 5%+ && volume &
 
 # turn off screen
-#bindsym XF86ScreenSaver exec xset dpms force off
+bindsym XF86ScreenSaver exec xset dpms force off
 
 # :)
 #bindsym ctrl + Return exec --no-startup-id alacritty
@@ -197,7 +197,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

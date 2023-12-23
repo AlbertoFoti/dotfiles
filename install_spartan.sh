@@ -36,11 +36,9 @@ install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
     sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi zsh thunar zathura zathura-pdf-mupdf
     #sudo pacman -S --noconfirm --needed neovim
-    #sudo pacman -S --noconfirm light
-    #sudo pacman -S --noconfirm --needed acpi pacman-contrib scrot
-    #sudo pacman -S --noconfirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
+    #sudo pacman -S --noconfirm alsa-utils
     sudo pacman -S --noconfirm --needed papirus-icon-theme
-    sudo pacman -S --noconfirm --needed inxi feh
+    sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light
 
     sudo chmod +x ./config/polybar/launch.sh
     sudo chmod +x ./config/polybar/uptime.sh
@@ -50,7 +48,7 @@ install_pkgs(){
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
     #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
-    #"$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
+    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
 }
 
 create_default_directories(){
@@ -127,7 +125,7 @@ install_sddm(){
 
 finishing(){
     echo -e "${green}[*] Chmoding light.${no_color}"
-    #sudo chmod +s /usr/bin/light
+    sudo chmod +s /usr/bin/light
     echo -e "${green}[*] Setting Zsh as default shell.${no_color}"
     chsh -s /bin/zsh
     sudo chsh -s /bin/zsh
