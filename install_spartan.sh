@@ -47,7 +47,8 @@ install_pkgs(){
 
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
-    #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast oh-my-zsh-git
+    #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
+    #"$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
 }
 
 create_default_directories(){
@@ -55,6 +56,8 @@ create_default_directories(){
     mkdir -p "$HOME"/.config
     sudo mkdir -p  /usr/local/bin
     sudo mkdir -p  /usr/share/themes
+
+    rm -rf "$HOME"/Pictures/wallpapers
     mkdir -p "$HOME"/Pictures/wallpapers
 }
 
@@ -85,7 +88,6 @@ copy_other_configs(){
 
 install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
-    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
 }
 
 install_emoji_fonts(){
@@ -155,7 +157,7 @@ options=(1 "System update" on
          12 "Install emoji fonts" off
          13 "Install vsc theme" off
          14 "Install gtk theme" on
-         15 "Install sddm theme" off
+         15 "Install sddm theme" on
          16 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
