@@ -34,9 +34,12 @@ install_aur_helper(){
 
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi zsh thunar zathura zathura-pdf-mupdf 
+    sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi thunar zathura zathura-pdf-mupdf 
     sudo pacman -S --noconfirm --needed duf dust unzip
     sudo pacman -S --noconfirm --needed tldr
+
+    sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
+
     #sudo pacman -S --noconfirm --needed neovim
     sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light alsa-utils xorg-xrandr
@@ -89,7 +92,6 @@ copy_other_configs(){
     sudo cp ./keyitdev.zsh-theme "$HOME"/.oh-my-zsh/custom/themes
     cp ./.zshrc "$HOME"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 }
 
 install_additional_pkgs(){
