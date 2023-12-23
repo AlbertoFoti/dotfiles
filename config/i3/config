@@ -109,15 +109,15 @@ bindsym $mod+b move workspace to output right
 bindsym $mod+a focus parent
 
 # focus the child container
-bindsym $mod+d focus child
+#bindsym $mod+d focus child
 
 # run rofi programs
-bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
+#bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+d exec "rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi"
 bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
-bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
-bindsym $mod+x exec "rofi-powermenu"
-bindsym $mod+c exec "rofi-screenshot"
+#bindsym $mod+z exec "rofi -show  -modi ':rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi"
+#bindsym $mod+x exec "rofi-powermenu"
+#bindsym $mod+c exec "rofi-screenshot"
 
 # take a screenshot
 bindsym Pause exec screenshot -sa
@@ -247,7 +247,7 @@ bar {
 
 # Set inner/outer gaps
 gaps inner 8
-gaps outer 0
+gaps outer 3
 
 # Smart gaps (gaps used if only more than one container on the workspace)
 # smart_gaps on
