@@ -34,11 +34,12 @@ install_aur_helper(){
 
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi zsh thunar zathura
-    #sudo pacman -S --noconfirm --needed neovim zathura-pdf-mupdf
+    sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi zsh thunar zathura zathura-pdf-mupdf
+    #sudo pacman -S --noconfirm --needed neovim
     #sudo pacman -S --noconfirm light
-    #sudo pacman -S --noconfirm --needed acpi pacman-contrib papirus-icon-theme scrot
+    #sudo pacman -S --noconfirm --needed acpi pacman-contrib scrot
     #sudo pacman -S --noconfirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
+    sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed inxi feh
 
     sudo chmod +x ./config/polybar/launch.sh
