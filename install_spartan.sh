@@ -154,7 +154,7 @@ options=(1 "System update" on
          11 "Install additional packages" off
          12 "Install emoji fonts" off
          13 "Install vsc theme" off
-         14 "Install gtk theme" off
+         14 "Install gtk theme" on
          15 "Install sddm theme" off
          16 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
