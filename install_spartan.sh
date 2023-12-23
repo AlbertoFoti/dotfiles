@@ -78,9 +78,8 @@ copy_other_configs(){
     echo -e "${green}[*] Copying wallpapers to "$HOME"/Pictures/wallpapers.${no_color}"
     cp -r ./wallpapers/* "$HOME"/Pictures/wallpapers
     echo -e "${green}[*] Copying zsh configs.${no_color}"
-    mkdir -p /usr/share/oh-my-zsh/
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    sudo cp ./keyitdev.zsh-theme /usr/share/oh-my-zsh/custom/themes
+    sudo cp ./keyitdev.zsh-theme "$HOME"/.oh-my-zsh/custom/themes
     cp ./.zshrc "$HOME"
 }
 
