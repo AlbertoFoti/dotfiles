@@ -1,5 +1,5 @@
-ZSH="/usr/share/zsh"
-OZSH="/usr/share/oh-my-zsh"
+TZSH="/usr/share/zsh"
+ZSH="/usr/share/oh-my-zsh"
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="keyitdev"
 plugins=(git z zsh-autosuggestions)
@@ -9,8 +9,8 @@ if [[ ! -d "$ZSH_CACHE_DIR" ]]; then
   mkdir "$ZSH_CACHE_DIR"
 fi
 
-source "$OZSH"/oh-my-zsh.sh
-source "$ZSH"/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source "$ZSH"/oh-my-zsh.sh
+source "$TZSH"/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias yeet="yay -Rn"
 alias yeeet="yay -Rns"
