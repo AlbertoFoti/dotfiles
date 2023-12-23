@@ -95,8 +95,8 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+i exec lock
 
 # monitor settings
-#bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
-#bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
+bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
+bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
 
 # toggle polybar
 bindsym $mod+o exec $HOME/.config/polybar/launch.sh
@@ -229,12 +229,18 @@ bindsym $mod+r mode "resize"
 ### BORDERS ###
 
 #border width
-default_border pixel 2
+default_border pixel 1
 
 #border colors
-client.focused #343746 #343746 #F8F8F2 #343746 #343746
-client.focused_inactive #343746 #343746 #F8F8F2 #21222C #21222C
-client.unfocused #343746 #343746 #F8F8F2 #21222C #21222C
+#client.focused #343746 #343746 #F8F8F2 #343746 #343746
+#client.focused_inactive #343746 #343746 #F8F8F2 #21222C #21222C
+#client.unfocused #343746 #343746 #F8F8F2 #21222C #21222C
+client.focused          #4B88D8 #4B88D8 #FFFFFF #4B88D8 #4B88D8 
+client.focused_inactive #222222    #5F676A    #FFFFFF    #5F676A    #5F676A
+client.unfocused        #333333   #222222   #888888   #222222   #333333
+client.urgent           #222222      #900000      #FFFFFF      #900000      #222222
+client.placeholder      #000000 #0C0C0C #FFFFFF #0C0C0C #000000
+client.background       #000000
 
 ### SETTINGS FOR i3 BAR ###
 
@@ -246,8 +252,10 @@ bar {
 ### SETTINGS FOR i3-gaps ###
 
 # Set inner/outer gaps
-gaps inner 8
-gaps outer 3
+gaps inner 10
+gaps outer 5
+gaps top 10
+gaps bottom 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)
 # smart_gaps on

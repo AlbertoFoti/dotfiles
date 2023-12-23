@@ -29,7 +29,7 @@ main() {
     systemctl hibernate
     ;;
   ' Lock')
-    lock
+    ./lock
     ;;
   ' Suspend')
     systemctl suspend

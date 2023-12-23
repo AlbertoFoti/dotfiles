@@ -36,9 +36,8 @@ install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
     sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi zsh thunar zathura zathura-pdf-mupdf
     #sudo pacman -S --noconfirm --needed neovim
-    #sudo pacman -S --noconfirm alsa-utils
     sudo pacman -S --noconfirm --needed papirus-icon-theme
-    sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light
+    sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light alsa-utils xorg-xrandr
 
     sudo chmod +x ./config/polybar/launch.sh
     sudo chmod +x ./config/polybar/uptime.sh
