@@ -78,6 +78,7 @@ copy_other_configs(){
     echo -e "${green}[*] Copying wallpapers to "$HOME"/Pictures/wallpapers.${no_color}"
     cp -r ./wallpapers/* "$HOME"/Pictures/wallpapers
     echo -e "${green}[*] Copying zsh configs.${no_color}"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     sudo cp ./keyitdev.zsh-theme /usr/share/oh-my-zsh/custom/themes
     cp ./.zshrc "$HOME"
 }
@@ -122,7 +123,7 @@ install_sddm(){
 
 finishing(){
     echo -e "${green}[*] Chmoding light.${no_color}"
-    sudo chmod +s /usr/bin/light
+    #sudo chmod +s /usr/bin/light
     echo -e "${green}[*] Setting Zsh as default shell.${no_color}"
     chsh -s /bin/zsh
     sudo chsh -s /bin/zsh
@@ -149,13 +150,13 @@ options=(1 "System update" on
          7 "Copy configs" on
          8 "Copy scripts" on
          9 "Copy fonts" on
-         10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" off
+         10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
          11 "Install additional packages" off
          12 "Install emoji fonts" off
          13 "Install vsc theme" off
          14 "Install gtk theme" off
          15 "Install sddm theme" off
-         16 "Make Light executable, set zsh as default shell, update nvim extensions." off)
+         16 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
 clear
