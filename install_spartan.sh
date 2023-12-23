@@ -40,6 +40,9 @@ install_pkgs(){
     #sudo pacman -S --noconfirm --needed acpi pacman-contrib papirus-icon-theme scrot
     #sudo pacman -S --noconfirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
     sudo pacman -S --noconfirm --needed inxi feh
+
+    sudo chmod +x ./config/polybar/launch.sh
+    sudo chmod +x ./config/polybar/uptime.sh
 }
 
 install_aur_pkgs(){
