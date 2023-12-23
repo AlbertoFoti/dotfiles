@@ -45,6 +45,8 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light alsa-utils xorg-xrandr
 
+    sudo pacman -S --noconfirm --needed cowsay lolcat sl cmatrix
+
     sudo chmod +x ./config/polybar/launch.sh
     sudo chmod +x ./config/polybar/uptime.sh
 
@@ -103,7 +105,6 @@ install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
     sudo pacman -S --noconfirm --needed vlc telegram-desktop bitwarden obsidian intellij-idea-community-edition
-    sudo pacman -S --noconfirm --needed cowsay lolcat sl cmatrix
     "$aurhelper" -S --noconfirm --needed google-chrome
 
     cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
@@ -119,7 +120,7 @@ install_emoji_fonts(){
 
 install_vsc(){
     echo -e "${green}[*] Installing vsc extensions.${no_color}"
-    yay -S visual-studio-code-bin
+    yay -S --noconfirm --needed visual-studio-code-bin
     #code --install-extension zhuangtongfa.Material-theme
     echo -e "${green}[*] Copying vsc configs.${no_color}"
     #cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
