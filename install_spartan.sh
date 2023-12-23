@@ -147,8 +147,8 @@ options=(1 "System update" on
          5 "Create default directories" on
          6 "Create backup of existing configs (to prevent overwritting)" off
          7 "Copy configs" on
-         8 "Copy scripts" off
-         9 "Copy fonts" off
+         8 "Copy scripts" on
+         9 "Copy fonts" on
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" off
          11 "Install additional packages" off
          12 "Install emoji fonts" off
