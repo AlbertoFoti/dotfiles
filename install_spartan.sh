@@ -34,10 +34,10 @@ install_aur_helper(){
 
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed alacritty btop neofetch neovim picom polybar rofi thunar feh zsh zathura zathura-pdf-mupdf
-    # sudo pacman -S --no-confirm ligh
-    sudo pacman -S --no-confirm --needed acpi pacman-contrib papirus-icon-theme scrot
-    # sudo pacman -S --no-confirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
+    #sudo pacman -S --noconfirm --needed alacritty btop neofetch #neovim picom polybar rofi thunar feh zsh zathura zathura-pdf-mupdf
+    #sudo pacman -S --noconfirm ligh
+    #sudo pacman -S --noconfirm --needed acpi pacman-contrib papirus-icon-theme scrot
+    #sudo pacman -S --noconfirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
 }
 
 install_aur_pkgs(){
@@ -138,19 +138,19 @@ cmd=(dialog --clear --separate-output --checklist "Select (with space) what scri
 options=(1 "System update" on
          2 "Install aur helper" on
          3 "Install basic packages" on
-         4 "Install basic packages (aur)" on
-         5 "Create default directories" on
-         6 "Create backup of existing configs (to prevent overwritting)" on
-         7 "Copy configs" on
+         4 "Install basic packages (aur)" off
+         5 "Create default directories" off
+         6 "Create backup of existing configs (to prevent overwritting)" onff
+         7 "Copy configs" off
          8 "Copy scripts" off
          9 "Copy fonts" off
-         10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" on
+         10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" off
+         11 "Install additional packages" off
          12 "Install emoji fonts" off
-         13 "Install vsc theme" on
-         14 "Install gtk theme" on
+         13 "Install vsc theme" off
+         14 "Install gtk theme" off
          15 "Install sddm theme" off
-         16 "Make Light executable, set zsh as default shell, update nvim extensions." on)
+         16 "Make Light executable, set zsh as default shell, update nvim extensions." off)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
 clear
