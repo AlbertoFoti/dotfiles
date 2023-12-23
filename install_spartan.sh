@@ -34,13 +34,15 @@ install_aur_helper(){
 
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed base-devel curl git alacritty btop neofetch neovim picom polybar rofi thunar nitrogen
-    
+    sudo pacman -S --noconfirm --needed alacritty btop neofetch neovim picom polybar rofi thunar feh zsh zathura zathura-pdf-mupdf
+    # sudo pacman -S --no-confirm ligh
+    sudo pacman -S --no-confirm --needed acpi pacman-contrib papirus-icon-theme scrot
+    # sudo pacman -S --no-confirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
 }
 
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
-    #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast oh-my-zsh-git
+    "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast oh-my-zsh-git
 }
 
 create_default_directories(){
@@ -77,7 +79,7 @@ copy_other_configs(){
 
 install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
-    #"$aurhelper" -S --noconfirm --needed dhcpcd gimp iwd libreoffice ntfs-3g ntp pulsemixer vnstat
+    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
 }
 
 install_emoji_fonts(){
@@ -143,7 +145,7 @@ options=(1 "System update" on
          8 "Copy scripts" off
          9 "Copy fonts" off
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" off
+         11 "Install additional packages" on
          12 "Install emoji fonts" off
          13 "Install vsc theme" on
          14 "Install gtk theme" on
