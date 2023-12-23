@@ -42,7 +42,9 @@ install_pkgs(){
 
     sudo chmod +x ./config/polybar/launch.sh
     sudo chmod +x ./config/polybar/uptime.sh
-    sudo chmod +x ./config/i3/set_background.sh
+
+    sudo chmod +x ./config/i3/lock
+    sudo chmod +x ./config/i3/rofi-powermenu
 }
 
 install_aur_pkgs(){
