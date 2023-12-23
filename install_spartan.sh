@@ -34,15 +34,17 @@ install_aur_helper(){
 
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    #sudo pacman -S --noconfirm --needed alacritty btop neofetch #neovim picom polybar rofi thunar feh zsh zathura zathura-pdf-mupdf
-    #sudo pacman -S --noconfirm ligh
+    sudo pacman -S --noconfirm --needed neofetch picom alacritty
+    #sudo pacman -S --noconfirm --needed alacritty neovim polybar rofi thunar btop feh zsh zathura zathura-pdf-mupdf
+    #sudo pacman -S --noconfirm light
     #sudo pacman -S --noconfirm --needed acpi pacman-contrib papirus-icon-theme scrot
     #sudo pacman -S --noconfirm mpc mpd ncmpcpp alsa-utils ranger slop xclip 
+    sudo pacman -S --noconfirm --needed inxi
 }
 
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
-    "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast oh-my-zsh-git
+    #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast oh-my-zsh-git
 }
 
 create_default_directories(){
