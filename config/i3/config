@@ -23,8 +23,8 @@ exec_always --no-startup-id picom &
 #exec_always feh --no-fehbg --bg-scale $HOME/Pictures/wallpapers/background.png
 
 # launch polybar
-#exec_always --no-startup-id killall -q
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id killall -q
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # run battery low warning
 #exec_always --no-startup-id battery&
