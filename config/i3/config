@@ -30,8 +30,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id battery&
 
 # start i3 components
-#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-#exec --no-startup-id nm-applet
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id nm-applet
 
 ### Shortcuts ###
 
@@ -82,8 +82,8 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # save and restore layout with i3-resurrect
-#bindsym $mod+t  exec --no-startup-id i3-resurrect restore
-#bindsym $mod+y  exec --no-startup-id i3-resurrect save
+bindsym $mod+t  exec --no-startup-id i3-resurrect restore
+bindsym $mod+y  exec --no-startup-id i3-resurrect save
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle

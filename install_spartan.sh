@@ -47,7 +47,7 @@ install_pkgs(){
 
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
-    #"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
+    "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
     "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
 }
 
