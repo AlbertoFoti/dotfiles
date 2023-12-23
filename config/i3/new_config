@@ -11,7 +11,7 @@ set $mod Mod4
 ### Runnig apps in background ###
 
 # run picom
-exec_always --no-startup-id picom &
+#exec_always --no-startup-id picom &
 
 # run mpd
 # exec_always --no-startup-id mpd &
