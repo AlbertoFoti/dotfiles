@@ -23,8 +23,8 @@ exec_always --no-startup-id picom &
 exec_always feh --no-fehbg --bg-scale $HOME/Pictures/wallpapers/background.png
 
 # launch polybar
-#exec_always --no-startup-id killall -q
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id killall -q
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # run battery low warning
 #exec_always --no-startup-id battery&
@@ -99,8 +99,8 @@ bindsym $mod+i exec lock
 #bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
 
 # toggle polybar
-#bindsym $mod+o exec $HOME/.config/polybar/launch.sh
-#bindsym $mod+p exec killall -q polybar
+bindsym $mod+o exec $HOME/.config/polybar/launch.sh
+bindsym $mod+p exec killall -q polybar
 
 # move workspaces between monitors
 bindsym $mod+b move workspace to output right
