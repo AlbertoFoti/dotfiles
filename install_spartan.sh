@@ -140,10 +140,10 @@ cmd=(dialog --clear --separate-output --checklist "Select (with space) what scri
 options=(1 "System update" on
          2 "Install aur helper" on
          3 "Install basic packages" on
-         4 "Install basic packages (aur)" off
-         5 "Create default directories" off
-         6 "Create backup of existing configs (to prevent overwritting)" onff
-         7 "Copy configs" off
+         4 "Install basic packages (aur)" on
+         5 "Create default directories" on
+         6 "Create backup of existing configs (to prevent overwritting)" off
+         7 "Copy configs" on
          8 "Copy scripts" off
          9 "Copy fonts" off
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" off
