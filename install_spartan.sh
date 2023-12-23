@@ -78,6 +78,9 @@ create_default_directories(){
 copy_configs(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
     cp -r ./config/* "$config_directory"
+
+    rm ~/.config/i3/config
+    ln -s ~/.config/i3/config_colemak ~/.config/i3/config
 }
 
 copy_scripts(){
@@ -175,7 +178,7 @@ options=(1 "System update" on
          8 "Copy scripts" on
          9 "Copy fonts" on
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" off
+         11 "Install additional packages" on
          12 "Install emoji fonts" off
          13 "Install vsc theme" on
          14 "Install gtk theme" on
