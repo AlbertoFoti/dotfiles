@@ -41,6 +41,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
+    sudo pacman -S --noconfirm --needed lxappearance
 
     if [[ $wm == "xorg-i3" ]]
     then
@@ -164,11 +165,12 @@ install_vsc(){
 
 install_gtk_theme(){
     echo -e "${green}[*] Installing gtk theme.${no_color}"
-    git clone --depth 1 https://github.com/Fausto-Korpsvart/Rose-Pine-GTK-Theme
+    git clone --depth 1 https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme
     echo -e "${green}[*] Copying gtk theme to /usr/share/themes.${no_color}"
-    sudo cp -r ./Rose-Pine-GTK-Theme/themes/RosePine-Main-BL  /usr/share/themes/RosePine-Main
+    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/*  /usr/share/themes/
+    sudo cp -r ./Tokyo-Night-GTK-Theme/icons/*  /usr/share/icons/
     mkdir -p "$HOME"/.config/gtk-4.0
-    sudo cp -r ./Rose-Pine-GTK-Theme/themes/RosePine-Main-BL/gtk-4.0/* "$HOME"/.config/gtk-4.0
+    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/Tokyonight-Dark-BL-LB/gtk-4.0/* "$HOME"/.config/gtk-4.0
 }   
 
 install_sddm(){
