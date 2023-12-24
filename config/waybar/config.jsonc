@@ -12,7 +12,7 @@
     // Choose the order of the modules
     "modules-left": [
         "custom/launcher",
-        "wlr/workspaces",
+        "hyprland/workspaces",
         // "cpu",
         // "memory",
         // "temperature",
@@ -20,16 +20,19 @@
         "custom/updates"
     ],
     "modules-center": [
-        "custom/music"
+	"clock"
     ],
     "modules-right": [
-        "network",
+        "network",	
+	"cpu",
+	"memory",
+	"temperature",
+        "battery",
+	"disk",
         "pulseaudio",
         "backlight",
-        "battery",
-        "custom/notifications",
+        //"custom/notifications",
         "tray",
-        "clock",
         // "custom/weather",
         // "custom/cycle_wall",
         // "custom/clipboard",
@@ -37,22 +40,31 @@
         // "custom/custom"
     ],
     "custom/launcher": {
-        "format": "{}",
-        "tooltip": true,
-        "exec": "echo '{\"text\":\"💧\",\"tooltip\":\"Drun | Run\"}'",
-        "return-type": "json",
-        "on-click": "pkill tofi || gamemoderun tofi-drun -c ~/.config/tofi/tofi.launcher.conf",
-        "on-click-right": "pkill tofi || gamemoderun tofi-run -c ~/.config/tofi/tofi.launcher.conf",
-        // "on-click": "pkill wofi || wofi --show drun -n",
-        // "on-click-right": "pkill wofi || wofi --show run -n",
+        //"format": "{}",
+        //"tooltip": true,
+        //"exec": "echo '{\"text\":\"💧\",\"tooltip\":\"Drun | Run\"}'",
+        //"return-type": "json",
+        //"on-click": "pkill wofi || wofi --show drun",
+        //"on-click-right": "pkill wofi || wofi --show drun",
+ 	"format": "",
+	"on-click": "wofi --show drun"
     },
-    "wlr/workspaces": {
-        // "format": "{icon} {name}",
-        "format": "",
-        "format-icons": {
-            "active": "",
-            "default": ""
-        },
+    "hyprland/workspaces": {
+        "format": "{name}",
+	//"format": "{name}: {icon}",
+	"persistent-workspaces": {
+		"eDP-1": [ 1 ],
+      		"HDMI-A-1": [ 2, 3, 4, 5 ],
+    	},
+	"format-icons": {
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		"5": "",
+		"active": "",
+		"default": ""
+	},
         "on-scroll-up": "hyprctl dispatch workspace e-1",
         "on-scroll-down": "hyprctl dispatch workspace e+1",
         "on-click": "activate"
@@ -60,18 +72,19 @@
     "cpu": {
         "format": " {usage}%",
         "tooltip": true,
-        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'btop'",
+        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
         "interval": 2
     },
     "memory": {
         "format": " {}%",
         "tooltip": true,
-        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'btop'",
+        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
         "interval": 2
     },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+	"hwmon-path": "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input",
         "critical-threshold": 40,
         "format-critical": "{icon} {temperatureC}°C",
         "format": "{icon} {temperatureC}°C",
@@ -81,13 +94,13 @@
             ""
         ],
         "tooltip": true,
-        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'btop'",
+        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
         "interval": 2
     },
     "disk": {
         "format": " {percentage_used}% ({free})",
         "tooltip": true,
-        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'btop'",
+        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
         "interval": 2
     },
     "custom/updates": {
@@ -162,7 +175,8 @@
                 ""
             ]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+        "on-click-right": "helvum",
     },
     "backlight": {
         // "device": "acpi_video1",

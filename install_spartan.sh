@@ -37,7 +37,7 @@ install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
     sudo pacman -S --noconfirm --needed neofetch alacritty btop ranger
-    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr zathura zathura-pdf-mupdf
+    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr psensor zathura zathura-pdf-mupdf
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl

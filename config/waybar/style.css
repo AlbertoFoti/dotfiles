@@ -196,8 +196,9 @@
 }
 
 #cpu {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0;
+  /*border-top-right-radius: 0;*/
+  /*border-bottom-right-radius: 0;*/
   margin-right: 0px;
   padding-right: 5px;
 }
@@ -303,7 +304,10 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   margin-right: 0px;
-  padding-right: 5px;
+  padding-right: 0px;
+  min-width: 60px;
+  margin-left: 0px;
+  padding-left: 10px;
 }
 
 /* =============================== */
@@ -313,9 +317,10 @@
 /* PulseAudio Module */
 #pulseaudio {
   color: @mauve;
-  border-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   margin-right: 0px;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 5px;
 }
 
@@ -326,10 +331,11 @@
 /* Backlight Module */
 #backlight {
   color: @teal;
-  border-radius: 0;
-  margin-right: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 10px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 /* =============================== */
@@ -425,9 +431,9 @@
 /* Powermenu Module */
 #custom-power {
   color: @mauve;
-  /* border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 8px; */
+  /*border-top-left-radius: 0;*/
+  /*border-bottom-left-radius: 0;*/
+  /*padding-left: 8px;*/ 
   padding-right: 1.20rem;
 }
 
