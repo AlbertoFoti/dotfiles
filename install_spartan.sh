@@ -42,8 +42,10 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
     sudo pacman -S --noconfirm --needed lxappearance
-    sudo pacman -S --noconfirm --needed alsa-utils mpc mpd ncmcpp
+    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum
+    sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
     sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
+    sudo pacman -S --noconfirm --needed feh
 
     if [[ $wm == "xorg-i3" ]]
     then
@@ -51,7 +53,7 @@ install_pkgs(){
     	sudo pacman -S --noconfirm --needed thunar polybar rofi picom 
     	sudo pacman -S --noconfirm --needed neovim
     	sudo pacman -S --noconfirm --needed papirus-icon-theme
-    	sudo pacman -S --noconfirm --needed feh scrot slop xclip xorg-xrandr
+    	sudo pacman -S --noconfirm --needed scrot xclip xorg-xrandr
     
         sudo chmod +x ./config/polybar/launch.sh
         sudo chmod +x ./config/polybar/uptime.sh
@@ -61,15 +63,14 @@ install_pkgs(){
     then
 	echo -e "wayland-hyprland configuration"
 	sudo pacman -S --noconfirm --needed thunar waybar wofi
-	sudo pacman -S --noconfirm --needed pipewire wireplumber
 	sudo pacman -S --noconfirm --needed polkit-kde-agent
 	sudo pacman -S --noconfirm --needed hyprpaper
 	sudo pacman -S --noconfirm --needed grim slurp
 
-	sudo pacman -S --noconfirm --needed firefox
-	git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
-	sudo mkdir -p /usr/bin/defaults/pref/
-	./programs/install.sh
+	#sudo pacman -S --noconfirm --needed firefox
+	#git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
+	#sudo mkdir -p /usr/bin/defaults/pref/
+	#./programs/install.sh
     else
 	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -78,14 +79,15 @@ install_pkgs(){
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper for $wm stack.${no_color}"
 
+    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git
     "$aurhelper" -S --noconfirm --needed 7-zip
     "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
-    
+    "$aurhelper" -S --noconfirm --needed google-chrome
+
     if [[ $wm == "xorg-i3" ]]
     then
 	echo -e "xorg-i3 aur packages"
     	"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
-	"$aurhelper" -S --noconfirm --needed google-chrome
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	echo -e "wayland-hyprland aur packages"
