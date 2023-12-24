@@ -42,7 +42,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
     sudo pacman -S --noconfirm --needed lxappearance
-    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum
+    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol
     sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
     sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
     sudo pacman -S --noconfirm --needed feh
@@ -79,7 +79,7 @@ install_pkgs(){
 install_aur_pkgs(){
     echo -e "${green}[*] Installing packages with $aurhelper for $wm stack.${no_color}"
 
-    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git
+    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
     "$aurhelper" -S --noconfirm --needed 7-zip
     "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
     "$aurhelper" -S --noconfirm --needed google-chrome
