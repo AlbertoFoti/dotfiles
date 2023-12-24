@@ -34,31 +34,55 @@ install_aur_helper(){
 }
 
 install_pkgs(){
-    echo -e "${green}[*] Installing packages with pacman.${no_color}"
-    sudo pacman -S --noconfirm --needed neofetch picom alacritty btop polybar rofi thunar zathura zathura-pdf-mupdf 
-    sudo pacman -S --noconfirm --needed duf dust unzip ncdu
-    sudo pacman -S --noconfirm --needed tldr
+    echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
+    sudo pacman -S --noconfirm --needed neofetch alacritty btop rofi
+    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr
+    sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
+    sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
 
-    #sudo pacman -S --noconfirm --needed neovim
-    sudo pacman -S --noconfirm --needed papirus-icon-theme
-    sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger light alsa-utils xorg-xrandr
-
-    sudo pacman -S --noconfirm --needed cowsay lolcat sl cmatrix
-
-    sudo chmod +x ./config/polybar/launch.sh
-    sudo chmod +x ./config/polybar/uptime.sh
-
-    sudo chmod +x ./config/i3/lock
-    sudo chmod +x ./config/i3/rofi-powermenu
+    if [[ $wm == "xorg-i3" ]]
+    then
+	echo -e "xorg-i3 configuration"
+    	sudo pacman -S --noconfirm --needed picom polybar thunar zathura zathura-pdf-mupdf 
+    	sudo pacman -S --noconfirm --needed neovim
+    	sudo pacman -S --noconfirm --needed papirus-icon-theme
+    	sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger alsa-utils xorg-xrandr
+    
+        sudo chmod +x ./config/polybar/launch.sh
+        sudo chmod +x ./config/polybar/uptime.sh
+        sudo chmod +x ./config/i3/lock
+        sudo chmod +x ./config/i3/rofi-powermenu
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+	echo -e "wayland-hyprland configuration"
+	sudo pacman -S --noconfirm --needed thunar waybar
+	sudo pacman -S --noconfirm --needed pipewire wireplumber
+	sudo pacman -S --noconfirm --needed polkit-kde-agent
+	sudo pacman -S --noconfirm --needed hyprpaper
+    else
+	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+    fi
 }
 
 install_aur_pkgs(){
-    echo -e "${green}[*] Installing packages with $aurhelper.${no_color}"
-    "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
-    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
+    echo -e "${green}[*] Installing packages with $aurhelper for $wm stack.${no_color}"
+
     "$aurhelper" -S --noconfirm --needed 7-zip
+    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
+    
+    if [[ $wm == "xorg-i3" ]]
+    then
+	echo -e "xorg-i3 aur packages"
+    	"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+	echo -e "wayland-hyprland aur packages"
+    else
+	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+    fi
+
 }
 
 create_default_directories(){
@@ -79,8 +103,17 @@ copy_configs(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
     cp -r ./config/* "$config_directory"
 
-    rm ~/.config/i3/config
-    ln -s ~/.config/i3/config_colemak ~/.config/i3/config
+    if [[ $wm == "xorg-i3" ]]
+    then
+	echo -e "xorg-i3 configs"
+    	rm ~/.config/i3/config
+    	ln -s ~/.config/i3/config_colemak ~/.config/i3/config
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+	echo -e "wayland-hyprland configs"
+    else
+	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+    fi
 }
 
 copy_scripts(){
@@ -123,7 +156,7 @@ install_emoji_fonts(){
 
 install_vsc(){
     echo -e "${green}[*] Installing vsc extensions.${no_color}"
-    yay -S --noconfirm --needed visual-studio-code-bin
+    "$aurhelper" -S --noconfirm --needed visual-studio-code-bin
     #code --install-extension zhuangtongfa.Material-theme
     echo -e "${green}[*] Copying vsc configs.${no_color}"
     #cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
@@ -142,10 +175,10 @@ install_sddm(){
     echo -e "${green}[*] Installing sddm theme.${no_color}"
     "$aurhelper" -S --noconfirm --needed qt5-graphicaleffects qt5-quickcontrols2 qt5-svg sddm
     sudo systemctl enable sddm.service
-    sudo git clone https://github.com/keyitdev/sddm-flower-theme.git /usr/share/sddm/themes/sddm-flower-theme
-    sudo cp /usr/share/sddm/themes/sddm-flower-theme/Fonts/* /usr/share/fonts/
+    sudo git clone https://github.com/Keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
+    sudo cp /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/
     echo "[Theme]
-    Current=sddm-flower-theme" | sudo tee /etc/sddm.conf
+    Current=sddm-astronaut-theme" | sudo tee /etc/sddm.conf
 }
 
 finishing(){
@@ -167,6 +200,16 @@ case $choices in
     2) aurhelper="paru";;
 esac
 
+cmd=(dialog --clear --title "WM Configuration" --menu "Select the target Window Manager" 10 50 16)
+options=(1 "xorg-i3" 2 "wayland-hyprland")
+choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
+
+case $choices in
+    1) wm="xorg-i3";;
+    2) wm="wayland-hyprland";;
+esac
+
+
 cmd=(dialog --clear --separate-output --checklist "Select (with space) what script should do.\\nChecked options are required for proper installation, do not uncheck them if you do not know what you are doing." 26 86 16)
 options=(1 "System update" on
          2 "Install aur helper" on
@@ -178,8 +221,8 @@ options=(1 "System update" on
          8 "Copy scripts" on
          9 "Copy fonts" on
          10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" on
-         12 "Install emoji fonts" off
+         11 "Install additional packages" off
+         12 "Install emoji fonts" on
          13 "Install vsc theme" on
          14 "Install gtk theme" on
          15 "Install sddm theme" on

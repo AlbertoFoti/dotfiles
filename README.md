@@ -30,3 +30,4 @@ Arch Linux dotfiles
 - Colemak i3 config file
 - neovim config
 - i3 improve overall look
+- Wayland+Hyprland configs added
