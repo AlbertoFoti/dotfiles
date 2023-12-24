@@ -36,20 +36,22 @@ install_aur_helper(){
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
-    sudo pacman -S --noconfirm --needed neofetch alacritty btop rofi
-    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr
+    sudo pacman -S --noconfirm --needed neofetch alacritty btop ranger
+    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr zathura zathura-pdf-mupdf
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
     sudo pacman -S --noconfirm --needed lxappearance
+    sudo pacman -S --noconfirm --needed alsa-utils mpc mpd ncmcpp
+    sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
 
     if [[ $wm == "xorg-i3" ]]
     then
 	echo -e "xorg-i3 configuration"
-    	sudo pacman -S --noconfirm --needed picom polybar thunar zathura zathura-pdf-mupdf 
+    	sudo pacman -S --noconfirm --needed thunar polybar rofi picom 
     	sudo pacman -S --noconfirm --needed neovim
     	sudo pacman -S --noconfirm --needed papirus-icon-theme
-    	sudo pacman -S --noconfirm --needed inxi feh acpi pacman-contrib scrot mpc mpd ncmpcpp slop xclip ranger alsa-utils xorg-xrandr
+    	sudo pacman -S --noconfirm --needed feh scrot slop xclip xorg-xrandr
     
         sudo chmod +x ./config/polybar/launch.sh
         sudo chmod +x ./config/polybar/uptime.sh
@@ -58,10 +60,16 @@ install_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	echo -e "wayland-hyprland configuration"
-	sudo pacman -S --noconfirm --needed thunar waybar
+	sudo pacman -S --noconfirm --needed thunar waybar wofi
 	sudo pacman -S --noconfirm --needed pipewire wireplumber
 	sudo pacman -S --noconfirm --needed polkit-kde-agent
 	sudo pacman -S --noconfirm --needed hyprpaper
+	sudo pacman -S --noconfirm --needed grim slurp
+
+	sudo pacman -S --noconfirm --needed firefox
+	git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
+	sudo mkdir -p /usr/bin/defaults/pref/
+	./programs/install.sh
     else
 	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -77,6 +85,7 @@ install_aur_pkgs(){
     then
 	echo -e "xorg-i3 aur packages"
     	"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
+	"$aurhelper" -S --noconfirm --needed google-chrome
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	echo -e "wayland-hyprland aur packages"
@@ -142,7 +151,6 @@ install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
     sudo pacman -S --noconfirm --needed vlc telegram-desktop bitwarden obsidian intellij-idea-community-edition
-    "$aurhelper" -S --noconfirm --needed google-chrome
 
     cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
     cd ~/AppsBigBagKbdTrixXKB/ && bash install-dreymar-xmod.sh && cd ~/
