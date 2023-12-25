@@ -155,7 +155,8 @@ install_additional_pkgs(){
     sudo pacman -S --noconfirm --needed vlc telegram-desktop bitwarden obsidian intellij-idea-community-edition
 
     cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
-    cd ~/AppsBigBagKbdTrixXKB/ && bash install-dreymar-xmod.sh && cd ~/
+    cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
+    sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
 }
 
 install_emoji_fonts(){
