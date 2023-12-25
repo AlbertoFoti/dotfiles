@@ -6,7 +6,7 @@ selected=$(echo -e $entries|wofi --width 250 --height 300 --dmenu --cache-file /
 
 case $selected in
   logout)
-    sudo killall sddm;;
+    killall -KILL -u $USER;;
   suspend)
     exec systemctl suspend;;
   reboot)
