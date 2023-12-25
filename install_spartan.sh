@@ -168,6 +168,7 @@ install_additional_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	    echo -e "wayland-hyprland configs"
+        "$aurhelper" -S --noconfirm --needed spotify-wayland
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi

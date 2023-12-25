@@ -57,4 +57,4 @@ Arch Linux dotfiles
 
 # Todo
 - Colemak-DH i3 config file
-- wayland config file
+- music plugin on desktop and on waybar
