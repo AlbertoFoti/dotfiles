@@ -193,6 +193,7 @@
 #memory,
 #temperature {
   color: @blue;
+  min-width: 45px;
 }
 
 #cpu {
@@ -219,10 +220,11 @@
 
 #disk {
   color: @peach;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 5px;
-  padding-right: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 10px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 /* Updates Module */
@@ -300,14 +302,12 @@
 /* =============================== */
 /* Network Module */
 #network {
-  color: @blue;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  color: @peach;
+  border-radius: 0;
   margin-right: 0px;
-  padding-right: 0px;
-  min-width: 60px;
+  padding-right: 8px;
   margin-left: 0px;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 /* =============================== */
@@ -345,10 +345,11 @@
 /* Battery Module */
 #battery {
   color: @green;
-  border-radius: 0;
-  margin-right: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #battery.charging {

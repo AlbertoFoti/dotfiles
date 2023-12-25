@@ -17,22 +17,23 @@
         // "memory",
         // "temperature",
         // "disk",
+        "tray",
         "custom/updates"
     ],
     "modules-center": [
-	"clock"
+	    "clock"
     ],
     "modules-right": [
-        "network",	
-	"cpu",
-	"memory",
-	"temperature",
-        "battery",
-	"disk",
+        "disk",
+        "cpu",
+        "memory",
+        "temperature",
+        "network#wifi",	
+        "network#ethernet",
+        "battery",	
         "pulseaudio",
         "backlight",
         //"custom/notifications",
-        "tray",
         // "custom/weather",
         // "custom/cycle_wall",
         // "custom/clipboard",
@@ -133,20 +134,43 @@
         "separate-outputs": true,
         "max-length": 35
     },
-    "network": {
+    "network#ethernet": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format": "↕{bandwidthTotalBytes}",
-        "format-disconnected": "{icon} No Internet",
+        "interface": "enp1s0f1",
+        "format": "{icon}",
+        "format-disconnected": "{icon}",
         "format-linked": " {ifname} (No IP)",
         "format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}  {gwaddr}",
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr} | ↕{bandwidthDownBytes}",
+        "tooltip-format-disconnected": "{icon} Disconnected",
+        "on-click-right": "nm-connection-editor",
+        "format-icons": {
+            "ethernet": "",
+            "disconnected": "睊",
+            "wifi": [
+                "睊",
+                "直"
+            ]
+        },
+        "interval": 2
+    },
+    "network#wifi": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "interface": "wlan0",
+        "format": "{icon}",
+        "format-disconnected": "{icon}",
+        "format-linked": " {ifname} (No IP)",
+        "format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}  {gwaddr}",
+        "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%) | ↕{bandwidthDownBytes}",
         "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr}",
         "tooltip-format-disconnected": "{icon} Disconnected",
         "on-click-right": "nm-connection-editor",
         "format-icons": {
             "ethernet": "",
-            "disconnected": "⚠",
+            "disconnected": "睊",
             "wifi": [
                 "睊",
                 "直"
