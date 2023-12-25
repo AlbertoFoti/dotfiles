@@ -122,9 +122,9 @@ copy_configs(){
     	ln -s ~/.config/i3/config_colemak ~/.config/i3/config
     elif [[ $wm == "wayland-hyprland" ]]
     then
-	echo -e "wayland-hyprland configs"
+	    echo -e "wayland-hyprland configs"
     else
-	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
 }
 
@@ -152,11 +152,21 @@ copy_other_configs(){
 install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
-    sudo pacman -S --noconfirm --needed vlc telegram-desktop bitwarden obsidian intellij-idea-community-edition
+    sudo pacman -S --noconfirm --needed telegram-desktop bitwarden obsidian intellij-idea-community-edition
+    sudo pacman -S --noconfirm --needed vlc audacity kdenlive
 
-    cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
-    cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
-    sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
+    if [[ $wm == "xorg-i3" ]]
+    then
+	    echo -e "xorg-i3 configs"
+    	cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
+        cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
+        sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+	    echo -e "wayland-hyprland configs"
+    else
+	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+    fi
 }
 
 install_emoji_fonts(){
