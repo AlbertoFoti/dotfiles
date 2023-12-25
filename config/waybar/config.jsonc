@@ -52,10 +52,9 @@
     "hyprland/workspaces": {
         "format": "{name}",
 	//"format": "{name}: {icon}",
-	"persistent-workspaces": {
-		"eDP-1": [ 1 ],
-      		"HDMI-A-1": [ 2, 3, 4, 5 ],
-    	},
+	//"persistent-workspaces": {
+      	//	"HDMI-A-1": [ 1, 2, 3, 4, 5 ],
+    	//},
 	"format-icons": {
 		"1": "",
 		"2": "",
