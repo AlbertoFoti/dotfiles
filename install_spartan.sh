@@ -42,7 +42,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
     sudo pacman -S --noconfirm --needed lxappearance
-    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol
+    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol playerctl
     sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
     sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
     sudo pacman -S --noconfirm --needed feh
@@ -73,6 +73,14 @@ install_pkgs(){
         #./programs/install.sh
 
         sudo chmod +x ./scripts/wofi-power
+
+        sudo chmod +x ./config/waybar/custom/spotify/controls.sh
+        sudo chmod +x ./config/waybar/custom/spotify/metadata.sh
+        sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
+        sudo chmod +x ./config/waybar/custom/spotify/play-pause.sh
+        sudo chmod +x ./config/waybar/custom/spotify/quit.sh
+
+        sudo pacman -S --noconfirm --needed gettext jq libnotify
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -95,6 +103,8 @@ install_aur_pkgs(){
 	    echo -e "wayland-hyprland aur packages"
         #"$aurhelper" -S --noconfirm --needed waybar-updates
         "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
+        "$aurhelper" -S --noconfirm --needed waybar-updates
+
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
