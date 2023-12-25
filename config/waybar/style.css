@@ -79,6 +79,7 @@
 #temperature,
 #custom-music,
 #custom-updates,
+#custom-pacman,
 #custom-nordvpn,
 #custom-notifications,
 #custom-power,
@@ -230,6 +231,24 @@
 /* Updates Module */
 #custom-updates {
   color: @sky;
+}
+
+@keyframes blink-update {
+	to {
+		background-color: dodgerblue;
+	}
+}
+
+#custom-pacman {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  margin-left: 2px;
+  margin-right: 2px; 
+}
+#custom-pacman.pending-updates {
+	animation-name: blink-update;
+	animation-duration: 3s;
 }
 
 /* =============================== */

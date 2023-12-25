@@ -86,13 +86,14 @@ install_aur_pkgs(){
 
     if [[ $wm == "xorg-i3" ]]
     then
-	echo -e "xorg-i3 aur packages"
+	    echo -e "xorg-i3 aur packages"
     	"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
     elif [[ $wm == "wayland-hyprland" ]]
     then
-	echo -e "wayland-hyprland aur packages"
+	    echo -e "wayland-hyprland aur packages"
+        "$aurhelper" -S --noconfirm --needed waybar-updates
     else
-	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
 
 }

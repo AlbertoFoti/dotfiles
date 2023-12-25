@@ -12,13 +12,13 @@
     // Choose the order of the modules
     "modules-left": [
         "custom/launcher",
+        "custom/pacman",
         "hyprland/workspaces",
         // "cpu",
         // "memory",
         // "temperature",
         // "disk",
-        "tray",
-        "custom/updates"
+        "tray"
     ],
     "modules-center": [
 	    "clock"
@@ -103,14 +103,15 @@
         "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
         "interval": 2
     },
-    "custom/updates": {
-        "format": "{}",
-        "exec": "~/.scripts/updates",
-        "on-click": "~/.scripts/updates update",
-        "interval": 600,
-        "tooltip": true,
-        // "tooltip-format": "{}",
-        // "exec-tooltip": "~/.scripts/updates tooltip"
+    "custom/pacman": {
+        "format": "{icon}{}",
+        "return-type": "json",
+        "format-icons": {
+            "pending-updates": " ",
+            "updated": ""
+        },
+        "exec-if": "which waybar-updates",
+        "exec": "waybar-updates"
     },
     "custom/music": {
         "format": "{icon}{}",
