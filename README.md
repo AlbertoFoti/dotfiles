@@ -22,7 +22,7 @@ Arch Linux dotfiles
 
 **File Manager**: ranger (and thunar)
 
-**Shell & Terminal**: zsh, alacritty
+**Shell & Terminal**: zsh, alacritty, kitty
 
 **Additional packages**: git, zathura, neovim, btop, ...
 
@@ -59,5 +59,3 @@ Arch Linux dotfiles
 - Colemak-DH i3 config file
 - Colemak-DH wayland config file
 - neovim config
-- i3 improve overall look
-- waybar fix
