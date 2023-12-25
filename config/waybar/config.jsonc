@@ -12,7 +12,8 @@
     // Choose the order of the modules
     "modules-left": [
         "custom/launcher",
-        "custom/pacman",
+        //"custom/pacman",
+        "custom/updates",
         "hyprland/workspaces",
         // "cpu",
         // "memory",
@@ -100,18 +101,28 @@
     "disk": {
         "format": " {percentage_used}% ({free})",
         "tooltip": true,
-        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
+        "on-click": "cd / && alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
         "interval": 2
     },
-    "custom/pacman": {
-        "format": "{icon}{}",
+    // "custom/pacman": {
+    //     "format": "{icon}{}",
+    //     "return-type": "json",
+    //     "format-icons": {
+    //         "pending-updates": "",
+    //         "updated": ""
+    //     },
+    //     "exec-if": "which waybar-updates",
+    //     "exec": "waybar-updates"
+    // },
+    "custom/updates": {
+        "format": "{icon} {}",
         "return-type": "json",
         "format-icons": {
-            "pending-updates": " ",
+            "has-updates": "",
             "updated": ""
         },
-        "exec-if": "which waybar-updates",
-        "exec": "waybar-updates"
+        "exec-if": "which waybar-module-pacman-updates",
+        "exec": "waybar-module-pacman-updates"
     },
     "custom/music": {
         "format": "{icon}{}",
@@ -141,12 +152,13 @@
         "format": "{icon}",
         "format-disconnected": "{icon}",
         "format-linked": " {ifname} (No IP)",
-        "format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
+        //"format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}  {gwaddr}",
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr} | ↕{bandwidthDownBytes}",
         "tooltip-format-disconnected": "{icon} Disconnected",
-        "on-click-right": "nm-connection-editor",
+        "on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        "on-click": "nm-connection-editor",
         "format-icons": {
             "ethernet": "",
             "disconnected": "睊",
@@ -163,12 +175,13 @@
         "format": "{icon}",
         "format-disconnected": "{icon}",
         "format-linked": " {ifname} (No IP)",
-        "format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
+        //"format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}  {gwaddr}",
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%) | ↕{bandwidthDownBytes}",
         "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr}",
         "tooltip-format-disconnected": "{icon} Disconnected",
-        "on-click-right": "nm-connection-editor",
+        "on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        "on-click": "nm-connection-editor",
         "format-icons": {
             "ethernet": "",
             "disconnected": "睊",
@@ -201,6 +214,7 @@
         },
         "on-click": "pavucontrol",
         "on-click-right": "helvum",
+        "on-click-middle": "pactl set-sink-mute 56 toggle"
     },
     "backlight": {
         // "device": "acpi_video1",
@@ -325,7 +339,7 @@
         // "exec": "~/.scripts/tools/expand power",
         "exec": "echo '{\"text\":\"⏻\",\"tooltip\":\"Power\"}'",
         "return-type": "json",
-        "on-click": "~/.config/wlogout/launch.sh"
+        "on-click": "wofi-power"
     },
     "custom/custom": {
         "format": "{}",

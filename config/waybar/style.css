@@ -239,16 +239,25 @@
 	}
 }
 
-#custom-pacman {
+/* #custom-pacman {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   margin-left: 2px;
-  margin-right: 2px; 
+  margin-right: 0px; 
+  padding-right: 3px;
 }
 #custom-pacman.pending-updates {
 	animation-name: blink-update;
 	animation-duration: 3s;
+} */
+
+#custom-updates {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 /* =============================== */

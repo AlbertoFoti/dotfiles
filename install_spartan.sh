@@ -61,18 +61,20 @@ install_pkgs(){
         sudo chmod +x ./config/i3/rofi-powermenu
     elif [[ $wm == "wayland-hyprland" ]]
     then
-	echo -e "wayland-hyprland configuration"
-	sudo pacman -S --noconfirm --needed thunar waybar wofi
-	sudo pacman -S --noconfirm --needed polkit-kde-agent
-	sudo pacman -S --noconfirm --needed hyprpaper
-	sudo pacman -S --noconfirm --needed grim slurp
+        echo -e "wayland-hyprland configuration"
+        sudo pacman -S --noconfirm --needed thunar waybar wofi
+        sudo pacman -S --noconfirm --needed polkit-kde-agent
+        sudo pacman -S --noconfirm --needed hyprpaper
+        sudo pacman -S --noconfirm --needed grim slurp
 
-	#sudo pacman -S --noconfirm --needed firefox
-	#git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
-	#sudo mkdir -p /usr/bin/defaults/pref/
-	#./programs/install.sh
+        #sudo pacman -S --noconfirm --needed firefox
+        #git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
+        #sudo mkdir -p /usr/bin/defaults/pref/
+        #./programs/install.sh
+
+        sudo chmod +x ./scripts/wofi-power
     else
-	echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
 }
 
@@ -91,7 +93,8 @@ install_aur_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	    echo -e "wayland-hyprland aur packages"
-        "$aurhelper" -S --noconfirm --needed waybar-updates
+        #"$aurhelper" -S --noconfirm --needed waybar-updates
+        "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
