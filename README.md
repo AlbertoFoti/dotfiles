@@ -57,5 +57,4 @@ Arch Linux dotfiles
 
 # Todo
 - Colemak-DH i3 config file
-- Colemak-DH wayland config file
-- neovim config
+- wayland config file

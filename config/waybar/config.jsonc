@@ -99,7 +99,7 @@
     "disk": {
         "format": " {percentage_used}% ({free})",
         "tooltip": true,
-        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
         "interval": 2
     },
     "custom/updates": {

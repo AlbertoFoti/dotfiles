@@ -184,6 +184,18 @@ install_vsc(){
     #cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
 }
 
+install_neovim_config(){
+    sudo pacman -S --noconfirm --needed neovim ripgrep
+    echo -e "${green}[*] Copying neovim config.${no_color}"
+    rm -rf ./nvim
+    rm -rf ./config/nvim
+    rm -rf ~/.config/nvim
+    git clone https://github.com/nvim-lua/kickstart.nvim.git nvim
+    rm -rf nvim/.git
+    cp -r nvim config/nvim
+    mv nvim ~/.config/nvim
+}
+
 install_gtk_theme(){
     echo -e "${green}[*] Installing gtk theme.${no_color}"
     git clone --depth 1 https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme
@@ -211,7 +223,6 @@ finishing(){
     chsh -s /bin/zsh
     sudo chsh -s /bin/zsh
     echo -e "${green}[*] Updating nvim extensions.${no_color}"
-    #nvim +PackerSync
 }
 
 cmd=(dialog --clear --title "Aur helper" --menu "Firstly, select the aur helper you want to install (or have already installed)." 10 50 16)
@@ -247,9 +258,10 @@ options=(1 "System update" on
          11 "Install additional packages" off
          12 "Install emoji fonts" on
          13 "Install vsc theme" on
-         14 "Install gtk theme" on
-         15 "Install sddm theme" on
-         16 "Make Light executable, set zsh as default shell, update nvim extensions." on)
+	 14 "Install neovim config" off
+         15 "Install gtk theme" on
+         16 "Install sddm theme" on
+         17 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
 clear
@@ -270,8 +282,9 @@ do
         11) install_additional_pkgs;;
         12) install_emoji_fonts;;
         13) install_vsc;;
-        14) install_gtk_theme;;
-        15) install_sddm;;
-        16) finishing;;
+	14) install_neovim_config;;
+        15) install_gtk_theme;;
+        16) install_sddm;;
+        17) finishing;;
     esac
 done
