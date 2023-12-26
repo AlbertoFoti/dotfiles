@@ -110,7 +110,8 @@
         "format": " {percentage_used}% ({free})",
         "tooltip": true,
         //"on-click": "cd / && alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
-        "on-click": "kitty --start-as fullscreen -e ncdu",
+        "on-click": "cd / && kitty --start-as fullscreen -e ncdu",
+        "on-click-right": "cd / && kitty --start-as fullscreen -e ncdu",
         "interval": 2
     },
     "custom/pacman": {

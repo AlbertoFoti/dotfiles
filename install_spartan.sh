@@ -31,6 +31,8 @@ install_aur_helper(){
         echo -e "${green}[*] It seems that you already have $aurhelper installed, skipping.${no_color}"
         "$aurhelper" yay -Syu --noconfirm
     fi
+
+    
 }
 
 install_pkgs(){
@@ -49,6 +51,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed inxi
     "$aurhelper" -S --noconfirm --needed mission-center
+    "$aurhelper" -S --noconfirm --needed pacgraph
 
     # Terminal and shell
     sudo pacman -S --noconfirm --needed kitty
@@ -75,6 +78,9 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed tldr
     sudo pacman -S --noconfirm --needed dunst
     sudo pacman -S --noconfirm --needed python-pywal
+    sudo pacman -S --noconfirm --needed yad
+    sudo pacman -S --noconfirm --needed swaylock
+    "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed ntp
 
     # Dependencies
@@ -131,14 +137,16 @@ install_pkgs(){
         #sudo mkdir -p /usr/bin/defaults/pref/
         #./programs/install.sh
 
-        sudo chmod +x ./scripts/wofi-power
-
         sudo chmod +x ./config/waybar/custom/spotify/controls.sh
         sudo chmod +x ./config/waybar/custom/spotify/metadata.sh
         sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
         sudo chmod +x ./config/waybar/custom/spotify/play-pause.sh
         sudo chmod +x ./config/waybar/custom/spotify/quit.sh
+
+        sudo chmod +x ./scripts/wofi-power
         sudo chmod +x ./config/wlogout/launch.sh
+        sudo chmod +x ./config/wlogout/actions
+
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
