@@ -132,7 +132,8 @@
             "updated": ""
         },
         "exec-if": "which waybar-module-pacman-updates",
-        "exec": "waybar-module-pacman-updates"
+        "exec": "waybar-module-pacman-updates",
+        "interval": 60,
     },
     "custom/playerctl": {
         "format": "{icon}",
