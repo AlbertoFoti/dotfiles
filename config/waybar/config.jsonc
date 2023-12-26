@@ -324,7 +324,7 @@
         "spacing": 15
     },
     "clock": {
-        "timezone": "Asia/Calcutta",
+        "timezone": "Europe/Rome",
         "format": " {:%d <small>%a</small> %H:%M}",
         //"format": " {:%a %b %d %Y | %H:%M}",
         "format-alt": " {:%A %B %d %Y (%V) | %r}",
