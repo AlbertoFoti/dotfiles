@@ -24,12 +24,12 @@ system_update(){
 install_aur_helper(){ 
     if ! command -v "$aurhelper" &> /dev/null
     then
-    echo -e "${green}[*] It seems that you don't have $aurhelper installed, I'll install that for you before continuing.${no_color}"
-    git clone https://aur.archlinux.org/"$aurhelper".git $HOME/.srcs/"$aurhelper"
-    (cd $HOME/.srcs/"$aurhelper"/ && makepkg -si)
+        echo -e "${green}[*] It seems that you don't have $aurhelper installed, I'll install that for you before continuing.${no_color}"
+        git clone https://aur.archlinux.org/"$aurhelper".git $HOME/.srcs/"$aurhelper"
+        (cd $HOME/.srcs/"$aurhelper"/ && makepkg -si)
     else
-    echo -e "${green}[*] It seems that you already have $aurhelper installed, skipping.${no_color}"
-    "$aurhelper" yay -Syu --noconfirm
+        echo -e "${green}[*] It seems that you already have $aurhelper installed, skipping.${no_color}"
+        "$aurhelper" yay -Syu --noconfirm
     fi
 }
 
@@ -46,6 +46,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
     sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
     sudo pacman -S --noconfirm --needed feh
+    sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim
 
     if [[ $wm == "xorg-i3" ]]
     then
@@ -62,10 +63,11 @@ install_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
         echo -e "wayland-hyprland configuration"
-        sudo pacman -S --noconfirm --needed thunar waybar wofi
+        sudo pacman -S --noconfirm --needed thunar wofi
         sudo pacman -S --noconfirm --needed polkit-kde-agent
         sudo pacman -S --noconfirm --needed hyprpaper
         sudo pacman -S --noconfirm --needed grim slurp
+        sudo pacman -S --noconfirm --needed gettext jq libnotify
 
         #sudo pacman -S --noconfirm --needed firefox
         #git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
@@ -79,8 +81,6 @@ install_pkgs(){
         sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
         sudo chmod +x ./config/waybar/custom/spotify/play-pause.sh
         sudo chmod +x ./config/waybar/custom/spotify/quit.sh
-
-        sudo pacman -S --noconfirm --needed gettext jq libnotify
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -101,9 +101,10 @@ install_aur_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	    echo -e "wayland-hyprland aur packages"
-        #"$aurhelper" -S --noconfirm --needed waybar-updates
+        "$aurhelper" -S --noconfirm --needed waybar-hyprland-cava-git
         "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
         "$aurhelper" -S --noconfirm --needed waybar-updates
+        "$aurhelper" -S --noconfirm --needed cava
 
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
@@ -200,15 +201,23 @@ install_vsc(){
 }
 
 install_neovim_config(){
-    sudo pacman -S --noconfirm --needed neovim ripgrep
+    sudo pacman -S --noconfirm --needed neovim
     echo -e "${green}[*] Copying neovim config.${no_color}"
-    rm -rf ./nvim
-    rm -rf ./config/nvim
-    rm -rf ~/.config/nvim
-    git clone https://github.com/nvim-lua/kickstart.nvim.git nvim
-    rm -rf nvim/.git
-    cp -r nvim config/nvim
-    mv nvim ~/.config/nvim
+
+    #rm -rf ./nvim
+    #rm -rf ./config/nvim
+    #rm -rf ~/.config/nvim
+    #git clone https://github.com/nvim-lua/kickstart.nvim.git nvim
+    #rm -rf nvim/.git
+    #cp -r nvim config/nvim
+    #mv nvim ~/.config/nvim
+
+    mkdir -p ~/.npm-global
+    npm config set prefix '~/.npm-global'
+    rm ~/.profile
+    cp ./.profile ~/.profile
+    source ~/.profile
+    bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 }
 
 install_gtk_theme(){
