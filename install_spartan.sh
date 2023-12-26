@@ -57,6 +57,8 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed kitty
     #sudo pacman -S --noconfirm --needed alacritty
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting   
+    sudo pacman -S --noconfirm --needed fish
+    curl -sS https://starship.rs/install.sh | sh
 
     # Web Browser
     "$aurhelper" -S --noconfirm --needed google-chrome
@@ -279,9 +281,12 @@ install_sddm(){
 finishing(){
     echo -e "${green}[*] Chmoding light.${no_color}"
     sudo chmod +s /usr/bin/light
-    echo -e "${green}[*] Setting Zsh as default shell.${no_color}"
-    chsh -s /bin/zsh
-    sudo chsh -s /bin/zsh
+    #echo -e "${green}[*] Setting Zsh as default shell.${no_color}"
+    #chsh -s /bin/zsh
+    #sudo chsh -s /bin/zsh
+    echo -e "${green}[*] Setting Fish as default shell.${no_color}"
+    chsh -s /bin/fish
+    sudo chsh -s /bin/fish
     echo -e "${green}[*] Updating nvim extensions.${no_color}"
 }
 
