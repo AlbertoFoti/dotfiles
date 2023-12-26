@@ -77,13 +77,16 @@
     "cpu": {
         "format": " {usage}%",
         "tooltip": true,
-        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        //"on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        "on-click": "kitty --start-as fullscreen -e btop",
+        "on-click-right": "mission-center",
         "interval": 2
     },
     "memory": {
         "format": " {}%",
         "tooltip": true,
-        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        //"on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        "on-click": "kitty --start-as fullscreen -e btop",
         "interval": 2
     },
     "temperature": {
@@ -99,13 +102,15 @@
             ""
         ],
         "tooltip": true,
-        "on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        //"on-click": "alacritty -o 'window.startup_mode=Fullscreen' -e btop",
+        "on-click": "kitty --start-as fullscreen -e btop",
         "interval": 2
     },
     "disk": {
         "format": " {percentage_used}% ({free})",
         "tooltip": true,
-        "on-click": "cd / && alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
+        //"on-click": "cd / && alacritty -o 'window.startup_mode=Fullscreen' -e ncdu",
+        "on-click": "kitty --start-as fullscreen -e ncdu",
         "interval": 2
     },
     "custom/pacman": {
@@ -191,7 +196,8 @@
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr} | ↕{bandwidthDownBytes}",
         "tooltip-format-disconnected": "{icon} Disconnected",
-        "on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        //"on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        "on-click-right": "kitty --start-as fullscreen -e nmtui",
         "on-click": "nm-connection-editor",
         "format-icons": {
             "ethernet": "",
@@ -214,7 +220,8 @@
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%) | ↕{bandwidthDownBytes}",
         "tooltip-format-ethernet": "{icon} {ipaddr}/{cidr}",
         "tooltip-format-disconnected": "{icon} Disconnected",
-        "on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        //"on-click-right": "alacritty -o 'window.startup_mode=Fullscreen' -e nmtui",
+        "on-click-right": "kitty --start-as fullscreen -e nmtui",
         "on-click": "nm-connection-editor",
         "format-icons": {
             "ethernet": "",

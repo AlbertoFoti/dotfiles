@@ -36,27 +36,71 @@ install_aur_helper(){
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
-    sudo pacman -S --noconfirm --needed neofetch alacritty kitty btop ranger
-    sudo pacman -S --noconfirm --needed duf dust unzip ncdu tldr psensor zathura zathura-pdf-mupdf
+    # File manager 
+    sudo pacman -S --noconfirm --needed ranger
+    sudo pacman -S --noconfirm --needed nemo
+    #sudo pacman -S --noconfirm --needed thunar
+    #others: dolphin, krusader, nautilus 
+
+    # System Monitor
+    sudo pacman -S --noconfirm --needed btop 
+    sudo pacman -S --noconfirm --needed neofetch 
+    sudo pacman -S --noconfirm --needed duf dust ncdu tldr psensor acpi vnstat
     sudo pacman -S --noconfirm --needed light
-    sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting
-    sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
-    sudo pacman -S --noconfirm --needed lxappearance
+    sudo pacman -S --noconfirm --needed inxi
+    "$aurhelper" -S --noconfirm --needed mission-center
+
+    # Terminal and shell
+    sudo pacman -S --noconfirm --needed kitty
+    #sudo pacman -S --noconfirm --needed alacritty
+    sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting   
+
+    # Web Browser
+    "$aurhelper" -S --noconfirm --needed google-chrome
+
+    # Audio
     sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol playerctl
     sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
-    sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
-    sudo pacman -S --noconfirm --needed feh
-    sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim
+
+    # PDF and image visualizer, screenshot, unzip
+    sudo pacman -S --noconfirm --needed unzip zathura zathura-pdf-mupdf
+    sudo pacman -S --noconfirm --needed feh slop 
+    "$aurhelper" -S --noconfirm --needed gimp
+    "$aurhelper" -S --noconfirm --needed 7-zip
+
+    # Appearance
+    sudo pacman -S --noconfirm --needed lxappearance
+
+    # Others
+    sudo pacman -S --noconfirm --needed tldr
     sudo pacman -S --noconfirm --needed dunst
     sudo pacman -S --noconfirm --needed python-pywal
+    "$aurhelper" -S --noconfirm --needed ntp
+
+    # Dependencies
+    sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim pacman-contrib
+    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
+    "$aurhelper" -S --noconfirm --needed ntfs-3g
+
+    # Meme packages
+    sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
+
 
     if [[ $wm == "xorg-i3" ]]
     then
-	echo -e "xorg-i3 configuration"
-    	sudo pacman -S --noconfirm --needed thunar polybar rofi picom 
-    	sudo pacman -S --noconfirm --needed neovim
+	echo -e "xorg-i3 configuration" 
+        echo -e "xorg-i3 configuration"
+
+        # System Bar
+    	sudo pacman -S --noconfirm --needed polybar 
+        # Search Menu
+        sudo pacman -S --noconfirm --needed rofi 
+        # Screenshot
+        sudo pacman -S --noconfirm --needed scrot xclip xorg-xrandr
+        # Others
+        sudo pacman -S --noconfirm --needed picom
     	sudo pacman -S --noconfirm --needed papirus-icon-theme
-    	sudo pacman -S --noconfirm --needed scrot xclip xorg-xrandr
+        "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
     
         sudo chmod +x ./config/polybar/launch.sh
         sudo chmod +x ./config/polybar/uptime.sh
@@ -65,11 +109,21 @@ install_pkgs(){
     elif [[ $wm == "wayland-hyprland" ]]
     then
         echo -e "wayland-hyprland configuration"
-        sudo pacman -S --noconfirm --needed thunar wofi
-        sudo pacman -S --noconfirm --needed polkit-kde-agent
-        sudo pacman -S --noconfirm --needed hyprpaper
+
+        # System Bar
+    	"$aurhelper" -S --noconfirm --needed waybar-hyprland-cava-git
+        # Search Menu
+        sudo pacman -S --noconfirm --needed wofi 
+        # Screenshots
         sudo pacman -S --noconfirm --needed grim slurp
+        # Wallpaper
+        sudo pacman -S --noconfirm --needed hyprpaper
+        # Others
+        sudo pacman -S --noconfirm --needed polkit-kde-agent
         sudo pacman -S --noconfirm --needed gettext jq libnotify
+        "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
+        "$aurhelper" -S --noconfirm --needed waybar-updates
+        "$aurhelper" -S --noconfirm --needed cava
 
         #sudo pacman -S --noconfirm --needed firefox
         #git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
@@ -86,32 +140,6 @@ install_pkgs(){
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
-}
-
-install_aur_pkgs(){
-    echo -e "${green}[*] Installing packages with $aurhelper for $wm stack.${no_color}"
-
-    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
-    "$aurhelper" -S --noconfirm --needed 7-zip
-    "$aurhelper" -S --noconfirm --needed gimp ntfs-3g ntp vnstat
-    "$aurhelper" -S --noconfirm --needed google-chrome
-
-    if [[ $wm == "xorg-i3" ]]
-    then
-	    echo -e "xorg-i3 aur packages"
-    	"$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
-    elif [[ $wm == "wayland-hyprland" ]]
-    then
-	    echo -e "wayland-hyprland aur packages"
-        "$aurhelper" -S --noconfirm --needed waybar-hyprland-cava-git
-        "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
-        "$aurhelper" -S --noconfirm --needed waybar-updates
-        "$aurhelper" -S --noconfirm --needed cava
-
-    else
-	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
-    fi
-
 }
 
 create_default_directories(){
@@ -143,20 +171,14 @@ copy_configs(){
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
-}
 
-copy_scripts(){
     echo -e "${green}[*] Copying scripts to $scripts_directory.${no_color}"
     sudo cp -r ./scripts/* "$scripts_directory"
-}
 
-copy_fonts(){
     echo -e "${green}[*] Copying fonts to $fonts_directory.${no_color}"
     sudo cp -r ./fonts/* "$fonts_directory"
     fc-cache -fv
-}
 
-copy_other_configs(){
     echo -e "${green}[*] Copying wallpapers to "$HOME"/Pictures/wallpapers.${no_color}"
     cp -r ./wallpapers/* "$HOME"/Pictures/wallpapers
     echo -e "${green}[*] Copying zsh configs.${no_color}"
@@ -164,6 +186,11 @@ copy_other_configs(){
     sudo cp "$HOME"/dotfiles/keyitdev.zsh-theme "$HOME"/.oh-my-zsh/custom/themes
     cp "$HOME"/dotfiles/.zshrc "$HOME"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+    echo -e "${green}[*] Installing emoji fonts with $aurhelper.${no_color}"
+    "$aurhelper" -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+    sudo cp -f ./local.conf /etc/fonts
+    fc-cache -fv
 }
 
 install_additional_pkgs(){
@@ -187,18 +214,11 @@ install_additional_pkgs(){
     fi
 }
 
-install_emoji_fonts(){
-    echo -e "${green}[*] Installing emoji fonts with $aurhelper.${no_color}"
-    "$aurhelper" -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
-    sudo cp -f ./local.conf /etc/fonts
-    fc-cache -fv
-}
-
 install_vsc(){
     echo -e "${green}[*] Installing vsc extensions.${no_color}"
     "$aurhelper" -S --noconfirm --needed visual-studio-code-bin
     #code --install-extension zhuangtongfa.Material-theme
-    echo -e "${green}[*] Copying vsc configs.${no_color}"
+    #echo -e "${green}[*] Copying vsc configs.${no_color}"
     #cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
 }
 
@@ -274,20 +294,15 @@ cmd=(dialog --clear --separate-output --checklist "Select (with space) what scri
 options=(1 "System update" on
          2 "Install aur helper" on
          3 "Install basic packages" on
-         4 "Install basic packages (aur)" on
-         5 "Create default directories" on
-         6 "Create backup of existing configs (to prevent overwritting)" off
-         7 "Copy configs" on
-         8 "Copy scripts" on
-         9 "Copy fonts" on
-         10 "Copy other configs (gtk theme, wallpaper, vsc configs, zsh configs)" on
-         11 "Install additional packages" off
-         12 "Install emoji fonts" on
-         13 "Install vsc theme" on
-	 14 "Install neovim config" off
-         15 "Install gtk theme" on
-         16 "Install sddm theme" on
-         17 "Make Light executable, set zsh as default shell, update nvim extensions." on)
+         4 "Create default directories" on
+         5 "Create backup of existing configs (to prevent overwritting)" off
+         6 "Copy configs, scripts and fonts (..., gtk theme, wallpaper, zsh configs)" on
+         7 "Install additional packages" off
+         8 "Install vsc theme" on
+	     9 "Install neovim config" off
+         10 "Install gtk theme" on
+         11 "Install sddm theme" on
+         12 "Make Light executable, set zsh as default shell, update nvim extensions." on)
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
 clear
@@ -298,19 +313,14 @@ do
         1) system_update;;
         2) install_aur_helper;;
         3) install_pkgs;;
-        4) install_aur_pkgs;;
-        5) create_default_directories;;
-        6) create_backup;;
-        7) copy_configs;;
-        8) copy_scripts;;
-        9) copy_fonts;;
-        10) copy_other_configs;;
-        11) install_additional_pkgs;;
-        12) install_emoji_fonts;;
-        13) install_vsc;;
-	14) install_neovim_config;;
-        15) install_gtk_theme;;
-        16) install_sddm;;
-        17) finishing;;
+        4) create_default_directories;;
+        5) create_backup;;
+        6) copy_configs;;
+        7) install_additional_pkgs;;
+        8) install_vsc;;
+	    9) install_neovim_config;;
+        10) install_gtk_theme;;
+        11) install_sddm;;
+        12) finishing;;
     esac
 done

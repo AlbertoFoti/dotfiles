@@ -20,11 +20,11 @@ Arch Linux dotfiles
 
 **Toolbar**: waybar
 
-**File Manager**: ranger (and thunar)
+**File Manager**: ranger, nemo
 
-**Shell & Terminal**: zsh, alacritty, kitty
+**Shell & Terminal**: zsh, kitty
 
-**Additional packages**: git, zathura, neovim, btop, ...
+**Additional packages**: git, zathura, neovim, btop, cava, feh, dunst
 
 ![alt text](./screenshots/20231224_18h08m04s_grim.png)
 ![alt text](./screenshots/20231224_18h14m26s_grim.png)
@@ -48,15 +48,15 @@ Arch Linux dotfiles
 
 **Toolbar**: polybar
 
-**File Manager**: thunar
+**File Manager**: ranger, nemo
 
-**Shell & Terminal**: zsh, alacritty
+**Shell & Terminal**: zsh, kitty
 
-**Additional packages**: git, zathura, neovim, btop, ...
+**Additional packages**: git, zathura, neovim, btop, feh, dunst
 
 
 # Todo
-- notification (dunst)
+- 
 
 # Todo i3
 - Colemak-DH i3 config file
