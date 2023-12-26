@@ -375,12 +375,19 @@
         // "on-click-right": "pkill wofi || cliphist list | wofi --dmenu -p clippick -l top_right -x -15 -y 10 -n | cliphist delete",
         "escape": true
     },
+    // "custom/power": {
+    //     "format": "{}",
+    //     // "exec": "~/.scripts/tools/expand power",
+    //     "exec": "echo '{\"text\":\"⏻\",\"tooltip\":\"Power\"}'",
+    //     "return-type": "json",
+    //     "on-click": "wofi-power"
+    // },
     "custom/power": {
         "format": "{}",
         // "exec": "~/.scripts/tools/expand power",
         "exec": "echo '{\"text\":\"⏻\",\"tooltip\":\"Power\"}'",
         "return-type": "json",
-        "on-click": "wofi-power"
+        "on-click": "~/.config/wlogout/launch.sh"
     },
     "custom/custom": {
         "format": "{}",

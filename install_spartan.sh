@@ -124,6 +124,7 @@ install_pkgs(){
         "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
         "$aurhelper" -S --noconfirm --needed waybar-updates
         "$aurhelper" -S --noconfirm --needed cava
+        "$aurhelper" -S --noconfirm --needed wlogout
 
         #sudo pacman -S --noconfirm --needed firefox
         #git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
@@ -137,6 +138,7 @@ install_pkgs(){
         sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
         sudo chmod +x ./config/waybar/custom/spotify/play-pause.sh
         sudo chmod +x ./config/waybar/custom/spotify/quit.sh
+        sudo chmod +x ./config/wlogout/launch.sh
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -174,6 +176,10 @@ copy_configs(){
 
     echo -e "${green}[*] Copying scripts to $scripts_directory.${no_color}"
     sudo cp -r ./scripts/* "$scripts_directory"
+
+    mkdir -p ~/.scripts
+    sudo chmod +x ./.scripts/lock
+    cp -r ./.scripts/* ~/.scripts
 
     echo -e "${green}[*] Copying fonts to $fonts_directory.${no_color}"
     sudo cp -r ./fonts/* "$fonts_directory"
