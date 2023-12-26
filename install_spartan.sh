@@ -79,7 +79,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed dunst
     sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
-    sudo pacman -S --noconfirm --needed swaylock
+    sudo pacman -S --noconfirm --needed swayidle
     "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed ntp
 
@@ -146,7 +146,7 @@ install_pkgs(){
         sudo chmod +x ./scripts/wofi-power
         sudo chmod +x ./config/wlogout/launch.sh
         sudo chmod +x ./config/wlogout/actions
-
+        sudo chmod +x ./config/wlogout/layout
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
