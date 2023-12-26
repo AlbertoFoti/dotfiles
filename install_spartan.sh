@@ -81,6 +81,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed dunst
     sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
+    sudo pacman -S --noconfirm --needed wev
     sudo pacman -S --noconfirm --needed swayidle
     "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed ntp

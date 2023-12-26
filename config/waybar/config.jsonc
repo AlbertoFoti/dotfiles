@@ -190,7 +190,7 @@
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "interface": "enp1s0f1",
         "format": "{icon}",
-        "format-disconnected": "{icon}",
+        "format-disconnected": "",
         "format-linked": " {ifname} (No IP)",
         //"format-alt": "↕{bandwidthUpBytes} | ↕{bandwidthDownBytes}",
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}  {gwaddr}",
