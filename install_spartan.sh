@@ -47,6 +47,8 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed inxi acpi pacman-contrib slop
     sudo pacman -S --noconfirm --needed feh
     sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim
+    sudo pacman -S --noconfirm --needed dunst
+    sudo pacman -S --noconfirm --needed python-pywal
 
     if [[ $wm == "xorg-i3" ]]
     then

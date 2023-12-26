@@ -56,7 +56,7 @@ Arch Linux dotfiles
 
 
 # Todo
-- Colemak-DH i3 config file
-- install lunarvim
-- music plugin on desktop and on waybar (cava?)
 - notification (dunst)
+
+# Todo i3
+- Colemak-DH i3 config file
