@@ -216,6 +216,7 @@ install_additional_pkgs(){
     sudo pacman -S --noconfirm --needed telegram-desktop bitwarden obsidian intellij-idea-community-edition
     sudo pacman -S --noconfirm --needed audacity kdenlive
     sudo pacman -S --noconfirm --needed libreoffice-fresh
+    sudo pacman -S --noconfirm --needed steam
     #sudo pacman -S --noconfirm --needed vlc
     "$aurhelper" -S --noconfirm --needed mpv
 
