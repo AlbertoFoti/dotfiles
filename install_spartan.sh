@@ -214,7 +214,10 @@ install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
     sudo pacman -S --noconfirm --needed telegram-desktop bitwarden obsidian intellij-idea-community-edition
-    sudo pacman -S --noconfirm --needed vlc audacity kdenlive
+    sudo pacman -S --noconfirm --needed audacity kdenlive
+    sudo pacman -S --noconfirm --needed libreoffice-fresh
+    #sudo pacman -S --noconfirm --needed vlc
+    "$aurhelper" -S --noconfirm --needed mpv
 
     if [[ $wm == "xorg-i3" ]]
     then

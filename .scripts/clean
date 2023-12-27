@@ -1,0 +1,2 @@
+# clean pacman cache (keep latest versions)
+paccache -rk1
