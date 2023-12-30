@@ -152,11 +152,10 @@ install_pkgs(){
         sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
         sudo chmod +x ./config/waybar/custom/spotify/play-pause.sh
         sudo chmod +x ./config/waybar/custom/spotify/quit.sh
-
-        sudo chmod +x ./scripts/wofi-power
         sudo chmod +x ./config/wlogout/launch.sh
         sudo chmod +x ./config/wlogout/actions
         sudo chmod +x ./config/wlogout/layout
+        sudo chmod +x ./scripts/wofi-power
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
