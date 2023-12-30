@@ -155,7 +155,6 @@ install_pkgs(){
         sudo chmod +x ./config/wlogout/launch.sh
         sudo chmod +x ./config/wlogout/actions
         sudo chmod +x ./config/wlogout/layout
-        sudo chmod +x ./scripts/wofi-power
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -196,6 +195,8 @@ copy_configs(){
 
     mkdir -p ~/.scripts
     sudo chmod +x ./.scripts/lock
+    sudo chmod +x ./scripts/wofi-power
+    sudo chmod +x ./scripts/clean
     cp -r ./.scripts/* ~/.scripts
 
     echo -e "${green}[*] Copying fonts to $fonts_directory.${no_color}"
