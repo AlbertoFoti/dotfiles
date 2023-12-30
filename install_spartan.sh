@@ -33,6 +33,20 @@ install_aur_helper(){
     fi
 }
 
+create_default_directories(){
+    echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
+    mkdir -p "$HOME"/.config
+    sudo mkdir -p  /usr/local/bin
+    sudo mkdir -p  /usr/share/themes
+
+    rm -rf "$HOME"/Pictures/wallpapers
+    mkdir -p "$HOME"/Pictures/wallpapers
+
+    mkdir -p ~/Apps
+    mkdir -p ~/vault/data
+    mkdir -p ~/dev
+}
+
 install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
@@ -158,20 +172,20 @@ install_pkgs(){
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
-}
 
-create_default_directories(){
-    echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
-    mkdir -p "$HOME"/.config
-    sudo mkdir -p  /usr/local/bin
-    sudo mkdir -p  /usr/share/themes
-
-    rm -rf "$HOME"/Pictures/wallpapers
-    mkdir -p "$HOME"/Pictures/wallpapers
-
-    mkdir -p ~/Apps
-    mkdir -p ~/vault/data
-    mkdir -p ~/dev
+    if [[ $wm == "xorg-i3" ]]
+    then
+	    echo -e "xorg-i3 configs"
+    	cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
+        cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
+        sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+	    echo -e "wayland-hyprland configs"
+        "$aurhelper" -S --noconfirm --needed spotify-wayland
+    else
+	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
+    fi
 }
 
 copy_configs(){
@@ -230,20 +244,6 @@ install_additional_pkgs(){
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
     #"$aurhelper" -S --noconfirm --needed docker-desktop
-
-    if [[ $wm == "xorg-i3" ]]
-    then
-	    echo -e "xorg-i3 configs"
-    	cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git
-        cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
-        sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
-    elif [[ $wm == "wayland-hyprland" ]]
-    then
-	    echo -e "wayland-hyprland configs"
-        "$aurhelper" -S --noconfirm --needed spotify-wayland
-    else
-	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
-    fi
 }
 
 install_vsc(){
@@ -328,8 +328,8 @@ esac
 cmd=(dialog --clear --separate-output --checklist "Select (with space) what script should do.\\nChecked options are required for proper installation, do not uncheck them if you do not know what you are doing." 26 86 16)
 options=(1 "System update" on
          2 "Install aur helper" on
-         3 "Install basic packages" on
-         4 "Create default directories" on
+         3 "Create default directories" on
+         4 "Install basic packages" on
          5 "Create backup of existing configs (to prevent overwritting)" off
          6 "Copy configs, scripts and fonts (..., gtk theme, wallpaper, zsh configs)" on
          7 "Install additional packages" off
@@ -347,8 +347,8 @@ do
     case $choice in
         1) system_update;;
         2) install_aur_helper;;
-        3) install_pkgs;;
-        4) create_default_directories;;
+        3) create_default_directories;;
+        4) install_pkgs;;
         5) create_backup;;
         6) copy_configs;;
         7) install_additional_pkgs;;
