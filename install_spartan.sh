@@ -218,7 +218,8 @@ copy_configs(){
     fc-cache -fv
 
     echo -e "${green}[*] Copying wallpapers to "$HOME"/Pictures/wallpapers.${no_color}"
-    cp -r ./wallpapers/* "$HOME"/Pictures/wallpapers
+    rm -rf "$HOME"/Pictures/wallpapers
+    cp -r ./wallpapers "$HOME"/Pictures/wallpapers
     echo -e "${green}[*] Copying zsh configs.${no_color}"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     sudo cp "$HOME"/dotfiles/keyitdev.zsh-theme "$HOME"/.oh-my-zsh/custom/themes
