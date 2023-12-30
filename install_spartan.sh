@@ -78,7 +78,6 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed tldr
     sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
-    sudo pacman -S --noconfirm --needed swayidle
     "$aurhelper" -S --noconfirm --needed ntp
 
     # Dependencies
@@ -95,6 +94,7 @@ install_pkgs(){
 	echo -e "xorg-i3 configuration" 
         echo -e "xorg-i3 configuration"
 
+        # i3 install
         sudo pacman -S --noconfirm --needed i3-wm
         sudo pacman -S --noconfirm --needed i3lock
 
@@ -119,6 +119,10 @@ install_pkgs(){
     then
         echo -e "wayland-hyprland configuration"
 
+        # hyprland install
+        sudo pacman -S --noconfirm --needed hyprland xdg-desktop-portal-hyprland
+        sudo pacman -S --noconfirm --needed qt6-wayland qt5-wayland
+
         # System Bar
     	"$aurhelper" -S --noconfirm --needed waybar-hyprland-cava-git
         # Search Menu
@@ -131,6 +135,7 @@ install_pkgs(){
         sudo pacman -S --noconfirm --needed polkit-kde-agent
         sudo pacman -S --noconfirm --needed gettext jq libnotify
         sudo pacman -S --noconfirm --needed wev
+        sudo pacman -S --noconfirm --needed swayidle
         "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
         "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
         "$aurhelper" -S --noconfirm --needed waybar-updates
