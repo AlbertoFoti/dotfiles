@@ -190,16 +190,56 @@ install_pkgs(){
 
 copy_configs(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
-    cp -r ./config/* "$config_directory"
+    #cp -r ./config/* "$config_directory"
+
+    rm -rf ~/.config/gtk-2.0
+    ln -s ~/dotfiles/config/gtk-2.0 ~/.config/gtk-2.0
+    rm -rf ~/.config/gtk-3.0
+    ln -s ~/dotfiles/config/gtk-3.0 ~/.config/gtk-3.0
+    rm -rf ~/.config/gtk-4.0
+    ln -s ~/dotfiles/config/gtk-4.0 ~/.config/gtk-4.0
+
+    rm -rf ~/.config/kitty
+    ln -s ~/dotfiles/config/kitty ~/.config/kitty
+    rm -rf ~/.config/fish
+    ln -s ~/dotfiles/config/fish ~/.config/fish
+    rm ~/.config/starship.toml
+    ln -s ~/dotfiles/config/starship.toml ~/.config/starship.toml 
+
+    rm -rf ~/.config/nemo
+    ln -s ~/dotfiles/config/nemo ~/.config/nemo
+    rm -rf ~/.config/ranger
+    ln -s ~/dotfiles/config/ranger ~/.config/ranger
+    rm -rf ~/.config/neofetch
+    ln -s ~/dotfiles/config/neofetch ~/.config/neofetch
+    rm -rf ~/.config/btop
+    ln -s ~/dotfiles/config/btop ~/.config/btop
+    rm -rf ~/.config/cava
+    ln -s ~/dotfiles/config/cava ~/.config/cava
+
+    rm -rf ~/.config/wlogout
+    ln -s ~/dotfiles/config/wlogout ~/.config/wlogout
 
     if [[ $wm == "xorg-i3" ]]
     then
 	echo -e "xorg-i3 configs"
-    	rm ~/.config/i3/config
-    	ln -s ~/.config/i3/config_colemak ~/.config/i3/config
+    	rm -rf ~/.config/i3/
+        ln -s ~/dotfiles/config/i3 ~/.config/i3
+        rm -rf ~/.config/picom
+        ln -s ~/dotfiles/config/picom ~/.config/picom
+        rm -rf ~/.config/polybar
+        ln -s ~/dotfiles/config/polybar ~/.config/polybar
+        rm -rf ~/.config/rofi
+        ln -s ~/dotfiles/config/rofi ~/.config/rofi
     elif [[ $wm == "wayland-hyprland" ]]
     then
 	    echo -e "wayland-hyprland configs"
+        rm -rf ~/.config/hypr
+        ln -s ~/dotfiles/config/hypr ~/.config/hypr
+        rm -rf ~/.config/waybar
+        ln -s ~/dotfiles/config/waybar ~/.config/waybar
+        rm -rf ~/.config/wofi
+        ln -s ~/dotfiles/config/wofi ~/.config/wofi
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
