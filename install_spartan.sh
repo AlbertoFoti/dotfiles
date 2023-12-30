@@ -31,8 +31,6 @@ install_aur_helper(){
         echo -e "${green}[*] It seems that you already have $aurhelper installed, skipping.${no_color}"
         "$aurhelper" yay -Syu --noconfirm
     fi
-
-    
 }
 
 install_pkgs(){
@@ -78,12 +76,9 @@ install_pkgs(){
 
     # Others
     sudo pacman -S --noconfirm --needed tldr
-    sudo pacman -S --noconfirm --needed dunst
     sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
-    sudo pacman -S --noconfirm --needed wev
     sudo pacman -S --noconfirm --needed swayidle
-    "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed ntp
 
     # Dependencies
@@ -100,6 +95,9 @@ install_pkgs(){
 	echo -e "xorg-i3 configuration" 
         echo -e "xorg-i3 configuration"
 
+        sudo pacman -S --noconfirm --needed i3-wm
+        sudo pacman -S --noconfirm --needed i3lock
+
         # System Bar
     	sudo pacman -S --noconfirm --needed polybar 
         # Search Menu
@@ -109,6 +107,8 @@ install_pkgs(){
         # Others
         sudo pacman -S --noconfirm --needed picom
     	sudo pacman -S --noconfirm --needed papirus-icon-theme
+        sudo pacman -S --noconfirm --needed xorg-xev
+        sudo pacman -S --noconfirm --needed dunst
         "$aurhelper" -S --noconfirm --needed i3lock-color i3-resurrect ffcast
     
         sudo chmod +x ./config/polybar/launch.sh
@@ -130,6 +130,8 @@ install_pkgs(){
         # Others
         sudo pacman -S --noconfirm --needed polkit-kde-agent
         sudo pacman -S --noconfirm --needed gettext jq libnotify
+        sudo pacman -S --noconfirm --needed wev
+        "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
         "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
         "$aurhelper" -S --noconfirm --needed waybar-updates
         "$aurhelper" -S --noconfirm --needed cava
@@ -219,6 +221,10 @@ install_additional_pkgs(){
     sudo pacman -S --noconfirm --needed steam
     #sudo pacman -S --noconfirm --needed vlc
     "$aurhelper" -S --noconfirm --needed mpv
+
+    # Others
+    #sudo pacman -S --noconfirm --needed virtualbox
+    #"$aurhelper" -S --noconfirm --needed docker-desktop
 
     if [[ $wm == "xorg-i3" ]]
     then

@@ -44,10 +44,10 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+n focus left
+bindsym $mod+e focus down
+bindsym $mod+i focus up
+bindsym $mod+o focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -56,10 +56,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+n move left
+bindsym $mod+Shift+e move down
+bindsym $mod+Shift+i move up
+bindsym $mod+Shift+o move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -79,7 +79,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+q layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+p layout toggle split
 
 # save and restore layout with i3-resurrect
 bindsym $mod+t  exec --no-startup-id i3-resurrect restore
@@ -92,18 +92,18 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # run lockscreen
-bindsym $mod+i exec lock
+bindsym $mod+backslash exec lock
 
 # monitor settings
-bindsym $mod+n exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
-bindsym $mod+m exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
+bindsym $mod+bracketleft exec xrandr --auto --output eDP-1 --mode 1920x1080 --right-of HDMI-1 && i3-msg restart &
+bindsym $mod+bracketright exec xrandr --auto --output HDMI-1 --off && i3-msg restart &
 
 # toggle polybar
-bindsym $mod+o exec $HOME/.config/polybar/launch.sh
-bindsym $mod+p exec killall -q polybar
+bindsym $mod+j exec $HOME/.config/polybar/launch.sh
+bindsym $mod+b exec killall -q polybar
 
 # move workspaces between monitors
-bindsym $mod+b move workspace to output right
+bindsym $mod+semicolon move workspace to output right
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -190,6 +190,12 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# Open specific applications in floating mode
+for_window [title="Nemo"] floating enable
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="Pavucontrol"] floating enable
+for_window [class="(?i)virtualbox"] floating enable border normal
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
@@ -197,7 +203,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+BackSpace exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -207,10 +213,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym n resize shrink width 10 px or 10 ppt
+        bindsym e resize grow height 10 px or 10 ppt
+        bindsym i resize shrink height 10 px or 10 ppt
+        bindsym o resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -225,6 +231,37 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+#bindsym --whole-window button2 kill
+#bindsym button3 floating toggle
+
+popup_during_fullscreen smart
+workspace_auto_back_and_forth yes
+
+# Apps (default)
+bindsym $mod+c exec google-chrome-stable
+bindsym $mod+z exec code
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
+
+for_window [class="Ranger"] move window to scratchpad
+bindsym $mod+Shift+k exec ranger
+bindsym $mod+k [class="Ranger"] scratchpad show
+
+for_window [class="Bitwarden"] move window to scratchpad
+bindsym $mod+Shift+comma exec bitwarden-desktop
+bindsym $mod+comma [class="Bitwarden"] scratchpad show
+
+for_window [class="TelegramDesktop"] move window to scratchpad
+bindsym $mod+Shift+period exec telegram-desktop
+bindsym $mod+period [class="TelegramDesktop"] scratchpad show
+
+for_window [class="Spotify"] move window to scratchpad
+bindsym $mod+Shift+question exec spotify
+bindsym $mod+question [class="Spotify"] scratchpad show
 
 ### BORDERS ###
 

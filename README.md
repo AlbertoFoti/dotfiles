@@ -56,7 +56,3 @@ Arch Linux dotfiles
 
 
 # Todo
-- 
-
-# Todo i3
-- Colemak-DH i3 config file

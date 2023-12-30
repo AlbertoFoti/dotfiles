@@ -139,6 +139,7 @@
         "exec": "waybar-updates"
     },
     "custom/updates": {
+        "restart-interval": 180,
         "format": "{icon} {}",
         "return-type": "json",
         "format-icons": {
