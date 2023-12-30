@@ -57,6 +57,7 @@ alias colemak='sudo bash ~/Apps/BigBagKbdTrixXKB/setkb.sh 4ca us us; rm -f ~/.co
 alias it='sudo bash ~/Apps/BigBagKbdTrixXKB/setkb.sh 4n it; rm -f ~/.config/i3/config; ln -s ~/dotfiles/configs/i3/config_qwerty ~/.config/i3/config; i3-msg restart'
 alias ir='cowsay -f dragon "you are an idiot! you are using a colemak layout!" | lolcat'
 alias dotfiles='cd ~/dotfiles; ls'
+alias vault='cd ~/vault; ls'
 
 cursor_mode() {
     # See https://ttssh2.osdn.jp/manual/4/en/usage/tips/vim.html for cursor shapes
