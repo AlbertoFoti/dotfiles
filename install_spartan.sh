@@ -169,6 +169,23 @@ install_pkgs(){
         sudo chmod +x ./config/wlogout/launch.sh
         sudo chmod +x ./config/wlogout/actions
         sudo chmod +x ./config/wlogout/layout
+    elif [[ $wm == "wayland-hyprland" ]]
+    then
+        echo -e "wayland-sway configuration"
+
+        # hyprland install
+        sudo pacman -S --noconfirm --needed sway
+
+        # System Bar
+
+        # Search Menu
+        sudo pacman -S --noconfirm --needed wofi 
+        # Screenshots
+
+        # Wallpaper
+
+        # Others
+        sudo pacman -S --noconfirm --needed polkit-kde-agent
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
@@ -282,6 +299,10 @@ install_additional_pkgs(){
     #sudo pacman -S --noconfirm --needed vlc
     "$aurhelper" -S --noconfirm --needed mpv
 
+    sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2
+    sudo pacman -S --noconfirm --needed android-file-transfer
+    sudo pacman -S --noconfirm --needed gwenview
+
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
     #"$aurhelper" -S --noconfirm --needed docker-desktop
@@ -363,6 +384,7 @@ choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 case $choices in
     1) wm="xorg-i3";;
     2) wm="wayland-hyprland";;
+    3) wm="wayland-sway";;
 esac
 
 

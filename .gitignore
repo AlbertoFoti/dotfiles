@@ -2,3 +2,8 @@
 Tokyo-Night-GTK-Theme
 
 Sweet-Pop
+
+__pycache__/*
+config/ranger/colorschemes/__pycache__
+config/ranger/plugins/__pycache__
+config/ranger/plugins/ranger_devicons/__pycache__
