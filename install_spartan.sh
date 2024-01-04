@@ -169,7 +169,7 @@ install_pkgs(){
         sudo chmod +x ./config/wlogout/launch.sh
         sudo chmod +x ./config/wlogout/actions
         sudo chmod +x ./config/wlogout/layout
-    elif [[ $wm == "wayland-hyprland" ]]
+    elif [[ $wm == "wayland-sway" ]]
     then
         echo -e "wayland-sway configuration"
 
@@ -223,8 +223,8 @@ copy_configs(){
     rm ~/.config/starship.toml
     ln -s ~/dotfiles/config/starship.toml ~/.config/starship.toml 
 
-    rm -rf ~/.config/nemo
-    ln -s ~/dotfiles/config/nemo ~/.config/nemo
+    #rm -rf ~/.config/nemo
+    #ln -s ~/dotfiles/config/nemo ~/.config/nemo
     rm -rf ~/.config/ranger
     ln -s ~/dotfiles/config/ranger ~/.config/ranger
     rm -rf ~/.config/neofetch
@@ -294,14 +294,17 @@ install_additional_pkgs(){
 
     sudo pacman -S --noconfirm --needed telegram-desktop bitwarden obsidian intellij-idea-community-edition
     sudo pacman -S --noconfirm --needed audacity kdenlive
-    sudo pacman -S --noconfirm --needed libreoffice-fresh
     sudo pacman -S --noconfirm --needed steam
+
+    sudo pacman -S --noconfirm --needed libreoffice-fresh
+    "$aurhelper" -S --noconfirm --needed openoffice-bin
+
     #sudo pacman -S --noconfirm --needed vlc
     "$aurhelper" -S --noconfirm --needed mpv
 
     sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2
     sudo pacman -S --noconfirm --needed android-file-transfer
-    sudo pacman -S --noconfirm --needed gwenview
+    sudo pacman -S --noconfirm --needed qview
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
