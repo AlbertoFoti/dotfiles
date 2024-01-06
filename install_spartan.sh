@@ -63,6 +63,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed duf dust ncdu tldr psensor acpi vnstat
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed inxi
+    # sudo pacman -S --noconfirm --needed hwinfo
     "$aurhelper" -S --noconfirm --needed mission-center
     "$aurhelper" -S --noconfirm --needed pacgraph
 
