@@ -57,6 +57,7 @@ install_pkgs(){
     #others: dolphin, krusader, nautilus 
 
     # System Monitor
+    sudo pacman -S --noconfirm --needed rsync
     sudo pacman -S --noconfirm --needed btop 
     sudo pacman -S --noconfirm --needed neofetch 
     sudo pacman -S --noconfirm --needed duf dust ncdu tldr psensor acpi vnstat
@@ -84,6 +85,9 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed feh slop 
     "$aurhelper" -S --noconfirm --needed gimp
     "$aurhelper" -S --noconfirm --needed 7-zip
+
+    #Security
+    sudo pacman -S --noconfirm --needed ufw
 
     # Appearance
     sudo pacman -S --noconfirm --needed lxappearance
@@ -287,6 +291,10 @@ copy_configs(){
     "$aurhelper" -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
     sudo cp -f ./local.conf /etc/fonts
     fc-cache -fv
+
+    # system Services
+    sudo systemctl enable paccache.timer
+    sudo systemctl enable ufw.service
 }
 
 install_additional_pkgs(){
