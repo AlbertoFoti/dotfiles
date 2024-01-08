@@ -63,7 +63,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed duf dust ncdu tldr psensor acpi vnstat
     sudo pacman -S --noconfirm --needed light
     sudo pacman -S --noconfirm --needed inxi
-    # sudo pacman -S --noconfirm --needed hwinfo
+    sudo pacman -S --noconfirm --needed hwinfo
     "$aurhelper" -S --noconfirm --needed mission-center
     "$aurhelper" -S --noconfirm --needed pacgraph
 
@@ -306,7 +306,6 @@ install_additional_pkgs(){
     sudo pacman -S --noconfirm --needed steam
 
     sudo pacman -S --noconfirm --needed libreoffice-fresh
-    "$aurhelper" -S --noconfirm --needed openoffice-bin
 
     #sudo pacman -S --noconfirm --needed vlc
     "$aurhelper" -S --noconfirm --needed mpv
@@ -314,6 +313,14 @@ install_additional_pkgs(){
     sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2
     sudo pacman -S --noconfirm --needed android-file-transfer
     sudo pacman -S --noconfirm --needed qview
+
+    # Flatpak
+    #flatpak install --user flathub com.visualstudio.code
+    #flatpak install --user flathub md.obsidian.Obsidian
+    #flatpak install --user flathub com.bitwarden.desktop
+    #flatpak install --user flathub org.telegram.desktop
+    #flatpak install --user flathub com.obsproject.Studio
+    #flatpak install --user flathub org.kde.kdenlive
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
