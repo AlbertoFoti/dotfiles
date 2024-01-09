@@ -14,10 +14,10 @@
         "custom/launcher",
         //"custom/pacman",
         "custom/updates",
-        "hyprland/workspaces",
+        "hyprland/workspaces"
         //"custom/playerctl",
-        "custom/spotify-metadata",
-        "cava"
+        //"custom/spotify-metadata"
+        //"cava"
         // "cpu",
         // "memory",
         // "temperature",

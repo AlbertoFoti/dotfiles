@@ -90,6 +90,7 @@ export LC_ALL="en_US.UTF-8"
 # Exports
 export VISUAL="vim"
 export EDITOR="$VISUAL"
+export GTK_THEME=Tokyonight-Dark-BL-LB
 
 # Term
 switch "$TERM_EMULATOR"

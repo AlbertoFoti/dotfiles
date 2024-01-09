@@ -21,3 +21,13 @@ flatpak install --user flathub md.obsidian.Obsidian
 flatpak install --user flathub com.bitwarden.desktop
 flatpak install --user flathub org.telegram.desktop
 flatpak install --user flathub com.obsproject.Studio
+flatpak install --user flathub org.gnome.Calculator
+
+### Theming
+
+yay -S flatseal
+
+or
+
+sudo flatpak override --env=GTK_THEME=<theme_name>
+sudo flatpak override --filesystem=$HOME/.themes

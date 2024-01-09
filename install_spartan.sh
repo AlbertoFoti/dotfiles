@@ -321,6 +321,7 @@ install_additional_pkgs(){
     #flatpak install --user flathub org.telegram.desktop
     #flatpak install --user flathub com.obsproject.Studio
     #flatpak install --user flathub org.kde.kdenlive
+    #flatpak install --user flathub org.gnome.Calculator
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
