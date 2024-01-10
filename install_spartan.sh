@@ -40,6 +40,7 @@ create_default_directories(){
     mkdir -p "$HOME"/.config
     mkdir -p "$HOME"/.scripts
     mkdir -p "$HOME"/.themes
+    mkdir -p "$HOME"/.icons
 
     mkdir -p "$HOME"/Pictures/wallpapers
     mkdir -p "$HOME"/Pictures/screenshots
@@ -356,8 +357,8 @@ install_gtk_theme(){
     echo -e "${green}[*] Installing gtk theme.${no_color}"
     git clone --depth 1 https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme
     echo -e "${green}[*] Copying gtk theme to /usr/share/themes.${no_color}"
-    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/*  /usr/share/themes/
-    sudo cp -r ./Tokyo-Night-GTK-Theme/icons/*  /usr/share/icons/
+    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/*  ~/.themes/
+    sudo cp -r ./Tokyo-Night-GTK-Theme/icons/*  ~/.icons/
     mkdir -p "$HOME"/.config/gtk-4.0
     sudo cp -r ./Tokyo-Night-GTK-Theme/themes/Tokyonight-Dark-BL-LB/gtk-4.0/* "$HOME"/.config/gtk-4.0
 }   
