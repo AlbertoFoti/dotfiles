@@ -37,6 +37,7 @@ flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community
 //flatpak install --user flathub com.bitwarden.desktop [broken]
 //flatpak install --user flathub org.gnome.baobab [theming]
 //flatpak install --user flathub org.gnome.Calculator [theming]
+//flatpak install flathub org.gnome.Calendar [theming]
 
 ### Theming
 
