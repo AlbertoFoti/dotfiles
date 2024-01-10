@@ -12,6 +12,8 @@ green='\033[0;32m'
 no_color='\033[0m'
 date=$(date +%s)
 
+aurhelper="paru"
+
 sudo pacman --noconfirm --needed -Sy dialog
 
 system_update(){
@@ -36,12 +38,11 @@ install_aur_helper(){
 create_default_directories(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
     mkdir -p "$HOME"/.config
-    sudo mkdir -p  /usr/local/bin
-    sudo mkdir -p  /usr/share/themes
+    mkdir -p "$HOME"/.scripts
+    mkdir -p "$HOME"/.themes
 
-    rm -rf "$HOME"/Pictures/wallpapers
     mkdir -p "$HOME"/Pictures/wallpapers
-
+    mkdir -p "$HOME"/Pictures/screenshots
     mkdir -p ~/Apps
     mkdir -p ~/vault/data
     mkdir -p ~/dev
@@ -51,25 +52,16 @@ install_pkgs(){
     echo -e "${green}[*] Installing packages with pacman for $wm configuration.${no_color}"
 
     # File manager 
-    sudo pacman -S --noconfirm --needed ranger
-    sudo pacman -S --noconfirm --needed nemo
-    #sudo pacman -S --noconfirm --needed thunar
-    #others: dolphin, krusader, nautilus 
+    sudo pacman -S --noconfirm --needed ranger nemo
 
     # System Monitor
-    sudo pacman -S --noconfirm --needed rsync
-    sudo pacman -S --noconfirm --needed btop 
-    sudo pacman -S --noconfirm --needed neofetch 
-    sudo pacman -S --noconfirm --needed duf dust ncdu tldr psensor acpi vnstat
-    sudo pacman -S --noconfirm --needed light
-    sudo pacman -S --noconfirm --needed inxi
-    sudo pacman -S --noconfirm --needed hwinfo
-    "$aurhelper" -S --noconfirm --needed mission-center
-    "$aurhelper" -S --noconfirm --needed pacgraph
+    sudo pacman -S --noconfirm --needed rsync btop neofetch
+    sudo pacman -S --noconfirm --needed duf dust ncdu baobab tldr psensor acpi vnstat
+    sudo pacman -S --noconfirm --needed light inxi hwinfo
+    "$aurhelper" -S --noconfirm --needed mission-center pacgraph
 
     # Terminal and shell
     sudo pacman -S --noconfirm --needed kitty
-    #sudo pacman -S --noconfirm --needed alacritty
     sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting   
     sudo pacman -S --noconfirm --needed fish
     curl -sS https://starship.rs/install.sh | sh
@@ -85,16 +77,18 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed unzip zathura zathura-pdf-mupdf
     sudo pacman -S --noconfirm --needed feh slop 
     "$aurhelper" -S --noconfirm --needed gimp
-    "$aurhelper" -S --noconfirm --needed 7-zip
 
     #Security
     sudo pacman -S --noconfirm --needed ufw
 
     # Appearance
     sudo pacman -S --noconfirm --needed lxappearance
+    sudo pacman -S --noconfirm --needed qt5ct qt6ct
+    sudo pacman -S --noconfirm --needed gtk-engine-murrine
 
     # Others
-    sudo pacman -S --noconfirm --needed tldr
+    sudo pacman -s --noconfirm --needed gnome-calculator
+    sudo pacman -S --noconfirm --needed tldr bat fd rg ripgrep
     sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
     "$aurhelper" -S --noconfirm --needed ntp
@@ -301,27 +295,30 @@ copy_configs(){
 install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
-    sudo pacman -S --noconfirm --needed telegram-desktop bitwarden obsidian intellij-idea-community-edition
-    sudo pacman -S --noconfirm --needed audacity kdenlive
-    sudo pacman -S --noconfirm --needed steam
-
-    sudo pacman -S --noconfirm --needed libreoffice-fresh
-
-    #sudo pacman -S --noconfirm --needed vlc
+    sudo pacman -S --noconfirm --needed bitwarden steam
     "$aurhelper" -S --noconfirm --needed mpv
-
-    sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2
-    sudo pacman -S --noconfirm --needed android-file-transfer
-    sudo pacman -S --noconfirm --needed qview
+    sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2 android-file-transfer
 
     # Flatpak
-    #flatpak install --user flathub com.visualstudio.code
-    #flatpak install --user flathub md.obsidian.Obsidian
-    #flatpak install --user flathub com.bitwarden.desktop
-    #flatpak install --user flathub org.telegram.desktop
-    #flatpak install --user flathub com.obsproject.Studio
-    #flatpak install --user flathub org.kde.kdenlive
-    #flatpak install --user flathub org.gnome.Calculator
+    sudo pacman -S flatpak
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    sudo usermod -aG flatpak $USER
+    flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+    #Flatpack applications
+    flatpak install --user flathub org.gnome.FileRoller
+    flatpak install --user flathub com.visualstudio.code                  #"$aurhelper" -S --noconfirm --needed visual-studio-code-bin
+    #flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community  #sudo pacman -S --noconfirm --needed intellij-idea-community-edition
+    flatpak install --user flathub org.mozilla.Thunderbird 
+    flatpak install --user flathub org.mozilla.firefox
+    flatpak install --user flathub md.obsidian.Obsidian                   #sudo pacman -S --noconfirm --needed obsidian
+    flatpak install --user flathub org.telegram.desktop                   #sudo pacman -S --noconfirm --needed telegram-desktop
+    flatpak install --user flathub org.libreoffice.LibreOffice            #sudo pacman -S --noconfirm --needed libreoffice-fresh
+    flatpak install --user flathub com.interversehq.qView                 #sudo pacman -S --noconfirm --needed qview
+    flatpak install --user flathub org.kde.kdenlive                       #sudo pacman -S --noconfirm --needed kdenlive
+    flatpak install --user flathub com.obsproject.Studio
+    flatpak install --user flathub org.audacityteam.Audacity              #sudo pacman -S --noconfirm --needed audacity
+    flatpak install --user flathub com.spotify.Client
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
@@ -330,7 +327,6 @@ install_additional_pkgs(){
 
 install_vsc(){
     echo -e "${green}[*] Installing vsc extensions.${no_color}"
-    "$aurhelper" -S --noconfirm --needed visual-studio-code-bin
     #code --install-extension zhuangtongfa.Material-theme
     #echo -e "${green}[*] Copying vsc configs.${no_color}"
     #cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
@@ -388,19 +384,11 @@ finishing(){
     echo -e "${green}[*] Updating nvim extensions.${no_color}"
 }
 
-cmd=(dialog --clear --title "Aur helper" --menu "Firstly, select the aur helper you want to install (or have already installed)." 10 50 16)
-options=(1 "yay" 2 "paru")
-choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
-case $choices in
-    1) aurhelper="yay";;
-    2) aurhelper="paru";;
-esac
 
 cmd=(dialog --clear --title "WM Configuration" --menu "Select the target Window Manager" 10 50 16)
 options=(1 "xorg-i3" 2 "wayland-hyprland")
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
-
 case $choices in
     1) wm="xorg-i3";;
     2) wm="wayland-hyprland";;

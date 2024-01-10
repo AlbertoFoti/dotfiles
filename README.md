@@ -56,3 +56,5 @@ Arch Linux dotfiles
 
 
 # Todo
+- refactor scripts folder
+- update flatpak and paru with a script and alias

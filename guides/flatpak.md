@@ -15,17 +15,32 @@ flatpak update
 
 
 ### Applications
-
 flatpak install --user flathub com.visualstudio.code
+flatpak install --user flathub org.mozilla.Thunderbird
+flatpak install --user flathub org.mozilla.firefox
 flatpak install --user flathub md.obsidian.Obsidian
-flatpak install --user flathub com.bitwarden.desktop
 flatpak install --user flathub org.telegram.desktop
+flatpak install --user flathub org.kde.kdenlive
 flatpak install --user flathub com.obsproject.Studio
-flatpak install --user flathub org.gnome.Calculator
+flatpak install --userflathub org.libreoffice.LibreOffice
+flatpak install --user flathub com.interversehq.qView 
+flatpak install --user flathub org.audacityteam.Audacity  
+flatpak install --user flathub com.spotify.Client
+flatpak install --user flathub org.gnome.FileRoller
+
+### Testing
+flatpak install --user flathub com.discordapp.Discord
+flatpak install --user flathub com.valvesoftware.Steam
+flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community
+
+//flatpak install --user flathub org.onlyoffice.desktopeditors [broken] 
+//flatpak install --user flathub com.bitwarden.desktop [broken]
+//flatpak install --user flathub org.gnome.baobab [theming]
+//flatpak install --user flathub org.gnome.Calculator [theming]
 
 ### Theming
 
-yay -S flatseal
+paru -S flatseal
 
 or
 
