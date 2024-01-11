@@ -29,8 +29,30 @@ Arch Linux dotfiles
 ![alt text](./screenshots/20231224_18h08m04s_grim.png)
 ![alt text](./screenshots/20231224_18h14m26s_grim.png)
 
+## Config 2 - Wayland-sway
 
-## Config 2 - Xorg-i3
+**OS**: arch linux
+
+**Display Server**: Wayland
+
+**Display Manager/Login Manager**: sddm
+
+**Window Manager**: sway
+
+**Desktop Environment**: //
+
+**Search Tool**: wofi
+
+**Toolbar**: waybar
+
+**File Manager**: ranger, nemo
+
+**Shell & Terminal**: zsh, kitty
+
+**Additional packages**: git, zathura, neovim, btop, feh, dunst
+
+
+## Config 3 - Xorg-i3
 
 **OS**: arch linux
 
@@ -56,5 +78,6 @@ Arch Linux dotfiles
 
 
 # Todo
+- make waybar for sway
 - refactor scripts folder
 - update flatpak and paru with a script and alias

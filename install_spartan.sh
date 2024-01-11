@@ -86,11 +86,12 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed lxappearance
     sudo pacman -S --noconfirm --needed qt5ct qt6ct
     sudo pacman -S --noconfirm --needed gtk-engine-murrine
+    sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
 
     # Others
     sudo pacman -s --noconfirm --needed gnome-calculator
     sudo pacman -S --noconfirm --needed tldr bat fd rg ripgrep
-    sudo pacman -S --noconfirm --needed python-pywal
+    #sudo pacman -S --noconfirm --needed python-pywal
     sudo pacman -S --noconfirm --needed yad
     "$aurhelper" -S --noconfirm --needed ntp
 
@@ -174,7 +175,7 @@ install_pkgs(){
         echo -e "wayland-sway configuration"
 
         # hyprland install
-        sudo pacman -S --noconfirm --needed sway
+        sudo pacman -S --noconfirm --needed sway 
 
         # System Bar
 
@@ -183,7 +184,7 @@ install_pkgs(){
         # Screenshots
 
         # Wallpaper
-
+        sudo pacman -S --noconfirm --needed swaybg 
         # Others
         sudo pacman -S --noconfirm --needed polkit-kde-agent
     else
@@ -257,7 +258,7 @@ copy_configs(){
         ln -s ~/dotfiles/config/waybar ~/.config/waybar
         rm -rf ~/.config/wofi
         ln -s ~/dotfiles/config/wofi ~/.config/wofi
-    else
+    elif [[ $wm == "" ]]
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
 

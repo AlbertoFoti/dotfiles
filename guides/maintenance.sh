@@ -6,5 +6,9 @@ sudo pacman -Sy --noconfirm archlinux-keyring
 sudo pacman --noconfirm -Syu
 paru --noconfirm -Syyu
 
-echo "(2/3)[CLEARING CACHE]"
+echo "(2/3)[UPDATING FLATPAK]"
+flatpak update
+flatpak uninstall --unused
+
+echo "(3/4)[CLEARING CACHE]"
 paccache -r
