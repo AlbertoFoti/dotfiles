@@ -68,7 +68,7 @@ install_pkgs(){
     curl -sS https://starship.rs/install.sh | sh
 
     # Web Browser
-    "$aurhelper" -S --noconfirm --needed google-chrome
+    #"$aurhelper" -S --noconfirm --needed google-chrome
 
     # Audio
     sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol playerctl
@@ -157,11 +157,6 @@ install_pkgs(){
         "$aurhelper" -S --noconfirm --needed cava
         "$aurhelper" -S --noconfirm --needed wlogout
 
-        #sudo pacman -S --noconfirm --needed firefox
-        #git clone https://github.com/PROxZIMA/Sweet-Pop.git && cd Sweet-Pop
-        #sudo mkdir -p /usr/bin/defaults/pref/
-        #./programs/install.sh
-
         sudo chmod +x ./config/waybar/custom/spotify/controls.sh
         sudo chmod +x ./config/waybar/custom/spotify/metadata.sh
         sudo chmod +x ./config/waybar/custom/spotify/monitor.sh
@@ -172,21 +167,7 @@ install_pkgs(){
         sudo chmod +x ./config/wlogout/layout
     elif [[ $wm == "wayland-sway" ]]
     then
-        echo -e "wayland-sway configuration"
-
-        # hyprland install
-        sudo pacman -S --noconfirm --needed sway 
-
-        # System Bar
-
-        # Search Menu
-        sudo pacman -S --noconfirm --needed wofi 
-        # Screenshots
-
-        # Wallpaper
-        sudo pacman -S --noconfirm --needed swaybg 
-        # Others
-        sudo pacman -S --noconfirm --needed polkit-kde-agent
+        
     else
 	    echo -e ">>> [ERROR] NO WM CONFIG PROVIDED"
     fi
