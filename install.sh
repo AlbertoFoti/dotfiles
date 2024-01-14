@@ -144,8 +144,8 @@ install_pkgs(){
     # Appearance
     sudo pacman -S --noconfirm --needed lxappearance
     sudo pacman -S --noconfirm --needed qt5ct qt6ct
-    #sudo pacman -S --noconfirm --needed gtk-engine-murrine
-    #sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
+    sudo pacman -S --noconfirm --needed gtk-engine-murrine
+    sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
 
     # Others
     sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
@@ -153,7 +153,7 @@ install_pkgs(){
 
     # Dependencies
     sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim pacman-contrib
-    #"$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
+    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
 
     # Meme packages
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
@@ -238,6 +238,9 @@ copy_configs(){
     # system Services
     sudo systemctl enable paccache.timer
     sudo systemctl enable ufw.service
+
+    # system configs
+    sudo cp ./etc/environment /etc/environment
 }
 
 install_additional_pkgs(){
