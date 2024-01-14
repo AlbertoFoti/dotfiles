@@ -231,6 +231,10 @@ copy_configs(){
     sudo cp -f ./local.conf /etc/fonts
     fc-cache -fv
 
+    echo -e "${green}[*] Setting Fish as default shell.${no_color}"
+    chsh -s /bin/fish
+    sudo chsh -s /bin/fish
+
     # system Services
     sudo systemctl enable paccache.timer
     sudo systemctl enable ufw.service
@@ -278,6 +282,16 @@ install_additional_pkgs(){
     #"$aurhelper" -S --noconfirm --needed docker-desktop
 }
 
+install_gtk_theme(){
+    echo -e "${green}[*] Installing gtk theme.${no_color}"
+    git clone --depth 1 https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme
+    echo -e "${green}[*] Copying gtk theme to /usr/share/themes.${no_color}"
+    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/*  ~/.themes/
+    sudo cp -r ./Tokyo-Night-GTK-Theme/icons/*  ~/.icons/
+    mkdir -p "$HOME"/.config/gtk-4.0
+    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/Tokyonight-Dark-BL-LB/gtk-4.0/* "$HOME"/.config/gtk-4.0
+}  
+
 
 ## Login/Display Manager
 cmd=(dialog --clear --title "DM Display manager" --menu "Select the target Display Manager" 10 50 16)
@@ -308,6 +322,7 @@ options=(
     6 "Install basic packages" on
     7 "Copy config" on 
     8 "Install additional packages" on
+    9 "Install GTK theme" on
 )
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -324,5 +339,6 @@ do
         6) install_pkgs;;
         7) copy_configs;;
         8) install_additional_pkgs;;
+        9) install_gtk_theme;;
     esac
 done

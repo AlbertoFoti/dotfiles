@@ -12,10 +12,6 @@ fi
 source "$ZSH"/oh-my-zsh.sh
 source "$TZSH"/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-alias yeet="yay -Rn"
-alias yeeet="yay -Rns"
-alias yeet_useless="yay -Rns $(yay -Qtdq)"
-
 # git
 alias g="git"
 alias gad="git add --all"
