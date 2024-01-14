@@ -93,8 +93,8 @@ install_window_manager(){
     sudo pacman -S --noconfirm --needed polkit-kde-agent
     sudo pacman -S --noconfirm --needed gettext jq libnotify
     sudo pacman -S --noconfirm --needed wev
-    sudo pacman -S --noconfirm --needed swayidle
-    "$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
+    #sudo pacman -S --noconfirm --needed swayidle
+    #"$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
     "$aurhelper" -S --noconfirm --needed waybar-updates
     #"$aurhelper" -S --noconfirm --needed cava
@@ -265,6 +265,8 @@ install_additional_pkgs(){
     flatpak install --user flathub com.discordapp.Discord
     flatpak install --user flathub com.valvesoftware.Steam
     flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community
+    flatpak install --user flathub org.octave.Octave
+    flatpak install --user flathub tv.kodi.Kodi
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
