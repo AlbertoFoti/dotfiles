@@ -47,7 +47,8 @@ create_default_directories(){
     mkdir -p "$HOME"/Pictures/wallpapers
     mkdir -p "$HOME"/Pictures/screenshots
     mkdir -p ~/Apps
-    mkdir -p ~/vault/data
+    mkdir -p ~/vault/media
+    mkdir -p ~/vault/backups
     mkdir -p ~/dev
 }
 
@@ -285,12 +286,11 @@ esac
 
 ## WM Configuration
 cmd=(dialog --clear --title "WM Configuration" --menu "Select the target Window Manager" 10 50 16)
-options=(1 "xorg-i3" 2 "wayland-hyprland" 3 "wayland-sway")
+options=(1 "wayland-hyprland" 2 "wayland-sway (TODO)")
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 case $choices in
-    1) wm="xorg-i3";;
-    2) wm="wayland-hyprland";;
-    3) wm="wayland-sway";;
+    1) wm="wayland-hyprland";;
+    2) wm="wayland-sway";;
 esac
 
 
