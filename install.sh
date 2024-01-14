@@ -148,6 +148,7 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
     sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed kiconthemes5
+    sudo pacman -S --noconfirm --needed otf-font-awesome
 
     # Others
     sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
