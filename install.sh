@@ -165,8 +165,8 @@ copy_configs(){
     echo -e "${green}[*] Copying configs to $config_directory.${no_color}"
     #cp -r ./config/* "$config_directory"
 
-    cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git && cd ~/
-    cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/
+    cd ~/Apps && git clone https://github.com/DreymaR/BigBagKbdTrixXKB.git && cd ~/dotfiles
+    cd ~/Apps/BigBagKbdTrixXKB/ && ./install-dreymar-xmod.sh && cd ~/dotfiles
     #sudo chmod +x ~/Apps/BigBagKbdTrixXKB/setkb.sh
 
     rm -rf ~/.config/gtk-2.0
