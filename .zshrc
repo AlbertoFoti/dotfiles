@@ -3,6 +3,8 @@ ZSH="/usr/share/oh-my-zsh"
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="keyitdev"
 plugins=(git z zsh-autosuggestions)
+QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"
 if [[ ! -d "$ZSH_CACHE_DIR" ]]; then
