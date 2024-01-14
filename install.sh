@@ -146,6 +146,8 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed qt5ct qt6ct
     sudo pacman -S --noconfirm --needed gtk-engine-murrine
     sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
+    sudo pacman -S --noconfirm --needed papirus-icon-theme
+    sudo pacman -S --noconfirm --needed kiconthemes5
 
     # Others
     sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
@@ -238,9 +240,6 @@ copy_configs(){
     # system Services
     sudo systemctl enable paccache.timer
     sudo systemctl enable ufw.service
-
-    # system configs
-    sudo cp ./etc/environment /etc/environment
 }
 
 install_additional_pkgs(){
