@@ -43,9 +43,12 @@ create_default_directories(){
     mkdir -p $scripts_directory
     mkdir -p $themes_directory
     mkdir -p $icons_directory
+    mkdir -p $fonts_directory
 
     mkdir -p "$HOME"/Pictures/wallpapers
     mkdir -p "$HOME"/Pictures/screenshots
+    mkdir -p "$HOME"/Desktop
+    mkdir -p "$HOME"/Downloads
     mkdir -p ~/Apps
     mkdir -p ~/vault/media
     mkdir -p ~/vault/backups
@@ -82,7 +85,6 @@ install_window_manager(){
     sudo pacman -S --noconfirm --needed qt6-wayland qt5-wayland
 
     # System Bar
-    #"$aurhelper" -S --noconfirm --needed waybar-hyprland-cava-git
     sudo pacman -S --noconfirm --needed waybar
     # Search Menu
     sudo pacman -S --noconfirm --needed wofi 
@@ -91,7 +93,7 @@ install_window_manager(){
     # Wallpaper
     sudo pacman -S --noconfirm --needed hyprpaper
     # Others
-    sudo pacman -S --noconfirm --needed polkit-kde-agent
+    #sudo pacman -S --noconfirm --needed polkit-kde-agent
     sudo pacman -S --noconfirm --needed gettext jq libnotify
     sudo pacman -S --noconfirm --needed wev
     #sudo pacman -S --noconfirm --needed swayidle
@@ -119,23 +121,22 @@ install_pkgs(){
 
     # System Monitor
     sudo pacman -S --noconfirm --needed rsync btop neofetch
-    sudo pacman -S --noconfirm --needed duf dust ncdu baobab tldr psensor acpi vnstat   
-    sudo pacman -S --noconfirm --needed light inxi hwinfo
+    sudo pacman -S --noconfirm --needed ncdu baobab psensor acpi vnstat
+    #sudo pacman -S --noconfirm --needed duf dust light
+    sudo pacman -S --noconfirm --needed hwinfo
     "$aurhelper" -S --noconfirm --needed mission-center pacgraph
 
     # Terminal and shell
-    sudo pacman -S --noconfirm --needed kitty zsh zsh-syntax-highlighting   
-    sudo pacman -S --noconfirm --needed fish
+    sudo pacman -S --noconfirm --needed kitty zsh zsh-syntax-highlighting fish
     curl -sS https://starship.rs/install.sh | sh
 
     # Audio
     sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol playerctl
-    sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
+    #sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
 
     # PDF and image visualizer, screenshot, unzip
-    sudo pacman -S --noconfirm --needed unzip zathura zathura-pdf-mupdf
+    sudo pacman -S --noconfirm --needed zathura zathura-pdf-mupdf
     sudo pacman -S --noconfirm --needed feh slop 
-    "$aurhelper" -S --noconfirm --needed gimp
 
     #Security
     sudo pacman -S --noconfirm --needed ufw
@@ -143,17 +144,16 @@ install_pkgs(){
     # Appearance
     sudo pacman -S --noconfirm --needed lxappearance
     sudo pacman -S --noconfirm --needed qt5ct qt6ct
-    sudo pacman -S --noconfirm --needed gtk-engine-murrine
-    sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
+    #sudo pacman -S --noconfirm --needed gtk-engine-murrine
+    #sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
 
     # Others
-    sudo pacman -S --noconfirm --needed tldr bat fd rg ripgrep yad
+    sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
     "$aurhelper" -S --noconfirm --needed ntp
 
     # Dependencies
     sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim pacman-contrib
-    "$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
-    "$aurhelper" -S --noconfirm --needed ntfs-3g
+    #"$aurhelper" -S --noconfirm --needed adwaita-qt6-git qt5-plugins
 
     # Meme packages
     sudo pacman -S --noconfirm --needed cowsay lolcat cmatrix sl
