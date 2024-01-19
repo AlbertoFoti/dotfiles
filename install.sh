@@ -192,8 +192,6 @@ copy_configs(){
     ln -s ~/dotfiles/config/neofetch ~/.config/neofetch
     rm -rf ~/.config/btop
     ln -s ~/dotfiles/config/btop ~/.config/btop
-    rm -rf ~/.config/cava
-    ln -s ~/dotfiles/config/cava ~/.config/cava
 
     rm -rf ~/.config/wlogout
     ln -s ~/dotfiles/config/wlogout ~/.config/wlogout
