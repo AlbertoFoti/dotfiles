@@ -93,7 +93,7 @@ install_window_manager(){
     # Wallpaper
     sudo pacman -S --noconfirm --needed hyprpaper
     # Others
-    #sudo pacman -S --noconfirm --needed polkit-kde-agent
+    sudo pacman -S --noconfirm --needed polkit-kde-agent
     sudo pacman -S --noconfirm --needed gettext jq libnotify
     sudo pacman -S --noconfirm --needed wev
     #sudo pacman -S --noconfirm --needed swayidle
