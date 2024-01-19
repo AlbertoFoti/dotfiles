@@ -246,7 +246,7 @@ copy_configs(){
 install_additional_pkgs(){
     echo -e "${green}[*] Installing additional packages with $aurhelper.${no_color}"
 
-    sudo pacman -S --noconfirm --needed bitwarden steam
+    sudo pacman -S --noconfirm --needed bitwarden
     sudo pacman -S --noconfirm --needed gvfs gvfs-gphoto2 android-file-transfer
     sudo pacman -s --noconfirm --needed gnome-calculator
     "$aurhelper" -S --noconfirm --needed mpv
