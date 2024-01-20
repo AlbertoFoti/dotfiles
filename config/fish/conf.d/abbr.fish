@@ -4,7 +4,7 @@ abbr ir "cowsay -f dragon "you are an idiot! you are using a colemak layout!" | 
 
 abbr dotfiles "cd ~/dotfiles; ls"
 abbr vault "cd ~/vault/my_life; ls"
-abbr typingplot "cd ~/dev/typing_keyboard/; bash typing_script.sh"
+abbr typingplot "cd ~/vault/dev/typing_keyboard/; bash typing_script.sh"
 
 abbr colemak "cp ~/.config/hypr/hyprland_colemak_dh.conf ~/.config/hypr/hyprland.conf"
 abbr us "cp ~/.config/hypr/hyprland_qwerty.conf ~/.config/hypr/hyprland.conf"

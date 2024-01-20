@@ -256,27 +256,27 @@ install_additional_pkgs(){
     flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
     #Flatpack applications
-    flatpak install --user flathub org.gnome.FileRoller
-    flatpak install --user flathub com.visualstudio.code                  #"$aurhelper" -S --noconfirm --needed visual-studio-code-bin
+    flatpak install flathub org.gnome.FileRoller
+    flatpak install flathub com.visualstudio.code                  #"$aurhelper" -S --noconfirm --needed visual-studio-code-bin
     #flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community  #sudo pacman -S --noconfirm --needed intellij-idea-community-edition
-    flatpak install --user flathub org.mozilla.Thunderbird 
-    flatpak install --user flathub com.google.Chrome
-    flatpak install --user flathub org.mozilla.firefox
-    flatpak install --user flathub md.obsidian.Obsidian                   #sudo pacman -S --noconfirm --needed obsidian
-    flatpak install --user flathub org.telegram.desktop                   #sudo pacman -S --noconfirm --needed telegram-desktop
-    flatpak install --user flathub org.libreoffice.LibreOffice            #sudo pacman -S --noconfirm --needed libreoffice-fresh
-    flatpak install --user flathub com.interversehq.qView                 #sudo pacman -S --noconfirm --needed qview
-    flatpak install --user flathub org.kde.kdenlive                       #sudo pacman -S --noconfirm --needed kdenlive
-    flatpak install --user flathub org.gimp.GIMP
-    flatpak install --user flathub com.obsproject.Studio
-    flatpak install --user flathub org.audacityteam.Audacity              #sudo pacman -S --noconfirm --needed audacity
+    flatpak install flathub org.mozilla.Thunderbird 
+    flatpak install flathub com.google.Chrome
+    flatpak install flathub org.mozilla.firefox
+    flatpak install flathub md.obsidian.Obsidian                   #sudo pacman -S --noconfirm --needed obsidian
+    flatpak install flathub org.telegram.desktop                   #sudo pacman -S --noconfirm --needed telegram-desktop
+    flatpak install flathub org.libreoffice.LibreOffice            #sudo pacman -S --noconfirm --needed libreoffice-fresh
+    flatpak install flathub com.interversehq.qView                 #sudo pacman -S --noconfirm --needed qview
+    flatpak install flathub org.kde.kdenlive                       #sudo pacman -S --noconfirm --needed kdenlive
+    flatpak install flathub org.gimp.GIMP
+    flatpak install flathub com.obsproject.Studio
+    flatpak install flathub org.audacityteam.Audacity              #sudo pacman -S --noconfirm --needed audacity
     
-    flatpak install --user flathub com.spotify.Client
-    flatpak install --user flathub com.discordapp.Discord
-    flatpak install --user flathub com.valvesoftware.Steam
-    flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community
-    flatpak install --user flathub org.octave.Octave
-    flatpak install --user flathub tv.kodi.Kodi
+    flatpak install flathub com.spotify.Client
+    flatpak install flathub com.discordapp.Discord
+    flatpak install flathub com.valvesoftware.Steam
+    flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
+    flatpak install flathub org.octave.Octave
+    flatpak install flathub tv.kodi.Kodi
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
@@ -336,7 +336,7 @@ do
         2) install_aur_helper;;
         3) create_default_directories;;
         4) install_display_manager;;
-        5) install window_manager;;
+        5) install_window_manager;;
         6) install_pkgs;;
         7) copy_configs;;
         8) install_additional_pkgs;;
