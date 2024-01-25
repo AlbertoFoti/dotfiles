@@ -1,0 +1,83 @@
+{
+"layer": "top",
+"modules-left": ["custom/arch", "hyprland/workspaces"],
+"modules-center": ["clock"],
+"modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery"],
+"custom/arch": {
+  "format": "  ",
+  "tooltip": false,
+  // "on-click": "wofi --show drun"
+  "on-click": "sh $HOME/.config/rofi/bin/launcher"
+},
+"hyprland/workspaces": {
+  "format": "{name}",
+  "tooltip": false,
+  "all-outputs": true,
+  "format-icons": {
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+    "7": "",
+    "8": "",
+    "9": "",
+    "10": "",
+    "active": "",
+    "default": ""
+  },
+  "on-scroll-up": "hyprctl dispatch workspace e-1",
+  "on-scroll-down": "hyprctl dispatch workspace e+1",
+  "on-click": "activate"
+},
+"clock": {
+  "timezone": "Europe/Rome",
+  "format": "<span color='#b4befe'> </span> {:%d <small>%a</small> %H:%M}",
+  //"format": " {:%a %b %d %Y | %H:%M}",
+  "format-alt": " {:%A %B %d %Y | %r}",
+  "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  "calendar-weeks-pos": "right",
+  "today-format": "<span color='#f38ba8'><b><u>{}</u></b></span>",
+  "format-calendar": "<span color='#f2cdcd'><b>{}</b></span>",
+  "format-calendar-weeks": "<span color='#94e2d5'><b>W{:%U}</b></span>",
+  "format-calendar-weekdays": "<span color='#f9e2af'><b>{}</b></span>",
+  "interval": 60
+},
+"backlight": {
+  "device": "intel_backlight",
+  "format": "<span color='#b4befe'>{icon}</span> {percent}%",
+  "format-icons": ["", "", "", "", "", "", "", "", ""]
+},
+"pulseaudio": {
+  "format": "<span color='#b4befe'>{icon}</span> {volume}%",
+  "format-muted": "",
+  "tooltip": false,
+  "format-icons": {
+    "headphone": "",
+    "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+  },
+  "scroll-step": 1,
+},
+"bluetooth": {
+  "format": "<span color='#b4befe'></span> {status}",
+  "format-disabled": "", // an empty format will hide the module
+  "format-connected": "<span color='#b4befe'></span> {num_connections}",
+  "tooltip-format": "{device_enumerate}",
+  "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
+},
+"network": {
+  "interface": "wlo1",
+  "format": "{ifname}",
+  "format-wifi": "<span color='#b4befe'> </span>{essid}",
+  "format-ethernet": "{ipaddr}/{cidr} ",
+  "format-disconnected": "<span color='#b4befe'>󰖪 </span>No Network",
+  "tooltip": false,
+},
+"battery": {
+  "format": "<span color='#b4befe'>{icon}</span> {capacity}%",
+  "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+  "format-charging": "<span color='#b4befe'></span> {capacity}%",
+  "tooltip": false,
+},
+}

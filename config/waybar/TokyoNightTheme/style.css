@@ -63,7 +63,6 @@
 
 /* =============================== */
 /* Main Modules */
-#custom-arch,
 #custom-launcher,
 #workspaces,
 #window,
@@ -127,13 +126,6 @@
   margin-left: 15px;
   color: #b4befe;
 } */
-#custom-arch {
-  font-size: 20px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  margin-left: 15px;
-  color: #b4befe;
-}
 
 /* =============================== */
 /* Workspaces */

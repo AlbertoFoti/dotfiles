@@ -401,8 +401,7 @@
         // "exec": "~/.scripts/tools/expand power",
         "exec": "echo '{\"text\":\"⏻\",\"tooltip\":\"Power\"}'",
         "return-type": "json",
-        // "on-click": "~/.config/wlogout/launch.sh"
-        "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+        "on-click": "~/.config/wlogout/launch.sh"
     },
     "custom/custom": {
         "format": "{}",
