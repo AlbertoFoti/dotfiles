@@ -272,8 +272,6 @@ install_additional_pkgs(){
     flatpak install flathub com.google.Chrome
     flatpak install flathub com.discordapp.Discord
     flatpak install flathub com.valvesoftware.Steam
-    #flatpak install flathub com.spotify.Client
-    #flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
