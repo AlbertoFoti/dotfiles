@@ -256,9 +256,7 @@ install_additional_pkgs(){
     #Flatpack applications
     flatpak install flathub org.gnome.FileRoller
     flatpak install flathub com.visualstudio.code                  #"$aurhelper" -S --noconfirm --needed visual-studio-code-bin
-    #flatpak install --user flathub com.jetbrains.IntelliJ-IDEA-Community  #sudo pacman -S --noconfirm --needed intellij-idea-community-edition
     flatpak install flathub org.mozilla.Thunderbird 
-    flatpak install flathub com.google.Chrome
     flatpak install flathub org.mozilla.firefox
     flatpak install flathub md.obsidian.Obsidian                   #sudo pacman -S --noconfirm --needed obsidian
     flatpak install flathub org.telegram.desktop                   #sudo pacman -S --noconfirm --needed telegram-desktop
@@ -267,14 +265,15 @@ install_additional_pkgs(){
     flatpak install flathub org.kde.kdenlive                       #sudo pacman -S --noconfirm --needed kdenlive
     flatpak install flathub org.gimp.GIMP
     flatpak install flathub com.obsproject.Studio
-    flatpak install flathub org.audacityteam.Audacity              #sudo pacman -S --noconfirm --needed audacity
-    
-    flatpak install flathub com.spotify.Client
+    flatpak install flathub org.audacityteam.Audacity            #sudo pacman -S --noconfirm --needed audacity
+    flatpak install flathub tv.kodi.kodi
+    flatpak install flathub org.octave.Octave
+
+    flatpak install flathub com.google.Chrome
     flatpak install flathub com.discordapp.Discord
     flatpak install flathub com.valvesoftware.Steam
-    flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
-    flatpak install flathub org.octave.Octave
-    flatpak install flathub tv.kodi.Kodi
+    #flatpak install flathub com.spotify.Client
+    #flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community
 
     # Others
     #sudo pacman -S --noconfirm --needed virtualbox
