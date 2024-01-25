@@ -50,9 +50,8 @@ create_default_directories(){
     mkdir -p "$HOME"/Desktop
     mkdir -p "$HOME"/Downloads
     mkdir -p ~/Apps
-    mkdir -p ~/vault/media
+    mkdir -p ~/vault/
     mkdir -p ~/vault/backups
-    mkdir -p ~/dev
 }
 
 install_display_manager(){
@@ -87,7 +86,7 @@ install_window_manager(){
     # System Bar
     sudo pacman -S --noconfirm --needed waybar
     # Search Menu
-    sudo pacman -S --noconfirm --needed wofi 
+    sudo pacman -S --noconfirm --needed rofi wofi 
     # Screenshots
     sudo pacman -S --noconfirm --needed grim slurp
     # Wallpaper
@@ -100,7 +99,7 @@ install_window_manager(){
     #"$aurhelper" -S --noconfirm --needed swaync swaylock-effects-git
     "$aurhelper" -S --noconfirm --needed waybar-module-pacman-updates-git
     "$aurhelper" -S --noconfirm --needed waybar-updates
-    #"$aurhelper" -S --noconfirm --needed cava
+    "$aurhelper" -S --noconfirm --needed cava musikcube
     "$aurhelper" -S --noconfirm --needed wlogout
 
     sudo chmod +x ./config/waybar/custom/spotify/controls.sh
@@ -204,14 +203,13 @@ copy_configs(){
     ln -s ~/dotfiles/config/waybar ~/.config/waybar
     rm -rf ~/.config/wofi
     ln -s ~/dotfiles/config/wofi ~/.config/wofi
+    rm -rf ~/.config/rofi
+    ln -s ~/dotfiles/config/rofi ~/.config/rofi
 
     echo -e "${green}[*] Copying scripts to $scripts_directory.${no_color}"
     mkdir -p ~/.scripts
     sudo cp -r ./.scripts/* "$scripts_directory"
 
-    sudo chmod +x ./.scripts/lock
-    sudo chmod +x ./scripts/wofi-power
-    sudo chmod +x ./scripts/clean
     cp -r ./.scripts/* ~/.scripts
 
     echo -e "${green}[*] Copying fonts to $fonts_directory.${no_color}"
