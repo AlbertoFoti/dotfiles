@@ -210,7 +210,8 @@ copy_configs(){
     mkdir -p ~/.scripts
     sudo cp -r ./.scripts/* "$scripts_directory"
 
-    cp -r ./.scripts/* ~/.scripts
+    rm -rf ~/.scripts
+    ln -s ~/dotfiles/.scripts ~/.scripts
 
     echo -e "${green}[*] Copying fonts to $fonts_directory.${no_color}"
     sudo cp -r ./fonts/* "$fonts_directory"

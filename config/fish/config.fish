@@ -144,7 +144,7 @@ end
 # Neofetch
 # switch "$TERM_EMULATOR"
 # case '*kitty*'
-#       neofetch --backend 'kitty'
+neofetch --backend 'kitty'
 # case '*tmux*' '*login*' '*sshd*' '*konsole*'
 #	neofetch --backend 'ascii' --ascii_distro 'arch_small' 
 # case '*'
