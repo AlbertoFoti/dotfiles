@@ -80,7 +80,14 @@ install_window_manager(){
     echo -e "${green}[*] Installing window manager.${no_color}"
 
     # hyprland install
-    sudo pacman -S --noconfirm --needed hyprland xdg-desktop-portal-hyprland
+    sudo pacman -S --noconfirm --needed hyprland
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-hyprland
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-gnome
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-kde
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-lxqt
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-wlr
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal-gtk
+    sudo pacman -S --noconfirm --needed xdg-desktop-portal
     sudo pacman -S --noconfirm --needed qt6-wayland qt5-wayland
 
     # System Bar
@@ -147,11 +154,12 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
     sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed kiconthemes5
-    sudo pacman -S --noconfirm --needed otf-font-awesome
+    sudo pacman -S --noconfirm --needed otf-font-awesome ttf-meslo-nerd-font-powerlevel10k
 
     # Others
     sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
     "$aurhelper" -S --noconfirm --needed ntp
+    "$aurhelper" -S --noconfirm --needed dunst
 
     # Dependencies
     sudo pacman -S --noconfirm --needed python-pip npm nodejs python-pynvim pacman-contrib
