@@ -92,6 +92,7 @@ export VISUAL="vim"
 export EDITOR="$VISUAL"
 export GTK_THEME=Tokyonight-Dark-BL-LB
 export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_STYLE_OVERRIDE=kvantum
 
 # Term
 switch "$TERM_EMULATOR"

@@ -291,10 +291,18 @@ install_gtk_theme(){
     echo -e "${green}[*] Installing gtk theme.${no_color}"
     git clone --depth 1 https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme
     echo -e "${green}[*] Copying gtk theme to /usr/share/themes.${no_color}"
-    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/*  ~/.themes/
+    sudo cp -r ./Tokyo-Night-GTK-Theme/theme/*  ~/.themes/
     sudo cp -r ./Tokyo-Night-GTK-Theme/icons/*  ~/.icons/
     mkdir -p "$HOME"/.config/gtk-4.0
-    sudo cp -r ./Tokyo-Night-GTK-Theme/themes/Tokyonight-Dark-BL-LB/gtk-4.0/* "$HOME"/.config/gtk-4.0
+    cd ~/dotfiles/Tokyo-Night-GTK-Theme/theme && ./install.sh && cd ~
+
+    sudo flatpak override --filesystem=$HOME/.themes
+    sudo flatpak override --filesystem=$HOME/.icons
+    flatpak override --user --filesystem=xdg-config/gtk-4.0
+    sudo flatpak override --filesystem=xdg-config/gtk-4.0
+
+    "$aurhelper" -S --noconfirm --needed kvantum
+    "$aurhelper" -S --noconfirm --needed kvantum-qt5
 }  
 
 
@@ -346,4 +354,5 @@ do
         8) install_additional_pkgs;;
         9) install_gtk_theme;;
     esac
+
 done
