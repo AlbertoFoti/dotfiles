@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/fish
 
 # Define the color variables
-set primary_bg "#FF0000"
-set color1 "#FF0000"
-set color2 "#00FF00"
-set color3 "#0000FF"
-set primary_fg "#FFFFFF"
+set primary_bg "#1F1F1F"
+set color1 "#202549"
+set color2 "#D34502"
+set color3 "#FFCC00"
+set primary_fg "#F2F4F7"
 
 # Export the variables
 export PRIMARY_BG=$primary_bg
