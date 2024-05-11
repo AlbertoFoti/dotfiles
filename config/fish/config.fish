@@ -49,6 +49,9 @@ export VISUAL="vim"
 export EDITOR="$VISUAL"
 export GTK_THEME=Tokyonight-Dark
 export QT_QPA_PLATFORMTHEME=qt6ct 
+export ANDROID_HOME=$HOME/android-sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 
 # Term
 switch "$TERM_EMULATOR"
@@ -108,8 +111,8 @@ neofetch --backend 'kitty'
 # 	neofetch --backend 'w3m' --xoffset 34 --yoffset 34 --gap 0
 # end
 
-alias bat='bat --theme="Catppuccin-mocha"'
-alias hc=herbstclient
+#alias bat='bat --theme="Catppuccin-mocha"'
+#alias hc=herbstclient
 set MOZ_ENABLE_WAYLAND 1
 set XDG_CURRENT_DESKTOP sway
 starship init fish | source

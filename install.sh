@@ -134,7 +134,10 @@ install_pkgs(){
 
     # Terminal and shell
     sudo pacman -S --noconfirm --needed kitty zsh zsh-syntax-highlighting fish
+
     curl -sS https://starship.rs/install.sh | sh
+    sudo ln -s /usr/bin/google-chrome-stable /usr/local/bin/google-chrome
+
 
     # Audio
     sudo pacman -S --noconfirm --needed pipewire wireplumber alsa-utils helvum pavucontrol playerctl
