@@ -137,7 +137,7 @@ install_pkgs(){
     curl -sS https://starship.rs/install.sh | sh
 
     # Audio
-    sudo pacman -S --noconfirm --needed pipewire wireplumber pipewire-pulse alsa-utils helvum pavucontrol playerctl
+    sudo pacman -S --noconfirm --needed pipewire wireplumber alsa-utils helvum pavucontrol playerctl
     #sudo pacman -S --noconfirm --needed mpc mpd ncmpcpp
 
     # PDF and image visualizer, screenshot, unzip
@@ -154,7 +154,8 @@ install_pkgs(){
     sudo pacman -S --noconfirm --needed adobe-source-code-pro-fonts
     sudo pacman -S --noconfirm --needed papirus-icon-theme
     sudo pacman -S --noconfirm --needed kiconthemes5
-    sudo pacman -S --noconfirm --needed otf-font-awesome ttf-meslo-nerd-font-powerlevel10k
+    sudo pacman -S --noconfirm --needed otf-font-awesome
+    "$aurhelper" -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
 
     # Others
     sudo pacman -S --noconfirm --needed tldr bat fd ripgrep yad
@@ -228,11 +229,9 @@ copy_configs(){
     echo -e "${green}[*] Copying wallpapers to "$HOME"/Pictures/wallpapers.${no_color}"
     rm -rf "$HOME"/Pictures/wallpapers
     cp -r ./wallpapers "$HOME"/Pictures/wallpapers
-    echo -e "${green}[*] Copying zsh configs.${no_color}"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    sudo cp "$HOME"/dotfiles/config/oh-my-zsh/keyitdev.zsh-theme "$HOME"/.oh-my-zsh/custom/themes
-    cp "$HOME"/dotfiles/.zshrc "$HOME"
-    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    echo -e "${green}[*] Copying fish configs.${no_color}"
+    sudo rm -rf /usr/share/fish
+    sudo ln -s "$HOME"/dotfiles/config/fish /usr/share/fish
 
     echo -e "${green}[*] Installing emoji fonts with $aurhelper.${no_color}"
     "$aurhelper" -S --noconfirm --needed noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
