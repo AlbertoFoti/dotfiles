@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+# Create a library target
+add_library(utils_lkuptable STATIC ${SOURCES} ${HEADERS} )

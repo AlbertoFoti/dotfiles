@@ -1,0 +1,100 @@
+{
+    "parameters": {
+      "Jl": {
+        "Units": "[kg/m^2]",
+        "Value": 2390.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal moment of inertia along the x axis"
+      },
+      "Jm": {
+        "Units": "[kg/m^2]",
+        "Value": 1960.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal moment of inertia along the y axis"
+      },
+      "Jn": {
+        "Units": "[kg/m^2]",
+        "Value": 1620.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal moment of inertia along the z axis"
+      },
+      "yaCoM": {
+        "Units": "[m]",
+        "Value": -0.070,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal displacement along the y axis of the center of mass"
+      },
+      "xaCoM": {
+        "Units": "[m]",
+        "Value": 1.74,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal displacement along the x axis of the center of mass"
+      },
+      "FmaxTh": {
+        "Units": "[N]",
+        "Value": 400.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Maximum thrust"
+      },
+      "FminTh": {
+        "Units": "[N]",
+        "Value": 0.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Minimum thrust"
+      },
+      "FmaxSat": {
+        "Units": "[N]",
+        "Value": 300.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Maximum effective thrust due to PWM on cycle"
+      },
+      "FminSat": {
+        "Units": "[N]",
+        "Value": 100.0,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Maximum effective thrust due to PWM off cycle"
+      },
+      "xIMUb": {
+        "Units": "[m]",
+        "Value": 0.6092,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal position of IMU along the x axis"
+      },
+      "yIMUb": {
+        "Units": "[m]",
+        "Value": -0.5781,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal position of IMU along the y axis"
+      },
+      "zIMUb": {
+        "Units": "[m]",
+        "Value": -0.5786,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Nominal position of IMU along the z axis"
+      }
+    }
+  }

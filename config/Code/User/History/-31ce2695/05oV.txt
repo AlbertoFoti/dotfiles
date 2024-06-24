@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+file(GLOB SOURCES "*.hxx")
+
+include_directories(obj)
+include_directories(../Utils)
+
+file(GLOB OBJ_FILES "*.o")
+
+# Create a library target
+add_library(e2e STATIC ${SOURCE_FILES} ${OBJ_FILES} E2E.cpp)

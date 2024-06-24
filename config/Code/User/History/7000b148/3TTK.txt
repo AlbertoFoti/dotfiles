@@ -1,0 +1,5 @@
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+# Create a library target
+add_library(scheduler STATIC ${HEADERS} ${SOURCES})

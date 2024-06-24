@@ -1,0 +1,9 @@
+# Add source files
+set(SOURCES
+    E2E.cpp
+    E2E_inpout.hxx
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(e2e ${SOURCES})

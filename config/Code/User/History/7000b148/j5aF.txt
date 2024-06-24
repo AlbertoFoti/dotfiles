@@ -1,0 +1,8 @@
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+include_directories(../E2E)
+include_directories(../Configuration)
+
+# Create a library target
+add_library(scheduler STATIC ${HEADERS} ${SOURCES})

@@ -1,0 +1,14 @@
+# Add source files
+set(SOURCES
+    MemHandling.cpp
+    SPA_Matrix.cpp
+    # Add more source files as needed
+)
+
+include_directories(../PathTracking/GNC)
+include_directories(../E2E)
+
+# Add the library target
+add_library(utils ${SOURCES})
+
+target_link_libraries(utils e2e)

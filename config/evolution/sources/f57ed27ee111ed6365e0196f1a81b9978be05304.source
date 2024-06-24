@@ -1,0 +1,10 @@
+[Data Source]
+DisplayName=Hobbies
+Enabled=true
+Parent=local-stub
+
+[Calendar]
+BackendName=local
+Color=rgb(255,120,0)
+Selected=true
+Order=0

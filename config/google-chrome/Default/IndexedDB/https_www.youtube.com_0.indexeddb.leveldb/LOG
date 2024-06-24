@@ -1,0 +1,27 @@
+2024/05/17-21:40:43.655 113b Reusing MANIFEST /home/albertofots/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/17-21:40:43.656 113b Recovering log #7
+2024/05/17-21:40:43.656 113b Reusing old log /home/albertofots/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2024/05/17-21:40:44.148 113b Compacting 1@1 + 1@2 files
+2024/05/17-21:40:44.152 113b Generated table #10@1: 355 keys, 28957 bytes
+2024/05/17-21:40:44.152 113b Compacted 1@1 + 1@2 files => 28957 bytes
+2024/05/17-21:40:44.154 113b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/17-21:40:44.154 113b Delete type=2 #8
+2024/05/17-21:40:44.154 113b Delete type=2 #5
+2024/05/17-22:40:17.466 113b Level-0 table #12: started
+2024/05/17-22:40:17.475 113b Level-0 table #12: 1400132 bytes OK
+2024/05/17-22:40:17.478 113b Delete type=0 #7
+2024/05/17-22:59:16.468 113b Compacting 1@1 + 1@2 files
+2024/05/17-22:59:16.482 113b Generated table #13@1: 396 keys, 44784 bytes
+2024/05/17-22:59:16.482 113b Compacted 1@1 + 1@2 files => 44784 bytes
+2024/05/17-22:59:16.484 113b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/17-22:59:16.484 113b Delete type=2 #10
+2024/05/17-22:59:16.484 113b Delete type=2 #12
+2024/05/18-00:01:15.677 113b Level-0 table #15: started
+2024/05/18-00:01:15.689 113b Level-0 table #15: 1240234 bytes OK
+2024/05/18-00:01:15.691 113b Delete type=0 #11
+2024/05/18-00:14:37.827 113c Compacting 1@1 + 1@2 files
+2024/05/18-00:14:37.840 113c Generated table #16@1: 472 keys, 40120 bytes
+2024/05/18-00:14:37.840 113c Compacted 1@1 + 1@2 files => 40120 bytes
+2024/05/18-00:14:37.842 113c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/18-00:14:37.842 113c Delete type=2 #13
+2024/05/18-00:14:37.842 113c Delete type=2 #15

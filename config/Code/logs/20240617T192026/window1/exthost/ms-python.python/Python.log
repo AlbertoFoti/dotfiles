@@ -1,0 +1,10 @@
+2024-06-17 21:15:57.767 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-17 21:15:57.767 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-17 21:15:57.767 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-17 21:15:57.767 [info] Experiment 'pythonTestAdapter' is active
+2024-06-17 21:15:57.779 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev
+2024-06-17 21:15:57.784 [info] Python interpreter path: /bin/python3
+2024-06-17 21:15:57.795 [info] > pyenv which python
+2024-06-17 21:15:57.795 [info] cwd: ~/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev
+2024-06-17 21:15:58.782 [info] Starting Pylance language server.
+2024-06-17 21:15:58.954 [warning] Shell integration may not be active, environment activated may be overridden by the shell.

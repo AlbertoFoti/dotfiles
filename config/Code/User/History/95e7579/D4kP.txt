@@ -1,0 +1,24 @@
+# Add source files
+set(SOURCES
+    GE_Navigation.hxx
+    GE_Navigation.cpp
+    GE_IMUConv01.hxx
+    GE_IMUConv01.cpp
+    GE_Grav01.hxx
+    GE_Grav01.cpp
+    GE_CoMNav01.hxx
+    GE_CoMNav01.cpp
+    GE_AttNav02.hxx
+    GE_AttNav02.cpp
+    # Add more source files as needed
+)
+
+include_directories(../../../E2E)
+include_directories(../../../Utils)
+include_directories(../)
+
+# Add the library target
+add_library(navigation_module ${SOURCES})
+
+target_link_libraries(navigation_module e2e)
+target_link_libraries(navigation_module utils)

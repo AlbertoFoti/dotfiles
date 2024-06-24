@@ -1,0 +1,45 @@
+\chapter{Nominal Trajectory}
+
+The \textit{Descent Module} (DM), during the EDL phase, can be modeled as a
+six dof (9dof) autonomous system.
+
+It has three coordinates (spherical) describing its position relative to the
+$\mathcal{R}_{m}$ reference frame
+
+        $$
+            \textbf{r}_{CoM}\rangle_{\mathcal{R}_{P}} = [\: r,\:\Lambda,\:\lambda \:]
+        $$
+
+\noindent Where $r$ is the radial position w.r.t. the center of the planet, $\Lambda$ and $\lambda$ are 
+the longitude and the latitude respectively.
+
+Three coordinates (spherical) describing the velocity vector w.r.t the $\mathcal{R}_{NED}$ reference frame, univocally
+determined by the DM position.
+
+        $$
+            \textbf{v}_{CoM}\rangle_{\mathcal{R}_{NED}} = [\: \nu,\:\gamma,\:\chi \:]
+        $$
+
+\noindent Where $\nu$ is the velocity modulus (VEL), while $\gamma$ and $\chi$ are the flight
+path angle (FPA) and the heading (HEAD) respectively.
+These two can be combined in a six dof description of the capsule state.
+
+        $$
+            \textbf{x}_{CoM}\rangle = [\textbf{r}_{CoM},\: \textbf{v}_{CoM}] = [\: r,\:\Lambda,\:\lambda, \: \nu,\:\gamma,\:\chi \:]
+        $$
+
+Additionally, a 3D vector is used to describe the DM body attitude w.r.t. to the relative wind.
+
+        $$
+            \textbf{x}_{Att} = [\: \mu,\: \alpha,\: \eta]
+        $$
+
+\noindent Where $\mu$ is the bank angle, while $alpha$ and $eta$ are the 
+angle of attack (AoA) and the aerodynamic roll.
+
+
+\newpage
+
+\section{Nominal Trajectory Description}
+
+from the DM known state (\textbf{x})

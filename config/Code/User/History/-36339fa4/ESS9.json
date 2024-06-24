@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run echo hello",
+        "type": "shell",
+        "command": "echo",
+        "args": ["hello"],
+        "console": "integratedTerminal"
+      }
+    ]
+  }

@@ -1,0 +1,63 @@
+2024-06-18 11:06:08.181 [info] Started local extension host with pid 8795.
+2024-06-18 11:06:08.250 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-18 11:06:08.256 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 11:06:10.636 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 11:06:10.713 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-18 11:06:10.838 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 11:06:11.053 [info] [perf] Render performance baseline is 38ms
+2024-06-18 11:06:11.104 [error] [Extension Host] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-18 11:06:11.939 [error] [Extension Host] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2024-06-18 11:11:11.472 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 11:16:12.494 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 11:21:13.494 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 11:56:20.859 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 12:01:21.857 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 12:06:22.855 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 12:11:23.856 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 12:22:44.316 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 12:27:45.469 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:32:23.016 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:37:23.059 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:42:23.103 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:47:23.143 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:52:23.187 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 13:57:23.243 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 14:16:15.908 [info] Started local extension host with pid 13310.
+2024-06-18 14:16:18.739 [info] [perf] Render performance baseline is 15ms
+2024-06-18 14:16:24.142 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-18 14:16:24.144 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 14:16:26.203 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:16:26.421 [error] [Extension Host] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:16:31.269 [info] Not activating extension 'AdaCore.ada': Timed out while searching for 'workspaceContains' pattern *.gpr,*/*.gpr,*.ad[bs],*/*.ad[bs]
+2024-06-18 14:16:31.269 [info] Not activating extension 'ms-vscode.cmake-tools': Timed out while searching for 'workspaceContains' pattern */CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt
+2024-06-18 14:16:52.121 [error] cannot open file:///home/albertofots/.local/state/nvim/undo/%25home%25albertofots%25Vault%25my_life%25Personal%25A%20-%20Career%25work%25borsa%25MARS_GUIDED_ENTRY%25dev2%25SATELLITE%25DHS%25DHS_GE%25GNC%25Guidance%25GE_Guidance.hxx. Detail: File seems to be binary and cannot be opened as text: CodeExpectedError: cannot open file:///home/albertofots/.local/state/nvim/undo/%25home%25albertofots%25Vault%25my_life%25Personal%25A%20-%20Career%25work%25borsa%25MARS_GUIDED_ENTRY%25dev2%25SATELLITE%25DHS%25DHS_GE%25GNC%25Guidance%25GE_Guidance.hxx. Detail: File seems to be binary and cannot be opened as text
+    at s.$tryOpenDocument (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2196:101536)
+2024-06-18 14:17:24.610 [info] Started local extension host with pid 15080.
+2024-06-18 14:17:24.665 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-18 14:17:24.671 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 14:17:26.548 [error] [Extension Host] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:26.589 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:27.111 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 14:17:27.516 [info] [perf] Render performance baseline is 26ms
+2024-06-18 14:17:44.193 [info] Started local extension host with pid 15235.
+2024-06-18 14:17:44.254 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-18 14:17:44.261 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 14:17:45.931 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:46.038 [error] [Extension Host] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:46.696 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-18 14:17:47.069 [info] [perf] Render performance baseline is 21ms
+2024-06-18 17:47:48.451 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 17:52:48.488 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 17:57:48.530 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 18:02:48.569 [warning] Failed to fetch chat participant registry Offline
+2024-06-18 18:07:48.613 [warning] Failed to fetch chat participant registry Offline

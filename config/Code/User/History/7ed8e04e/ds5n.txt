@@ -1,0 +1,20 @@
+# Add source files
+set(SOURCES
+    DHS_GE.hxx
+    DHS_GE.cpp
+    GNC/GE_GNC.hxx
+    GNC/GE_GNC.cpp
+    GNC/Guidance/GE_Guidance.hxx
+    GNC/Guidance/GE_Guidance.cpp
+    GNC/AttControl/GE_AttControl.hxx
+    GNC/AttControl/GE_AttContro.cpp
+    GNC/AttControl/GE_AttPars01.cpp
+    GNC/AttControl/AttRefGen01.cpp
+    GNC/AttControl/AttRefGen01.hxx
+    GNC/AttControl/GE_CL_Mu01.cpp
+    GNC/AttControl/GE_CL_Mu01.hxx
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(path_tracking ${SOURCES})

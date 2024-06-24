@@ -1,0 +1,9 @@
+[2024-06-17 21:23:15.032] Starting Git Graph ...
+[2024-06-17 21:23:15.047] Using git (version: 2.43.0)
+[2024-06-17 21:23:15.053] Started Git Graph - Ready to use!
+[2024-06-17 21:23:15.053] Searching workspace for new repos ...
+[2024-06-17 21:23:15.056] > git rev-parse --show-toplevel
+[2024-06-17 21:23:15.064] Added new repo: /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev
+[2024-06-17 21:23:15.065] Completed searching workspace for new repos
+[2024-06-17 21:23:15.065] Showing "Git Graph" Status Bar Item
+[2024-06-17 21:23:15.166] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"

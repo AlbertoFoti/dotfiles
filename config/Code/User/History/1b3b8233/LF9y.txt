@@ -1,0 +1,4 @@
+file(GLOB OBJECT_FILES "*.o")
+
+# Create a library target
+add_library(my_library STATIC ${OBJECT_FILES})

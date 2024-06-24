@@ -1,0 +1,8 @@
+# Add source files
+set(SOURCES
+    
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(scheduler ${SOURCES})

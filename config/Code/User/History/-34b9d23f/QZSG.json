@@ -1,0 +1,28 @@
+{
+    "parameters": {
+        "omgl0Nav": {
+            "Units": "[ - ]",
+            "Value": 0.00,
+            "Uncertainty Type": 3.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Ignored"
+        },
+        "omgm0Nav": {
+            "Units": "[ - ]",
+            "Value": 0.00,
+            "Uncertainty Type": 3.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Ignored"
+        },
+        "omgn0Nav": {
+            "Units": "[ - ]",
+            "Value": 0.00,
+            "Uncertainty Type": 3.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Ignored"
+        }
+    }
+}

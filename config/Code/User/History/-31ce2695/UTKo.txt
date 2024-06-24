@@ -1,0 +1,4 @@
+file(GLOB SOURCES "*.hxx")
+
+# Create a library target
+add_library(e2e STATIC ${SOURCE_FILES})

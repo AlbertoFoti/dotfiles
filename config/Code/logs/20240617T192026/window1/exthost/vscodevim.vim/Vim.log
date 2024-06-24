@@ -1,0 +1,155 @@
+2024-06-17 19:20:30.496 [info] Configuration changed
+2024-06-17 19:27:03.771 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 20:34:19.622 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:35:25.237 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 20:35:25.243 [warning] getLineLength() called with out-of-bounds line 220
+2024-06-17 20:35:25.243 [warning] invalid cursor position. [[220, 21] | [220, 21]].
+2024-06-17 20:36:03.484 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/InitialState/CoMNomX0NSF.json
+2024-06-17 20:36:15.765 [info] Executing :q
+2024-06-17 20:36:15.774 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/InitialState/CoMNomX0NSF.json closed
+2024-06-17 20:36:15.774 [warning] getLineLength() called with out-of-bounds line 13
+2024-06-17 20:36:15.774 [warning] invalid cursor position. [[13, 19] | [13, 19]].
+2024-06-17 20:36:15.777 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 20:36:18.451 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:36:23.498 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 20:36:23.502 [warning] getLineLength() called with out-of-bounds line 221
+2024-06-17 20:36:23.502 [warning] invalid cursor position. [[221, 21] | [221, 21]].
+2024-06-17 20:36:27.327 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:38:37.364 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 20:41:37.410 [info] /keybindings closed
+2024-06-17 20:43:53.933 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 20:44:15.594 [info] Executing :w
+2024-06-17 20:44:15.900 [info] Configuration changed
+2024-06-17 20:44:25.400 [info] Executing :w
+2024-06-17 20:44:25.663 [info] Configuration changed
+2024-06-17 20:44:37.437 [info] /keybindings closed
+2024-06-17 20:46:31.086 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/.gitignore
+2024-06-17 20:46:39.415 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 20:46:49.727 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:46:54.002 [info] /settings/user closed
+2024-06-17 20:46:54.090 [info] /settings/resourceLanguage closed
+2024-06-17 20:46:54.090 [info] /ignoredSettings closed
+2024-06-17 20:46:54.130 [info] /launch closed
+2024-06-17 20:46:54.131 [info] /token-styling closed
+2024-06-17 20:46:54.132 [info] /textmate-colors closed
+2024-06-17 20:46:54.135 [info] /workbench-colors closed
+2024-06-17 20:47:37.445 [info] /keybindings closed
+2024-06-17 20:47:45.633 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 20:48:36.831 [info] Executing :q!
+2024-06-17 20:48:36.867 [info] /home/albertofots/.config/Code/User/settings.json closed
+2024-06-17 20:48:36.881 [warning] invalid cursor position. [[85, 26] | [85, 26]].
+2024-06-17 20:48:36.882 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:48:42.336 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 20:49:44.550 [info] Configuration changed
+2024-06-17 20:49:46.622 [info] Executing :w
+2024-06-17 20:49:54.075 [info] /settings/user closed
+2024-06-17 20:49:54.285 [info] /settings/resourceLanguage closed
+2024-06-17 20:49:54.286 [info] /ignoredSettings closed
+2024-06-17 20:49:54.328 [info] /launch closed
+2024-06-17 20:49:54.329 [info] /token-styling closed
+2024-06-17 20:49:54.329 [info] /textmate-colors closed
+2024-06-17 20:49:54.331 [info] /workbench-colors closed
+2024-06-17 20:50:03.688 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/SimulationManager.cpp
+2024-06-17 20:50:07.060 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 20:50:09.913 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 20:50:22.710 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 20:50:37.471 [info] /keybindings closed
+2024-06-17 20:50:38.576 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 20:52:54.132 [info] /settings/user closed
+2024-06-17 20:52:54.352 [info] /settings/resourceLanguage closed
+2024-06-17 20:52:54.353 [info] /ignoredSettings closed
+2024-06-17 20:52:54.525 [info] /launch closed
+2024-06-17 20:52:54.527 [info] /token-styling closed
+2024-06-17 20:52:54.528 [info] /textmate-colors closed
+2024-06-17 20:52:54.532 [info] /workbench-colors closed
+2024-06-17 20:53:37.495 [info] /keybindings closed
+2024-06-17 20:55:54.204 [info] /settings/user closed
+2024-06-17 20:55:54.415 [info] /settings/resourceLanguage closed
+2024-06-17 20:55:54.417 [info] /ignoredSettings closed
+2024-06-17 20:55:54.623 [info] /launch closed
+2024-06-17 20:55:54.625 [info] /token-styling closed
+2024-06-17 20:55:54.626 [info] /textmate-colors closed
+2024-06-17 20:55:54.632 [info] /workbench-colors closed
+2024-06-17 20:56:37.521 [info] /keybindings closed
+2024-06-17 20:58:54.281 [info] /settings/user closed
+2024-06-17 20:58:54.473 [info] /settings/resourceLanguage closed
+2024-06-17 20:58:54.474 [info] /ignoredSettings closed
+2024-06-17 20:58:54.720 [info] /launch closed
+2024-06-17 20:58:54.721 [info] /token-styling closed
+2024-06-17 20:58:54.722 [info] /textmate-colors closed
+2024-06-17 20:58:54.729 [info] /workbench-colors closed
+2024-06-17 20:59:37.547 [info] /keybindings closed
+2024-06-17 21:01:54.355 [info] /settings/user closed
+2024-06-17 21:01:54.546 [info] /settings/resourceLanguage closed
+2024-06-17 21:01:54.547 [info] /ignoredSettings closed
+2024-06-17 21:01:54.826 [info] /launch closed
+2024-06-17 21:01:54.827 [info] /token-styling closed
+2024-06-17 21:01:54.828 [info] /textmate-colors closed
+2024-06-17 21:01:54.833 [info] /workbench-colors closed
+2024-06-17 21:02:02.460 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/type_defines.hxx
+2024-06-17 21:02:05.454 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:02:12.118 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/type_defines.hxx
+2024-06-17 21:02:16.327 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:02:37.573 [info] /keybindings closed
+2024-06-17 21:04:54.409 [info] /settings/user closed
+2024-06-17 21:04:54.610 [info] /settings/resourceLanguage closed
+2024-06-17 21:04:54.612 [info] /ignoredSettings closed
+2024-06-17 21:04:54.950 [info] /launch closed
+2024-06-17 21:04:54.951 [info] /token-styling closed
+2024-06-17 21:04:54.951 [info] /textmate-colors closed
+2024-06-17 21:04:54.956 [info] /workbench-colors closed
+2024-06-17 21:05:37.599 [info] /keybindings closed
+2024-06-17 21:07:54.483 [info] /settings/user closed
+2024-06-17 21:07:54.685 [info] /settings/resourceLanguage closed
+2024-06-17 21:07:54.686 [info] /ignoredSettings closed
+2024-06-17 21:07:55.044 [info] /launch closed
+2024-06-17 21:07:55.046 [info] /token-styling closed
+2024-06-17 21:07:55.047 [info] /textmate-colors closed
+2024-06-17 21:07:55.052 [info] /workbench-colors closed
+2024-06-17 21:08:37.626 [info] /keybindings closed
+2024-06-17 21:10:27.009 [info] /usr/include/c++/13/bits/stl_vector.h closed
+2024-06-17 21:10:28.880 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:10:41.724 [info] Executing :w
+2024-06-17 21:10:54.095 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:10:54.577 [info] /settings/user closed
+2024-06-17 21:10:54.770 [info] /settings/resourceLanguage closed
+2024-06-17 21:10:54.772 [info] /ignoredSettings closed
+2024-06-17 21:10:55.140 [info] /launch closed
+2024-06-17 21:10:55.142 [info] /token-styling closed
+2024-06-17 21:10:55.143 [info] /textmate-colors closed
+2024-06-17 21:10:55.147 [info] /workbench-colors closed
+2024-06-17 21:11:06.432 [info] /usr/include/c++/13/bits/stl_vector.h closed
+2024-06-17 21:11:27.884 [info] /usr/include/c++/13/bits/stl_vector.h closed
+2024-06-17 21:11:37.652 [info] /keybindings closed
+2024-06-17 21:12:28.219 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 21:12:41.278 [info] Executing :w
+2024-06-17 21:12:41.559 [info] Configuration changed
+2024-06-17 21:12:48.025 [info] Executing :w
+2024-06-17 21:12:56.706 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:13:29.351 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:13:54.636 [info] /settings/user closed
+2024-06-17 21:13:54.860 [info] /settings/resourceLanguage closed
+2024-06-17 21:13:54.864 [info] /ignoredSettings closed
+2024-06-17 21:13:55.238 [info] /launch closed
+2024-06-17 21:13:55.239 [info] /token-styling closed
+2024-06-17 21:13:55.240 [info] /textmate-colors closed
+2024-06-17 21:13:55.246 [info] /workbench-colors closed
+2024-06-17 21:14:37.678 [info] /keybindings closed
+2024-06-17 21:15:01.582 [warning] invalid cursor position. [[144, 50] | [144, 50]].
+2024-06-17 21:15:28.218 [info] Executing :w
+2024-06-17 21:15:52.547 [info] Executing :w
+2024-06-17 21:15:57.751 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Data/plot_mu_profile.py
+2024-06-17 21:16:47.516 [info] Executing :q
+2024-06-17 21:16:47.543 [warning] getLineLength() called with out-of-bounds line 8
+2024-06-17 21:16:47.543 [warning] invalid cursor position. [[8, 25] | [8, 25]].
+2024-06-17 21:16:47.546 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:16:54.694 [info] /settings/user closed
+2024-06-17 21:16:54.929 [info] /settings/resourceLanguage closed
+2024-06-17 21:16:54.930 [info] /ignoredSettings closed
+2024-06-17 21:16:55.346 [info] /launch closed
+2024-06-17 21:16:55.347 [info] /token-styling closed
+2024-06-17 21:16:55.347 [info] /textmate-colors closed
+2024-06-17 21:16:55.353 [info] /workbench-colors closed
+2024-06-17 21:17:37.703 [info] /keybindings closed
+2024-06-17 21:17:39.560 [info] Executing :w
+2024-06-17 21:18:02.350 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp

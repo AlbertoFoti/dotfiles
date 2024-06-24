@@ -1,0 +1,15 @@
+2024-06-21 08:49:17.892 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-06-21 08:49:17.892 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-06-21 08:49:17.892 [info] Added views:terminal in terminal
+2024-06-21 08:49:17.892 [info] Added views:workbench.scm in workbench.view.scm
+2024-06-21 08:49:17.892 [info] Added views:workbench.view.search in workbench.view.search
+2024-06-21 08:49:17.892 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2024-06-21 08:49:17.986 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-06-21 08:49:18.066 [info] Added views:projectsExplorerFavorites,projectManagerHelpAndFeedback in workbench.view.extension.project-manager
+2024-06-21 08:49:18.067 [info] Added views:workbench.panel.chat.view.copilot in workbench.panel.chatSidebar
+2024-06-21 08:49:18.323 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-06-21 08:49:18.651 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2024-06-21 08:49:18.890 [info] Added views:cmake.projectStatus,cmake.outline,cmake.pinnedCommands in workbench.view.extension.cmake-view
+2024-06-21 08:49:19.071 [info] Added views:projectsExplorerGit in workbench.view.extension.project-manager
+2024-06-21 08:49:19.447 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2024-06-21 08:49:19.970 [info] Removed views:workbench.view.testing from workbench.view.extension.test

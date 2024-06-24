@@ -1,0 +1,78 @@
+{
+    "parameters": {
+      "BUGMAX": {
+        "Units": "[ - ]",
+        "Value": 0,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Maximum value of bug to be used as reference to build the scale function of the altitude control (extracted from the path-planning trajectory)"
+      },
+      "GHVMAX": {
+        "Units": "[ - ]",
+        "Value": 0,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Maximum value of ghv to be used as reference to build the scale function of the down-range control  (extracted from the path-planning"
+      },
+      "Obs Ds": {
+        "Units": "[s]",
+        "Value": 15.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the down-range"
+      },
+      "Obs Dv": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the velocity"
+      },
+      "Obs Dh": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the altitude"
+      },
+      "Obs Dfpa": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the FPA"
+      },
+      "State FeedBack H": {
+        "Units": "[s]",
+        "Value": 14.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "State feedback time constant of the altitude closed loop"
+      },
+      "State FeedBack S": [
+        {
+          "Units": "[s]",
+          "Value": 50.00,
+          "Uncertainty Type": "0.00",
+          "Std / Min val": 0,
+          "Max val": 0,
+          "Notes": "First state feedback time constant of the down-range closed loop"
+        },
+        {
+          "Units": "[s]",
+          "Value": 100.00,
+          "Uncertainty Type": "0.00",
+          "Std / Min val": 0,
+          "Max val": 0,
+          "Notes": "Second state feedback time constant of the down-range closed loop"
+        }
+      ]
+    }
+  }

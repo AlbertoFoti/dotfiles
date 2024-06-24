@@ -1,0 +1,2489 @@
+[19:21:36.296][Logger] New log placeholder %WS1% registered for /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents .
+[19:21:36.296][Extension] Initializing LaTeX Workshop.
+[19:21:36.440][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[19:21:36.472][Server] Creating LaTeX Workshop http and websocket server.
+[19:21:36.557][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[19:21:36.592][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":34889} .
+[19:21:36.601][Extension] Extension root: /home/albertofots/.vscode/extensions/james-yu.latex-workshop-9.20.1
+[19:21:36.601][Extension] $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+[19:21:36.601][Extension] $SHELL: /bin/fish
+[19:21:36.601][Extension] $LANG: en_US.UTF-8
+[19:21:36.602][Extension] $LC_ALL: undefined
+[19:21:36.602][Extension] process.platform: linux
+[19:21:36.602][Extension] process.arch: x64
+[19:21:36.602][Extension] vscode.env.appName: Visual Studio Code
+[19:21:36.602][Extension] vscode.env.remoteName: undefined
+[19:21:36.602][Extension] vscode.env.uiKind: 1
+[19:21:36.604][Config] latex-workshop.latex.recipes: [{"name":"Build Latex","tools":["pdflatex"]}] .
+[19:21:36.635][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[19:21:36.636][Root] Current workspace folders: ["file://%WS1%"]
+[19:21:36.637][Extension] LaTeX Workshop initialized.
+[19:21:36.637][Root] Current workspaceRootDir: file://%WS1% .
+[19:21:36.641][Server] valdOrigin is http://127.0.0.1:34889
+[19:21:36.686][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:34889/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGJlcnRvZm90cyUyRlZhdWx0JTJGbXlfbGlmZSUyRlBlcnNvbmFsJTJGQSUyMC0lMjBDYXJlZXIlMkZ3b3JrJTJGYm9yc2ElMkZNQVJTX0dVSURFRF9FTlRSWSUyRmRldiUyRmRvY3VtZW50cyUyRm1haW4ucGRm .
+[19:21:36.686][Cacher][Watcher] Watched %WS1%/main.pdf with a new .pdf watcher on %WS1% .
+[19:21:36.687][Event] FILE_WATCHED: "%WS1%/main.pdf"
+[19:21:36.728][Root] Found files that might be root, choose the first one: %WS1%/main.tex .
+[19:21:36.729][Root] Root file changed: from %WS1%/main.tex to %WS1%/main.tex, langID latex . Refresh dependencies
+[19:21:36.729][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[19:21:36.730][Cacher][Watcher] Reset.
+[19:21:36.730][Cacher][Watcher] Reset.
+[19:21:36.739][Cacher] Adding %WS1%/main.tex .
+[19:21:36.740][Cacher][Watcher] Watched %WS1%/main.tex with a new .* watcher on %WS1% .
+[19:21:36.740][Event] FILE_WATCHED: "%WS1%/main.tex"
+[19:21:36.743][Cacher] Caching %WS1%/main.tex .
+[19:21:36.744][Cacher] Input %WS1%/Common/config.tex from %WS1%/main.tex .
+[19:21:36.745][Cacher] Adding %WS1%/Common/config.tex .
+[19:21:36.746][Cacher][Watcher] Watched %WS1%/Common/config.tex with a new .* watcher on %WS1%/Common .
+[19:21:36.746][Event] FILE_WATCHED: "%WS1%/Common/config.tex"
+[19:21:36.747][Cacher] Caching %WS1%/Common/config.tex .
+[19:21:36.747][Cacher] Updated inputs of %WS1%/Common/config.tex .
+[19:21:36.748][Cacher] Parse LaTeX AST: %WS1%/Common/config.tex .
+[19:21:36.748][Cacher] Input %WS1%/Common/commands.tex from %WS1%/main.tex .
+[19:21:36.749][Cacher] Adding %WS1%/Common/commands.tex .
+[19:21:36.750][Cacher][Watcher] Watched %WS1%/Common/commands.tex by the .* watcher.
+[19:21:36.750][Event] FILE_WATCHED: "%WS1%/Common/commands.tex"
+[19:21:36.751][Cacher] Caching %WS1%/Common/commands.tex .
+[19:21:36.752][Cacher] Updated inputs of %WS1%/Common/commands.tex .
+[19:21:36.752][Cacher] Parse LaTeX AST: %WS1%/Common/commands.tex .
+[19:21:36.753][Cacher] Input %WS1%/Front/frontpage.tex from %WS1%/main.tex .
+[19:21:36.754][Cacher] Adding %WS1%/Front/frontpage.tex .
+[19:21:36.755][Cacher][Watcher] Watched %WS1%/Front/frontpage.tex with a new .* watcher on %WS1%/Front .
+[19:21:36.755][Event] FILE_WATCHED: "%WS1%/Front/frontpage.tex"
+[19:21:36.757][Cacher] Caching %WS1%/Front/frontpage.tex .
+[19:21:36.757][Cacher] Updated inputs of %WS1%/Front/frontpage.tex .
+[19:21:36.758][Cacher] Parse LaTeX AST: %WS1%/Front/frontpage.tex .
+[19:21:36.759][Cacher] Input %WS1%/Front/frasebella.tex from %WS1%/main.tex .
+[19:21:36.760][Cacher] Adding %WS1%/Front/frasebella.tex .
+[19:21:36.761][Cacher][Watcher] Watched %WS1%/Front/frasebella.tex by the .* watcher.
+[19:21:36.761][Event] FILE_WATCHED: "%WS1%/Front/frasebella.tex"
+[19:21:36.762][Cacher] Caching %WS1%/Front/frasebella.tex .
+[19:21:36.763][Cacher] Updated inputs of %WS1%/Front/frasebella.tex .
+[19:21:36.763][Cacher] Parse LaTeX AST: %WS1%/Front/frasebella.tex .
+[19:21:36.764][Cacher] Input %WS1%/Front/dedications_and_acknowledgments.tex from %WS1%/main.tex .
+[19:21:36.766][Cacher] Adding %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.766][Cacher][Watcher] Watched %WS1%/Front/dedications_and_acknowledgments.tex by the .* watcher.
+[19:21:36.766][Event] FILE_WATCHED: "%WS1%/Front/dedications_and_acknowledgments.tex"
+[19:21:36.776][Cacher] Caching %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.777][Cacher] Updated inputs of %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.777][Cacher] Parse LaTeX AST: %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.778][Cacher] Input %WS1%/Front/abstract_page.tex from %WS1%/main.tex .
+[19:21:36.778][Cacher] Adding %WS1%/Front/abstract_page.tex .
+[19:21:36.778][Cacher][Watcher] Watched %WS1%/Front/abstract_page.tex by the .* watcher.
+[19:21:36.779][Event] FILE_WATCHED: "%WS1%/Front/abstract_page.tex"
+[19:21:36.779][Cacher] Caching %WS1%/Front/abstract_page.tex .
+[19:21:36.780][Cacher] Updated inputs of %WS1%/Front/abstract_page.tex .
+[19:21:36.780][Cacher] Parse LaTeX AST: %WS1%/Front/abstract_page.tex .
+[19:21:36.781][Cacher] Input %WS1%/Front/notations_conventions.tex from %WS1%/main.tex .
+[19:21:36.781][Cacher] Adding %WS1%/Front/notations_conventions.tex .
+[19:21:36.781][Cacher][Watcher] Watched %WS1%/Front/notations_conventions.tex by the .* watcher.
+[19:21:36.781][Event] FILE_WATCHED: "%WS1%/Front/notations_conventions.tex"
+[19:21:36.782][Cacher] Caching %WS1%/Front/notations_conventions.tex .
+[19:21:36.782][Cacher] Updated inputs of %WS1%/Front/notations_conventions.tex .
+[19:21:36.782][Cacher] Parse LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:21:36.783][Cacher] Input %WS1%/Domain/introduction.tex from %WS1%/main.tex .
+[19:21:36.783][Cacher] Adding %WS1%/Domain/introduction.tex .
+[19:21:36.783][Cacher][Watcher] Watched %WS1%/Domain/introduction.tex with a new .* watcher on %WS1%/Domain .
+[19:21:36.784][Event] FILE_WATCHED: "%WS1%/Domain/introduction.tex"
+[19:21:36.784][Cacher] Caching %WS1%/Domain/introduction.tex .
+[19:21:36.784][Cacher] Updated inputs of %WS1%/Domain/introduction.tex .
+[19:21:36.784][Cacher] Parse LaTeX AST: %WS1%/Domain/introduction.tex .
+[19:21:36.785][Cacher] Input %WS1%/Domain/domainanalysis.tex from %WS1%/main.tex .
+[19:21:36.785][Cacher] Adding %WS1%/Domain/domainanalysis.tex .
+[19:21:36.786][Cacher][Watcher] Watched %WS1%/Domain/domainanalysis.tex by the .* watcher.
+[19:21:36.786][Event] FILE_WATCHED: "%WS1%/Domain/domainanalysis.tex"
+[19:21:36.787][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:21:36.787][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:21:36.787][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:21:36.788][Cacher] Input %WS1%/Appendix/aerodynamicDatabase.tex from %WS1%/main.tex .
+[19:21:36.788][Cacher] Adding %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:36.789][Cacher][Watcher] Watched %WS1%/Appendix/aerodynamicDatabase.tex with a new .* watcher on %WS1%/Appendix .
+[19:21:36.789][Event] FILE_WATCHED: "%WS1%/Appendix/aerodynamicDatabase.tex"
+[19:21:36.789][Cacher] Caching %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:36.790][Cacher] Updated inputs of %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:36.790][Cacher] Parse LaTeX AST: %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:36.790][Cacher] Updated inputs of %WS1%/main.tex .
+[19:21:36.790][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[19:21:36.790][Event] ROOT_FILE_SEARCHED
+[19:21:36.817][Cacher] Parsed LaTeX AST: %WS1%/Common/config.tex .
+[19:21:36.821][Cacher] Updated elements in 3.31 ms: %WS1%/Common/config.tex .
+[19:21:36.822][Event] FILE_PARSED: "%WS1%/Common/config.tex"
+[19:21:36.822][Cacher] Parsed LaTeX AST: %WS1%/Common/commands.tex .
+[19:21:36.823][Cacher] Updated elements in 0.43 ms: %WS1%/Common/commands.tex .
+[19:21:36.823][Event] FILE_PARSED: "%WS1%/Common/commands.tex"
+[19:21:36.845][Cacher] Parsed LaTeX AST: %WS1%/Front/frontpage.tex .
+[19:21:36.846][Cacher] Updated elements in 0.57 ms: %WS1%/Front/frontpage.tex .
+[19:21:36.846][Event] FILE_PARSED: "%WS1%/Front/frontpage.tex"
+[19:21:36.857][Cacher] Parsed LaTeX AST: %WS1%/Front/frasebella.tex .
+[19:21:36.858][Cacher] Updated elements in 0.37 ms: %WS1%/Front/frasebella.tex .
+[19:21:36.858][Event] FILE_PARSED: "%WS1%/Front/frasebella.tex"
+[19:21:36.872][Cacher] Parsed LaTeX AST: %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.873][Cacher] Updated elements in 0.39 ms: %WS1%/Front/dedications_and_acknowledgments.tex .
+[19:21:36.873][Event] FILE_PARSED: "%WS1%/Front/dedications_and_acknowledgments.tex"
+[19:21:36.873][Cacher] Parsed LaTeX AST: %WS1%/Front/abstract_page.tex .
+[19:21:36.874][Cacher] Updated elements in 0.22 ms: %WS1%/Front/abstract_page.tex .
+[19:21:36.874][Event] FILE_PARSED: "%WS1%/Front/abstract_page.tex"
+[19:21:37.142][Cacher] Parsed LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:21:37.144][Cacher] Updated elements in 1.53 ms: %WS1%/Front/notations_conventions.tex .
+[19:21:37.145][Event] FILE_PARSED: "%WS1%/Front/notations_conventions.tex"
+[19:21:37.267][Cacher] Parsed LaTeX AST: %WS1%/Domain/introduction.tex .
+[19:21:37.267][Cacher] Updated elements in 0.40 ms: %WS1%/Domain/introduction.tex .
+[19:21:37.268][Event] FILE_PARSED: "%WS1%/Domain/introduction.tex"
+[19:21:37.288][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:21:37.289][Cacher] Updated elements in 0.74 ms: %WS1%/Domain/domainanalysis.tex .
+[19:21:37.289][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:21:37.289][Cacher] Parsed LaTeX AST: %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:37.290][Cacher] Updated elements in 0.24 ms: %WS1%/Appendix/aerodynamicDatabase.tex .
+[19:21:37.290][Event] FILE_PARSED: "%WS1%/Appendix/aerodynamicDatabase.tex"
+[19:21:37.300][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[19:21:37.301][File] Calling kpsewhich to resolve book.cls .
+[19:21:37.318][File] kpsewhich returned with '/usr/share/texlive/texmf-dist/tex/latex/base/book.cls'.
+[19:21:37.320][Cacher] Updated elements in 18.80 ms: %WS1%/main.tex .
+[19:21:37.320][Event] FILE_PARSED: "%WS1%/main.tex"
+[19:21:37.324][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[19:21:37.325][Event] STRUCTURE_UPDATED
+[19:21:37.551][Viewer] Handle data type: open
+[19:21:37.658][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:21:37.960][Viewer] Handle data type: loaded
+[19:21:37.961][Event] VIEWER_PAGE_LOADED
+[19:21:42.415][Root] Current workspace folders: ["file://%WS1%"]
+[19:21:42.416][Root] Found root file from active editor: %WS1%/main.tex
+[19:21:42.418][Root] Keep using the same root file: %WS1%/main.tex
+[19:21:42.418][Event] ROOT_FILE_SEARCHED
+[19:21:42.419][Event] STRUCTURE_UPDATED
+[19:21:42.421][Event] STRUCTURE_UPDATED
+[19:22:20.824][Root] Current workspace folders: ["file://%WS1%"]
+[19:22:20.826][Root] Keep using the same root file: %WS1%/main.tex
+[19:22:20.826][Event] ROOT_FILE_SEARCHED
+[19:22:20.826][Event] STRUCTURE_UPDATED
+[19:22:20.826][Event] STRUCTURE_UPDATED
+[19:24:47.921][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:24:47.992][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:24:47.993][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:24:47.993][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:24:47.993][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:24:47.993][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:24:47.993][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:24:47.993][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:24:47.993][Build] The languageId of the document: latex
+[19:24:47.993][Build] Building root file: %WS1%/main.tex
+[19:24:47.993][Build][Recipe] Build root file %WS1%/main.tex
+[19:24:47.994][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:24:47.995][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:24:47.995][Build][Recipe] Prepared 1 tools.
+[19:24:48.002][Build][Recipe] outDir: %WS1% .
+[19:24:48.003][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:24:48.003][Build] env: {}
+[19:24:48.003][Build] root: %WS1%/main.tex
+[19:24:48.004][Build] cwd: %WS1%
+[19:24:48.007][Build] LaTeX build process spawned with PID 9032.
+[19:24:48.008][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:24:48.008][Cacher] Updated elements in 0.39 ms: %WS1%/Domain/domainanalysis.tex .
+[19:24:48.009][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:24:48.009][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:24:48.009][Event] STRUCTURE_UPDATED
+[19:24:48.546][Parser][TexLog] Logged 7 messages.
+[19:24:48.547][Build] Finished a step in recipe with PID 9032.
+[19:24:48.547][Build] Successfully built %WS1%/main.tex .
+[19:24:48.547][Event] BUILD_DONE
+[19:24:48.547][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:24:48.547][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:24:48.556][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:24:48.672][Viewer] Handle data type: loaded
+[19:24:48.672][Event] VIEWER_PAGE_LOADED
+[19:25:06.940][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:25:07.009][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:25:07.010][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:25:07.011][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:25:07.011][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:07.011][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:25:07.011][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:25:07.011][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:25:07.011][Build] The languageId of the document: latex
+[19:25:07.011][Build] Building root file: %WS1%/main.tex
+[19:25:07.011][Build][Recipe] Build root file %WS1%/main.tex
+[19:25:07.011][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:07.012][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:25:07.012][Build][Recipe] Prepared 1 tools.
+[19:25:07.012][Build][Recipe] outDir: %WS1% .
+[19:25:07.012][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:25:07.013][Build] env: {}
+[19:25:07.013][Build] root: %WS1%/main.tex
+[19:25:07.013][Build] cwd: %WS1%
+[19:25:07.016][Build] LaTeX build process spawned with PID 9045.
+[19:25:07.018][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:07.018][Cacher] Updated elements in 0.61 ms: %WS1%/Domain/domainanalysis.tex .
+[19:25:07.018][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:07.019][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:25:07.019][Event] STRUCTURE_UPDATED
+[19:25:07.334][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 19052 ms.
+[19:25:07.334][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:25:07.541][Parser][TexLog] Logged 7 messages.
+[19:25:07.541][Build] Finished a step in recipe with PID 9045.
+[19:25:07.541][Build] Successfully built %WS1%/main.tex .
+[19:25:07.541][Event] BUILD_DONE
+[19:25:07.542][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:25:07.542][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:25:07.548][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:25:07.641][Viewer] Handle data type: loaded
+[19:25:07.642][Event] VIEWER_PAGE_LOADED
+[19:25:07.917][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 252 ms.
+[19:25:07.917][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:25:12.646][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:25:12.719][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:25:12.719][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:25:12.720][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:25:12.720][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:12.720][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:25:12.720][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:25:12.720][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:25:12.720][Build] The languageId of the document: latex
+[19:25:12.720][Build] Building root file: %WS1%/main.tex
+[19:25:12.720][Build][Recipe] Build root file %WS1%/main.tex
+[19:25:12.720][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:12.721][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:25:12.721][Build][Recipe] Prepared 1 tools.
+[19:25:12.721][Build][Recipe] outDir: %WS1% .
+[19:25:12.722][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:25:12.722][Build] env: {}
+[19:25:12.722][Build] root: %WS1%/main.tex
+[19:25:12.722][Build] cwd: %WS1%
+[19:25:12.726][Build] LaTeX build process spawned with PID 9054.
+[19:25:12.728][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:12.728][Cacher] Updated elements in 0.66 ms: %WS1%/Domain/domainanalysis.tex .
+[19:25:12.729][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:12.729][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:25:12.729][Event] STRUCTURE_UPDATED
+[19:25:13.252][Parser][TexLog] Logged 7 messages.
+[19:25:13.252][Build] Finished a step in recipe with PID 9054.
+[19:25:13.252][Build] Successfully built %WS1%/main.tex .
+[19:25:13.252][Event] BUILD_DONE
+[19:25:13.253][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:25:13.253][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:25:13.259][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:25:13.352][Viewer] Handle data type: loaded
+[19:25:13.352][Event] VIEWER_PAGE_LOADED
+[19:25:16.131][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:25:16.200][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:25:16.200][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:25:16.201][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:25:16.201][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:16.201][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:25:16.201][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:25:16.201][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:25:16.201][Build] The languageId of the document: latex
+[19:25:16.202][Build] Building root file: %WS1%/main.tex
+[19:25:16.202][Build][Recipe] Build root file %WS1%/main.tex
+[19:25:16.202][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:16.203][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:25:16.203][Build][Recipe] Prepared 1 tools.
+[19:25:16.203][Build][Recipe] outDir: %WS1% .
+[19:25:16.204][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:25:16.204][Build] env: {}
+[19:25:16.204][Build] root: %WS1%/main.tex
+[19:25:16.204][Build] cwd: %WS1%
+[19:25:16.208][Build] LaTeX build process spawned with PID 9062.
+[19:25:16.210][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:16.211][Cacher] Updated elements in 0.50 ms: %WS1%/Domain/domainanalysis.tex .
+[19:25:16.211][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:16.212][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:25:16.212][Event] STRUCTURE_UPDATED
+[19:25:16.494][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 3506 ms.
+[19:25:16.494][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:25:16.731][Parser][TexLog] Logged 7 messages.
+[19:25:16.732][Build] Finished a step in recipe with PID 9062.
+[19:25:16.732][Build] Successfully built %WS1%/main.tex .
+[19:25:16.732][Event] BUILD_DONE
+[19:25:16.732][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:25:16.732][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:25:16.738][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:25:16.834][Viewer] Handle data type: loaded
+[19:25:16.834][Event] VIEWER_PAGE_LOADED
+[19:25:17.107][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 251 ms.
+[19:25:17.107][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:25:53.105][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:25:53.178][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:25:53.179][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:25:53.179][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:25:53.179][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:53.179][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:25:53.180][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:25:53.180][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:25:53.180][Build] The languageId of the document: latex
+[19:25:53.180][Build] Building root file: %WS1%/main.tex
+[19:25:53.180][Build][Recipe] Build root file %WS1%/main.tex
+[19:25:53.180][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:53.181][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:25:53.181][Build][Recipe] Prepared 1 tools.
+[19:25:53.181][Build][Recipe] outDir: %WS1% .
+[19:25:53.182][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:25:53.182][Build] env: {}
+[19:25:53.182][Build] root: %WS1%/main.tex
+[19:25:53.182][Build] cwd: %WS1%
+[19:25:53.186][Build] LaTeX build process spawned with PID 9071.
+[19:25:53.187][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:25:53.188][Cacher] Updated elements in 0.34 ms: %WS1%/Domain/domainanalysis.tex .
+[19:25:53.188][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:25:53.188][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:25:53.189][Event] STRUCTURE_UPDATED
+[19:25:53.713][Parser][TexLog] Logged 7 messages.
+[19:25:53.713][Build] Finished a step in recipe with PID 9071.
+[19:25:53.714][Build] Successfully built %WS1%/main.tex .
+[19:25:53.714][Event] BUILD_DONE
+[19:25:53.714][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:25:53.714][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:25:53.721][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:25:53.819][Viewer] Handle data type: loaded
+[19:25:53.819][Event] VIEWER_PAGE_LOADED
+[19:26:05.079][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:05.148][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:05.149][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:05.149][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:05.149][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:05.149][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:05.149][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:05.149][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:05.149][Build] The languageId of the document: latex
+[19:26:05.150][Build] Building root file: %WS1%/main.tex
+[19:26:05.150][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:05.150][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:05.150][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:05.150][Build][Recipe] Prepared 1 tools.
+[19:26:05.151][Build][Recipe] outDir: %WS1% .
+[19:26:05.151][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:05.151][Build] env: {}
+[19:26:05.151][Build] root: %WS1%/main.tex
+[19:26:05.152][Build] cwd: %WS1%
+[19:26:05.155][Build] LaTeX build process spawned with PID 9080.
+[19:26:05.157][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:05.158][Cacher] Updated elements in 0.34 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:05.158][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:05.158][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:05.159][Event] STRUCTURE_UPDATED
+[19:26:05.480][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 12025 ms.
+[19:26:05.480][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:05.682][Parser][TexLog] Logged 7 messages.
+[19:26:05.682][Build] Finished a step in recipe with PID 9080.
+[19:26:05.682][Build] Successfully built %WS1%/main.tex .
+[19:26:05.683][Event] BUILD_DONE
+[19:26:05.683][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:26:05.683][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:26:05.689][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:26:05.777][Viewer] Handle data type: loaded
+[19:26:05.777][Event] VIEWER_PAGE_LOADED
+[19:26:06.057][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 251 ms.
+[19:26:06.057][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:07.354][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:07.419][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:07.420][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:07.420][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:07.420][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:07.420][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:07.420][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:07.420][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:07.420][Build] The languageId of the document: latex
+[19:26:07.421][Build] Building root file: %WS1%/main.tex
+[19:26:07.421][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:07.421][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:07.422][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:07.422][Build][Recipe] Prepared 1 tools.
+[19:26:07.422][Build][Recipe] outDir: %WS1% .
+[19:26:07.422][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:07.422][Build] env: {}
+[19:26:07.422][Build] root: %WS1%/main.tex
+[19:26:07.423][Build] cwd: %WS1%
+[19:26:07.426][Build] LaTeX build process spawned with PID 9087.
+[19:26:07.429][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:07.429][Cacher] Updated elements in 0.33 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:07.430][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:07.430][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:07.430][Event] STRUCTURE_UPDATED
+[19:26:07.946][Parser][TexLog] Logged 7 messages.
+[19:26:07.947][Build] Finished a step in recipe with PID 9087.
+[19:26:07.947][Build] Successfully built %WS1%/main.tex .
+[19:26:07.947][Event] BUILD_DONE
+[19:26:07.947][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:26:07.947][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:26:07.952][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:26:08.041][Viewer] Handle data type: loaded
+[19:26:08.041][Event] VIEWER_PAGE_LOADED
+[19:26:13.673][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:13.743][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:13.743][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:13.743][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:13.744][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:13.744][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:13.744][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:13.744][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:13.744][Build] The languageId of the document: latex
+[19:26:13.744][Build] Building root file: %WS1%/main.tex
+[19:26:13.744][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:13.745][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:13.745][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:13.745][Build][Recipe] Prepared 1 tools.
+[19:26:13.745][Build][Recipe] outDir: %WS1% .
+[19:26:13.746][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:13.746][Build] env: {}
+[19:26:13.746][Build] root: %WS1%/main.tex
+[19:26:13.746][Build] cwd: %WS1%
+[19:26:13.749][Build] LaTeX build process spawned with PID 9093.
+[19:26:13.752][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:13.752][Cacher] Updated elements in 0.32 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:13.753][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:13.753][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:13.753][Event] STRUCTURE_UPDATED
+[19:26:13.951][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 6259 ms.
+[19:26:13.952][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:14.271][Parser][TexLog] Logged 8 messages.
+[19:26:14.271][Build] Recipe returns with error code 1/null on PID 9093.
+[19:26:14.272][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[19:26:14.272][Build] 
+[19:26:14.272][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[19:26:14.272][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[19:26:14.276][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[19:26:14.276]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[19:26:14.277][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:14.277][Build] env: {}
+[19:26:14.277][Build] root: %WS1%/main.tex
+[19:26:14.277][Build] cwd: %WS1%
+[19:26:14.280][Build] LaTeX build process spawned with PID 9096.
+[19:26:14.281][Event] AUTO_CLEANED
+[19:26:14.517][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 500 ms.
+[19:26:14.517][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:14.803][Parser][TexLog] Logged 8 messages.
+[19:26:14.803][Build] Recipe returns with error code 1/null on PID 9096.
+[19:26:14.803][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[19:26:14.803][Build] 
+[19:26:18.176][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:18.244][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:18.245][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:18.245][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:18.245][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:18.245][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:18.245][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:18.245][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:18.245][Build] The languageId of the document: latex
+[19:26:18.245][Build] Building root file: %WS1%/main.tex
+[19:26:18.245][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:18.246][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:18.246][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:18.246][Build][Recipe] Prepared 1 tools.
+[19:26:18.246][Build][Recipe] outDir: %WS1% .
+[19:26:18.247][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:18.247][Build] env: {}
+[19:26:18.247][Build] root: %WS1%/main.tex
+[19:26:18.247][Build] cwd: %WS1%
+[19:26:18.251][Build] LaTeX build process spawned with PID 9101.
+[19:26:18.254][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:18.254][Cacher] Updated elements in 0.33 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:18.255][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:18.255][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:18.255][Event] STRUCTURE_UPDATED
+[19:26:18.556][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 4007 ms.
+[19:26:18.556][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:18.769][Parser][TexLog] Logged 7 messages.
+[19:26:18.770][Build] Finished a step in recipe with PID 9101.
+[19:26:18.770][Build] Successfully built %WS1%/main.tex .
+[19:26:18.770][Event] BUILD_DONE
+[19:26:18.770][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:26:18.770][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:26:18.778][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:26:18.890][Viewer] Handle data type: loaded
+[19:26:18.891][Event] VIEWER_PAGE_LOADED
+[19:26:19.144][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 250 ms.
+[19:26:19.144][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:24.298][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:24.367][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:24.367][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:24.368][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:24.368][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:24.368][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:24.368][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:24.368][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:24.368][Build] The languageId of the document: latex
+[19:26:24.368][Build] Building root file: %WS1%/main.tex
+[19:26:24.368][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:24.368][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:24.369][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:24.369][Build][Recipe] Prepared 1 tools.
+[19:26:24.370][Build][Recipe] outDir: %WS1% .
+[19:26:24.370][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:24.371][Build] env: {}
+[19:26:24.371][Build] root: %WS1%/main.tex
+[19:26:24.371][Build] cwd: %WS1%
+[19:26:24.374][Build] LaTeX build process spawned with PID 9107.
+[19:26:24.376][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:24.377][Cacher] Updated elements in 0.49 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:24.377][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:24.378][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:24.378][Event] STRUCTURE_UPDATED
+[19:26:24.894][Parser][TexLog] Logged 7 messages.
+[19:26:24.895][Build] Finished a step in recipe with PID 9107.
+[19:26:24.895][Build] Successfully built %WS1%/main.tex .
+[19:26:24.895][Event] BUILD_DONE
+[19:26:24.895][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:26:24.895][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:26:24.901][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:26:24.989][Viewer] Handle data type: loaded
+[19:26:24.989][Event] VIEWER_PAGE_LOADED
+[19:26:30.347][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:26:30.417][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:26:30.418][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:26:30.418][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:26:30.418][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:30.418][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:26:30.418][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:26:30.419][Build] The document of the active editor: file://%WS1%/Domain/domainanalysis.tex
+[19:26:30.419][Build] The languageId of the document: latex
+[19:26:30.419][Build] Building root file: %WS1%/main.tex
+[19:26:30.419][Build][Recipe] Build root file %WS1%/main.tex
+[19:26:30.419][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:30.420][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:26:30.420][Build][Recipe] Prepared 1 tools.
+[19:26:30.420][Build][Recipe] outDir: %WS1% .
+[19:26:30.421][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:26:30.421][Build] env: {}
+[19:26:30.421][Build] root: %WS1%/main.tex
+[19:26:30.421][Build] cwd: %WS1%
+[19:26:30.425][Build] LaTeX build process spawned with PID 9113.
+[19:26:30.426][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:26:30.427][Cacher] Updated elements in 0.66 ms: %WS1%/Domain/domainanalysis.tex .
+[19:26:30.427][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:26:30.428][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:26:30.428][Event] STRUCTURE_UPDATED
+[19:26:30.650][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 6012 ms.
+[19:26:30.651][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:26:30.948][Parser][TexLog] Logged 7 messages.
+[19:26:30.949][Build] Finished a step in recipe with PID 9113.
+[19:26:30.949][Build] Successfully built %WS1%/main.tex .
+[19:26:30.949][Event] BUILD_DONE
+[19:26:30.949][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:26:30.949][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:26:30.955][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:26:31.056][Viewer] Handle data type: loaded
+[19:26:31.057][Event] VIEWER_PAGE_LOADED
+[19:27:42.344][Root] Current workspace folders: ["file://%WS1%"]
+[19:27:42.344][Root] Found root file from active editor: %WS1%/main.tex
+[19:27:42.345][Root] Keep using the same root file: %WS1%/main.tex
+[19:27:42.345][Event] ROOT_FILE_SEARCHED
+[19:27:42.345][Event] STRUCTURE_UPDATED
+[19:27:42.346][Event] STRUCTURE_UPDATED
+[19:28:45.626][Extension] onDidSaveTextDocument triggered: file://%WS1%/main.tex
+[19:28:45.696][Cacher][Watcher] "change" emitted on %WS1%/main.tex.
+[19:28:45.697][Cacher] Caching %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Common/config.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Common/commands.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Front/frontpage.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Front/frasebella.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Front/dedications_and_acknowledgments.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Front/abstract_page.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Front/notations_conventions.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Domain/introduction.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Input %WS1%/Domain/domainanalysis.tex from %WS1%/main.tex .
+[19:28:45.697][Cacher] Updated inputs of %WS1%/main.tex .
+[19:28:45.697][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[19:28:45.698][Build] Auto build started detecting the change of a file: %WS1%/main.tex .
+[19:28:45.698][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/main.tex"}
+[19:28:45.698][Build] The document of the active editor: file://%WS1%/main.tex
+[19:28:45.698][Build] The languageId of the document: latex
+[19:28:45.698][Build] Building root file: %WS1%/main.tex
+[19:28:45.698][Build][Recipe] Build root file %WS1%/main.tex
+[19:28:45.698][Event] FILE_CHANGED: "%WS1%/main.tex"
+[19:28:45.704][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[19:28:45.704][File] kpsewhich cache hit on book.cls: /usr/share/texlive/texmf-dist/tex/latex/base/book.cls .
+[19:28:45.705][Cacher] Updated elements in 0.93 ms: %WS1%/main.tex .
+[19:28:45.705][Event] FILE_PARSED: "%WS1%/main.tex"
+[19:28:45.705][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:28:45.705][Event] STRUCTURE_UPDATED
+[19:28:45.706][Extension] onDidSaveTextDocument triggered: file://%WS1%/Domain/domainanalysis.tex
+[19:28:45.706][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:28:45.706][Build][Recipe] Prepared 1 tools.
+[19:28:45.707][Build][Recipe] outDir: %WS1% .
+[19:28:45.707][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:28:45.707][Build] env: {}
+[19:28:45.707][Build] root: %WS1%/main.tex
+[19:28:45.707][Build] cwd: %WS1%
+[19:28:45.711][Build] LaTeX build process spawned with PID 9778.
+[19:28:45.828][Cacher][Watcher] "change" emitted on %WS1%/Domain/domainanalysis.tex.
+[19:28:45.828][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[19:28:45.828][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[19:28:45.828][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:28:45.829][Build] Auto build started detecting the change of a file: %WS1%/Domain/domainanalysis.tex .
+[19:28:45.829][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Domain/domainanalysis.tex"}
+[19:28:45.829][Build] Autobuild temporarily disabled.
+[19:28:45.829][Event] FILE_CHANGED: "%WS1%/Domain/domainanalysis.tex"
+[19:28:45.834][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[19:28:45.835][Cacher] Updated elements in 0.34 ms: %WS1%/Domain/domainanalysis.tex .
+[19:28:45.835][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[19:28:45.836][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:28:45.836][Event] STRUCTURE_UPDATED
+[19:28:46.041][Cacher][Watcher] "change" emitted on %WS1%/main.pdf after polling for 135350 ms.
+[19:28:46.041][Event] FILE_CHANGED: "%WS1%/main.pdf"
+[19:28:46.229][Parser][TexLog] Logged 8 messages.
+[19:28:46.230][Build] Recipe returns with error code 1/null on PID 9778.
+[19:28:46.230][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[19:28:46.230][Build] 
+[19:28:46.231][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[19:28:46.231][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[19:28:46.236][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[19:28:46.236]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[19:28:46.237][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:28:46.237][Build] env: {}
+[19:28:46.237][Build] root: %WS1%/main.tex
+[19:28:46.237][Build] cwd: %WS1%
+[19:28:46.240][Build] LaTeX build process spawned with PID 9783.
+[19:28:46.241][Event] AUTO_CLEANED
+[19:28:46.355][Cacher][Watcher] "delete" emitted on %WS1%/main.pdf.
+[19:28:46.605][Cacher][Watcher] File deleted and re-created: %WS1%/main.pdf .
+[19:28:46.772][Parser][TexLog] Logged 8 messages.
+[19:28:46.772][Build] Recipe returns with error code 1/null on PID 9783.
+[19:28:46.772][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[19:28:46.772][Build] 
+[19:28:46.897][Cacher][Watcher] "delete" emitted on %WS1%/main.pdf.
+[19:28:47.148][Cacher][Watcher] File deletion confirmed: %WS1%/main.pdf .
+[19:28:47.148][Cacher][Watcher] Unwatched folder %WS1%.
+[19:28:47.148][Event] FILE_REMOVED: "%WS1%/main.pdf"
+[19:29:15.827][Root] Current workspace folders: ["file://%WS1%"]
+[19:29:15.828][Root] Current workspaceRootDir: file://%WS1% .
+[19:29:15.855][Root] Found files that might be root including the current root: %WS1%/main.tex .
+[19:29:15.855][Root] Keep using the same root file: %WS1%/main.tex
+[19:29:15.855][Event] ROOT_FILE_SEARCHED
+[19:29:15.855][Event] STRUCTURE_UPDATED
+[19:29:15.856][Event] STRUCTURE_UPDATED
+[19:29:17.844][Cacher] Error loading cache: %WS1%/PathPlanning/introduction.tex . Forcing.
+[19:29:17.844][Cacher] Caching %WS1%/PathPlanning/introduction.tex .
+[19:29:17.844][Cacher] Updated inputs of %WS1%/PathPlanning/introduction.tex .
+[19:29:17.844][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[19:29:17.845][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[19:29:17.845][Cacher] Updated elements in 0.10 ms: %WS1%/PathPlanning/introduction.tex .
+[19:29:17.845][Event] FILE_PARSED: "%WS1%/PathPlanning/introduction.tex"
+[19:29:17.845][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:17.846][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:17.846][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:29:17.846][Event] STRUCTURE_UPDATED
+[19:29:17.936][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:25.095][Root] Current workspace folders: ["file://%WS1%"]
+[19:29:25.097][Root] Current workspaceRootDir: file://%WS1% .
+[19:29:25.125][Root] Found files that might be root including the current root: %WS1%/main.tex .
+[19:29:25.125][Root] Keep using the same root file: %WS1%/main.tex
+[19:29:25.125][Event] ROOT_FILE_SEARCHED
+[19:29:25.126][Event] STRUCTURE_UPDATED
+[19:29:25.126][Event] STRUCTURE_UPDATED
+[19:29:27.111][Cacher] Error loading cache: %WS1%/PathPlanning/nominaltrajectory.tex . Forcing.
+[19:29:27.112][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:29:27.112][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:29:27.112][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:29:27.113][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:29:27.113][Cacher] Updated elements in 0.14 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:29:27.113][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:29:27.113][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:27.114][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:29:27.114][Event] STRUCTURE_UPDATED
+[19:29:50.882][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:29:57.324][Root] Current workspace folders: ["file://%WS1%"]
+[19:29:57.325][Root] Current workspaceRootDir: file://%WS1% .
+[19:29:57.355][Root] Found files that might be root including the current root: %WS1%/main.tex .
+[19:29:57.355][Root] Keep using the same root file: %WS1%/main.tex
+[19:29:57.355][Event] ROOT_FILE_SEARCHED
+[19:29:57.355][Event] STRUCTURE_UPDATED
+[19:29:57.355][Event] STRUCTURE_UPDATED
+[19:29:57.624][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:58.966][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:29:59.948][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:00.616][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:01.412][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:02.209][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:04.603][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:05.744][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:06.596][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:11.126][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:12.795][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:14.440][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:15.225][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:15.554][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:16.315][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:16.975][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:18.596][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:19.749][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:19.968][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/introduction.tex
+[19:30:20.073][Structure][LaTeX] Error loading content during structuring: %WS1%/PathPlanning/introduction.tex .
+[19:30:27.941][Root] Current workspace folders: ["file://%WS1%"]
+[19:30:27.942][Root] Found root file from active editor: %WS1%/main.tex
+[19:30:27.942][Root] Keep using the same root file: %WS1%/main.tex
+[19:30:27.942][Event] ROOT_FILE_SEARCHED
+[19:30:27.943][Event] STRUCTURE_UPDATED
+[19:30:27.943][Event] STRUCTURE_UPDATED
+[19:30:51.003][Event] STRUCTURE_UPDATED
+[19:31:05.045][Event] STRUCTURE_UPDATED
+[19:31:11.570][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:11.571][Root] Current workspaceRootDir: file://%WS1% .
+[19:31:11.593][Root] Found files that might be root including the current root: %WS1%/main.tex .
+[19:31:11.594][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:11.594][Event] ROOT_FILE_SEARCHED
+[19:31:11.594][Event] STRUCTURE_UPDATED
+[19:31:11.594][Event] STRUCTURE_UPDATED
+[19:31:17.157][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:17.158][Root] Found root file from active editor: %WS1%/main.tex
+[19:31:17.158][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:17.158][Event] ROOT_FILE_SEARCHED
+[19:31:17.158][Event] STRUCTURE_UPDATED
+[19:31:17.159][Event] STRUCTURE_UPDATED
+[19:31:24.859][Extension] onDidSaveTextDocument triggered: file://%WS1%/main.tex
+[19:31:24.923][Cacher][Watcher] "change" emitted on %WS1%/main.tex.
+[19:31:24.923][Cacher] Caching %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Common/config.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Common/commands.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Front/frontpage.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Front/frasebella.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Front/dedications_and_acknowledgments.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Front/abstract_page.tex from %WS1%/main.tex .
+[19:31:24.923][Cacher] Input %WS1%/Front/notations_conventions.tex from %WS1%/main.tex .
+[19:31:24.924][Cacher] Input %WS1%/Domain/introduction.tex from %WS1%/main.tex .
+[19:31:24.924][Cacher] Input %WS1%/Domain/domainanalysis.tex from %WS1%/main.tex .
+[19:31:24.924][Cacher] Input %WS1%/PathPlanning/introduction.tex from %WS1%/main.tex .
+[19:31:24.924][Cacher] Adding %WS1%/PathPlanning/introduction.tex .
+[19:31:24.924][Cacher][Watcher] Watched %WS1%/PathPlanning/introduction.tex with a new .* watcher on %WS1%/PathPlanning .
+[19:31:24.924][Event] FILE_WATCHED: "%WS1%/PathPlanning/introduction.tex"
+[19:31:24.924][Cacher] Caching %WS1%/PathPlanning/introduction.tex .
+[19:31:24.925][Cacher] Updated inputs of %WS1%/PathPlanning/introduction.tex .
+[19:31:24.925][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[19:31:24.925][Cacher] Input %WS1%/PathPlanning/nominaltrajectory.tex from %WS1%/main.tex .
+[19:31:24.925][Cacher] Adding %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.925][Cacher][Watcher] Watched %WS1%/PathPlanning/nominaltrajectory.tex by the .* watcher.
+[19:31:24.925][Event] FILE_WATCHED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:31:24.925][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.926][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.926][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.926][Cacher] Input %WS1%/Appendix/aerodynamicDatabase.tex from %WS1%/main.tex .
+[19:31:24.926][Cacher] Updated inputs of %WS1%/main.tex .
+[19:31:24.926][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[19:31:24.926][Build] Auto build started detecting the change of a file: %WS1%/main.tex .
+[19:31:24.926][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/main.tex"}
+[19:31:24.926][Build] The document of the active editor: file://%WS1%/main.tex
+[19:31:24.926][Build] The languageId of the document: latex
+[19:31:24.926][Build] Building root file: %WS1%/main.tex
+[19:31:24.926][Build][Recipe] Build root file %WS1%/main.tex
+[19:31:24.926][Event] FILE_CHANGED: "%WS1%/main.tex"
+[19:31:24.927][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:31:24.927][Build][Recipe] Prepared 1 tools.
+[19:31:24.927][Build][Recipe] outDir: %WS1% .
+[19:31:24.927][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:31:24.927][Build] env: {}
+[19:31:24.927][Build] root: %WS1%/main.tex
+[19:31:24.927][Build] cwd: %WS1%
+[19:31:24.931][Build] LaTeX build process spawned with PID 9911.
+[19:31:24.931][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[19:31:24.931][Cacher] Updated elements in 0.12 ms: %WS1%/PathPlanning/introduction.tex .
+[19:31:24.932][Event] FILE_PARSED: "%WS1%/PathPlanning/introduction.tex"
+[19:31:24.932][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.932][Cacher] Updated elements in 0.08 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:31:24.932][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:31:24.937][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[19:31:24.937][File] kpsewhich cache hit on book.cls: /usr/share/texlive/texmf-dist/tex/latex/base/book.cls .
+[19:31:24.938][Cacher] Updated elements in 0.47 ms: %WS1%/main.tex .
+[19:31:24.938][Event] FILE_PARSED: "%WS1%/main.tex"
+[19:31:24.938][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:31:24.938][Event] STRUCTURE_UPDATED
+[19:31:25.451][Parser][TexLog] Logged 7 messages.
+[19:31:25.452][Build] Finished a step in recipe with PID 9911.
+[19:31:25.452][Build] Successfully built %WS1%/main.tex .
+[19:31:25.452][Event] BUILD_DONE
+[19:31:25.452][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:31:25.452][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:31:25.458][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:31:25.542][Viewer] Handle data type: loaded
+[19:31:25.542][Event] VIEWER_PAGE_LOADED
+[19:31:29.237][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:29.239][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:29.239][Event] ROOT_FILE_SEARCHED
+[19:31:29.239][Event] STRUCTURE_UPDATED
+[19:31:29.239][Event] STRUCTURE_UPDATED
+[19:31:30.891][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:30.892][Root] Found root file from active editor: %WS1%/main.tex
+[19:31:30.892][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:30.893][Event] ROOT_FILE_SEARCHED
+[19:31:30.893][Event] STRUCTURE_UPDATED
+[19:31:30.893][Event] STRUCTURE_UPDATED
+[19:31:34.102][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:34.103][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:34.103][Event] ROOT_FILE_SEARCHED
+[19:31:34.103][Event] STRUCTURE_UPDATED
+[19:31:34.103][Event] STRUCTURE_UPDATED
+[19:31:36.520][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:36.521][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:36.521][Event] ROOT_FILE_SEARCHED
+[19:31:36.521][Event] STRUCTURE_UPDATED
+[19:31:36.522][Event] STRUCTURE_UPDATED
+[19:31:38.117][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:38.118][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:38.118][Event] ROOT_FILE_SEARCHED
+[19:31:38.118][Event] STRUCTURE_UPDATED
+[19:31:38.118][Event] STRUCTURE_UPDATED
+[19:31:42.091][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:42.093][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:42.093][Event] ROOT_FILE_SEARCHED
+[19:31:42.093][Event] STRUCTURE_UPDATED
+[19:31:42.093][Event] STRUCTURE_UPDATED
+[19:31:46.529][Event] STRUCTURE_UPDATED
+[19:31:51.469][Root] Current workspace folders: ["file://%WS1%"]
+[19:31:51.470][Root] Keep using the same root file: %WS1%/main.tex
+[19:31:51.470][Event] ROOT_FILE_SEARCHED
+[19:31:51.470][Event] STRUCTURE_UPDATED
+[19:31:51.470][Event] STRUCTURE_UPDATED
+[19:32:14.041][Event] STRUCTURE_UPDATED
+[19:32:14.782][Event] STRUCTURE_UPDATED
+[19:32:25.308][Event] STRUCTURE_UPDATED
+[19:32:43.678][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:32:43.747][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:32:43.747][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.748][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.748][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.748][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.748][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:32:43.748][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:32:43.748][Build] The languageId of the document: latex
+[19:32:43.748][Build] Building root file: %WS1%/main.tex
+[19:32:43.748][Build][Recipe] Build root file %WS1%/main.tex
+[19:32:43.748][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:32:43.749][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:32:43.749][Build][Recipe] Prepared 1 tools.
+[19:32:43.749][Build][Recipe] outDir: %WS1% .
+[19:32:43.749][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:32:43.749][Build] env: {}
+[19:32:43.749][Build] root: %WS1%/main.tex
+[19:32:43.750][Build] cwd: %WS1%
+[19:32:43.753][Build] LaTeX build process spawned with PID 9937.
+[19:32:43.753][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.754][Cacher] Updated elements in 0.11 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:43.754][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:32:43.754][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:32:43.755][Event] STRUCTURE_UPDATED
+[19:32:44.281][Parser][TexLog] Logged 7 messages.
+[19:32:44.281][Build] Finished a step in recipe with PID 9937.
+[19:32:44.281][Build] Successfully built %WS1%/main.tex .
+[19:32:44.281][Event] BUILD_DONE
+[19:32:44.282][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:32:44.282][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:32:44.287][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:32:44.375][Viewer] Handle data type: loaded
+[19:32:44.375][Event] VIEWER_PAGE_LOADED
+[19:32:56.600][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:32:56.668][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:32:56.668][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.668][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.669][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.669][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.669][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:32:56.669][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:32:56.669][Build] The languageId of the document: latex
+[19:32:56.669][Build] Building root file: %WS1%/main.tex
+[19:32:56.669][Build][Recipe] Build root file %WS1%/main.tex
+[19:32:56.669][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:32:56.670][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:32:56.670][Build][Recipe] Prepared 1 tools.
+[19:32:56.670][Build][Recipe] outDir: %WS1% .
+[19:32:56.671][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:32:56.671][Build] env: {}
+[19:32:56.671][Build] root: %WS1%/main.tex
+[19:32:56.671][Build] cwd: %WS1%
+[19:32:56.675][Build] LaTeX build process spawned with PID 9946.
+[19:32:56.675][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.676][Cacher] Updated elements in 0.15 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:32:56.676][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:32:56.676][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:32:56.677][Event] STRUCTURE_UPDATED
+[19:32:57.207][Parser][TexLog] Logged 7 messages.
+[19:32:57.208][Build] Finished a step in recipe with PID 9946.
+[19:32:57.208][Build] Successfully built %WS1%/main.tex .
+[19:32:57.208][Event] BUILD_DONE
+[19:32:57.208][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:32:57.208][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:32:57.216][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:32:57.303][Viewer] Handle data type: loaded
+[19:32:57.303][Event] VIEWER_PAGE_LOADED
+[19:34:28.324][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:28.395][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:34:28.395][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.395][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.396][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.396][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.396][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:34:28.396][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:28.396][Build] The languageId of the document: latex
+[19:34:28.396][Build] Building root file: %WS1%/main.tex
+[19:34:28.396][Build][Recipe] Build root file %WS1%/main.tex
+[19:34:28.396][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:28.397][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:34:28.397][Build][Recipe] Prepared 1 tools.
+[19:34:28.398][Build][Recipe] outDir: %WS1% .
+[19:34:28.398][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:34:28.399][Build] env: {}
+[19:34:28.399][Build] root: %WS1%/main.tex
+[19:34:28.399][Build] cwd: %WS1%
+[19:34:28.403][Build] LaTeX build process spawned with PID 9957.
+[19:34:28.404][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.405][Cacher] Updated elements in 0.22 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:28.405][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:28.406][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:34:28.406][Event] STRUCTURE_UPDATED
+[19:34:28.945][Parser][TexLog] Logged 7 messages.
+[19:34:28.946][Build] Finished a step in recipe with PID 9957.
+[19:34:28.946][Build] Successfully built %WS1%/main.tex .
+[19:34:28.946][Event] BUILD_DONE
+[19:34:28.946][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:34:28.946][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:34:28.952][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:34:29.049][Viewer] Handle data type: loaded
+[19:34:29.049][Event] VIEWER_PAGE_LOADED
+[19:34:30.959][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:31.028][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:34:31.029][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.029][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.029][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.029][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.029][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:34:31.029][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:31.030][Build] The languageId of the document: latex
+[19:34:31.030][Build] Building root file: %WS1%/main.tex
+[19:34:31.030][Build][Recipe] Build root file %WS1%/main.tex
+[19:34:31.030][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:31.031][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:34:31.031][Build][Recipe] Prepared 1 tools.
+[19:34:31.031][Build][Recipe] outDir: %WS1% .
+[19:34:31.031][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:34:31.032][Build] env: {}
+[19:34:31.032][Build] root: %WS1%/main.tex
+[19:34:31.032][Build] cwd: %WS1%
+[19:34:31.036][Build] LaTeX build process spawned with PID 9966.
+[19:34:31.036][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.037][Cacher] Updated elements in 0.28 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:31.037][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:31.038][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:34:31.038][Event] STRUCTURE_UPDATED
+[19:34:31.560][Parser][TexLog] Logged 7 messages.
+[19:34:31.560][Build] Finished a step in recipe with PID 9966.
+[19:34:31.560][Build] Successfully built %WS1%/main.tex .
+[19:34:31.560][Event] BUILD_DONE
+[19:34:31.561][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:34:31.561][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:34:31.565][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:34:31.655][Viewer] Handle data type: loaded
+[19:34:31.656][Event] VIEWER_PAGE_LOADED
+[19:34:55.911][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:55.970][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:34:55.970][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.970][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.970][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.970][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.970][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:34:55.970][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:34:55.970][Build] The languageId of the document: latex
+[19:34:55.970][Build] Building root file: %WS1%/main.tex
+[19:34:55.971][Build][Recipe] Build root file %WS1%/main.tex
+[19:34:55.971][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:55.971][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:34:55.971][Build][Recipe] Prepared 1 tools.
+[19:34:55.971][Build][Recipe] outDir: %WS1% .
+[19:34:55.972][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:34:55.972][Build] env: {}
+[19:34:55.972][Build] root: %WS1%/main.tex
+[19:34:55.972][Build] cwd: %WS1%
+[19:34:55.976][Build] LaTeX build process spawned with PID 9977.
+[19:34:55.976][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.976][Cacher] Updated elements in 0.15 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:34:55.976][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:34:55.977][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:34:55.977][Event] STRUCTURE_UPDATED
+[19:34:56.499][Parser][TexLog] Logged 7 messages.
+[19:34:56.500][Build] Finished a step in recipe with PID 9977.
+[19:34:56.500][Build] Successfully built %WS1%/main.tex .
+[19:34:56.500][Event] BUILD_DONE
+[19:34:56.500][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:34:56.500][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:34:56.507][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:34:56.596][Viewer] Handle data type: loaded
+[19:34:56.596][Event] VIEWER_PAGE_LOADED
+[19:35:39.464][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:35:39.527][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:35:39.527][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.527][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.527][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.527][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.527][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:35:39.527][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:35:39.528][Build] The languageId of the document: latex
+[19:35:39.528][Build] Building root file: %WS1%/main.tex
+[19:35:39.528][Build][Recipe] Build root file %WS1%/main.tex
+[19:35:39.528][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:35:39.528][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:35:39.528][Build][Recipe] Prepared 1 tools.
+[19:35:39.529][Build][Recipe] outDir: %WS1% .
+[19:35:39.529][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:35:39.529][Build] env: {}
+[19:35:39.529][Build] root: %WS1%/main.tex
+[19:35:39.529][Build] cwd: %WS1%
+[19:35:39.533][Build] LaTeX build process spawned with PID 9990.
+[19:35:39.533][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.533][Cacher] Updated elements in 0.26 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:35:39.533][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:35:39.534][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:35:39.534][Event] STRUCTURE_UPDATED
+[19:35:40.055][Parser][TexLog] Logged 7 messages.
+[19:35:40.056][Build] Finished a step in recipe with PID 9990.
+[19:35:40.056][Build] Successfully built %WS1%/main.tex .
+[19:35:40.056][Event] BUILD_DONE
+[19:35:40.056][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:35:40.056][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:35:40.062][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:35:40.156][Viewer] Handle data type: loaded
+[19:35:40.156][Event] VIEWER_PAGE_LOADED
+[19:36:07.140][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:36:07.202][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:36:07.202][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.202][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.202][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.203][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.203][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:36:07.203][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:36:07.203][Build] The languageId of the document: latex
+[19:36:07.203][Build] Building root file: %WS1%/main.tex
+[19:36:07.203][Build][Recipe] Build root file %WS1%/main.tex
+[19:36:07.203][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:36:07.203][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:36:07.204][Build][Recipe] Prepared 1 tools.
+[19:36:07.204][Build][Recipe] outDir: %WS1% .
+[19:36:07.204][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:36:07.204][Build] env: {}
+[19:36:07.204][Build] root: %WS1%/main.tex
+[19:36:07.204][Build] cwd: %WS1%
+[19:36:07.208][Build] LaTeX build process spawned with PID 9999.
+[19:36:07.208][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.209][Cacher] Updated elements in 0.17 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:36:07.209][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:36:07.209][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:36:07.209][Event] STRUCTURE_UPDATED
+[19:36:07.730][Parser][TexLog] Logged 7 messages.
+[19:36:07.731][Build] Finished a step in recipe with PID 9999.
+[19:36:07.731][Build] Successfully built %WS1%/main.tex .
+[19:36:07.731][Event] BUILD_DONE
+[19:36:07.731][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:36:07.731][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:36:07.738][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:36:07.830][Viewer] Handle data type: loaded
+[19:36:07.831][Event] VIEWER_PAGE_LOADED
+[19:37:34.577][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:37:34.648][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:37:34.648][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.648][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.649][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.649][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.649][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:37:34.649][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:37:34.649][Build] The languageId of the document: latex
+[19:37:34.649][Build] Building root file: %WS1%/main.tex
+[19:37:34.649][Build][Recipe] Build root file %WS1%/main.tex
+[19:37:34.649][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:37:34.650][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:37:34.650][Build][Recipe] Prepared 1 tools.
+[19:37:34.650][Build][Recipe] outDir: %WS1% .
+[19:37:34.650][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:37:34.650][Build] env: {}
+[19:37:34.650][Build] root: %WS1%/main.tex
+[19:37:34.651][Build] cwd: %WS1%
+[19:37:34.654][Build] LaTeX build process spawned with PID 10010.
+[19:37:34.655][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.655][Cacher] Updated elements in 0.27 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:37:34.655][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:37:34.656][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:37:34.656][Event] STRUCTURE_UPDATED
+[19:37:35.187][Parser][TexLog] Logged 7 messages.
+[19:37:35.188][Build] Finished a step in recipe with PID 10010.
+[19:37:35.188][Build] Successfully built %WS1%/main.tex .
+[19:37:35.188][Event] BUILD_DONE
+[19:37:35.188][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:37:35.189][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:37:35.194][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:37:35.280][Viewer] Handle data type: loaded
+[19:37:35.280][Event] VIEWER_PAGE_LOADED
+[19:38:10.179][Event] STRUCTURE_UPDATED
+[19:38:17.415][Root] Current workspace folders: ["file://%WS1%"]
+[19:38:17.417][Root] Keep using the same root file: %WS1%/main.tex
+[19:38:17.417][Event] ROOT_FILE_SEARCHED
+[19:38:17.417][Event] STRUCTURE_UPDATED
+[19:38:17.417][Event] STRUCTURE_UPDATED
+[19:38:37.265][Root] Current workspace folders: ["file://%WS1%"]
+[19:38:37.266][Root] Keep using the same root file: %WS1%/main.tex
+[19:38:37.266][Event] ROOT_FILE_SEARCHED
+[19:38:37.266][Event] STRUCTURE_UPDATED
+[19:38:37.266][Event] STRUCTURE_UPDATED
+[19:38:56.519][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:38:56.590][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:38:56.590][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.591][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.591][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.591][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.591][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:38:56.591][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:38:56.591][Build] The languageId of the document: latex
+[19:38:56.591][Build] Building root file: %WS1%/main.tex
+[19:38:56.591][Build][Recipe] Build root file %WS1%/main.tex
+[19:38:56.591][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:38:56.592][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:38:56.592][Build][Recipe] Prepared 1 tools.
+[19:38:56.592][Build][Recipe] outDir: %WS1% .
+[19:38:56.592][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:38:56.592][Build] env: {}
+[19:38:56.592][Build] root: %WS1%/main.tex
+[19:38:56.593][Build] cwd: %WS1%
+[19:38:56.596][Build] LaTeX build process spawned with PID 12429.
+[19:38:56.597][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.597][Cacher] Updated elements in 0.21 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:38:56.598][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:38:56.598][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:38:56.598][Event] STRUCTURE_UPDATED
+[19:38:57.129][Parser][TexLog] Logged 7 messages.
+[19:38:57.129][Build] Finished a step in recipe with PID 12429.
+[19:38:57.130][Build] Successfully built %WS1%/main.tex .
+[19:38:57.130][Event] BUILD_DONE
+[19:38:57.130][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:38:57.130][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:38:57.137][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:38:57.228][Viewer] Handle data type: loaded
+[19:38:57.228][Event] VIEWER_PAGE_LOADED
+[19:39:43.354][Event] STRUCTURE_UPDATED
+[19:39:53.224][Root] Current workspace folders: ["file://%WS1%"]
+[19:39:53.225][Root] Keep using the same root file: %WS1%/main.tex
+[19:39:53.225][Event] ROOT_FILE_SEARCHED
+[19:39:53.225][Event] STRUCTURE_UPDATED
+[19:39:53.225][Event] STRUCTURE_UPDATED
+[19:40:02.382][Extension] onDidSaveTextDocument triggered: file://%WS1%/Front/notations_conventions.tex
+[19:40:02.454][Cacher][Watcher] "change" emitted on %WS1%/Front/notations_conventions.tex.
+[19:40:02.454][Cacher] Caching %WS1%/Front/notations_conventions.tex .
+[19:40:02.454][Cacher] Updated inputs of %WS1%/Front/notations_conventions.tex .
+[19:40:02.454][Cacher] Parse LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:40:02.455][Build] Auto build started detecting the change of a file: %WS1%/Front/notations_conventions.tex .
+[19:40:02.455][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Front/notations_conventions.tex"}
+[19:40:02.455][Build] The document of the active editor: file://%WS1%/Front/notations_conventions.tex
+[19:40:02.455][Build] The languageId of the document: latex
+[19:40:02.455][Build] Building root file: %WS1%/main.tex
+[19:40:02.455][Build][Recipe] Build root file %WS1%/main.tex
+[19:40:02.455][Event] FILE_CHANGED: "%WS1%/Front/notations_conventions.tex"
+[19:40:02.455][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:40:02.456][Build][Recipe] Prepared 1 tools.
+[19:40:02.456][Build][Recipe] outDir: %WS1% .
+[19:40:02.456][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:40:02.456][Build] env: {}
+[19:40:02.456][Build] root: %WS1%/main.tex
+[19:40:02.456][Build] cwd: %WS1%
+[19:40:02.460][Build] LaTeX build process spawned with PID 13719.
+[19:40:02.480][Cacher] Parsed LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:40:02.482][Cacher] Updated elements in 2.10 ms: %WS1%/Front/notations_conventions.tex .
+[19:40:02.483][Event] FILE_PARSED: "%WS1%/Front/notations_conventions.tex"
+[19:40:02.483][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:40:02.484][Event] STRUCTURE_UPDATED
+[19:40:03.008][Parser][TexLog] Logged 7 messages.
+[19:40:03.009][Build] Finished a step in recipe with PID 13719.
+[19:40:03.009][Build] Successfully built %WS1%/main.tex .
+[19:40:03.009][Event] BUILD_DONE
+[19:40:03.009][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:40:03.009][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:40:03.015][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:40:03.103][Viewer] Handle data type: loaded
+[19:40:03.104][Event] VIEWER_PAGE_LOADED
+[19:43:58.467][Extension] onDidSaveTextDocument triggered: file://%WS1%/Front/notations_conventions.tex
+[19:43:58.541][Cacher][Watcher] "change" emitted on %WS1%/Front/notations_conventions.tex.
+[19:43:58.541][Cacher] Caching %WS1%/Front/notations_conventions.tex .
+[19:43:58.541][Cacher] Updated inputs of %WS1%/Front/notations_conventions.tex .
+[19:43:58.541][Cacher] Parse LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:43:58.541][Build] Auto build started detecting the change of a file: %WS1%/Front/notations_conventions.tex .
+[19:43:58.541][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/Front/notations_conventions.tex"}
+[19:43:58.541][Build] The document of the active editor: file://%WS1%/Front/notations_conventions.tex
+[19:43:58.541][Build] The languageId of the document: latex
+[19:43:58.541][Build] Building root file: %WS1%/main.tex
+[19:43:58.541][Build][Recipe] Build root file %WS1%/main.tex
+[19:43:58.542][Event] FILE_CHANGED: "%WS1%/Front/notations_conventions.tex"
+[19:43:58.542][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:43:58.542][Build][Recipe] Prepared 1 tools.
+[19:43:58.542][Build][Recipe] outDir: %WS1% .
+[19:43:58.543][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:43:58.543][Build] env: {}
+[19:43:58.543][Build] root: %WS1%/main.tex
+[19:43:58.543][Build] cwd: %WS1%
+[19:43:58.547][Build] LaTeX build process spawned with PID 13881.
+[19:43:58.566][Cacher] Parsed LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[19:43:58.568][Cacher] Updated elements in 1.75 ms: %WS1%/Front/notations_conventions.tex .
+[19:43:58.569][Event] FILE_PARSED: "%WS1%/Front/notations_conventions.tex"
+[19:43:58.569][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:43:58.569][Event] STRUCTURE_UPDATED
+[19:43:59.078][Parser][TexLog] Logged 7 messages.
+[19:43:59.078][Build] Finished a step in recipe with PID 13881.
+[19:43:59.078][Build] Successfully built %WS1%/main.tex .
+[19:43:59.078][Event] BUILD_DONE
+[19:43:59.079][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:43:59.079][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:43:59.086][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:43:59.179][Viewer] Handle data type: loaded
+[19:43:59.179][Event] VIEWER_PAGE_LOADED
+[19:44:14.370][Event] STRUCTURE_UPDATED
+[19:44:28.987][Root] Current workspace folders: ["file://%WS1%"]
+[19:44:28.988][Root] Keep using the same root file: %WS1%/main.tex
+[19:44:28.988][Event] ROOT_FILE_SEARCHED
+[19:44:28.988][Event] STRUCTURE_UPDATED
+[19:44:28.988][Event] STRUCTURE_UPDATED
+[19:45:49.104][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:45:49.165][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:45:49.166][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.166][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.166][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.166][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.166][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:45:49.166][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:45:49.166][Build] The languageId of the document: latex
+[19:45:49.167][Build] Building root file: %WS1%/main.tex
+[19:45:49.167][Build][Recipe] Build root file %WS1%/main.tex
+[19:45:49.167][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:45:49.167][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:45:49.167][Build][Recipe] Prepared 1 tools.
+[19:45:49.168][Build][Recipe] outDir: %WS1% .
+[19:45:49.168][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:45:49.168][Build] env: {}
+[19:45:49.168][Build] root: %WS1%/main.tex
+[19:45:49.168][Build] cwd: %WS1%
+[19:45:49.172][Build] LaTeX build process spawned with PID 15886.
+[19:45:49.172][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.173][Cacher] Updated elements in 0.21 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:45:49.173][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:45:49.173][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:45:49.173][Event] STRUCTURE_UPDATED
+[19:45:49.694][Parser][TexLog] Logged 7 messages.
+[19:45:49.694][Build] Finished a step in recipe with PID 15886.
+[19:45:49.694][Build] Successfully built %WS1%/main.tex .
+[19:45:49.694][Event] BUILD_DONE
+[19:45:49.694][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:45:49.694][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:45:49.701][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:45:49.787][Viewer] Handle data type: loaded
+[19:45:49.787][Event] VIEWER_PAGE_LOADED
+[19:46:21.810][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:46:21.858][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:46:21.858][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.858][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.858][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.858][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.858][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:46:21.858][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:46:21.858][Build] The languageId of the document: latex
+[19:46:21.858][Build] Building root file: %WS1%/main.tex
+[19:46:21.858][Build][Recipe] Build root file %WS1%/main.tex
+[19:46:21.859][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:46:21.859][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:46:21.859][Build][Recipe] Prepared 1 tools.
+[19:46:21.859][Build][Recipe] outDir: %WS1% .
+[19:46:21.859][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:46:21.860][Build] env: {}
+[19:46:21.860][Build] root: %WS1%/main.tex
+[19:46:21.860][Build] cwd: %WS1%
+[19:46:21.863][Build] LaTeX build process spawned with PID 15895.
+[19:46:21.865][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.865][Cacher] Updated elements in 0.39 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:46:21.866][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:46:21.866][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:46:21.866][Event] STRUCTURE_UPDATED
+[19:46:22.386][Parser][TexLog] Logged 7 messages.
+[19:46:22.387][Build] Finished a step in recipe with PID 15895.
+[19:46:22.387][Build] Successfully built %WS1%/main.tex .
+[19:46:22.387][Event] BUILD_DONE
+[19:46:22.387][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:46:22.387][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:46:22.391][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:46:22.486][Viewer] Handle data type: loaded
+[19:46:22.486][Event] VIEWER_PAGE_LOADED
+[19:47:24.150][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:47:24.219][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:47:24.219][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.219][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.219][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.220][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.220][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:47:24.220][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:47:24.220][Build] The languageId of the document: latex
+[19:47:24.220][Build] Building root file: %WS1%/main.tex
+[19:47:24.220][Build][Recipe] Build root file %WS1%/main.tex
+[19:47:24.220][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:47:24.221][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:47:24.221][Build][Recipe] Prepared 1 tools.
+[19:47:24.221][Build][Recipe] outDir: %WS1% .
+[19:47:24.221][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:47:24.221][Build] env: {}
+[19:47:24.221][Build] root: %WS1%/main.tex
+[19:47:24.222][Build] cwd: %WS1%
+[19:47:24.225][Build] LaTeX build process spawned with PID 16374.
+[19:47:24.226][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.226][Cacher] Updated elements in 0.24 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:47:24.226][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:47:24.227][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:47:24.227][Event] STRUCTURE_UPDATED
+[19:47:24.753][Parser][TexLog] Logged 7 messages.
+[19:47:24.754][Build] Finished a step in recipe with PID 16374.
+[19:47:24.754][Build] Successfully built %WS1%/main.tex .
+[19:47:24.754][Event] BUILD_DONE
+[19:47:24.754][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:47:24.754][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:47:24.760][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:47:24.853][Viewer] Handle data type: loaded
+[19:47:24.853][Event] VIEWER_PAGE_LOADED
+[19:48:10.371][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:48:10.441][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:48:10.442][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.442][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.442][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.442][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.442][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:48:10.442][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:48:10.442][Build] The languageId of the document: latex
+[19:48:10.442][Build] Building root file: %WS1%/main.tex
+[19:48:10.442][Build][Recipe] Build root file %WS1%/main.tex
+[19:48:10.442][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:48:10.443][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:48:10.443][Build][Recipe] Prepared 1 tools.
+[19:48:10.443][Build][Recipe] outDir: %WS1% .
+[19:48:10.443][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:48:10.443][Build] env: {}
+[19:48:10.443][Build] root: %WS1%/main.tex
+[19:48:10.444][Build] cwd: %WS1%
+[19:48:10.447][Build] LaTeX build process spawned with PID 16382.
+[19:48:10.448][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.449][Cacher] Updated elements in 0.32 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:10.449][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:48:10.449][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:48:10.450][Event] STRUCTURE_UPDATED
+[19:48:10.970][Parser][TexLog] Logged 7 messages.
+[19:48:10.970][Build] Finished a step in recipe with PID 16382.
+[19:48:10.971][Build] Successfully built %WS1%/main.tex .
+[19:48:10.971][Event] BUILD_DONE
+[19:48:10.971][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:48:10.971][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:48:10.977][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:48:11.071][Viewer] Handle data type: loaded
+[19:48:11.071][Event] VIEWER_PAGE_LOADED
+[19:48:39.694][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:48:39.765][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:48:39.765][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.765][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.765][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.765][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.766][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:48:39.766][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:48:39.766][Build] The languageId of the document: latex
+[19:48:39.766][Build] Building root file: %WS1%/main.tex
+[19:48:39.766][Build][Recipe] Build root file %WS1%/main.tex
+[19:48:39.766][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:48:39.766][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:48:39.766][Build][Recipe] Prepared 1 tools.
+[19:48:39.767][Build][Recipe] outDir: %WS1% .
+[19:48:39.767][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:48:39.767][Build] env: {}
+[19:48:39.767][Build] root: %WS1%/main.tex
+[19:48:39.767][Build] cwd: %WS1%
+[19:48:39.771][Build] LaTeX build process spawned with PID 16394.
+[19:48:39.772][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.772][Cacher] Updated elements in 0.26 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:48:39.772][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:48:39.773][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:48:39.773][Event] STRUCTURE_UPDATED
+[19:48:40.296][Parser][TexLog] Logged 7 messages.
+[19:48:40.296][Build] Finished a step in recipe with PID 16394.
+[19:48:40.296][Build] Successfully built %WS1%/main.tex .
+[19:48:40.296][Event] BUILD_DONE
+[19:48:40.296][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:48:40.296][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:48:40.304][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:48:40.394][Viewer] Handle data type: loaded
+[19:48:40.394][Event] VIEWER_PAGE_LOADED
+[19:49:50.922][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:49:50.990][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:49:50.991][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:50.991][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:50.991][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:50.991][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:50.991][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:49:50.992][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:49:50.992][Build] The languageId of the document: latex
+[19:49:50.992][Build] Building root file: %WS1%/main.tex
+[19:49:50.992][Build][Recipe] Build root file %WS1%/main.tex
+[19:49:50.992][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:49:50.993][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:49:50.993][Build][Recipe] Prepared 1 tools.
+[19:49:50.993][Build][Recipe] outDir: %WS1% .
+[19:49:50.994][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:49:50.994][Build] env: {}
+[19:49:50.994][Build] root: %WS1%/main.tex
+[19:49:50.994][Build] cwd: %WS1%
+[19:49:50.998][Build] LaTeX build process spawned with PID 16425.
+[19:49:50.999][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:51.000][Cacher] Updated elements in 0.81 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:49:51.000][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:49:51.001][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:49:51.001][Event] STRUCTURE_UPDATED
+[19:49:51.529][Parser][TexLog] Logged 7 messages.
+[19:49:51.530][Build] Finished a step in recipe with PID 16425.
+[19:49:51.530][Build] Successfully built %WS1%/main.tex .
+[19:49:51.530][Event] BUILD_DONE
+[19:49:51.530][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:49:51.530][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:49:51.536][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:49:51.629][Viewer] Handle data type: loaded
+[19:49:51.629][Event] VIEWER_PAGE_LOADED
+[19:52:38.325][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:52:38.395][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:52:38.395][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.396][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.396][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.396][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.396][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:52:38.396][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:52:38.396][Build] The languageId of the document: latex
+[19:52:38.396][Build] Building root file: %WS1%/main.tex
+[19:52:38.396][Build][Recipe] Build root file %WS1%/main.tex
+[19:52:38.396][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:52:38.396][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:52:38.397][Build][Recipe] Prepared 1 tools.
+[19:52:38.397][Build][Recipe] outDir: %WS1% .
+[19:52:38.397][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:52:38.397][Build] env: {}
+[19:52:38.398][Build] root: %WS1%/main.tex
+[19:52:38.398][Build] cwd: %WS1%
+[19:52:38.402][Build] LaTeX build process spawned with PID 16467.
+[19:52:38.403][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.403][Cacher] Updated elements in 0.27 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:52:38.403][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:52:38.404][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:52:38.404][Event] STRUCTURE_UPDATED
+[19:52:38.931][Parser][TexLog] Logged 7 messages.
+[19:52:38.932][Build] Finished a step in recipe with PID 16467.
+[19:52:38.932][Build] Successfully built %WS1%/main.tex .
+[19:52:38.932][Event] BUILD_DONE
+[19:52:38.932][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:52:38.932][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:52:38.938][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:52:39.037][Viewer] Handle data type: loaded
+[19:52:39.037][Event] VIEWER_PAGE_LOADED
+[19:53:09.896][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:53:09.964][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:53:09.965][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.965][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.965][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.965][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.965][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:53:09.965][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:53:09.966][Build] The languageId of the document: latex
+[19:53:09.966][Build] Building root file: %WS1%/main.tex
+[19:53:09.966][Build][Recipe] Build root file %WS1%/main.tex
+[19:53:09.966][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:53:09.966][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:53:09.966][Build][Recipe] Prepared 1 tools.
+[19:53:09.967][Build][Recipe] outDir: %WS1% .
+[19:53:09.967][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:53:09.967][Build] env: {}
+[19:53:09.968][Build] root: %WS1%/main.tex
+[19:53:09.968][Build] cwd: %WS1%
+[19:53:09.971][Build] LaTeX build process spawned with PID 16476.
+[19:53:09.972][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.973][Cacher] Updated elements in 0.77 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:53:09.974][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:53:09.974][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:53:09.975][Event] STRUCTURE_UPDATED
+[19:53:10.498][Parser][TexLog] Logged 7 messages.
+[19:53:10.499][Build] Finished a step in recipe with PID 16476.
+[19:53:10.499][Build] Successfully built %WS1%/main.tex .
+[19:53:10.499][Event] BUILD_DONE
+[19:53:10.499][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:53:10.499][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:53:10.505][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:53:10.594][Viewer] Handle data type: loaded
+[19:53:10.594][Event] VIEWER_PAGE_LOADED
+[19:56:05.007][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:56:05.076][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:56:05.076][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.077][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.077][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.077][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.077][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:56:05.077][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:56:05.077][Build] The languageId of the document: latex
+[19:56:05.077][Build] Building root file: %WS1%/main.tex
+[19:56:05.077][Build][Recipe] Build root file %WS1%/main.tex
+[19:56:05.077][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:56:05.078][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:56:05.078][Build][Recipe] Prepared 1 tools.
+[19:56:05.078][Build][Recipe] outDir: %WS1% .
+[19:56:05.079][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:56:05.079][Build] env: {}
+[19:56:05.080][Build] root: %WS1%/main.tex
+[19:56:05.080][Build] cwd: %WS1%
+[19:56:05.084][Build] LaTeX build process spawned with PID 16534.
+[19:56:05.084][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.085][Cacher] Updated elements in 0.46 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:56:05.085][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:56:05.086][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:56:05.086][Event] STRUCTURE_UPDATED
+[19:56:05.608][Parser][TexLog] Logged 7 messages.
+[19:56:05.608][Build] Finished a step in recipe with PID 16534.
+[19:56:05.608][Build] Successfully built %WS1%/main.tex .
+[19:56:05.608][Event] BUILD_DONE
+[19:56:05.609][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:56:05.609][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:56:05.615][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:56:05.709][Viewer] Handle data type: loaded
+[19:56:05.709][Event] VIEWER_PAGE_LOADED
+[19:57:30.366][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:30.428][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:57:30.428][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.428][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.429][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.429][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.429][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:57:30.429][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:30.429][Build] The languageId of the document: latex
+[19:57:30.429][Build] Building root file: %WS1%/main.tex
+[19:57:30.429][Build][Recipe] Build root file %WS1%/main.tex
+[19:57:30.429][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:30.430][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:57:30.430][Build][Recipe] Prepared 1 tools.
+[19:57:30.431][Build][Recipe] outDir: %WS1% .
+[19:57:30.431][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:57:30.431][Build] env: {}
+[19:57:30.431][Build] root: %WS1%/main.tex
+[19:57:30.431][Build] cwd: %WS1%
+[19:57:30.435][Build] LaTeX build process spawned with PID 16547.
+[19:57:30.437][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.438][Cacher] Updated elements in 1.23 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:30.438][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:30.439][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:57:30.439][Event] STRUCTURE_UPDATED
+[19:57:30.978][Parser][TexLog] Logged 7 messages.
+[19:57:30.978][Build] Finished a step in recipe with PID 16547.
+[19:57:30.978][Build] Successfully built %WS1%/main.tex .
+[19:57:30.978][Event] BUILD_DONE
+[19:57:30.979][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:57:30.979][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:57:30.985][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:57:31.083][Viewer] Handle data type: loaded
+[19:57:31.083][Event] VIEWER_PAGE_LOADED
+[19:57:34.504][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:34.573][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:57:34.573][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.573][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.573][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.573][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.574][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:57:34.574][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:34.574][Build] The languageId of the document: latex
+[19:57:34.574][Build] Building root file: %WS1%/main.tex
+[19:57:34.574][Build][Recipe] Build root file %WS1%/main.tex
+[19:57:34.574][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:34.574][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:57:34.574][Build][Recipe] Prepared 1 tools.
+[19:57:34.575][Build][Recipe] outDir: %WS1% .
+[19:57:34.575][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:57:34.575][Build] env: {}
+[19:57:34.575][Build] root: %WS1%/main.tex
+[19:57:34.575][Build] cwd: %WS1%
+[19:57:34.579][Build] LaTeX build process spawned with PID 16556.
+[19:57:34.580][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.581][Cacher] Updated elements in 0.66 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:34.581][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:34.581][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:57:34.581][Event] STRUCTURE_UPDATED
+[19:57:35.107][Parser][TexLog] Logged 7 messages.
+[19:57:35.108][Build] Finished a step in recipe with PID 16556.
+[19:57:35.108][Build] Successfully built %WS1%/main.tex .
+[19:57:35.108][Event] BUILD_DONE
+[19:57:35.108][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:57:35.108][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:57:35.113][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:57:35.208][Viewer] Handle data type: loaded
+[19:57:35.208][Event] VIEWER_PAGE_LOADED
+[19:57:50.607][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:50.677][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:57:50.678][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.678][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.678][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.678][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.678][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:57:50.678][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:57:50.678][Build] The languageId of the document: latex
+[19:57:50.679][Build] Building root file: %WS1%/main.tex
+[19:57:50.679][Build][Recipe] Build root file %WS1%/main.tex
+[19:57:50.679][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:50.680][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:57:50.680][Build][Recipe] Prepared 1 tools.
+[19:57:50.680][Build][Recipe] outDir: %WS1% .
+[19:57:50.681][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:57:50.681][Build] env: {}
+[19:57:50.681][Build] root: %WS1%/main.tex
+[19:57:50.681][Build] cwd: %WS1%
+[19:57:50.685][Build] LaTeX build process spawned with PID 16570.
+[19:57:50.689][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.690][Cacher] Updated elements in 0.82 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:57:50.691][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:57:50.691][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:57:50.692][Event] STRUCTURE_UPDATED
+[19:57:51.205][Parser][TexLog] Logged 7 messages.
+[19:57:51.205][Build] Finished a step in recipe with PID 16570.
+[19:57:51.205][Build] Successfully built %WS1%/main.tex .
+[19:57:51.205][Event] BUILD_DONE
+[19:57:51.206][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:57:51.206][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:57:51.212][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:57:51.310][Viewer] Handle data type: loaded
+[19:57:51.311][Event] VIEWER_PAGE_LOADED
+[19:58:05.493][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:58:05.554][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:58:05.554][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.554][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.554][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.555][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.555][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:58:05.555][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:58:05.555][Build] The languageId of the document: latex
+[19:58:05.555][Build] Building root file: %WS1%/main.tex
+[19:58:05.555][Build][Recipe] Build root file %WS1%/main.tex
+[19:58:05.555][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:58:05.556][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:58:05.556][Build][Recipe] Prepared 1 tools.
+[19:58:05.556][Build][Recipe] outDir: %WS1% .
+[19:58:05.557][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:58:05.557][Build] env: {}
+[19:58:05.557][Build] root: %WS1%/main.tex
+[19:58:05.557][Build] cwd: %WS1%
+[19:58:05.561][Build] LaTeX build process spawned with PID 16585.
+[19:58:05.566][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.567][Cacher] Updated elements in 0.54 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:58:05.567][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:58:05.568][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:58:05.568][Event] STRUCTURE_UPDATED
+[19:58:06.087][Parser][TexLog] Logged 7 messages.
+[19:58:06.088][Build] Finished a step in recipe with PID 16585.
+[19:58:06.088][Build] Successfully built %WS1%/main.tex .
+[19:58:06.088][Event] BUILD_DONE
+[19:58:06.088][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:58:06.088][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:58:06.093][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:58:06.188][Viewer] Handle data type: loaded
+[19:58:06.189][Event] VIEWER_PAGE_LOADED
+[19:59:11.083][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:59:11.152][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[19:59:11.152][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.152][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.152][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.152][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.152][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[19:59:11.152][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[19:59:11.152][Build] The languageId of the document: latex
+[19:59:11.153][Build] Building root file: %WS1%/main.tex
+[19:59:11.153][Build][Recipe] Build root file %WS1%/main.tex
+[19:59:11.153][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:59:11.154][Build][Recipe] Preparing to run recipe: Build Latex.
+[19:59:11.154][Build][Recipe] Prepared 1 tools.
+[19:59:11.154][Build][Recipe] outDir: %WS1% .
+[19:59:11.154][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[19:59:11.154][Build] env: {}
+[19:59:11.154][Build] root: %WS1%/main.tex
+[19:59:11.154][Build] cwd: %WS1%
+[19:59:11.158][Build] LaTeX build process spawned with PID 16602.
+[19:59:11.160][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.161][Cacher] Updated elements in 0.58 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[19:59:11.161][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[19:59:11.161][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[19:59:11.161][Event] STRUCTURE_UPDATED
+[19:59:11.694][Parser][TexLog] Logged 7 messages.
+[19:59:11.694][Build] Finished a step in recipe with PID 16602.
+[19:59:11.694][Build] Successfully built %WS1%/main.tex .
+[19:59:11.694][Event] BUILD_DONE
+[19:59:11.694][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[19:59:11.694][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[19:59:11.701][Server] Preview PDF file: file://%WS1%/main.pdf
+[19:59:11.797][Viewer] Handle data type: loaded
+[19:59:11.798][Event] VIEWER_PAGE_LOADED
+[20:00:28.784][Event] STRUCTURE_UPDATED
+[20:00:33.449][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:00:33.498][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:00:33.499][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.499][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.499][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.499][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.499][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:00:33.499][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:00:33.499][Build] The languageId of the document: latex
+[20:00:33.499][Build] Building root file: %WS1%/main.tex
+[20:00:33.499][Build][Recipe] Build root file %WS1%/main.tex
+[20:00:33.499][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:00:33.500][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:00:33.500][Build][Recipe] Prepared 1 tools.
+[20:00:33.500][Build][Recipe] outDir: %WS1% .
+[20:00:33.501][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:00:33.501][Build] env: {}
+[20:00:33.501][Build] root: %WS1%/main.tex
+[20:00:33.501][Build] cwd: %WS1%
+[20:00:33.505][Build] LaTeX build process spawned with PID 16648.
+[20:00:33.507][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.508][Cacher] Updated elements in 0.65 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:33.508][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:00:33.508][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:00:33.508][Event] STRUCTURE_UPDATED
+[20:00:34.039][Parser][TexLog] Logged 7 messages.
+[20:00:34.039][Build] Finished a step in recipe with PID 16648.
+[20:00:34.039][Build] Successfully built %WS1%/main.tex .
+[20:00:34.040][Event] BUILD_DONE
+[20:00:34.040][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:00:34.040][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:00:34.045][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:00:34.136][Viewer] Handle data type: loaded
+[20:00:34.136][Event] VIEWER_PAGE_LOADED
+[20:00:45.506][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:00:45.574][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:00:45.575][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.575][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.575][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.575][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.575][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:00:45.575][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:00:45.575][Build] The languageId of the document: latex
+[20:00:45.575][Build] Building root file: %WS1%/main.tex
+[20:00:45.575][Build][Recipe] Build root file %WS1%/main.tex
+[20:00:45.575][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:00:45.576][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:00:45.576][Build][Recipe] Prepared 1 tools.
+[20:00:45.576][Build][Recipe] outDir: %WS1% .
+[20:00:45.576][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:00:45.576][Build] env: {}
+[20:00:45.577][Build] root: %WS1%/main.tex
+[20:00:45.577][Build] cwd: %WS1%
+[20:00:45.580][Build] LaTeX build process spawned with PID 16665.
+[20:00:45.585][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.586][Cacher] Updated elements in 0.34 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:00:45.586][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:00:45.587][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:00:45.587][Event] STRUCTURE_UPDATED
+[20:00:46.101][Parser][TexLog] Logged 7 messages.
+[20:00:46.101][Build] Finished a step in recipe with PID 16665.
+[20:00:46.102][Build] Successfully built %WS1%/main.tex .
+[20:00:46.102][Event] BUILD_DONE
+[20:00:46.102][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:00:46.102][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:00:46.108][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:00:46.205][Viewer] Handle data type: loaded
+[20:00:46.205][Event] VIEWER_PAGE_LOADED
+[20:02:09.395][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:02:09.465][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:02:09.465][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.465][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.466][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.466][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.466][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:02:09.466][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:02:09.466][Build] The languageId of the document: latex
+[20:02:09.466][Build] Building root file: %WS1%/main.tex
+[20:02:09.466][Build][Recipe] Build root file %WS1%/main.tex
+[20:02:09.466][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:02:09.466][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:02:09.467][Build][Recipe] Prepared 1 tools.
+[20:02:09.467][Build][Recipe] outDir: %WS1% .
+[20:02:09.467][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:02:09.467][Build] env: {}
+[20:02:09.467][Build] root: %WS1%/main.tex
+[20:02:09.467][Build] cwd: %WS1%
+[20:02:09.471][Build] LaTeX build process spawned with PID 16702.
+[20:02:09.478][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.478][Cacher] Updated elements in 0.60 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:09.479][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:02:09.480][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:02:09.480][Event] STRUCTURE_UPDATED
+[20:02:09.999][Parser][TexLog] Logged 7 messages.
+[20:02:09.999][Build] Finished a step in recipe with PID 16702.
+[20:02:09.999][Build] Successfully built %WS1%/main.tex .
+[20:02:09.999][Event] BUILD_DONE
+[20:02:10.000][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:02:10.000][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:02:10.006][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:02:10.097][Viewer] Handle data type: loaded
+[20:02:10.097][Event] VIEWER_PAGE_LOADED
+[20:02:18.272][Preview][Math][Cursor] Parse LaTeX AST from $alpha$ .
+[20:02:19.965][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:02:20.035][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:02:20.035][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.035][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.035][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.035][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.035][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:02:20.035][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:02:20.035][Build] The languageId of the document: latex
+[20:02:20.035][Build] Building root file: %WS1%/main.tex
+[20:02:20.035][Build][Recipe] Build root file %WS1%/main.tex
+[20:02:20.035][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:02:20.036][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:02:20.036][Build][Recipe] Prepared 1 tools.
+[20:02:20.036][Build][Recipe] outDir: %WS1% .
+[20:02:20.037][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:02:20.037][Build] env: {}
+[20:02:20.037][Build] root: %WS1%/main.tex
+[20:02:20.037][Build] cwd: %WS1%
+[20:02:20.041][Build] LaTeX build process spawned with PID 16721.
+[20:02:20.044][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.045][Cacher] Updated elements in 0.83 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:02:20.046][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:02:20.047][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:02:20.047][Event] STRUCTURE_UPDATED
+[20:02:20.584][Parser][TexLog] Logged 7 messages.
+[20:02:20.585][Build] Finished a step in recipe with PID 16721.
+[20:02:20.585][Build] Successfully built %WS1%/main.tex .
+[20:02:20.585][Event] BUILD_DONE
+[20:02:20.585][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:02:20.585][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:02:20.591][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:02:20.685][Viewer] Handle data type: loaded
+[20:02:20.685][Event] VIEWER_PAGE_LOADED
+[20:05:11.521][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:11.590][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:05:11.590][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.590][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.591][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.591][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.591][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:05:11.591][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:11.591][Build] The languageId of the document: latex
+[20:05:11.591][Build] Building root file: %WS1%/main.tex
+[20:05:11.591][Build][Recipe] Build root file %WS1%/main.tex
+[20:05:11.591][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:11.592][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:05:11.592][Build][Recipe] Prepared 1 tools.
+[20:05:11.593][Build][Recipe] outDir: %WS1% .
+[20:05:11.593][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:05:11.593][Build] env: {}
+[20:05:11.593][Build] root: %WS1%/main.tex
+[20:05:11.594][Build] cwd: %WS1%
+[20:05:11.598][Build] LaTeX build process spawned with PID 16771.
+[20:05:11.601][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.602][Cacher] Updated elements in 0.73 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:11.603][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:11.604][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:05:11.604][Event] STRUCTURE_UPDATED
+[20:05:12.136][Parser][TexLog] Logged 50 messages.
+[20:05:12.137][Build] Recipe returns with error code 1/null on PID 16771.
+[20:05:12.137][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:05:12.137][Build] 
+[20:05:12.137][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[20:05:12.138][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[20:05:12.141][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[20:05:12.142]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[20:05:12.142][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:05:12.142][Build] env: {}
+[20:05:12.142][Build] root: %WS1%/main.tex
+[20:05:12.142][Build] cwd: %WS1%
+[20:05:12.145][Build] LaTeX build process spawned with PID 16777.
+[20:05:12.146][Event] AUTO_CLEANED
+[20:05:12.683][Parser][TexLog] Logged 50 messages.
+[20:05:12.683][Build] Recipe returns with error code 1/null on PID 16777.
+[20:05:12.684][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:05:12.684][Build] 
+[20:05:20.651][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:20.721][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:05:20.722][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.722][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.722][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.722][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.722][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:05:20.722][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:20.722][Build] The languageId of the document: latex
+[20:05:20.723][Build] Building root file: %WS1%/main.tex
+[20:05:20.723][Build][Recipe] Build root file %WS1%/main.tex
+[20:05:20.723][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:20.724][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:05:20.724][Build][Recipe] Prepared 1 tools.
+[20:05:20.724][Build][Recipe] outDir: %WS1% .
+[20:05:20.725][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:05:20.725][Build] env: {}
+[20:05:20.725][Build] root: %WS1%/main.tex
+[20:05:20.725][Build] cwd: %WS1%
+[20:05:20.729][Build] LaTeX build process spawned with PID 16783.
+[20:05:20.733][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.734][Cacher] Updated elements in 0.64 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:20.734][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:20.735][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:05:20.735][Event] STRUCTURE_UPDATED
+[20:05:21.265][Parser][TexLog] Logged 7 messages.
+[20:05:21.266][Build] Finished a step in recipe with PID 16783.
+[20:05:21.266][Build] Successfully built %WS1%/main.tex .
+[20:05:21.266][Event] BUILD_DONE
+[20:05:21.266][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:05:21.266][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:05:21.272][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:05:21.364][Viewer] Handle data type: loaded
+[20:05:21.364][Event] VIEWER_PAGE_LOADED
+[20:05:51.235][Event] STRUCTURE_UPDATED
+[20:05:59.040][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:59.110][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:05:59.110][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.110][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.111][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.111][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.111][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:05:59.111][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:05:59.111][Build] The languageId of the document: latex
+[20:05:59.111][Build] Building root file: %WS1%/main.tex
+[20:05:59.111][Build][Recipe] Build root file %WS1%/main.tex
+[20:05:59.111][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:59.112][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:05:59.112][Build][Recipe] Prepared 1 tools.
+[20:05:59.112][Build][Recipe] outDir: %WS1% .
+[20:05:59.113][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:05:59.113][Build] env: {}
+[20:05:59.113][Build] root: %WS1%/main.tex
+[20:05:59.113][Build] cwd: %WS1%
+[20:05:59.117][Build] LaTeX build process spawned with PID 16861.
+[20:05:59.123][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.124][Cacher] Updated elements in 0.66 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:05:59.124][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:05:59.124][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:05:59.124][Event] STRUCTURE_UPDATED
+[20:05:59.658][Parser][TexLog] Logged 7 messages.
+[20:05:59.659][Build] Finished a step in recipe with PID 16861.
+[20:05:59.659][Build] Successfully built %WS1%/main.tex .
+[20:05:59.659][Event] BUILD_DONE
+[20:05:59.659][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:05:59.659][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:05:59.667][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:05:59.773][Viewer] Handle data type: loaded
+[20:05:59.774][Event] VIEWER_PAGE_LOADED
+[20:06:05.550][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:05.619][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:06:05.619][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.619][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.619][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.619][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.620][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:06:05.620][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:05.620][Build] The languageId of the document: latex
+[20:06:05.620][Build] Building root file: %WS1%/main.tex
+[20:06:05.620][Build][Recipe] Build root file %WS1%/main.tex
+[20:06:05.620][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:05.621][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:06:05.621][Build][Recipe] Prepared 1 tools.
+[20:06:05.621][Build][Recipe] outDir: %WS1% .
+[20:06:05.621][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:06:05.621][Build] env: {}
+[20:06:05.621][Build] root: %WS1%/main.tex
+[20:06:05.621][Build] cwd: %WS1%
+[20:06:05.625][Build] LaTeX build process spawned with PID 16886.
+[20:06:05.629][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.630][Cacher] Updated elements in 0.77 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:05.630][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:05.631][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:06:05.631][Event] STRUCTURE_UPDATED
+[20:06:06.156][Parser][TexLog] Logged 7 messages.
+[20:06:06.156][Build] Finished a step in recipe with PID 16886.
+[20:06:06.156][Build] Successfully built %WS1%/main.tex .
+[20:06:06.157][Event] BUILD_DONE
+[20:06:06.157][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:06:06.157][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:06:06.162][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:06:06.249][Viewer] Handle data type: loaded
+[20:06:06.249][Event] VIEWER_PAGE_LOADED
+[20:06:16.369][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:16.438][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:06:16.438][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.439][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.439][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.439][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.439][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:06:16.439][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:16.439][Build] The languageId of the document: latex
+[20:06:16.439][Build] Building root file: %WS1%/main.tex
+[20:06:16.439][Build][Recipe] Build root file %WS1%/main.tex
+[20:06:16.439][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:16.440][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:06:16.440][Build][Recipe] Prepared 1 tools.
+[20:06:16.440][Build][Recipe] outDir: %WS1% .
+[20:06:16.440][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:06:16.440][Build] env: {}
+[20:06:16.440][Build] root: %WS1%/main.tex
+[20:06:16.440][Build] cwd: %WS1%
+[20:06:16.444][Build] LaTeX build process spawned with PID 16892.
+[20:06:16.447][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.448][Cacher] Updated elements in 0.81 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:16.448][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:16.449][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:06:16.449][Event] STRUCTURE_UPDATED
+[20:06:16.982][Parser][TexLog] Logged 7 messages.
+[20:06:16.982][Build] Finished a step in recipe with PID 16892.
+[20:06:16.982][Build] Successfully built %WS1%/main.tex .
+[20:06:16.982][Event] BUILD_DONE
+[20:06:16.982][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:06:16.983][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:06:16.989][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:06:17.086][Viewer] Handle data type: loaded
+[20:06:17.086][Event] VIEWER_PAGE_LOADED
+[20:06:38.958][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:39.028][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:06:39.028][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.029][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.029][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.029][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.029][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:06:39.029][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:06:39.029][Build] The languageId of the document: latex
+[20:06:39.029][Build] Building root file: %WS1%/main.tex
+[20:06:39.029][Build][Recipe] Build root file %WS1%/main.tex
+[20:06:39.029][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:39.030][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:06:39.030][Build][Recipe] Prepared 1 tools.
+[20:06:39.030][Build][Recipe] outDir: %WS1% .
+[20:06:39.030][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:06:39.031][Build] env: {}
+[20:06:39.031][Build] root: %WS1%/main.tex
+[20:06:39.031][Build] cwd: %WS1%
+[20:06:39.034][Build] LaTeX build process spawned with PID 16909.
+[20:06:39.041][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.041][Cacher] Updated elements in 0.56 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:06:39.042][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:06:39.042][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:06:39.043][Event] STRUCTURE_UPDATED
+[20:06:39.571][Parser][TexLog] Logged 7 messages.
+[20:06:39.571][Build] Finished a step in recipe with PID 16909.
+[20:06:39.572][Build] Successfully built %WS1%/main.tex .
+[20:06:39.572][Event] BUILD_DONE
+[20:06:39.572][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:06:39.572][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:06:39.578][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:06:39.669][Viewer] Handle data type: loaded
+[20:06:39.669][Event] VIEWER_PAGE_LOADED
+[20:13:16.742][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:13:16.813][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:13:16.814][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.814][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.814][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.814][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.814][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:13:16.814][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:13:16.814][Build] The languageId of the document: latex
+[20:13:16.814][Build] Building root file: %WS1%/main.tex
+[20:13:16.814][Build][Recipe] Build root file %WS1%/main.tex
+[20:13:16.814][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:13:16.815][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:13:16.815][Build][Recipe] Prepared 1 tools.
+[20:13:16.815][Build][Recipe] outDir: %WS1% .
+[20:13:16.815][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:13:16.815][Build] env: {}
+[20:13:16.815][Build] root: %WS1%/main.tex
+[20:13:16.816][Build] cwd: %WS1%
+[20:13:16.819][Build] LaTeX build process spawned with PID 16996.
+[20:13:16.829][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.830][Cacher] Updated elements in 1.23 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:13:16.830][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:13:16.831][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:13:16.831][Event] STRUCTURE_UPDATED
+[20:13:17.353][Parser][TexLog] Logged 7 messages.
+[20:13:17.354][Build] Finished a step in recipe with PID 16996.
+[20:13:17.354][Build] Successfully built %WS1%/main.tex .
+[20:13:17.354][Event] BUILD_DONE
+[20:13:17.354][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:13:17.354][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:13:17.360][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:13:17.454][Viewer] Handle data type: loaded
+[20:13:17.454][Event] VIEWER_PAGE_LOADED
+[20:14:07.484][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:14:07.554][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:14:07.554][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.554][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.554][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.554][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.554][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:14:07.554][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:14:07.554][Build] The languageId of the document: latex
+[20:14:07.554][Build] Building root file: %WS1%/main.tex
+[20:14:07.554][Build][Recipe] Build root file %WS1%/main.tex
+[20:14:07.554][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:14:07.555][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:14:07.555][Build][Recipe] Prepared 1 tools.
+[20:14:07.555][Build][Recipe] outDir: %WS1% .
+[20:14:07.556][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:14:07.556][Build] env: {}
+[20:14:07.556][Build] root: %WS1%/main.tex
+[20:14:07.556][Build] cwd: %WS1%
+[20:14:07.559][Build] LaTeX build process spawned with PID 17005.
+[20:14:07.568][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.569][Cacher] Updated elements in 0.55 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:07.569][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:14:07.570][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:14:07.570][Event] STRUCTURE_UPDATED
+[20:14:08.100][Parser][TexLog] Logged 7 messages.
+[20:14:08.100][Build] Finished a step in recipe with PID 17005.
+[20:14:08.100][Build] Successfully built %WS1%/main.tex .
+[20:14:08.101][Event] BUILD_DONE
+[20:14:08.101][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:14:08.101][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:14:08.106][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:14:08.195][Viewer] Handle data type: loaded
+[20:14:08.195][Event] VIEWER_PAGE_LOADED
+[20:14:35.433][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:14:35.502][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:14:35.503][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.503][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.503][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.503][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.503][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:14:35.503][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:14:35.503][Build] The languageId of the document: latex
+[20:14:35.503][Build] Building root file: %WS1%/main.tex
+[20:14:35.503][Build][Recipe] Build root file %WS1%/main.tex
+[20:14:35.503][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:14:35.504][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:14:35.504][Build][Recipe] Prepared 1 tools.
+[20:14:35.504][Build][Recipe] outDir: %WS1% .
+[20:14:35.504][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:14:35.504][Build] env: {}
+[20:14:35.504][Build] root: %WS1%/main.tex
+[20:14:35.504][Build] cwd: %WS1%
+[20:14:35.508][Build] LaTeX build process spawned with PID 17015.
+[20:14:35.517][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.519][Cacher] Updated elements in 1.38 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:14:35.519][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:14:35.519][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:14:35.519][Event] STRUCTURE_UPDATED
+[20:14:36.037][Parser][TexLog] Logged 7 messages.
+[20:14:36.038][Build] Finished a step in recipe with PID 17015.
+[20:14:36.038][Build] Successfully built %WS1%/main.tex .
+[20:14:36.038][Event] BUILD_DONE
+[20:14:36.038][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:14:36.038][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:14:36.045][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:14:36.135][Viewer] Handle data type: loaded
+[20:14:36.135][Event] VIEWER_PAGE_LOADED
+[20:14:51.578][Event] STRUCTURE_UPDATED
+[20:18:20.143][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:18:20.213][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:18:20.214][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.214][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.214][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.214][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.214][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:18:20.214][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:18:20.215][Build] The languageId of the document: latex
+[20:18:20.215][Build] Building root file: %WS1%/main.tex
+[20:18:20.215][Build][Recipe] Build root file %WS1%/main.tex
+[20:18:20.215][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:18:20.215][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:18:20.215][Build][Recipe] Prepared 1 tools.
+[20:18:20.216][Build][Recipe] outDir: %WS1% .
+[20:18:20.216][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:18:20.216][Build] env: {}
+[20:18:20.216][Build] root: %WS1%/main.tex
+[20:18:20.216][Build] cwd: %WS1%
+[20:18:20.220][Build] LaTeX build process spawned with PID 17049.
+[20:18:20.230][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.232][Cacher] Updated elements in 1.81 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:20.232][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:18:20.233][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:18:20.233][Event] STRUCTURE_UPDATED
+[20:18:20.756][Parser][TexLog] Logged 12 messages.
+[20:18:20.756][Build] Recipe returns with error code 1/null on PID 17049.
+[20:18:20.756][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:18:20.756][Build] 
+[20:18:20.756][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[20:18:20.757][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[20:18:20.761][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[20:18:20.761]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[20:18:20.761][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:18:20.761][Build] env: {}
+[20:18:20.761][Build] root: %WS1%/main.tex
+[20:18:20.762][Build] cwd: %WS1%
+[20:18:20.765][Build] LaTeX build process spawned with PID 17055.
+[20:18:20.766][Event] AUTO_CLEANED
+[20:18:21.303][Parser][TexLog] Logged 12 messages.
+[20:18:21.303][Build] Recipe returns with error code 1/null on PID 17055.
+[20:18:21.303][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:18:21.303][Build] 
+[20:18:32.306][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:18:32.378][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:18:32.379][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.379][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.379][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.379][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.379][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:18:32.379][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:18:32.379][Build] The languageId of the document: latex
+[20:18:32.380][Build] Building root file: %WS1%/main.tex
+[20:18:32.380][Build][Recipe] Build root file %WS1%/main.tex
+[20:18:32.380][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:18:32.381][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:18:32.381][Build][Recipe] Prepared 1 tools.
+[20:18:32.382][Build][Recipe] outDir: %WS1% .
+[20:18:32.382][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:18:32.382][Build] env: {}
+[20:18:32.382][Build] root: %WS1%/main.tex
+[20:18:32.382][Build] cwd: %WS1%
+[20:18:32.387][Build] LaTeX build process spawned with PID 17070.
+[20:18:32.398][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.399][Cacher] Updated elements in 1.11 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:18:32.399][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:18:32.400][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:18:32.400][Event] STRUCTURE_UPDATED
+[20:18:32.924][Parser][TexLog] Logged 7 messages.
+[20:18:32.924][Build] Finished a step in recipe with PID 17070.
+[20:18:32.924][Build] Successfully built %WS1%/main.tex .
+[20:18:32.924][Event] BUILD_DONE
+[20:18:32.924][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:18:32.924][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:18:32.932][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:18:33.025][Viewer] Handle data type: loaded
+[20:18:33.026][Event] VIEWER_PAGE_LOADED
+[20:19:33.170][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:19:33.240][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:19:33.240][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.240][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.240][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.240][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.240][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:19:33.240][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:19:33.241][Build] The languageId of the document: latex
+[20:19:33.241][Build] Building root file: %WS1%/main.tex
+[20:19:33.241][Build][Recipe] Build root file %WS1%/main.tex
+[20:19:33.241][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:19:33.241][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:19:33.241][Build][Recipe] Prepared 1 tools.
+[20:19:33.242][Build][Recipe] outDir: %WS1% .
+[20:19:33.242][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:19:33.242][Build] env: {}
+[20:19:33.242][Build] root: %WS1%/main.tex
+[20:19:33.242][Build] cwd: %WS1%
+[20:19:33.246][Build] LaTeX build process spawned with PID 17080.
+[20:19:33.255][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.257][Cacher] Updated elements in 1.13 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:33.257][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:19:33.257][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:19:33.257][Event] STRUCTURE_UPDATED
+[20:19:33.778][Parser][TexLog] Logged 7 messages.
+[20:19:33.778][Build] Finished a step in recipe with PID 17080.
+[20:19:33.778][Build] Successfully built %WS1%/main.tex .
+[20:19:33.778][Event] BUILD_DONE
+[20:19:33.778][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:19:33.779][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:19:33.784][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:19:33.881][Viewer] Handle data type: loaded
+[20:19:33.881][Event] VIEWER_PAGE_LOADED
+[20:19:59.254][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:19:59.323][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:19:59.324][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.324][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.324][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.324][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.324][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:19:59.324][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:19:59.324][Build] The languageId of the document: latex
+[20:19:59.325][Build] Building root file: %WS1%/main.tex
+[20:19:59.325][Build][Recipe] Build root file %WS1%/main.tex
+[20:19:59.325][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:19:59.325][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:19:59.326][Build][Recipe] Prepared 1 tools.
+[20:19:59.326][Build][Recipe] outDir: %WS1% .
+[20:19:59.326][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:19:59.327][Build] env: {}
+[20:19:59.327][Build] root: %WS1%/main.tex
+[20:19:59.327][Build] cwd: %WS1%
+[20:19:59.330][Build] LaTeX build process spawned with PID 17089.
+[20:19:59.339][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.341][Cacher] Updated elements in 1.70 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:19:59.341][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:19:59.342][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:19:59.342][Event] STRUCTURE_UPDATED
+[20:19:59.862][Parser][TexLog] Logged 12 messages.
+[20:19:59.862][Build] Recipe returns with error code 1/null on PID 17089.
+[20:19:59.862][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:19:59.862][Build] 
+[20:19:59.863][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[20:19:59.863][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[20:19:59.867][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[20:19:59.867]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[20:19:59.867][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:19:59.867][Build] env: {}
+[20:19:59.867][Build] root: %WS1%/main.tex
+[20:19:59.867][Build] cwd: %WS1%
+[20:19:59.870][Build] LaTeX build process spawned with PID 17096.
+[20:19:59.870][Event] AUTO_CLEANED
+[20:20:00.402][Parser][TexLog] Logged 12 messages.
+[20:20:00.403][Build] Recipe returns with error code 1/null on PID 17096.
+[20:20:00.403][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:20:00.403][Build] 
+[20:20:02.235][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:20:02.305][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:20:02.306][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.306][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.306][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.306][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.306][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:20:02.306][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:20:02.306][Build] The languageId of the document: latex
+[20:20:02.306][Build] Building root file: %WS1%/main.tex
+[20:20:02.306][Build][Recipe] Build root file %WS1%/main.tex
+[20:20:02.306][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:20:02.307][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:20:02.307][Build][Recipe] Prepared 1 tools.
+[20:20:02.307][Build][Recipe] outDir: %WS1% .
+[20:20:02.307][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:20:02.307][Build] env: {}
+[20:20:02.307][Build] root: %WS1%/main.tex
+[20:20:02.308][Build] cwd: %WS1%
+[20:20:02.311][Build] LaTeX build process spawned with PID 17105.
+[20:20:02.324][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.325][Cacher] Updated elements in 0.95 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:02.325][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:20:02.326][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:20:02.326][Event] STRUCTURE_UPDATED
+[20:20:02.854][Parser][TexLog] Logged 7 messages.
+[20:20:02.854][Build] Finished a step in recipe with PID 17105.
+[20:20:02.854][Build] Successfully built %WS1%/main.tex .
+[20:20:02.854][Event] BUILD_DONE
+[20:20:02.854][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:20:02.854][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:20:02.861][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:20:02.951][Viewer] Handle data type: loaded
+[20:20:02.951][Event] VIEWER_PAGE_LOADED
+[20:20:47.194][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:20:47.264][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:20:47.264][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.265][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.265][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.265][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.265][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:20:47.265][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:20:47.265][Build] The languageId of the document: latex
+[20:20:47.265][Build] Building root file: %WS1%/main.tex
+[20:20:47.265][Build][Recipe] Build root file %WS1%/main.tex
+[20:20:47.265][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:20:47.266][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:20:47.266][Build][Recipe] Prepared 1 tools.
+[20:20:47.266][Build][Recipe] outDir: %WS1% .
+[20:20:47.266][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:20:47.267][Build] env: {}
+[20:20:47.267][Build] root: %WS1%/main.tex
+[20:20:47.267][Build] cwd: %WS1%
+[20:20:47.270][Build] LaTeX build process spawned with PID 17145.
+[20:20:47.280][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.282][Cacher] Updated elements in 1.54 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:20:47.282][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:20:47.283][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:20:47.283][Event] STRUCTURE_UPDATED
+[20:20:47.805][Parser][TexLog] Logged 7 messages.
+[20:20:47.806][Build] Finished a step in recipe with PID 17145.
+[20:20:47.806][Build] Successfully built %WS1%/main.tex .
+[20:20:47.806][Event] BUILD_DONE
+[20:20:47.806][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:20:47.806][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:20:47.812][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:20:47.903][Viewer] Handle data type: loaded
+[20:20:47.903][Event] VIEWER_PAGE_LOADED
+[20:23:52.067][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:23:52.136][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:23:52.136][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.137][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.137][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.137][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.137][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:23:52.137][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:23:52.137][Build] The languageId of the document: latex
+[20:23:52.137][Build] Building root file: %WS1%/main.tex
+[20:23:52.137][Build][Recipe] Build root file %WS1%/main.tex
+[20:23:52.137][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:23:52.138][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:23:52.138][Build][Recipe] Prepared 1 tools.
+[20:23:52.138][Build][Recipe] outDir: %WS1% .
+[20:23:52.138][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:23:52.138][Build] env: {}
+[20:23:52.138][Build] root: %WS1%/main.tex
+[20:23:52.139][Build] cwd: %WS1%
+[20:23:52.142][Build] LaTeX build process spawned with PID 17206.
+[20:23:52.151][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.152][Cacher] Updated elements in 1.14 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:52.153][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:23:52.153][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:23:52.153][Event] STRUCTURE_UPDATED
+[20:23:52.682][Parser][TexLog] Logged 11 messages.
+[20:23:52.683][Build] Recipe returns with error code 1/null on PID 17206.
+[20:23:52.683][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:23:52.683][Build] 
+[20:23:52.683][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[20:23:52.683][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/main.tex"].
+[20:23:52.687][Cleaner] Failed running cleaning command latexmk . Error: spawn latexmk ENOENT
+[20:23:52.687]Error: spawn latexmk ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+[20:23:52.687][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:23:52.687][Build] env: {}
+[20:23:52.688][Build] root: %WS1%/main.tex
+[20:23:52.688][Build] cwd: %WS1%
+[20:23:52.691][Build] LaTeX build process spawned with PID 17212.
+[20:23:52.691][Event] AUTO_CLEANED
+[20:23:53.240][Parser][TexLog] Logged 11 messages.
+[20:23:53.241][Build] Recipe returns with error code 1/null on PID 17212.
+[20:23:53.241][Build] Does the executable exist? $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin, $Path: undefined, $SHELL: /bin/fish
+[20:23:53.241][Build] 
+[20:23:55.987][Extension] onDidSaveTextDocument triggered: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:23:56.057][Cacher][Watcher] "change" emitted on %WS1%/PathPlanning/nominaltrajectory.tex.
+[20:23:56.058][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.058][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.058][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.058][Build] Auto build started detecting the change of a file: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.058][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/PathPlanning/nominaltrajectory.tex"}
+[20:23:56.058][Build] The document of the active editor: file://%WS1%/PathPlanning/nominaltrajectory.tex
+[20:23:56.058][Build] The languageId of the document: latex
+[20:23:56.058][Build] Building root file: %WS1%/main.tex
+[20:23:56.059][Build][Recipe] Build root file %WS1%/main.tex
+[20:23:56.059][Event] FILE_CHANGED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:23:56.059][Build][Recipe] Preparing to run recipe: Build Latex.
+[20:23:56.060][Build][Recipe] Prepared 1 tools.
+[20:23:56.060][Build][Recipe] outDir: %WS1% .
+[20:23:56.060][Build] Recipe step 1 The command is pdflatex:["-synctex=1","-interaction=nonstopmode","-file-line-error","%WS1%/main"].
+[20:23:56.061][Build] env: {}
+[20:23:56.061][Build] root: %WS1%/main.tex
+[20:23:56.061][Build] cwd: %WS1%
+[20:23:56.065][Build] LaTeX build process spawned with PID 17217.
+[20:23:56.079][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.081][Cacher] Updated elements in 1.13 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[20:23:56.081][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[20:23:56.081][Structure] Structure force updated with 8 root sections for %WS1%/main.tex .
+[20:23:56.082][Event] STRUCTURE_UPDATED
+[20:23:56.619][Parser][TexLog] Logged 7 messages.
+[20:23:56.619][Build] Finished a step in recipe with PID 17217.
+[20:23:56.620][Build] Successfully built %WS1%/main.tex .
+[20:23:56.620][Event] BUILD_DONE
+[20:23:56.620][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:23:56.620][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[20:23:56.626][Server] Preview PDF file: file://%WS1%/main.pdf
+[20:23:56.717][Viewer] Handle data type: loaded
+[20:23:56.718][Event] VIEWER_PAGE_LOADED
+[20:27:59.234][Event] STRUCTURE_UPDATED
+[20:32:53.591][Root] Current workspace folders: ["file://%WS1%"]
+[20:32:53.592][Root] Found root file from active editor: %WS1%/main.tex
+[20:32:53.592][Root] Keep using the same root file: %WS1%/main.tex
+[20:32:53.593][Event] ROOT_FILE_SEARCHED
+[20:32:53.593][Event] STRUCTURE_UPDATED
+[20:32:53.593][Event] STRUCTURE_UPDATED
+[21:18:05.213][Cacher][Watcher] Reset.
+[21:18:05.213][Cacher][Watcher] Reset.

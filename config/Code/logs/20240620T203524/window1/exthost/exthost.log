@@ -1,0 +1,53 @@
+2024-06-20 20:35:27.208 [info] Extension host with pid 11897 started
+2024-06-20 20:35:27.208 [info] Skipping acquiring lock for /home/albertofots/.config/Code/User/workspaceStorage/0c1b811fafaf151b419f0c1a1ebde286.
+2024-06-20 20:35:27.225 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-20 20:35:27.227 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-06-20 20:35:27.255 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-20 20:35:27.283 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-20 20:35:27.353 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+2024-06-20 20:35:27.413 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-20 20:35:27.650 [info] Eager extensions activated
+2024-06-20 20:35:27.653 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.655 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.662 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.668 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.696 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.778 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.833 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.836 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.846 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.863 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:27.906 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:35:28.225 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-20 20:35:28.243 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-20 20:35:28.282 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-20 20:35:59.539 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-20 20:35:59.557 [info] Extension host with pid 11897 exiting with code 0
+2024-06-20 20:36:00.462 [info] Extension host with pid 12130 started
+2024-06-20 20:36:00.462 [info] Skipping acquiring lock for /home/albertofots/.config/Code/User/workspaceStorage/54ddf8c5277bd283bd2d8186d2f187c1.
+2024-06-20 20:36:00.581 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-20 20:36:00.586 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-06-20 20:36:01.139 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-20 20:36:01.566 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-20 20:36:01.567 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-06-20 20:36:01.584 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2024-06-20 20:36:01.618 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-20 20:36:01.631 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-20 20:36:01.860 [info] Eager extensions activated
+2024-06-20 20:36:01.866 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:01.867 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:01.872 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:01.876 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:01.895 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.109 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.143 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.145 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.150 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.162 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:36:02.200 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 20:43:03.260 [info] ExtensionService#_doActivateExtension TomRijndorp.find-it-faster, startup: false, activationEvent: 'onCommand:find-it-faster.findFiles'
+2024-06-20 23:09:35.914 [warning] TextEditor is closed/disposed
+2024-06-20 23:09:35.914 [warning] TextEditor is closed/disposed
+2024-06-20 23:09:35.935 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-06-20 23:09:35.935 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-06-20 23:09:55.584 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'

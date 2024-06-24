@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+add_subdirectory(LkupTable)
+add_subdirectory(MatrixInverse)
+
+include_directories(LkupTable)
+include_directories(MatrixInverse)
+include_directories(../Log)
+include_directories(../MissionScenario)
+
+file(GLOB MATRIX_HEADERS "Matrix/*.hxx")
+file(GLOB MATRIX_SOURCES "Matrix/*.cpp")
+include_directories(Matrix)
+
+# Create a library target
+add_library(utils_lib STATIC 
+    ${SOURCES} ${HEADERS} 
+    ${MATRIX_SOURCES} ${MATRIX_HEADERS} 
+)
+
+target_link_libraries(utils_lib utils_lkuptable utils_matrixinverse)

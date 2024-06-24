@@ -1,0 +1,21 @@
+# Add source files
+set(SOURCES
+    SCHEDULER.hxx
+    SCHEDULER.cpp
+    FAILURES.hxx
+    FAILURES.cpp
+    SCHEDULER_0.cpp
+    SCHEDULER_1.cpp
+    SCHEDULER_2.cpp
+    SCHEDULER_3.cpp
+    SCHEDULERS_io_GNCSCOE.hxx
+    SVF_OPEN_LOOP_functions.cpp
+    # Add more source files as needed
+)
+
+include_directories(../E2E)
+
+# Add the library target
+add_library(scheduler ${SOURCES})
+
+target_link_libraries(scheduler e2e)

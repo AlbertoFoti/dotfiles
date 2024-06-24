@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+include_directories(CoM3DOF)
+include_directories(Grav)
+
+file(GLOB HEADERS "CoM3DOF/*.hxx")
+file(GLOB SOURCES "CoM3DOF/*.cpp")
+
+file(GLOB HEADERS "Grav/*.hxx")
+file(GLOB SOURCES "Grav/*.cpp")
+
+# Create a library target
+add_library(planning_library STATIC ${SOURCES} ${HEADERS})

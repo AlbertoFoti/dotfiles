@@ -1,0 +1,161 @@
+2024-06-17 21:23:09.213 [info] /home/albertofots/.config/Code/User/settings.json closed
+2024-06-17 21:23:09.298 [info] /home/albertofots/.config/Code/User/keybindings.json closed
+2024-06-17 21:23:10.378 [info] Configuration changed
+2024-06-17 21:23:17.092 [info] Configuration changed
+2024-06-17 21:23:35.178 [info] Configuration changed
+2024-06-17 21:23:37.409 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:25:29.575 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:25:42.123 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 21:26:15.441 [info] Configuration changed
+2024-06-17 21:26:33.694 [info] /settings/user closed
+2024-06-17 21:26:33.898 [info] /settings/resourceLanguage closed
+2024-06-17 21:26:33.898 [info] /ignoredSettings closed
+2024-06-17 21:26:33.961 [info] /launch closed
+2024-06-17 21:26:33.962 [info] /token-styling closed
+2024-06-17 21:26:33.963 [info] /textmate-colors closed
+2024-06-17 21:26:33.966 [info] /workbench-colors closed
+2024-06-17 21:26:34.144 [info] Executing :w
+2024-06-17 21:27:03.142 [info] Executing :w
+2024-06-17 21:27:03.435 [info] Configuration changed
+2024-06-17 21:27:18.640 [info] Executing :w
+2024-06-17 21:27:26.239 [info] Executing :w
+2024-06-17 21:28:19.898 [info] Configuration changed
+2024-06-17 21:28:29.612 [info] /keybindings closed
+2024-06-17 21:28:32.158 [info] Executing :w
+2024-06-17 21:29:33.724 [info] /settings/user closed
+2024-06-17 21:29:33.955 [info] /settings/resourceLanguage closed
+2024-06-17 21:29:33.956 [info] /ignoredSettings closed
+2024-06-17 21:29:34.084 [info] /launch closed
+2024-06-17 21:29:34.089 [info] /token-styling closed
+2024-06-17 21:29:34.090 [info] /textmate-colors closed
+2024-06-17 21:29:34.095 [info] /workbench-colors closed
+2024-06-17 21:30:10.542 [info] Configuration changed
+2024-06-17 21:30:15.816 [info] Executing :w
+2024-06-17 21:30:19.237 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning%20copy.cpp
+2024-06-17 21:30:19.849 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 21:30:20.292 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:30:20.921 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/UtilsLib/Utils.cpp
+2024-06-17 21:30:23.487 [info] Executing :q
+2024-06-17 21:30:23.497 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/UtilsLib/Utils.cpp closed
+2024-06-17 21:30:23.498 [warning] getLineLength() called with out-of-bounds line 28
+2024-06-17 21:30:23.498 [warning] invalid cursor position. [[28, 20] | [28, 20]].
+2024-06-17 21:30:23.501 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/keybindings.json
+2024-06-17 21:30:25.183 [info] Executing :q
+2024-06-17 21:30:25.190 [info] /home/albertofots/.config/Code/User/keybindings.json closed
+2024-06-17 21:30:25.190 [warning] getLineLength() called with out-of-bounds line 73
+2024-06-17 21:30:25.190 [warning] invalid cursor position. [[73, 23] | [73, 23]].
+2024-06-17 21:30:25.193 [info] Active editor: vscode-userdata:/home/albertofots/.config/Code/User/settings.json
+2024-06-17 21:30:26.358 [info] Executing :q
+2024-06-17 21:30:26.368 [info] /home/albertofots/.config/Code/User/settings.json closed
+2024-06-17 21:30:26.368 [warning] getLineLength() called with out-of-bounds line 111
+2024-06-17 21:30:26.368 [warning] invalid cursor position. [[111, 7] | [111, 7]].
+2024-06-17 21:30:26.372 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning%20copy.cpp
+2024-06-17 21:30:27.683 [info] Executing :q
+2024-06-17 21:30:27.690 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning copy.cpp closed
+2024-06-17 21:30:27.690 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:27.690 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:27.693 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx
+2024-06-17 21:30:28.732 [info] Executing :q
+2024-06-17 21:30:33.382 [info] Executing :q!
+2024-06-17 21:30:33.391 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx closed
+2024-06-17 21:30:33.392 [warning] getLineLength() called with out-of-bounds line 58
+2024-06-17 21:30:33.392 [warning] getLineLength() called with out-of-bounds line 58
+2024-06-17 21:30:33.404 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp
+2024-06-17 21:30:34.668 [info] Executing :q
+2024-06-17 21:30:34.675 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp closed
+2024-06-17 21:30:34.676 [warning] getLineLength() called with out-of-bounds line 341
+2024-06-17 21:30:34.676 [warning] invalid cursor position. [[341, 36] | [341, 36]].
+2024-06-17 21:30:34.685 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/type_defines.hxx
+2024-06-17 21:30:35.837 [info] Executing :q
+2024-06-17 21:30:35.843 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/type_defines.hxx closed
+2024-06-17 21:30:35.844 [warning] getLineLength() called with out-of-bounds line 49
+2024-06-17 21:30:35.844 [warning] getLineLength() called with out-of-bounds line 49
+2024-06-17 21:30:35.851 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/SimulationManager.cpp
+2024-06-17 21:30:36.777 [info] Executing :q
+2024-06-17 21:30:36.783 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/SimulationManager.cpp closed
+2024-06-17 21:30:36.783 [warning] getLineLength() called with out-of-bounds line 4
+2024-06-17 21:30:36.783 [warning] invalid cursor position. [[4, 37] | [4, 37]].
+2024-06-17 21:30:36.790 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 21:30:37.802 [info] Executing :q
+2024-06-17 21:30:37.809 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp closed
+2024-06-17 21:30:37.809 [warning] getLineLength() called with out-of-bounds line 38
+2024-06-17 21:30:37.809 [warning] invalid cursor position. [[38, 25] | [38, 25]].
+2024-06-17 21:30:37.817 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/.gitignore
+2024-06-17 21:30:39.207 [info] Executing :q
+2024-06-17 21:30:39.213 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/.gitignore closed
+2024-06-17 21:30:39.213 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:39.213 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:39.222 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/NominalMissionNSF.json
+2024-06-17 21:30:40.583 [info] Executing :q
+2024-06-17 21:30:40.590 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/NominalMissionNSF.json closed
+2024-06-17 21:30:40.590 [warning] getLineLength() called with out-of-bounds line 15
+2024-06-17 21:30:40.590 [warning] invalid cursor position. [[15, 16] | [15, 16]].
+2024-06-17 21:30:40.597 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/DRAppParsNSF.json
+2024-06-17 21:30:41.616 [info] Executing :q
+2024-06-17 21:30:41.622 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/DRAppParsNSF.json closed
+2024-06-17 21:30:41.623 [warning] getLineLength() called with out-of-bounds line 24
+2024-06-17 21:30:41.623 [warning] invalid cursor position. [[24, 4] | [24, 4]].
+2024-06-17 21:30:41.629 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/SimEDL/SimEDLX0NSF.json
+2024-06-17 21:30:42.715 [info] Executing :q
+2024-06-17 21:30:42.723 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/SimEDL/SimEDLX0NSF.json closed
+2024-06-17 21:30:42.723 [warning] getLineLength() called with out-of-bounds line 73
+2024-06-17 21:30:42.723 [warning] invalid cursor position. [[73, 7] | [73, 7]].
+2024-06-17 21:30:42.729 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/PlanetGrav.json
+2024-06-17 21:30:43.662 [info] Executing :q
+2024-06-17 21:30:43.671 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/PlanetGrav.json closed
+2024-06-17 21:30:43.671 [warning] getLineLength() called with out-of-bounds line 12
+2024-06-17 21:30:43.671 [warning] invalid cursor position. [[12, 4] | [12, 4]].
+2024-06-17 21:30:43.678 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/Control/InputVariablesControlNSF.json
+2024-06-17 21:30:46.316 [info] Executing :q
+2024-06-17 21:30:46.323 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/Control/InputVariablesControlNSF.json closed
+2024-06-17 21:30:46.323 [warning] getLineLength() called with out-of-bounds line 33
+2024-06-17 21:30:46.323 [warning] invalid cursor position. [[33, 7] | [33, 7]].
+2024-06-17 21:30:46.329 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/SimEDL/ThrusterAllocParsSimNSF.json
+2024-06-17 21:30:47.623 [info] Executing :q
+2024-06-17 21:30:47.631 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/SimEDL/ThrusterAllocParsSimNSF.json closed
+2024-06-17 21:30:47.632 [warning] getLineLength() called with out-of-bounds line 33
+2024-06-17 21:30:47.632 [warning] invalid cursor position. [[33, 19] | [33, 19]].
+2024-06-17 21:30:47.639 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/TimeStepsNSF.json
+2024-06-17 21:30:48.520 [info] Executing :q
+2024-06-17 21:30:48.525 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/TimeStepsNSF.json closed
+2024-06-17 21:30:48.526 [warning] getLineLength() called with out-of-bounds line 22
+2024-06-17 21:30:48.526 [warning] invalid cursor position. [[22, 13] | [22, 13]].
+2024-06-17 21:30:48.531 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/SimulationManager.hxx
+2024-06-17 21:30:49.473 [info] Executing :q
+2024-06-17 21:30:49.479 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/SimulationManager.hxx closed
+2024-06-17 21:30:49.479 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:49.479 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:49.488 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/Navigation/AttNavX0NSF.json
+2024-06-17 21:30:50.537 [info] Executing :q
+2024-06-17 21:30:50.543 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/Navigation/AttNavX0NSF.json closed
+2024-06-17 21:30:50.543 [warning] getLineLength() called with out-of-bounds line 27
+2024-06-17 21:30:50.543 [warning] getLineLength() called with out-of-bounds line 27
+2024-06-17 21:30:50.550 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/MCSimParsNSF.json
+2024-06-17 21:30:51.438 [info] Executing :q
+2024-06-17 21:30:51.444 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/MCSimParsNSF.json closed
+2024-06-17 21:30:51.444 [warning] getLineLength() called with out-of-bounds line 17
+2024-06-17 21:30:51.444 [warning] invalid cursor position. [[17, 22] | [17, 22]].
+2024-06-17 21:30:51.453 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/MissionScenario.cpp
+2024-06-17 21:30:52.615 [info] Executing :q
+2024-06-17 21:30:52.624 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/MissionScenario.cpp closed
+2024-06-17 21:30:52.625 [warning] getLineLength() called with out-of-bounds line 96
+2024-06-17 21:30:52.625 [warning] invalid cursor position. [[96, 32] | [96, 32]].
+2024-06-17 21:30:52.633 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/mission.json
+2024-06-17 21:30:53.594 [info] Executing :q
+2024-06-17 21:30:53.600 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/mission.json closed
+2024-06-17 21:30:53.601 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:53.601 [warning] getLineLength() called with out-of-bounds line 0
+2024-06-17 21:30:53.608 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/Modules/Grav/GE_Grav01.cpp
+2024-06-17 21:30:54.811 [info] Executing :q
+2024-06-17 21:30:54.819 [info] /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/Modules/Grav/GE_Grav01.cpp closed
+2024-06-17 21:30:54.820 [warning] getLineLength() called with out-of-bounds line 4
+2024-06-17 21:30:54.820 [warning] invalid cursor position. [[4, 30] | [4, 30]].
+2024-06-17 21:31:14.366 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp
+2024-06-17 21:31:29.638 [info] /keybindings closed
+2024-06-17 21:32:33.756 [info] /settings/user closed
+2024-06-17 21:32:34.026 [info] /settings/resourceLanguage closed
+2024-06-17 21:32:34.027 [info] /ignoredSettings closed
+2024-06-17 21:32:34.204 [info] /launch closed
+2024-06-17 21:32:34.205 [info] /token-styling closed
+2024-06-17 21:32:34.206 [info] /textmate-colors closed
+2024-06-17 21:32:34.212 [info] /workbench-colors closed

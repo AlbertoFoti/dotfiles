@@ -1,0 +1,74 @@
+{
+    "parameters": {
+        "kMonInit": {
+            "Parameter Name": "kMonInit",
+            "Doc Symbol": "kMonInit",
+            "Units": "[s]",
+            "Value": 1,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "The index at which the Monte Carlo campaign is started (combined with MCFlag, this can be used to rerun one specific test of the campaign)"
+        },
+        "NmonOrg": {
+            "Parameter Name": "NmonOrg",
+            "Doc Symbol": "NmonOrg",
+            "Units": "[s]",
+            "Value": 50,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Number of Monte Carlo simulations on this subtest."
+        },
+        "decimation": {
+            "Parameter Name": "decimation",
+            "Doc Symbol": "decimation",
+            "Units": "[s]",
+            "Value": 10,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Decimation of the outputs of the Simulink model not related to the thrusters."
+        },
+        "decimationTh": {
+            "Parameter Name": "decimationTh",
+            "Doc Symbol": "decimationTh",
+            "Units": "[s]",
+            "Value": 10,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Decimation of the outputs of the Simulink model related to the thrusters."
+        },
+        "SmartTriggF": {
+            "Parameter Name": "SmartTriggF",
+            "Doc Symbol": "SmartTriggF",
+            "Units": "[s]",
+            "Value": 0,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Flag to automatically turn ON/OFF the smart trigger on the post-processing routing. This can be overridden by the Monte Carlo post-processing routines."
+        },
+        "PulsedF": {
+            "Parameter Name": "PulsedF",
+            "Doc Symbol": "PulsedF",
+            "Units": "[s]",
+            "Value": 0,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Flag to automatically turn ON/OFF the use of pulsed thrusters."
+        },
+        "MCFlag": {
+            "Parameter Name": "MCFlag",
+            "Doc Symbol": "MCFlag",
+            "Units": "[s]",
+            "Value": 0,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Flag to automatically turn ON/OFF the Monte Carlo loop."
+        }
+    }
+}

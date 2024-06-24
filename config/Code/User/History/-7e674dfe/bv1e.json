@@ -1,0 +1,95 @@
+{
+    "parameters": {
+        "xaCoM": {
+            "Units": "[m]",
+            "Value": "001.74E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "yaCoM": {
+            "Units": "[m]",
+            "Value": "-070.00E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "zaCoM": {
+            "Units": "[m]",
+            "Value": "000.00E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "xIMUbSim": {
+            "Units": "[m]",
+            "Value": "609.20E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "yIMUbSim": {
+            "Units": "[m]",
+            "Value": "-578.10E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "zIMUbSim": {
+            "Units": "[m]",
+            "Value": "-578.60E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "mass": {
+            "Units": "[kg]",
+            "Value": "001.99E+03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jxx": {
+            "Units": "[m]",
+            "Value": "002.39E+03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jyy": {
+            "Units": "[m]",
+            "Value": "001.96E+03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jzz": {
+            "Units": "[m]",
+            "Value": "001.62E+03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jxy": {
+            "Units": "[m]",
+            "Value": "000.00E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jxz": {
+            "Units": "[m]",
+            "Value": "000.00E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        },
+        "Jyz": {
+            "Units": "[m]",
+            "Value": "000.00E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00"
+        }
+    }
+  }

@@ -1,0 +1,856 @@
+2024-06-18 11:06:08.400 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-18 11:06:08.400 [info] Auto Sync is enabled.
+2024-06-18 11:06:08.400 [info] Auto Sync: Suspended until auth token is available.
+2024-06-18 11:06:08.822 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/extensions
+2024-06-18 11:06:08.924 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/globalState
+2024-06-18 11:06:08.983 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/keybindings
+2024-06-18 11:06:09.026 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/profiles
+2024-06-18 11:06:09.053 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/settings
+2024-06-18 11:06:09.055 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/snippets
+2024-06-18 11:06:09.056 [info] Deleting non existing profile from backup /home/albertofots/.config/Code/User/sync/tasks
+2024-06-18 11:06:09.951 [info] Auto Sync: Triggered by Interval
+2024-06-18 11:06:09.951 [info] Sync started.
+2024-06-18 11:06:09.963 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 11:06:09.964 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:06:09.964 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:11:09.966 [info] Auto Sync: Triggered by Interval
+2024-06-18 11:11:09.966 [info] Sync started.
+2024-06-18 11:11:09.972 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 11:11:09.972 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:11:09.972 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:16:09.974 [info] Auto Sync: Triggered by Interval
+2024-06-18 11:16:09.974 [info] Sync started.
+2024-06-18 11:16:09.980 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 11:16:09.980 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:16:09.980 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:21:09.982 [info] Auto Sync: Triggered by Interval
+2024-06-18 11:21:09.982 [info] Sync started.
+2024-06-18 11:21:09.988 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 11:21:09.988 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:21:09.988 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:56:16.351 [info] Auto Sync: Triggered by Interval
+2024-06-18 11:56:16.351 [info] Sync started.
+2024-06-18 11:56:16.357 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 11:56:16.357 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 11:56:16.357 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:01:16.358 [info] Auto Sync: Triggered by Interval
+2024-06-18 12:01:16.358 [info] Sync started.
+2024-06-18 12:01:16.365 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 12:01:16.365 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:01:16.365 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:06:16.366 [info] Auto Sync: Triggered by Interval
+2024-06-18 12:06:16.366 [info] Sync started.
+2024-06-18 12:06:16.372 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 12:06:16.372 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:06:16.372 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:11:16.372 [info] Auto Sync: Triggered by Interval
+2024-06-18 12:11:16.373 [info] Sync started.
+2024-06-18 12:11:16.378 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 12:11:16.378 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:11:16.378 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:22:43.944 [info] Auto Sync: Triggered by Interval
+2024-06-18 12:22:43.944 [info] Sync started.
+2024-06-18 12:22:43.950 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 12:22:43.950 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:22:43.950 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:27:43.970 [info] Auto Sync: Triggered by Interval
+2024-06-18 12:27:43.971 [info] Sync started.
+2024-06-18 12:27:43.997 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 12:27:43.997 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 12:27:43.998 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:32:04.666 [info] Auto Sync: Triggered by Activity
+2024-06-18 13:32:04.667 [info] Sync started.
+2024-06-18 13:32:04.683 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:32:04.683 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:32:04.683 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:37:04.688 [info] Auto Sync: Triggered by Interval
+2024-06-18 13:37:04.689 [info] Sync started.
+2024-06-18 13:37:04.704 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:37:04.705 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:37:04.705 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:42:04.747 [info] Auto Sync: Triggered by Interval
+2024-06-18 13:42:04.748 [info] Sync started.
+2024-06-18 13:42:04.770 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:42:04.771 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:42:04.771 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:47:04.815 [info] Auto Sync: Triggered by Interval
+2024-06-18 13:47:04.816 [info] Sync started.
+2024-06-18 13:47:04.833 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:47:04.833 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:47:04.834 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:52:04.848 [info] Auto Sync: Triggered by Interval
+2024-06-18 13:52:04.849 [info] Sync started.
+2024-06-18 13:52:04.854 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:52:04.854 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:52:04.854 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:57:04.886 [info] Auto Sync: Triggered by Interval
+2024-06-18 13:57:04.887 [info] Sync started.
+2024-06-18 13:57:04.899 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 13:57:04.899 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 13:57:04.899 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 14:02:04.944 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:02:04.945 [info] Sync started.
+2024-06-18 14:02:06.222 [info] Settings: Last sync resource does not exist locally.
+2024-06-18 14:02:06.458 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:02:06.459 [info] Keybindings: Last sync resource does not exist locally.
+2024-06-18 14:02:06.605 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:02:06.606 [info] Snippets: Last sync resource does not exist locally.
+2024-06-18 14:02:06.769 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:02:06.771 [info] Tasks: Last sync resource does not exist locally.
+2024-06-18 14:02:06.872 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:02:06.875 [info] GlobalState: Last sync resource does not exist locally.
+2024-06-18 14:02:08.261 [info] GlobalState: Updated remote ui state. Updated: commandPalette.mru.cache,commandPalette.mru.counter,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,typescript.1.lastSessionDate,typescript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2024-06-18 14:02:08.271 [info] GlobalState: Updated last synchronized ui state
+2024-06-18 14:02:08.279 [info] Extensions: Last sync resource does not exist locally.
+2024-06-18 14:02:08.842 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:02:08.842 [info] Profiles: Last sync resource does not exist locally.
+2024-06-18 14:02:09.102 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:02:09.105 [info] Sync done. Took 4163ms
+2024-06-18 14:07:09.147 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:07:09.148 [info] Sync started.
+2024-06-18 14:07:09.857 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:07:09.861 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:07:09.864 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:07:09.865 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:07:09.867 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:07:09.908 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:07:09.909 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:07:09.909 [info] Sync done. Took 764ms
+2024-06-18 14:12:09.960 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:12:09.960 [info] Sync started.
+2024-06-18 14:12:10.581 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:12:10.585 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:12:10.587 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:12:10.588 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:12:10.590 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:12:10.628 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:12:10.629 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:12:10.630 [info] Sync done. Took 671ms
+2024-06-18 14:16:00.965 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:16:00.966 [info] Sync started.
+2024-06-18 14:16:01.806 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:16:01.811 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:16:01.813 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:16:01.814 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:16:01.816 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:16:01.853 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:16:01.853 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:16:01.854 [info] Sync done. Took 891ms
+2024-06-18 14:16:19.554 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:16:19.554 [info] Sync started.
+2024-06-18 14:16:19.746 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:16:19.751 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:16:19.752 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:16:19.753 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:16:20.501 [info] GlobalState: Updated remote ui state. Updated: colorThemeData.
+2024-06-18 14:16:20.506 [info] GlobalState: Updated last synchronized ui state
+2024-06-18 14:16:20.546 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:16:20.547 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:16:20.548 [info] Sync done. Took 993ms
+2024-06-18 14:16:26.588 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:16:26.588 [info] Sync started.
+2024-06-18 14:16:26.840 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:16:26.961 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:16:26.971 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:16:26.979 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:16:27.873 [info] GlobalState: Updated remote ui state. Updated: colorThemeData.
+2024-06-18 14:16:27.875 [info] GlobalState: Updated last synchronized ui state
+2024-06-18 14:16:28.037 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:16:28.042 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:16:28.044 [info] Sync done. Took 1457ms
+2024-06-18 14:17:26.965 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:17:26.965 [info] Sync started.
+2024-06-18 14:17:27.071 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:17:27.148 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:17:27.153 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:17:27.157 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:17:27.161 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:17:27.245 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:17:27.276 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:17:27.307 [info] Sync done. Took 342ms
+2024-06-18 14:17:46.613 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:17:46.614 [info] Sync started.
+2024-06-18 14:17:46.772 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:17:46.851 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:17:46.855 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:17:46.857 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:17:46.860 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:17:46.903 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:17:46.905 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:17:46.906 [info] Sync done. Took 294ms
+2024-06-18 14:17:53.128 [info] Auto Sync: Triggered by Activity
+2024-06-18 14:17:53.129 [info] Sync started.
+2024-06-18 14:17:53.473 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:17:53.478 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:17:53.479 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:17:53.481 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:17:54.710 [info] GlobalState: Updated remote ui state. Updated: memento/gettingStartedService.
+2024-06-18 14:17:54.721 [info] GlobalState: Updated last synchronized ui state
+2024-06-18 14:17:54.780 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:17:54.781 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:17:54.782 [info] Sync done. Took 1657ms
+2024-06-18 14:22:54.793 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:22:54.793 [info] Sync started.
+2024-06-18 14:22:55.691 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:22:55.697 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:22:55.699 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:22:55.701 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:22:55.704 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:22:55.750 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:22:55.751 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:22:55.751 [info] Sync done. Took 961ms
+2024-06-18 14:27:55.763 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:27:55.764 [info] Sync started.
+2024-06-18 14:27:56.984 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:27:56.990 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:27:56.991 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:27:56.993 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:27:56.994 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:27:57.034 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:27:57.035 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:27:57.036 [info] Sync done. Took 1274ms
+2024-06-18 14:32:57.049 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:32:57.049 [info] Sync started.
+2024-06-18 14:32:57.843 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:32:57.848 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:32:57.850 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:32:57.851 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:32:57.853 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:32:57.893 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:32:57.895 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:32:57.896 [info] Sync done. Took 850ms
+2024-06-18 14:37:57.910 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:37:57.911 [info] Sync started.
+2024-06-18 14:37:58.928 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:37:58.931 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:37:58.933 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:37:58.935 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:37:58.937 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:37:58.973 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:37:58.974 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:37:58.975 [info] Sync done. Took 1066ms
+2024-06-18 14:42:58.984 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:42:58.985 [info] Sync started.
+2024-06-18 14:42:59.722 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:42:59.726 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:42:59.728 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:42:59.729 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:42:59.731 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:42:59.772 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:42:59.773 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:42:59.774 [info] Sync done. Took 790ms
+2024-06-18 14:47:59.780 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:47:59.781 [info] Sync started.
+2024-06-18 14:48:00.253 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:48:00.257 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:48:00.260 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:48:00.262 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:48:00.265 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:48:00.302 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:48:00.303 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:48:00.304 [info] Sync done. Took 526ms
+2024-06-18 14:53:00.319 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:53:00.320 [info] Sync started.
+2024-06-18 14:53:00.953 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:53:00.957 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:53:00.958 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:53:00.959 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:53:00.961 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:53:01.000 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:53:01.000 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:53:01.001 [info] Sync done. Took 684ms
+2024-06-18 14:58:01.017 [info] Auto Sync: Triggered by Interval
+2024-06-18 14:58:01.018 [info] Sync started.
+2024-06-18 14:58:01.549 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 14:58:01.554 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 14:58:01.556 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 14:58:01.557 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 14:58:01.559 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 14:58:01.595 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 14:58:01.598 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 14:58:01.599 [info] Sync done. Took 583ms
+2024-06-18 15:03:01.603 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:03:01.603 [info] Sync started.
+2024-06-18 15:03:02.261 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:03:02.265 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:03:02.268 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:03:02.270 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:03:02.271 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:03:02.305 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:03:02.306 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:03:02.307 [info] Sync done. Took 707ms
+2024-06-18 15:08:02.311 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:08:02.312 [info] Sync started.
+2024-06-18 15:08:02.325 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 15:08:02.325 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 15:08:02.326 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 15:13:02.334 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:13:02.334 [info] Sync started.
+2024-06-18 15:13:02.846 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:13:02.849 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:13:02.852 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:13:02.853 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:13:02.855 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:13:02.894 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:13:02.895 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:13:02.896 [info] Sync done. Took 563ms
+2024-06-18 15:18:02.913 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:18:02.914 [info] Sync started.
+2024-06-18 15:18:03.997 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:18:04.001 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:18:04.003 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:18:04.004 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:18:04.006 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:18:04.044 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:18:04.047 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:18:04.048 [info] Sync done. Took 1136ms
+2024-06-18 15:23:04.054 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:23:04.055 [info] Sync started.
+2024-06-18 15:23:04.936 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:23:04.940 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:23:04.942 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:23:04.943 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:23:04.945 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:23:04.984 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:23:04.987 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:23:04.988 [info] Sync done. Took 935ms
+2024-06-18 15:28:04.998 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:28:04.999 [info] Sync started.
+2024-06-18 15:28:05.719 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:28:05.723 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:28:05.725 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:28:05.726 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:28:05.728 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:28:05.769 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:28:05.769 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:28:05.770 [info] Sync done. Took 774ms
+2024-06-18 15:33:05.790 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:33:05.791 [info] Sync started.
+2024-06-18 15:33:06.408 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:33:06.412 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:33:06.414 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:33:06.416 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:33:06.418 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:33:06.463 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:33:06.463 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:33:06.464 [info] Sync done. Took 676ms
+2024-06-18 15:38:06.481 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:38:06.482 [info] Sync started.
+2024-06-18 15:38:06.952 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:38:06.955 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:38:06.957 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:38:06.959 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:38:06.960 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:38:07.002 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:38:07.002 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:38:07.003 [info] Sync done. Took 524ms
+2024-06-18 15:43:07.008 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:43:07.009 [info] Sync started.
+2024-06-18 15:43:08.194 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:43:08.198 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:43:08.200 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:43:08.202 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:43:08.203 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:43:08.245 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:43:08.245 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:43:08.246 [info] Sync done. Took 1239ms
+2024-06-18 15:48:08.265 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:48:08.266 [info] Sync started.
+2024-06-18 15:48:09.386 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:48:09.391 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:48:09.394 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:48:09.395 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:48:09.397 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:48:09.437 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:48:09.438 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:48:09.439 [info] Sync done. Took 1175ms
+2024-06-18 15:53:09.462 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:53:09.463 [info] Sync started.
+2024-06-18 15:53:10.344 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:53:10.347 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:53:10.349 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:53:10.351 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:53:10.353 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:53:10.396 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:53:10.396 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:53:10.397 [info] Sync done. Took 937ms
+2024-06-18 15:58:10.400 [info] Auto Sync: Triggered by Interval
+2024-06-18 15:58:10.400 [info] Sync started.
+2024-06-18 15:58:11.064 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 15:58:11.067 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 15:58:11.069 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 15:58:11.071 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 15:58:11.073 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 15:58:11.114 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 15:58:11.114 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 15:58:11.115 [info] Sync done. Took 716ms
+2024-06-18 16:03:11.135 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:03:11.135 [info] Sync started.
+2024-06-18 16:03:11.861 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:03:11.866 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:03:11.868 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:03:11.869 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:03:11.871 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:03:11.913 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:03:11.914 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:03:11.915 [info] Sync done. Took 782ms
+2024-06-18 16:08:11.919 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:08:11.920 [info] Sync started.
+2024-06-18 16:08:13.347 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:08:13.351 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:08:13.354 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:08:13.355 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:08:13.356 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:08:13.393 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:08:13.393 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:08:13.394 [info] Sync done. Took 1477ms
+2024-06-18 16:13:13.419 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:13:13.419 [info] Sync started.
+2024-06-18 16:13:14.507 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:13:14.510 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:13:14.512 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:13:14.513 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:13:14.515 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:13:14.554 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:13:14.555 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:13:14.556 [info] Sync done. Took 1138ms
+2024-06-18 16:18:14.562 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:18:14.563 [info] Sync started.
+2024-06-18 16:18:15.374 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:18:15.379 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:18:15.383 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:18:15.386 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:18:15.388 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:18:15.426 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:18:15.427 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:18:15.427 [info] Sync done. Took 867ms
+2024-06-18 16:23:15.455 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:23:15.456 [info] Sync started.
+2024-06-18 16:23:16.268 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:23:16.271 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:23:16.273 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:23:16.274 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:23:16.276 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:23:16.319 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:23:16.320 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:23:16.321 [info] Sync done. Took 867ms
+2024-06-18 16:28:16.351 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:28:16.351 [info] Sync started.
+2024-06-18 16:28:17.562 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:28:17.566 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:28:17.567 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:28:17.569 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:28:17.571 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:28:17.610 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:28:17.611 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:28:17.612 [info] Sync done. Took 1262ms
+2024-06-18 16:33:17.643 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:33:17.644 [info] Sync started.
+2024-06-18 16:33:18.821 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:33:18.825 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:33:18.826 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:33:18.827 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:33:18.829 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:33:18.872 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:33:18.873 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:33:18.874 [info] Sync done. Took 1233ms
+2024-06-18 16:38:18.886 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:38:18.887 [info] Sync started.
+2024-06-18 16:38:20.079 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:38:20.083 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:38:20.085 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:38:20.086 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:38:20.088 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:38:20.131 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:38:20.132 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:38:20.132 [info] Sync done. Took 1248ms
+2024-06-18 16:43:20.162 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:43:20.163 [info] Sync started.
+2024-06-18 16:43:21.030 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:43:21.033 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:43:21.035 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:43:21.036 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:43:21.038 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:43:21.079 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:43:21.079 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:43:21.079 [info] Sync done. Took 919ms
+2024-06-18 16:48:21.083 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:48:21.084 [info] Sync started.
+2024-06-18 16:48:22.112 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:48:22.115 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:48:22.117 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:48:22.119 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:48:22.121 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:48:22.166 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:48:22.167 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:48:22.168 [info] Sync done. Took 1086ms
+2024-06-18 16:53:22.200 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:53:22.200 [info] Sync started.
+2024-06-18 16:53:23.262 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:53:23.266 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:53:23.269 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:53:23.271 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:53:23.273 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:53:23.313 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:53:23.313 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:53:23.314 [info] Sync done. Took 1115ms
+2024-06-18 16:58:23.351 [info] Auto Sync: Triggered by Interval
+2024-06-18 16:58:23.351 [info] Sync started.
+2024-06-18 16:58:24.406 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 16:58:24.411 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 16:58:24.414 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 16:58:24.416 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 16:58:24.417 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 16:58:24.459 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 16:58:24.460 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 16:58:24.460 [info] Sync done. Took 1112ms
+2024-06-18 17:03:24.499 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:03:24.499 [info] Sync started.
+2024-06-18 17:03:25.140 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:03:25.144 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:03:25.146 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:03:25.147 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:03:25.148 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:03:25.189 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:03:25.190 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:03:25.190 [info] Sync done. Took 693ms
+2024-06-18 17:08:25.227 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:08:25.228 [info] Sync started.
+2024-06-18 17:08:26.065 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:08:26.069 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:08:26.072 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:08:26.073 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:08:26.075 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:08:26.118 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:08:26.118 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:08:26.119 [info] Sync done. Took 892ms
+2024-06-18 17:13:26.158 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:13:26.159 [info] Sync started.
+2024-06-18 17:13:27.051 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:13:27.056 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:13:27.058 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:13:27.060 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:13:27.061 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:13:27.104 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:13:27.105 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:13:27.105 [info] Sync done. Took 949ms
+2024-06-18 17:18:27.145 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:18:27.146 [info] Sync started.
+2024-06-18 17:18:28.130 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:18:28.133 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:18:28.135 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:18:28.137 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:18:28.139 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:18:28.185 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:18:28.185 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:18:28.186 [info] Sync done. Took 1043ms
+2024-06-18 17:23:28.226 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:23:28.226 [info] Sync started.
+2024-06-18 17:23:29.067 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:23:29.071 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:23:29.073 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:23:29.074 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:23:29.075 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:23:29.118 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:23:29.118 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:23:29.119 [info] Sync done. Took 895ms
+2024-06-18 17:28:29.126 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:28:29.127 [info] Sync started.
+2024-06-18 17:28:30.227 [info] Settings: No changes found during synchronizing settings.
+2024-06-18 17:28:30.232 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-06-18 17:28:30.234 [info] Snippets: No changes found during synchronizing snippets.
+2024-06-18 17:28:30.235 [info] Tasks: No changes found during synchronizing tasks.
+2024-06-18 17:28:30.237 [info] GlobalState: No changes found during synchronizing ui state.
+2024-06-18 17:28:30.282 [info] Extensions: No changes found during synchronizing extensions.
+2024-06-18 17:28:30.283 [info] Profiles: No changes found during synchronizing profiles.
+2024-06-18 17:28:30.284 [info] Sync done. Took 1160ms
+2024-06-18 17:33:30.318 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:33:30.319 [info] Sync started.
+2024-06-18 17:33:30.341 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:33:30.342 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:33:30.342 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:38:30.382 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:38:30.383 [info] Sync started.
+2024-06-18 17:38:30.395 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:38:30.396 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:38:30.396 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:43:30.436 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:43:30.436 [info] Sync started.
+2024-06-18 17:43:30.444 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:43:30.445 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:43:30.445 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:48:30.485 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:48:30.485 [info] Sync started.
+2024-06-18 17:48:30.501 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:48:30.502 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:48:30.502 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:53:30.543 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:53:30.543 [info] Sync started.
+2024-06-18 17:53:30.558 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:53:30.559 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:53:30.559 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:58:30.601 [info] Auto Sync: Triggered by Interval
+2024-06-18 17:58:30.601 [info] Sync started.
+2024-06-18 17:58:30.623 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 17:58:30.624 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 17:58:30.624 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 18:03:30.666 [info] Auto Sync: Triggered by Interval
+2024-06-18 18:03:30.666 [info] Sync started.
+2024-06-18 18:03:30.699 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 18:03:30.700 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 18:03:30.700 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 18:08:30.741 [info] Auto Sync: Triggered by Interval
+2024-06-18 18:08:30.741 [info] Sync started.
+2024-06-18 18:08:30.747 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-06-18 18:08:30.748 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)
+2024-06-18 18:08:30.748 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at P.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:136316)
+    at async P.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:133637)
+    at async r.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:107504)
+    at async s.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96553)
+    at async s.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:96171)

@@ -1,0 +1,22 @@
+{
+	"global.vaultTimeout": -1,
+	"global.vaultTimeoutAction": "lock",
+	"stateVersion": 58,
+	"global_desktopSettings_openAtLogin": false,
+	"global_desktopSettings_window": {
+		"width": 950,
+		"height": 600,
+		"isMaximized": false,
+		"displayBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1920,
+			"height": 1080
+		},
+		"x": 286,
+		"y": 333,
+		"zoomFactor": 1
+	},
+	"global_applicationId_appId": "427fb700-baf9-4f9b-bea9-f8387ac29567",
+	"global_biometricSettings_promptCancelled": null
+}

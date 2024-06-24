@@ -1,0 +1,38 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1717676210321
+	},
+	"usage": true,
+	"analytics-uuid": "78fc76d7-087a-4506-96ee-41d6cba99213",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "117166594757276610479",
+		"email": "albertofots@gmail.com",
+		"email_verified": true,
+		"at_hash": "8VlCB_HSF1WWQZQdledJaA",
+		"iat": 1717676222,
+		"exp": 1717679822
+	},
+	"tokens": {
+		"expires_at": 1717683220892,
+		"refresh_token": "1//09HvY8haAShjuCgYIARAAGAkSNwF-L9IrSgcDYGvfMT-SJvQ5rSErn4twcLUm46O516wv9S9flUaSB4ORS6QbAJgBmpPA2_JSpnk",
+		"scopes": [],
+		"access_token": "ya29.a0AXooCgt1_eRvVAZqjYZm_hJuWmFTE8oLVP4BuLTDmtMpTg0FtFeCrPIySsfLUkXzIOPPxqsiw_RvcJHlTrxk_Y2mzEIsZXeX1aPq3SoG64ledEsSakIO0X-udXpRNFii4MIqoe1ldEal_HqnM2VIiPrmYZO2l4UrhlYgSGFhJQaCgYKAUsSARASFQHGX2MiVMt9H9FOHllkNZAeYO8yLw0177",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY3NGRiYmE4ZmFlZTY5YWNhZTFiYzFiZTE5MDQ1MzY3OGY0NzI4MDMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3MTY2NTk0NzU3Mjc2NjEwNDc5IiwiZW1haWwiOiJhbGJlcnRvZm90c0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlRwYWVvYllWdDFXZGpHd0dwdVBvNHciLCJpYXQiOjE3MTc2Nzk2MjEsImV4cCI6MTcxNzY4MzIyMX0.kK6JYqzXRbkL4_S7KUIiVg9pg-Q32WtCmStWXr7JKThlle22Xt-9vUA5CO6rS6jy1xUr51vJtcKevd1qAsa1_Ry3ezb4lcwOONmfUQVT0YPd7sbp-FIoYha0GeZdSHsC2txnNRUxSPZaeMEUcgdH3zkQfqa4nh4VoAh6oQH6H2vebEXVHU-Z_jgWuKbLJ7XZWBouDGxycIPWL0kb4_F2zbFAFKMo9jF8kx9-RyF3mZeoF7Dpn3IFwmMx6OHK1AkifBH-Ot5Iq6-1WuXeQvwV4WkCa7VB9RZXoUZBb35jK3NJdgsVyW5LJfKGGs2KyeUHxMTZrFXEdsXxoM8olduYjA"
+	},
+	"activeProjects": {
+		"/home/albertofots/vault/dev/money_tracker/money_tracker": "money-tracker-a272c"
+	}
+}

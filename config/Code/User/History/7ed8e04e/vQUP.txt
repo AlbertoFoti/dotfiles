@@ -1,0 +1,9 @@
+# Add source files
+set(SOURCES
+    DHS_GE.hpp
+    DHS_GE.cpp
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(path_tracking ${SOURCES})

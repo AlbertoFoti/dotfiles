@@ -1,0 +1,51 @@
+2024-06-17 10:00:55.430 [info] update#setState idle
+2024-06-17 10:00:58.908 [error] update#isLatestVersion(): failed to check for updates
+2024-06-17 10:00:58.909 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 10:01:00.207 [error] update#isLatestVersion(): failed to check for updates
+2024-06-17 10:01:00.208 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 10:01:25.433 [info] update#setState checking for updates
+2024-06-17 10:01:25.437 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 10:01:25.437 [info] update#setState idle
+2024-06-17 10:01:45.498 [info] Extension host with pid 4916 exited with code: 0, signal: unknown.
+2024-06-17 10:01:46.563 [error] update#isLatestVersion(): failed to check for updates
+2024-06-17 10:01:46.563 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 11:20:48.050 [warning] No ptyHost heartbeat after 6 seconds
+2024-06-17 11:23:57.604 [info] Extension host with pid 5766 exited with code: 0, signal: unknown.
+2024-06-17 11:23:58.517 [error] update#isLatestVersion(): failed to check for updates
+2024-06-17 11:23:58.517 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 11:39:55.098 [info] update#setState checking for updates
+2024-06-17 11:39:55.102 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 11:39:55.103 [info] update#setState idle
+2024-06-17 14:05:14.797 [info] update#setState checking for updates
+2024-06-17 14:05:14.804 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 14:05:14.805 [info] update#setState idle
+2024-06-17 15:05:14.800 [info] update#setState checking for updates
+2024-06-17 15:05:14.806 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 15:05:14.806 [info] update#setState idle
+2024-06-17 16:05:14.803 [info] update#setState checking for updates
+2024-06-17 16:05:14.811 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 16:05:14.811 [info] update#setState idle
+2024-06-17 17:05:14.807 [info] update#setState checking for updates
+2024-06-17 17:05:14.817 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-17 17:05:14.818 [info] update#setState idle
+2024-06-17 17:07:11.563 [info] Extension host with pid 8382 exited with code: 0, signal: unknown.

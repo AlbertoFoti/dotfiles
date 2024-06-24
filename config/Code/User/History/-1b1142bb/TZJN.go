@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func add(x int, y int) int {
+	return x + y
+}
+
+func swap()
+
+func main() {
+	fmt.Println("hello, world!\n")
+
+	fmt.Println("The time is", time.Now())
+
+	fmt.Println(add(42, 13))
+}

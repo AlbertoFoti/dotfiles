@@ -1,0 +1,30 @@
+2024-06-17 21:22:57.838 [info] Extension host with pid 22079 started
+2024-06-17 21:22:57.886 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 21:22:57.889 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-06-17 21:22:57.909 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 21:22:57.929 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 21:22:57.968 [info] Eager extensions activated
+2024-06-17 21:22:57.977 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:57.979 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:57.984 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:57.989 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.015 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.091 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.151 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.154 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.162 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.182 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.221 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 21:22:58.348 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-17 21:23:04.259 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-17 21:23:04.270 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new A (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+    at Proxy.z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+    at N.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:43281)
+    at Object.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:31146)
+    at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:459:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-06-17 21:23:04.276 [info] Extension host with pid 22079 exiting with code 0

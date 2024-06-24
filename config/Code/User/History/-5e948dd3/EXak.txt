@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(CoMtest VERSION 0.1.0 LANGUAGES C CXX)
+
+include(CTest)
+enable_testing()
+
+file(GLOB HEADERS "CoM3DOFDetailed/*.hxx")
+file(GLOB SOURCES "CoM3DOFDetailed/*.cpp")
+
+include_directories(CoM3DOFDetailed)
+
+add_executable(CoMtest main.cpp ${SOURCES} ${HEADERS})
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

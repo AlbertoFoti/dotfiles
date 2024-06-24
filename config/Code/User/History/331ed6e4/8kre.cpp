@@ -1,0 +1,260 @@
+#include "Utils.hxx"
+
+class RandomGen {
+public:
+    std::mt19937 rand_gen;
+    std::vector<std::vector<double>> seedV;
+    std::vector<std::vector<double>> seedVemcd;
+    std::normal_distribution<double> dis;
+};
+
+std::vector<double> linspace(double start_in, double end_in, int num_in)
+{
+  std::vector<double> linspaced;
+
+  double start = static_cast<double>(start_in);
+  double end = static_cast<double>(end_in);
+  double num = static_cast<double>(num_in);
+
+  if (num == 0) { return linspaced; }
+  if (num == 1) 
+    {
+      linspaced.push_back(start);
+      return linspaced;
+    }
+
+  double delta = (end - start) / (num - 1);
+
+  for(int i=0; i < num-1; ++i)
+    {
+      linspaced.push_back(start + delta * i);
+    }
+  linspaced.push_back(end); // I want to ensure that start and end
+                            // are exactly the same as the input
+  return linspaced;
+}
+
+std::vector<double> acos_vectorial(std::vector<double> data) {
+    std::vector<double> res;
+
+    for(unsigned int i=0; i<data.size(); i++) {
+        res.push_back(acos(data.at(i)));
+    }
+
+    return res;
+}
+
+std::vector<double> zeros(std::size_t size) {
+    std::vector<double> res;
+
+    for(unsigned int i=0; i<size; i++) {
+        res.push_back(0.00);
+    }
+
+    return res;
+}
+
+std::vector<std::vector<double>> zeros(std::size_t size1, std::size_t size2) {
+    std::vector<std::vector<double>> res;
+
+    for(unsigned int i=0; i<size1; i++) {
+      std::vector<double> item;
+      for(unsigned int j=0; j<size2; j++) {
+        item.push_back(0.00);
+      }
+      res.push_back(item);
+    }
+
+    return res;
+}
+
+void sum(std::vector<double>& vector_a, std::vector<double>& vector_b) {
+    for(unsigned int i=0; i<vector_a.size(); i++) {
+        vector_a.at(i) += vector_b.at(i);
+    }
+}
+
+std::vector<uint32_t> find_vectorial_double(std::vector<double>& vec, double value) {
+    std::vector<uint32_t> res;
+
+    for(unsigned int i=0; i<vec.size(); i++) {
+        if(vec.at(i) > value) {
+            res.push_back(i);    
+        }
+    }
+
+    return res;
+}
+
+std::vector<uint32_t> find_vectorial_uint(std::vector<uint32_t>& vec, uint32_t value) {
+    std::vector<uint32_t> res;
+
+    for(unsigned int i=0; i<vec.size(); i++) {
+        if(vec.at(i) > value) {
+            res.push_back(i);    
+        }
+    }
+
+    return res;
+}
+
+int32_t sign(double num) {
+  if (num < 0.00) {
+    return -1;
+  } else if (num > 0.00) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
+std::vector<double> diff(std::vector<double> vec) {
+  std::vector<double> res;
+
+  for(unsigned int i=1; i<vec.size(); i++) {
+    res.push_back(vec.at(i) - vec.at(i-1));
+  }
+
+  return res;
+}
+
+std::vector<uint32_t> diff(std::vector<uint32_t> vec) {
+  std::vector<uint32_t> res;
+
+  for(unsigned int i=1; i<vec.size(); i++) {
+    res.push_back(vec.at(i) - vec.at(i-1));
+  }
+
+  return res;
+}
+
+std::vector<uint32_t> matrixSize(std::vector<std::vector<uint32_t>> input) {
+  std::vector<uint32_t> res;
+
+  res.push_back(input.size());
+  res.push_back(input.at(0).size());
+  return res;
+}
+
+std::vector<std::vector<double>> randi(RandomGen& rg, double max, uint32_t size1, uint32_t size2) {
+  std::vector<std::vector<double>> res;
+
+  for(unsigned int i=0; i<size1; i++) {
+    std::vector<double> item;
+    for(unsigned int j=0; j<size2; j++) {
+      double rand_num = rg.rand_gen();
+      if(rand_num > max) {
+        rand_num -= max;
+      }
+      item.push_back(rand_num);
+    }
+    res.push_back(item);
+  }
+
+  return res;
+}
+
+std::vector<double> vectorSum(std::vector<double> v1, std::vector<double> v2) {
+  std::vector<double> res {};
+
+  if(v1.size() != v2.size()) {
+    // TODO: Handle Error
+    return res;
+  }
+
+  for(unsigned int i=0; i<v1.size(); i++) {
+    res.push_back(v1.at(i) + v2.at(i));
+  }
+
+  return res;
+}
+
+std::vector<double> vectorSlice(std::vector<double> vec, std::pair<double, double> range) {
+  std::vector<double> res {};
+  for(unsigned int i=range.first; i<range.second; i++) {
+    res.push_back(vec.at(i));
+  }
+
+  return res;
+}
+
+class MatrixT {
+public:
+    std::vector<std::vector<double>> data;
+
+public:
+    MatrixT() {
+      this->data = std::vector<std::vector<double>>();
+    }
+
+    MatrixT(std::vector<std::vector<double>> data) {
+      this->data = data;
+    }
+
+    MatrixT(std::vector<std::array<double, 4>> data) {
+      for(unsigned int i=0; i<data.size(); i++) {
+        std::vector<double> item;
+        for(unsigned int j=0; j<4; j++) {
+          item.push_back(data.at(i).at(j));
+        }
+        this->data.push_back(item);
+      }
+    }
+
+    static MatrixT eye(uint32_t size) {
+      MatrixT res;
+
+      for(unsigned int i=0; i<size; i++) {
+        std::vector<double> item;
+        for(unsigned int j=0; j<size; j++) {
+          if(i == j) {
+            item.push_back(1.00);
+          } else {
+            item.push_back(0.00);
+          }
+        }
+        res.data.push_back(item);
+      }
+
+      return res;
+    }
+
+    static MatrixT slice(MatrixT& m_in, 
+      std::pair<uint32_t, uint32_t> range1,
+      std::pair<uint32_t, uint32_t> range2
+    ) {
+      MatrixT res;
+
+      for(unsigned int i=range1.first; i<range1.second; i++) {
+        std::vector<double> item;
+        for(unsigned int j=range2.first; j<range2.second; j++) {
+          item.push_back(m_in.data.at(i).at(j));
+        }
+        res.data.push_back(item);
+      }
+
+      return res;
+    }
+
+    static MatrixT inverse(MatrixT& m_in) {
+        return MatrixT(inverseMatrix(m_in.data, m_in.data.size()));
+    }
+
+    std::vector<double> at(uint32_t row) {
+      return this->data.at(row);
+    }
+
+    std::vector<double> getCol(uint32_t col) {
+      std::vector<double> res;
+
+      for(unsigned int i=0; i<this->data.size(); i++) {
+        res.push_back(this->data.at(i).at(col));
+      }
+
+      return res;
+    }
+
+    void clear() {
+      this->data.clear();
+    }
+};

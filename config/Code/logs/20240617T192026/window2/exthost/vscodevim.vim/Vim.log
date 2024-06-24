@@ -1,0 +1,51 @@
+2024-06-17 19:21:28.980 [info] Configuration changed
+2024-06-17 19:21:39.283 [info] Configuration changed
+2024-06-17 19:21:42.417 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:22:20.825 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Domain/domainanalysis.tex
+2024-06-17 19:27:42.345 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:29:15.828 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:29:25.096 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:29:57.325 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:30:27.942 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:30:35.529 [info] Executing :q
+2024-06-17 19:30:35.538 [warning] getLineLength() called with out-of-bounds line 17
+2024-06-17 19:30:35.538 [warning] invalid cursor position. [[17, 13] | [17, 13]].
+2024-06-17 19:30:51.003 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:30:59.819 [info] Executing :q
+2024-06-17 19:30:59.827 [warning] getLineLength() called with out-of-bounds line 17
+2024-06-17 19:30:59.827 [warning] invalid cursor position. [[17, 13] | [17, 13]].
+2024-06-17 19:31:05.046 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:31:10.626 [info] Executing :q
+2024-06-17 19:31:10.653 [warning] getLineLength() called with out-of-bounds line 17
+2024-06-17 19:31:10.653 [warning] invalid cursor position. [[17, 13] | [17, 13]].
+2024-06-17 19:31:11.570 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:31:17.158 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:31:29.238 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:31:30.892 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 19:31:34.102 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Appendix/aerodynamicDatabase.tex
+2024-06-17 19:31:36.521 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:31:38.118 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Domain/domainanalysis.tex
+2024-06-17 19:31:42.092 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:31:46.530 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/introduction.tex
+2024-06-17 19:31:51.470 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:32:14.041 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:32:14.782 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:32:25.308 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:38:10.179 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:38:17.416 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Front/notations_conventions.tex
+2024-06-17 19:38:37.265 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:39:43.354 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 19:39:53.225 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Front/notations_conventions.tex
+2024-06-17 19:40:02.373 [info] Executing :w
+2024-06-17 19:43:58.460 [info] Executing :w
+2024-06-17 19:44:14.370 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/Front/notations_conventions.tex
+2024-06-17 19:44:28.988 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 20:00:28.784 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 20:05:51.235 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 20:14:51.578 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 20:27:59.234 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/PathPlanning/nominaltrajectory.tex
+2024-06-17 20:32:53.592 [info] Active editor: file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents/main.tex
+2024-06-17 20:44:17.479 [info] Configuration changed
+2024-06-17 20:44:27.480 [info] Configuration changed
+2024-06-17 20:49:46.473 [info] Configuration changed
+2024-06-17 21:12:43.495 [info] Configuration changed

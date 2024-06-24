@@ -1,0 +1,127 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.openDevTools": "flutter",
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.showOptionsMovedNotification": false,
+    "explorer.confirmDragAndDrop": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "latex.externalBuildCommand": "pdflatex",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Build Latex", // Choose a descriptive name
+            "tools": [
+                "pdflatex" // Specify the main compiler (e.g., pdflatex, xelatex)
+            ]
+        }
+    ],
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#00000000"
+    },
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "hidden",
+    "editor.renderWhitespace": "none",
+    "editor.cursorSurroundingLines": 12,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.wordWrap": "off",
+    "projectManager.git.baseFolders": ["$home/Vault"],
+    "projectManager.sortList": "Recent",
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
+    "editor.rulers": [],
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+
+    "vim.leader": "<space>",
+    "vim.holdfix": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "workbench.colorTheme": "Ayu Dark",
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "scm.diffDecorations": "none",
+    "scm.diffDecorationsGutterAction": "none",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "p", "d"],
+            "commands": ["editor.action.peekDefinition"]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": ["editor.action.showDefinitionPreviewHover"]
+        },
+        {
+            "before": ["g", "i"],
+            "commands": ["editor.action.goToImplementation"]
+        },
+        {
+            "before": ["g", "p", "i"],
+            "commands": ["editor.action.peekImplementation"]
+        },
+        {
+            "before": ["g", "q"],
+            "commands": ["editor.action.quickFix"]
+        },
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.referenceSearch.trigger"]
+        },
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.action.goToTypeDefinition"]
+        },
+        {
+            "before": ["g", "p", "t"],
+            "commands": ["editor.action.peekTypeDefinition"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["H"], // Focus previous tab at the left
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["L"], // Focus next tab at the right
+            "commands": ["workbench.action.nextEditor"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "f", "r"],
+            "commands": ["find-it-faster.findWithinFiles"]
+        },
+        {
+            "before": ["leader", "f", "f"],
+            "commands": ["find-it-faster.findFiles"]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "#a9dc7660",
+    "vim.highlightedyank.duration": 250
+}

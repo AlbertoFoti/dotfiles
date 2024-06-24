@@ -1,0 +1,13 @@
+file:///home/albertofots/Vault/dev/learn_vim/main.cpp {"mtime":1718989747443,"ctime":1718553016700,"size":154,"etag":"3ciqgn6of4u","orphaned":false,"typeId":""}
+
+#include <stdio.h>
+#include "player.hxx"
+
+int main(int, char **)
+{
+   printf("Hello, from test_project!\n");
+
+   Player p;
+   int x = 0;
+   int x = 3;
+}

@@ -1,0 +1,41 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.openDevTools": "flutter",
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.showOptionsMovedNotification": false,
+    "explorer.confirmDragAndDrop": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.colorTheme": "Monokai",
+    "latex.externalBuildCommand": "pdflatex",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Build Latex",  // Choose a descriptive name
+            "tools": [
+                "pdflatex"       // Specify the main compiler (e.g., pdflatex, xelatex)
+            ]
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "projectManager.git.baseFolders": ["$home/Vault"],
+    "projectManager.sortList": "Recent"
+}

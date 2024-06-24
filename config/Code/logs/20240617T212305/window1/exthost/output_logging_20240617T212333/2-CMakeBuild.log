@@ -1,0 +1,7 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/albertofots/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/c89-gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT

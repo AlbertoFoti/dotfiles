@@ -1,0 +1,45 @@
+
+{
+    "parameters": {
+        "Tgui": {
+            "Units": "[s]",
+            "Value": 1.00,
+            "Uncertanty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Time step of the nominal entry simulation and of the path-planning algorithm"
+        },
+        "Tatt": {
+            "Units": "[s]",
+            "Value": 0.100,
+            "Uncertanty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Time step of the attitude control algorithm"
+        },
+        "Tnav": {
+            "Units": "[s]",
+            "Value": 0.010,
+            "Uncertanty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Time step of the navigation algorithm"
+        },
+        "TCoM": {
+            "Units": "[s]",
+            "Value": 0.100,
+            "Uncertanty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Time step of the translational control algorithm"
+        },
+        "Ts": {
+            "Units": "[s]",
+            "Value": 0.01,
+            "Uncertanty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Time step of the simulation algorithm (made a function of the selection of the pulsed thrusters for simplicity)"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+\chapter{Nominal Trajectory}
+
+The \textit{Descent Module} (DM), during the EDL phase, can be modeled as a
+six dof (9dof) autonomous system.
+
+It has three coordinates (spherical) describing its position relative to the
+$\mathcal{R}_{m}$ reference frame
+
+        $$
+            \textbf{r}_{CoM}\rangle_{\mathcal{R}_{P}} = [\: r,\:\Lambda,\:\lambda \:]
+        $$
+
+\noindent Where $r$ is the radial position w.r.t. the center of the planet, $\Lambda$ and $\lambda$ are 
+the longitude and the latitude respectively.
+
+Three coordinates (spherical) describing the velocity vector w.r.t the $\mathcal{R}_{NED}$ reference frame, univocally
+determined by the DM position.
+
+        $$
+            \textbf{v}_{CoM}\rangle_{\mathcal{R}_{NED}} = [\: \nu,\:\gamma,\:\chi \:]
+        $$
+
+\noindent Where $\nu$ is the velocity modulus (VEL), while $\gamma$ and $\chi$ are the flight
+path angle (FPA) and the heading (HEAD) respectively.
+These two can be combined in a six dof description of the capsule state.
+
+        $$
+            \textbf{x}_{CoM}\rangle = [\textbf{r}_{CoM},\: \textbf{v}_{CoM}] = [\: r,\:\Lambda,\:\lambda, \: \nu,\:\gamma,\:\chi \:]
+        $$
+
+Additionally, a 3D vector is used to describe the DM body attitude w.r.t. to the relative wind.
+
+        $$
+            \textbf{x}_{Att} = [\: \mu,\: \alpha,\: \eta]
+        $$
+
+\noindent Where $\mu$ is the bank angle, while $\alpha$ and $\eta$ are the 
+angle of attack (AoA) and the aerodynamic roll.
+
+The roll, pitch and yaw rates around the body $\mathcal{R}_{b}$ reference frame are the DM angular velocity
+
+        $$
+            \boldsymbol{\omega}|_{\mathcal{R}_{b}} = [\: \omega_l,\: \omega_m,\: \omega_n]
+        $$
+
+\newpage
+
+\section{Errors description and notations}
+
+There are, in general, two types of errors: actual tracking errors and estimation
+errors, whice can also be called dispersion and knowledge errors respectively.
+The tracking error is defined as the difference between the actual state of the capsule and the state
+at which it's supposed to be, while the estimation error is the difference between the estimated state
+(through the use of sensors) and the actual one.
+
+Actually there are several instances of the capsule state. The ones used in this document are:
+
+\begin{enumerate}
+    \item Actual Trajectory: Represented as $\textbf{x}_{CoM}$ and $\textbf{x}_{att}$, correspond
+    to the actual value of the DM state, given, during the design phase by the simulation engine.
+    \item Navigated Trajectory: Represented as $\hat{\textbf{x}}_{CoM}$ and $\hat{\textbf{x}}_{att}$,
+    corresponds to the estimated capsule state obtained by the navigation algorithm by interpreting the
+    information of all the available sensors.
+    \item Mission Trajectory: Represented as $\textbf{x}_{CoM,Mis}$ and $\textbf{x}_{att,Mis}$, corresponds to the trajectory
+    the capsule should follow if it reaches, exactly, the EIP, and the environmental and aerodynamic conditions are nominal.
+    \item Path-Planning Trajectory: Based on the measured value of the $\hat{\textbf{x}}_{CoM}(EIP)$, the path-planning 
+    algorithm computes $\textbf{x}_{CoM,Gui}$ and $\textbf{x}_{att,Gui}$ such that it starts at $\hat{\textbf{x}}_{CoM}(EIP)$ and
+    reaches $\hat{\textbf{x}}_{CoM,Mis}(EIP)$ 
+\end{enumerate}
+
+\newpage
+
+\section{Nominal Trajectory Description}
+
+from the DM known state (\textbf{x})

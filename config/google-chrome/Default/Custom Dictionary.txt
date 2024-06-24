@@ -1,0 +1,2 @@
+Essentials﻿
+checksum_v1 = b203a8c47d77a8b99001ed4387b91510

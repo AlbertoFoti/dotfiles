@@ -1,0 +1,2 @@
+2024-06-21 10:09:49.464 [error] electron #57: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-06-21 16:28:40.623 [error] electron #286: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED

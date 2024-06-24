@@ -1,0 +1,60 @@
+{
+    "parameters": {
+      "SimT": {
+        "Units": "[s]",
+        "Value": 1.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Discrete time simulation step - Steps at which the discrete outputs and update functions are called"
+      },
+      "GRAVID": {
+        "Units": "[ - ]",
+        "Value": 2.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Number of harmonics to be included"
+      },
+      "MU": {
+        "Units": "[ - ]",
+        "Value": 42.83e12,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Planet gravitational constant"
+      },
+      "J2": {
+        "Units": "[ - ]",
+        "Value": 0.0019,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Planet gravitational oblateness constant"
+      },
+      "J3": {
+        "Units": "[ - ]",
+        "Value": 0.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "-"
+      },
+      "J4": {
+        "Units": "[ - ]",
+        "Value": 0.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "-"
+      },
+      "REQ": {
+        "Units": "[ - ]",
+        "Value": 3.40e6,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Planet equatorial radius"
+      }
+    }
+  }

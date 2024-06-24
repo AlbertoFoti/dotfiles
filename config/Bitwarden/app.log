@@ -1,0 +1,86 @@
+[2024-05-13 13:10:51.103] [info]  No state version found, assuming empty state.
+[2024-05-13 13:10:53.617] [info]  State version: 58
+[2024-05-13 13:10:56.700] [info]  Checking for update
+[2024-05-13 13:10:56.706] [info]  Generated new staging user ID: c407dfe7-7e02-5e0b-a709-0cf434980a8e
+[2024-05-13 13:10:58.036] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88704:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88465:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88461:12)
+    at WindowMain.updateWindowState (/tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88699:16)
+    at WindowMain.<anonymous> (/tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88634:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_BitwarDRsH8U/resources/app.asar/main.js:88465:71
+    at new Promise (<anonymous>)
+[2024-05-13 13:12:57.505] [info]  State version: 58
+[2024-05-13 13:12:57.508] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-05-13 13:12:57.508] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-05-13 13:12:57.508] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-05-13 13:12:57.509] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-05-13 13:12:57.509] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-05-13 13:12:57.509] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-05-13 13:12:57.509] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-05-13 13:12:57.509] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-05-13 13:12:57.510] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-05-13 13:12:57.511] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2024-05-13 13:12:57.512] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2024-05-13 13:12:57.513] [info]  Migrator DeviceTrustCryptoServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2024-05-13 13:12:57.514] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2024-05-13 13:12:57.514] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2024-05-13 13:12:57.514] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2024-05-13 13:12:57.514] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2024-05-13 13:12:57.514] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2024-05-13 13:12:59.998] [info]  State version: 58
+[2024-05-13 13:13:03.142] [info]  Checking for update
+[2024-05-13 13:13:03.710] [info]  Update for version 2024.4.3 is not available (latest version: 2024.4.3, downgrade is disallowed).
+[2024-05-13 13:13:10.516] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88704:36)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88465:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88461:12)
+    at WindowMain.updateWindowState (/tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88699:16)
+    at WindowMain.<anonymous> (/tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88634:28)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_Bitwarsoylvr/resources/app.asar/main.js:88465:71
+    at new Promise (<anonymous>)

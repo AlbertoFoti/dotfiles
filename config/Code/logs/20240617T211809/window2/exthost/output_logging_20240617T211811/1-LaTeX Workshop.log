@@ -1,0 +1,169 @@
+[21:18:11.740][Logger] New log placeholder %WS1% registered for /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/documents .
+[21:18:11.740][Extension] Initializing LaTeX Workshop.
+[21:18:11.847][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[21:18:11.885][Server] Creating LaTeX Workshop http and websocket server.
+[21:18:11.953][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[21:18:11.984][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":46493} .
+[21:18:11.993][Extension] Extension root: /home/albertofots/.vscode/extensions/james-yu.latex-workshop-9.20.1
+[21:18:11.994][Extension] $PATH: /home/albertofots/.cargo/bin:/home/albertofots/.local/bin:/home/albertofots/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+[21:18:11.994][Extension] $SHELL: /bin/fish
+[21:18:11.994][Extension] $LANG: en_US.UTF-8
+[21:18:11.994][Extension] $LC_ALL: undefined
+[21:18:11.994][Extension] process.platform: linux
+[21:18:11.995][Extension] process.arch: x64
+[21:18:11.995][Extension] vscode.env.appName: Visual Studio Code
+[21:18:11.995][Extension] vscode.env.remoteName: undefined
+[21:18:11.995][Extension] vscode.env.uiKind: 1
+[21:18:11.997][Config] latex-workshop.latex.recipes: [{"name":"Build Latex","tools":["pdflatex"]}] .
+[21:18:12.040][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[21:18:12.042][Root] Current workspace folders: ["file://%WS1%"]
+[21:18:12.042][Extension] LaTeX Workshop initialized.
+[21:18:12.043][Root] Found root file from active editor: %WS1%/main.tex
+[21:18:12.043][Root] Root file changed: from %WS1%/main.tex to %WS1%/main.tex, langID latex . Refresh dependencies
+[21:18:12.043][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[21:18:12.044][Cacher][Watcher] Reset.
+[21:18:12.044][Cacher][Watcher] Reset.
+[21:18:12.046][Cacher] Adding %WS1%/main.tex .
+[21:18:12.047][Cacher][Watcher] Watched %WS1%/main.tex with a new .* watcher on %WS1% .
+[21:18:12.047][Event] FILE_WATCHED: "%WS1%/main.tex"
+[21:18:12.048][Cacher] Caching %WS1%/main.tex .
+[21:18:12.049][Cacher] Input %WS1%/Common/config.tex from %WS1%/main.tex .
+[21:18:12.049][Cacher] Adding %WS1%/Common/config.tex .
+[21:18:12.050][Cacher][Watcher] Watched %WS1%/Common/config.tex with a new .* watcher on %WS1%/Common .
+[21:18:12.050][Event] FILE_WATCHED: "%WS1%/Common/config.tex"
+[21:18:12.050][Cacher] Caching %WS1%/Common/config.tex .
+[21:18:12.051][Cacher] Updated inputs of %WS1%/Common/config.tex .
+[21:18:12.051][Cacher] Parse LaTeX AST: %WS1%/Common/config.tex .
+[21:18:12.051][Cacher] Input %WS1%/Common/commands.tex from %WS1%/main.tex .
+[21:18:12.052][Cacher] Adding %WS1%/Common/commands.tex .
+[21:18:12.052][Cacher][Watcher] Watched %WS1%/Common/commands.tex by the .* watcher.
+[21:18:12.052][Event] FILE_WATCHED: "%WS1%/Common/commands.tex"
+[21:18:12.053][Cacher] Caching %WS1%/Common/commands.tex .
+[21:18:12.053][Cacher] Updated inputs of %WS1%/Common/commands.tex .
+[21:18:12.053][Cacher] Parse LaTeX AST: %WS1%/Common/commands.tex .
+[21:18:12.054][Cacher] Input %WS1%/Front/frontpage.tex from %WS1%/main.tex .
+[21:18:12.054][Cacher] Adding %WS1%/Front/frontpage.tex .
+[21:18:12.054][Cacher][Watcher] Watched %WS1%/Front/frontpage.tex with a new .* watcher on %WS1%/Front .
+[21:18:12.055][Event] FILE_WATCHED: "%WS1%/Front/frontpage.tex"
+[21:18:12.055][Cacher] Caching %WS1%/Front/frontpage.tex .
+[21:18:12.056][Cacher] Updated inputs of %WS1%/Front/frontpage.tex .
+[21:18:12.056][Cacher] Parse LaTeX AST: %WS1%/Front/frontpage.tex .
+[21:18:12.056][Cacher] Input %WS1%/Front/frasebella.tex from %WS1%/main.tex .
+[21:18:12.057][Cacher] Adding %WS1%/Front/frasebella.tex .
+[21:18:12.057][Cacher][Watcher] Watched %WS1%/Front/frasebella.tex by the .* watcher.
+[21:18:12.057][Event] FILE_WATCHED: "%WS1%/Front/frasebella.tex"
+[21:18:12.058][Cacher] Caching %WS1%/Front/frasebella.tex .
+[21:18:12.058][Cacher] Updated inputs of %WS1%/Front/frasebella.tex .
+[21:18:12.058][Cacher] Parse LaTeX AST: %WS1%/Front/frasebella.tex .
+[21:18:12.058][Cacher] Input %WS1%/Front/dedications_and_acknowledgments.tex from %WS1%/main.tex .
+[21:18:12.059][Cacher] Adding %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.059][Cacher][Watcher] Watched %WS1%/Front/dedications_and_acknowledgments.tex by the .* watcher.
+[21:18:12.060][Event] FILE_WATCHED: "%WS1%/Front/dedications_and_acknowledgments.tex"
+[21:18:12.060][Cacher] Caching %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.061][Cacher] Updated inputs of %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.061][Cacher] Parse LaTeX AST: %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.061][Cacher] Input %WS1%/Front/abstract_page.tex from %WS1%/main.tex .
+[21:18:12.062][Cacher] Adding %WS1%/Front/abstract_page.tex .
+[21:18:12.062][Cacher][Watcher] Watched %WS1%/Front/abstract_page.tex by the .* watcher.
+[21:18:12.063][Event] FILE_WATCHED: "%WS1%/Front/abstract_page.tex"
+[21:18:12.063][Cacher] Caching %WS1%/Front/abstract_page.tex .
+[21:18:12.064][Cacher] Updated inputs of %WS1%/Front/abstract_page.tex .
+[21:18:12.064][Cacher] Parse LaTeX AST: %WS1%/Front/abstract_page.tex .
+[21:18:12.065][Cacher] Input %WS1%/Front/notations_conventions.tex from %WS1%/main.tex .
+[21:18:12.065][Cacher] Adding %WS1%/Front/notations_conventions.tex .
+[21:18:12.066][Cacher][Watcher] Watched %WS1%/Front/notations_conventions.tex by the .* watcher.
+[21:18:12.066][Event] FILE_WATCHED: "%WS1%/Front/notations_conventions.tex"
+[21:18:12.066][Cacher] Caching %WS1%/Front/notations_conventions.tex .
+[21:18:12.067][Cacher] Updated inputs of %WS1%/Front/notations_conventions.tex .
+[21:18:12.067][Cacher] Parse LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[21:18:12.068][Cacher] Input %WS1%/Domain/introduction.tex from %WS1%/main.tex .
+[21:18:12.068][Cacher] Adding %WS1%/Domain/introduction.tex .
+[21:18:12.069][Cacher][Watcher] Watched %WS1%/Domain/introduction.tex with a new .* watcher on %WS1%/Domain .
+[21:18:12.069][Event] FILE_WATCHED: "%WS1%/Domain/introduction.tex"
+[21:18:12.070][Cacher] Caching %WS1%/Domain/introduction.tex .
+[21:18:12.070][Cacher] Updated inputs of %WS1%/Domain/introduction.tex .
+[21:18:12.070][Cacher] Parse LaTeX AST: %WS1%/Domain/introduction.tex .
+[21:18:12.071][Cacher] Input %WS1%/Domain/domainanalysis.tex from %WS1%/main.tex .
+[21:18:12.071][Cacher] Adding %WS1%/Domain/domainanalysis.tex .
+[21:18:12.072][Cacher][Watcher] Watched %WS1%/Domain/domainanalysis.tex by the .* watcher.
+[21:18:12.072][Event] FILE_WATCHED: "%WS1%/Domain/domainanalysis.tex"
+[21:18:12.072][Cacher] Caching %WS1%/Domain/domainanalysis.tex .
+[21:18:12.072][Cacher] Updated inputs of %WS1%/Domain/domainanalysis.tex .
+[21:18:12.073][Cacher] Parse LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[21:18:12.073][Cacher] Input %WS1%/PathPlanning/introduction.tex from %WS1%/main.tex .
+[21:18:12.073][Cacher] Adding %WS1%/PathPlanning/introduction.tex .
+[21:18:12.073][Cacher][Watcher] Watched %WS1%/PathPlanning/introduction.tex with a new .* watcher on %WS1%/PathPlanning .
+[21:18:12.074][Event] FILE_WATCHED: "%WS1%/PathPlanning/introduction.tex"
+[21:18:12.074][Cacher] Caching %WS1%/PathPlanning/introduction.tex .
+[21:18:12.074][Cacher] Updated inputs of %WS1%/PathPlanning/introduction.tex .
+[21:18:12.074][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[21:18:12.075][Cacher] Input %WS1%/PathPlanning/nominaltrajectory.tex from %WS1%/main.tex .
+[21:18:12.075][Cacher] Adding %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.075][Cacher][Watcher] Watched %WS1%/PathPlanning/nominaltrajectory.tex by the .* watcher.
+[21:18:12.075][Event] FILE_WATCHED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[21:18:12.076][Cacher] Caching %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.076][Cacher] Updated inputs of %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.076][Cacher] Parse LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.076][Cacher] Input %WS1%/Appendix/aerodynamicDatabase.tex from %WS1%/main.tex .
+[21:18:12.077][Cacher] Adding %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.077][Cacher][Watcher] Watched %WS1%/Appendix/aerodynamicDatabase.tex with a new .* watcher on %WS1%/Appendix .
+[21:18:12.077][Event] FILE_WATCHED: "%WS1%/Appendix/aerodynamicDatabase.tex"
+[21:18:12.078][Cacher] Caching %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.078][Cacher] Updated inputs of %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.078][Cacher] Parse LaTeX AST: %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.078][Cacher] Updated inputs of %WS1%/main.tex .
+[21:18:12.079][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[21:18:12.079][Event] ROOT_FILE_SEARCHED
+[21:18:12.133][Cacher] Parsed LaTeX AST: %WS1%/Common/config.tex .
+[21:18:12.134][Cacher] Updated elements in 1.00 ms: %WS1%/Common/config.tex .
+[21:18:12.135][Event] FILE_PARSED: "%WS1%/Common/config.tex"
+[21:18:12.135][Cacher] Parsed LaTeX AST: %WS1%/Common/commands.tex .
+[21:18:12.135][Cacher] Updated elements in 0.21 ms: %WS1%/Common/commands.tex .
+[21:18:12.136][Event] FILE_PARSED: "%WS1%/Common/commands.tex"
+[21:18:12.156][Cacher] Parsed LaTeX AST: %WS1%/Front/frontpage.tex .
+[21:18:12.158][Cacher] Updated elements in 0.91 ms: %WS1%/Front/frontpage.tex .
+[21:18:12.158][Event] FILE_PARSED: "%WS1%/Front/frontpage.tex"
+[21:18:12.177][Cacher] Parsed LaTeX AST: %WS1%/Front/frasebella.tex .
+[21:18:12.178][Cacher] Updated elements in 0.54 ms: %WS1%/Front/frasebella.tex .
+[21:18:12.178][Event] FILE_PARSED: "%WS1%/Front/frasebella.tex"
+[21:18:12.183][Cacher] Parsed LaTeX AST: %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.184][Cacher] Updated elements in 0.59 ms: %WS1%/Front/dedications_and_acknowledgments.tex .
+[21:18:12.186][Event] FILE_PARSED: "%WS1%/Front/dedications_and_acknowledgments.tex"
+[21:18:12.187][Cacher] Parsed LaTeX AST: %WS1%/Front/abstract_page.tex .
+[21:18:12.189][Cacher] Updated elements in 1.06 ms: %WS1%/Front/abstract_page.tex .
+[21:18:12.191][Event] FILE_PARSED: "%WS1%/Front/abstract_page.tex"
+[21:18:12.259][Cacher] Parsed LaTeX AST: %WS1%/Front/notations_conventions.tex .
+[21:18:12.263][Cacher] Updated elements in 3.35 ms: %WS1%/Front/notations_conventions.tex .
+[21:18:12.264][Event] FILE_PARSED: "%WS1%/Front/notations_conventions.tex"
+[21:18:12.272][Cacher] Parsed LaTeX AST: %WS1%/Domain/introduction.tex .
+[21:18:12.274][Cacher] Updated elements in 1.82 ms: %WS1%/Domain/introduction.tex .
+[21:18:12.277][Event] FILE_PARSED: "%WS1%/Domain/introduction.tex"
+[21:18:12.308][Cacher] Parsed LaTeX AST: %WS1%/Domain/domainanalysis.tex .
+[21:18:12.309][Cacher] Updated elements in 0.89 ms: %WS1%/Domain/domainanalysis.tex .
+[21:18:12.310][Event] FILE_PARSED: "%WS1%/Domain/domainanalysis.tex"
+[21:18:12.310][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/introduction.tex .
+[21:18:12.310][Cacher] Updated elements in 0.18 ms: %WS1%/PathPlanning/introduction.tex .
+[21:18:12.311][Event] FILE_PARSED: "%WS1%/PathPlanning/introduction.tex"
+[21:18:12.320][Server] valdOrigin is http://127.0.0.1:46493
+[21:18:12.379][Cacher] Parsed LaTeX AST: %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.382][Cacher] Updated elements in 2.48 ms: %WS1%/PathPlanning/nominaltrajectory.tex .
+[21:18:12.383][Event] FILE_PARSED: "%WS1%/PathPlanning/nominaltrajectory.tex"
+[21:18:12.383][Cacher] Parsed LaTeX AST: %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.384][Cacher] Updated elements in 0.26 ms: %WS1%/Appendix/aerodynamicDatabase.tex .
+[21:18:12.384][Event] FILE_PARSED: "%WS1%/Appendix/aerodynamicDatabase.tex"
+[21:18:12.398][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[21:18:12.399][File] Calling kpsewhich to resolve book.cls .
+[21:18:12.418][File] kpsewhich returned with '/usr/share/texlive/texmf-dist/tex/latex/base/book.cls'.
+[21:18:12.419][Cacher] Updated elements in 20.73 ms: %WS1%/main.tex .
+[21:18:12.420][Event] FILE_PARSED: "%WS1%/main.tex"
+[21:18:12.434][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[21:18:12.435][Event] STRUCTURE_UPDATED
+[21:18:12.491][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:46493/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZhbGJlcnRvZm90cyUyRlZhdWx0JTJGbXlfbGlmZSUyRlBlcnNvbmFsJTJGQSUyMC0lMjBDYXJlZXIlMkZ3b3JrJTJGYm9yc2ElMkZNQVJTX0dVSURFRF9FTlRSWSUyRmRldiUyRmRvY3VtZW50cyUyRm1haW4ucGRm .
+[21:18:12.492][Cacher][Watcher] Watched %WS1%/main.pdf with a new .pdf watcher on %WS1% .
+[21:18:12.492][Event] FILE_WATCHED: "%WS1%/main.pdf"
+[21:18:14.112][Viewer] Handle data type: open
+[21:18:14.280][Server] Preview PDF file: file://%WS1%/main.pdf
+[21:18:14.880][Viewer] Handle data type: loaded
+[21:18:14.880][Event] VIEWER_PAGE_LOADED
+[21:22:59.174][Cacher][Watcher] Reset.
+[21:22:59.174][Cacher][Watcher] Reset.

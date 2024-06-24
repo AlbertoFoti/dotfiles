@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.28.0)
+project(guided_entry VERSION 0.1.0 LANGUAGES C CXX)
+
+include(CTest)
+enable_testing()
+
+add_executable(guided_entry main.cpp)
+
+add_subdirectory(PathTracking)
+add_subdirectory(PathPlanning)
+
+target_link_libraries(${PROJECT_NAME} path_tracking)
+target_link_libraries(${PROJECT_NAME} path_planning)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

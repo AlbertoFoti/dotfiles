@@ -1,0 +1,13 @@
+{
+    "Mach" : {
+        "InputValues": [],
+        "cDtrimLkUp": [],
+        "cLtrimLkUp": [],
+        "cNtrimLkUp": [],
+        "tauNtrimLkUp": []
+    },
+    "Radius" : {
+        "InputValues": [],
+
+    }
+}

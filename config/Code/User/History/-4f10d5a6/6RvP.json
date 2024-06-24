@@ -1,0 +1,165 @@
+{
+    "parameters": {
+        "FSatMaxSim": {
+            "Units": "[N]",
+            "Value": 400.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "FSatMinSim": {
+            "Units": "[N]",
+            "Value": 0.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thxSim0": {
+            "Units": "[rad]",
+            "Value": 0.15708,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thxSim1": {
+            "Units": "[rad]",
+            "Value": 0.15708,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thxSim2": {
+            "Units": "[rad]",
+            "Value": 0.15708,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thxSim3": {
+            "Units": "[rad]",
+            "Value": 0.15708,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thySim0": {
+            "Units": "[rad]",
+            "Value": 0.5236,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thySim1": {
+            "Units": "[rad]",
+            "Value": 0.5236,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thySim2": {
+            "Units": "[rad]",
+            "Value": 0.5236,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thySim3": {
+            "Units": "[rad]",
+            "Value": 0.5236,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "xThSim0": {
+            "Units": "[m]",
+            "Value": -0.004,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "xThSim1": {
+            "Units": "[m]",
+            "Value": -0.004,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "xThSim2": {
+            "Units": "[m]",
+            "Value": -0.004,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "xThSim3": {
+            "Units": "[m]",
+            "Value": -0.004,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "yThSim0": {
+            "Units": "[m]",
+            "Value": 1.60,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "yThSim1": {
+            "Units": "[m]",
+            "Value": 1.60,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "yThSim2": {
+            "Units": "[m]",
+            "Value": 1.60,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "yThSim3": {
+            "Units": "[m]",
+            "Value": 1.60,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "zThSim0": {
+            "Units": "[m]",
+            "Value": 1.35,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "zThSim1": {
+            "Units": "[m]",
+            "Value": 1.35,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "zThSim2": {
+            "Units": "[m]",
+            "Value": 1.35,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "zThSim3": {
+            "Units": "[m]",
+            "Value": 1.35,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        },
+        "thrNoiseStd": {
+            "Units": "[N]",
+            "Value": 0.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00
+        }
+    }
+}

@@ -1,0 +1,26 @@
+2024-06-20 20:35:28.086 [info] [FetcherService] Using the Helix fetcher.
+2024-06-20 20:35:28.086 [info] [gitExtensionService] Initializing Git extension service.
+2024-06-20 20:35:28.086 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-06-20 20:35:28.086 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-06-20 20:35:28.086 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-06-20 20:35:28.086 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:35:28.509 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:35:28.512 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-20 20:35:28.514 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:35:28.530 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:35:28.719 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:35:28.757 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:35:28.757 [info] [RemoteAgents] Failed to load remote slash commands: Error: No access to GitHub Copilot found. You are currently logged in as AlbertoFoti.
+2024-06-20 20:36:02.349 [info] [FetcherService] Using the Helix fetcher.
+2024-06-20 20:36:02.349 [info] [gitExtensionService] Initializing Git extension service.
+2024-06-20 20:36:02.349 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-06-20 20:36:02.349 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-06-20 20:36:02.349 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-06-20 20:36:02.356 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:36:02.771 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:36:02.773 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-20 20:36:02.837 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:36:02.856 [info] [auth] Logged in as AlbertoFoti
+2024-06-20 20:36:03.090 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:36:03.107 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-20 20:36:03.107 [info] [RemoteAgents] Failed to load remote slash commands: Error: No access to GitHub Copilot found. You are currently logged in as AlbertoFoti.

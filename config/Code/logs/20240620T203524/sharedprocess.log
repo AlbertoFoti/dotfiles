@@ -1,0 +1,14 @@
+2024-06-20 20:35:31.453 [info] Getting Manifest... github.copilot
+2024-06-20 20:35:31.513 [info] Installing extension: github.copilot vscode-userdata:/home/albertofots/.vscode/extensions/extensions.json
+2024-06-20 20:35:33.526 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 622ms.
+2024-06-20 20:35:33.677 [info] Extracted extension to file:///home/albertofots/.vscode/extensions/github.copilot-1.205.0: github.copilot
+2024-06-20 20:35:33.683 [info] Renamed to /home/albertofots/.vscode/extensions/github.copilot-1.205.0
+2024-06-20 20:35:33.710 [info] Marked extension as uninstalled github.copilot-1.204.0
+2024-06-20 20:35:33.720 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/albertofots/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/albertofots/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 20:35:33.743 [info] Extension installed successfully: github.copilot vscode-userdata:/home/albertofots/.vscode/extensions/extensions.json

@@ -1,0 +1,7 @@
+2024-06-17 19:20:27.711 [info] Started local extension host with pid 5444.
+2024-06-17 19:20:27.772 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-17 19:20:27.778 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 19:20:29.937 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-17 19:20:30.033 [error] [Extension Host] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-17 19:20:30.491 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 19:20:33.129 [info] [perf] Render performance baseline is 13ms

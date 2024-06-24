@@ -1,0 +1,100 @@
+{
+    "parameters": {
+      "r0Sim": {
+        "Units": "[m]",
+        "Initial value": 3.5162e6,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -3000.00,
+        "Max val": 3000.00,
+        "Notes": "Simulator radial position at EIP (dispersion is the control tracking error)"
+      },
+      "lon0Sim": {
+        "Units": "[rad]",
+        "Initial value": -0.6614798,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -0.002,
+        "Max val": 0.002,
+        "Notes": "Simulator longitude at EIP (dispersion is the control tracking error)"
+      },
+      "lat0Sim": {
+        "Units": "[rad]",
+        "Initial value": 0.3708825,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -0.002,
+        "Max val": 0.002,
+        "Notes": "Simulator latitude at EIP (dispersion is the control tracking error)"
+      },
+      "vAbs0Sim": {
+        "Units": "[m/s]",
+        "Initial value": 5315.4,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -10.00,
+        "Max val": 10.00,
+        "Notes": "Simulator co-rotating velocity at EIP (dispersion is the control tracking error)"
+      },
+      "fpa0Sim": {
+        "Units": "[rad]",
+        "Initial value": -0.2268928,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -0.001,
+        "Max val": 0.001,
+        "Notes": "Simulator co-rotating FPA at EIP (dispersion is the control tracking error)"
+      },
+      "head0Sim": {
+        "Units": "[rad]",
+        "Initial value": 1.7597,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": -0.002,
+        "Max val": 0.002,
+        "Notes": "Simulator co-rotating heading at EIP (dispersion is the control tracking error)"
+      },
+      "eta0Sim": {
+        "Units": "[ - ]",
+        "Initial value": -1.57,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator aerodynamic roll at EIP (dispersion is the control tracking error)"
+      },
+      "aoa0Sim": {
+        "Units": "[ - ]",
+        "Initial value": 0.30194,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator angle of attack at EIP (dispersion is the control tracking error)"
+      },
+      "mu0Sim": {
+        "Units": "[ - ]",
+        "Initial value": 2.16,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator bank angle at EIP (dispersion is the control tracking error)"
+      },
+      "omgl0Sim": {
+        "Units": "[ - ]",
+        "Initial value": 0.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator angular rate along the x axis at EIP (dispersion is the control tracking error)"
+      },
+      "omgm0Sim": {
+        "Units": "[ - ]",
+        "Initial value": 0.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator angular rate along the y axis at EIP (dispersion is the control tracking error)"
+      },
+      "omgn0Sim": {
+        "Units": "[ - ]",
+        "Initial value": 0.00,
+        "Uncertainty Type": 0.00,
+        "Std / Min val": 0.00,
+        "Max val": 0.00,
+        "Notes": "Simulator angular rate along the z axis at EIP (dispersion is the control tracking error)"
+      }
+    }
+  }

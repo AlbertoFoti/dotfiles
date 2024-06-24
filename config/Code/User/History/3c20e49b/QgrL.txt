@@ -1,0 +1,17 @@
+# Add source files
+set(SOURCES
+    DHS_GE.hxx
+    DHS_GE.cpp
+    # Add more source files as needed
+)
+
+add_subdirectory(GNC)
+
+include_directories(GNC)
+include_directories(../E2E)
+
+# Add the library target
+add_library(path_tracking ${SOURCES})
+
+target_link_libraries(path_tracking e2e)
+target_link_libraries(path_tracking path_tracking_gnc)

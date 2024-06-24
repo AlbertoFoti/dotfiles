@@ -1,0 +1,26 @@
+[
+	{
+		"fullPath": "/home/albertofots/Vault/my_life",
+		"name": "my_life"
+	},
+	{
+		"fullPath": "/home/albertofots/Vault/dev/learn_vim",
+		"name": "learn_vim"
+	},
+	{
+		"fullPath": "/home/albertofots/Vault/dev/money_tracker/money_tracker",
+		"name": "money_tracker"
+	},
+	{
+		"fullPath": "/home/albertofots/Vault/dev/repos/money-tracker",
+		"name": "money-tracker"
+	},
+	{
+		"fullPath": "/home/albertofots/Vault/dev/sorcio/documentation",
+		"name": "documentation"
+	},
+	{
+		"fullPath": "/home/albertofots/Vault/dev/sorcio/template-proposal-latex",
+		"name": "template-proposal-latex"
+	}
+]

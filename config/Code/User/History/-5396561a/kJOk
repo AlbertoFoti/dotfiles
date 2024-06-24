@@ -1,0 +1,2 @@
+PORT=3001
+MONGO_URI=mongodb+srv://admin:Winteriscoming99?@moneytracker.thwr9sc.mongodb.net/

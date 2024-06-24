@@ -1,0 +1,194 @@
+{
+    "parameters": {
+        "GravIDNom": {
+            "Parameter Name": "GravIDNom",
+            "Doc Symbol": "GravIDNom",
+            "Units": "[ - ]",
+            "Value": 2.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Flag of the gravity model to be used"
+        },
+        "massNom": {
+            "Parameter Name": "massNom",
+            "Doc Symbol": "massNom",
+            "Units": "[kg]",
+            "Value": 1990.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal vehicle mass"
+        },
+        "rMarsNom": {
+            "Parameter Name": "rMarsNom",
+            "Doc Symbol": "rMarsNom",
+            "Units": "[m]",
+            "Value": 3400000.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal Mars radius"
+        },
+        "SrefNom": {
+            "Parameter Name": "SrefNom",
+            "Doc Symbol": "SrefNom",
+            "Units": "[m^2]",
+            "Value": 11.34,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal reference aerodynamic surface"
+        },
+        "LrefNom": {
+            "Parameter Name": "LrefNom",
+            "Doc Symbol": "LrefNom",
+            "Units": "[m]",
+            "Value": 3.80,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal reference aerodynamic diameter"
+        },
+        "omgMarsNom": {
+            "Parameter Name": "omgMarsNom",
+            "Doc Symbol": "omgMarsNom",
+            "Units": "[rad/2]",
+            "Value": 0.00007088,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Mars rotation angular velocity"
+        },
+        "ugNom": {
+            "Parameter Name": "ugNom",
+            "Doc Symbol": "ugNom",
+            "Units": "[ - ]",
+            "Value": -0.500,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal constant cosine of the bank angle"
+        },
+        "tPDPNom": {
+            "Parameter Name": "tPDPNom",
+            "Doc Symbol": "tPDPNom",
+            "Units": "[s]",
+            "Value": 290.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal entry phase duration"
+        },
+        "MmaxNom": {
+            "Parameter Name": "MmaxNom",
+            "Doc Symbol": "MmaxNom",
+            "Units": "[Nm]",
+            "Value": 150.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Reference maximum torque used to compute the maximum bank angle acceleration"
+        },
+        "JNom": {
+            "Parameter Name": "JNom",
+            "Doc Symbol": "JNom",
+            "Units": "[kg/m^2]",
+            "Value": 2390.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Reference moment of inertia used to compute the maximum bank angle acceleration"
+        },
+        "khfNom": {
+            "Parameter Name": "khfNom",
+            "Doc Symbol": "khfNom",
+            "Units": "[kg^0.5/m^2]",
+            "Value": 0.00019027,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Constant to compute the Sutton-Graves heat flux"
+        },
+        "tBr1Nom": {
+            "Parameter Name": "tBr1Nom",
+            "Doc Symbol": "tBr1Nom",
+            "Units": "[s]",
+            "Value": 100.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr2Nom": {
+            "Parameter Name": "tBr2Nom",
+            "Doc Symbol": "tBr2Nom",
+            "Units": "[s]",
+            "Value": 150.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr3Nom": {
+            "Parameter Name": "tBr3Nom",
+            "Doc Symbol": "tBr3Nom",
+            "Units": "[s]",
+            "Value": 200.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr4Nom": {
+            "Parameter Name": "tBr4Nom",
+            "Doc Symbol": "tBr4Nom",
+            "Units": "[s]",
+            "Value": 250.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr5Nom": {
+            "Parameter Name": "tBr5Nom",
+            "Doc Symbol": "tBr5Nom",
+            "Units": "[s]",
+            "Value": 500.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr6Nom": {
+            "Parameter Name": "tBr6Nom",
+            "Doc Symbol": "tBr6Nom",
+            "Units": "[s]",
+            "Value": 500.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr7Nom": {
+            "Parameter Name": "tBr7Nom",
+            "Doc Symbol": "tBr7Nom",
+            "Units": "[s]",
+            "Value": 500.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        },
+        "tBr8Nom": {
+            "Parameter Name": "tBr8Nom",
+            "Doc Symbol": "tBr8Nom",
+            "Units": "[s]",
+            "Value": 500.00,
+            "Uncertainty Type": 0.00,
+            "Std / Min val": 0.00,
+            "Max val": 0.00,
+            "Notes": "Nominal starting time of the bank reversal (large values are used to reduce the number of effective bank reversals)"
+        }
+    }
+}

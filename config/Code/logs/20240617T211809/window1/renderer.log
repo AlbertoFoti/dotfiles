@@ -1,0 +1,13 @@
+2024-06-17 21:18:11.171 [info] Started local extension host with pid 21013.
+2024-06-17 21:18:11.220 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-17 21:18:11.225 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 21:18:13.955 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 21:18:14.297 [info] [perf] Render performance baseline is 32ms
+2024-06-17 21:18:15.605 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-17 21:18:15.609 [error] [Extension Host] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-17 21:22:48.250 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning%20copy.cpp 
+2024-06-17 21:22:48.252 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.cpp 
+2024-06-17 21:22:48.253 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/MissionScenario/type_defines.hxx 
+2024-06-17 21:22:48.254 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/PathPlanning/GE_Path_Planning.hxx 
+2024-06-17 21:22:48.256 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/main.cpp 
+2024-06-17 21:22:48.268 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/albertofots/Vault/my_life/Personal/A%20-%20Career/work/borsa/MARS_GUIDED_ENTRY/dev/Config/EXM/Navigation/AttNavX0NSF.json 

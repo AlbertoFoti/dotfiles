@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+file(GLOB HEADERS "CoM3DOFDetailed/*.hxx")
+file(GLOB SOURCES "CoM3DOFDetailed/*.cpp")
+
+include_directories(CoM3DOFDetailed)
+
+# Create a library target
+add_library(planning_library STATIC ${SOURCES} ${HEADERS})

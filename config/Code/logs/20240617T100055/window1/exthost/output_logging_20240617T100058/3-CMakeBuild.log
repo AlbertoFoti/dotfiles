@@ -1,0 +1,12 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/albertofots/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: learn_vim 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S/home/albertofots/Vault/dev/learn_vim -B/home/albertofots/Vault/dev/learn_vim/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/albertofots/Vault/dev/learn_vim/build

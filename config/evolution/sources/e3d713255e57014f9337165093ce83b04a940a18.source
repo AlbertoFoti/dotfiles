@@ -1,0 +1,10 @@
+[Data Source]
+DisplayName=Thales
+Enabled=true
+Parent=local-stub
+
+[Calendar]
+BackendName=local
+Color=rgb(191,64,64)
+Selected=true
+Order=0

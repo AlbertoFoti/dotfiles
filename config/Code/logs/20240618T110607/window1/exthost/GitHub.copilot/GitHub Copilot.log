@@ -1,0 +1,18 @@
+2024-06-18 11:06:11.133 [error] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-18 11:06:11.938 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.204.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2024-06-18 14:16:26.406 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-18 14:16:26.454 [error] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:26.546 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-18 14:17:26.571 [error] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."
+2024-06-18 14:17:46.036 [info] [auth] Invalid copilot token: missing token: 403 
+2024-06-18 14:17:46.056 [error] [auth] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as AlbertoFoti."

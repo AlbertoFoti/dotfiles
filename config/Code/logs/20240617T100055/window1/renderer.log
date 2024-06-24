@@ -1,0 +1,151 @@
+2024-06-17 10:00:57.432 [error] Cannot read properties of undefined (reading 'activate'): TypeError: Cannot read properties of undefined (reading 'activate')
+    at B.centerLayout (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:50386)
+    at H.centerMainEditorLayout (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2363:95276)
+    at u.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2363:73552)
+    at h.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:729)
+    at h.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:945)
+    at B.qc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:51419)
+    at B.pc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:51148)
+    at B.oc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:50681)
+    at B.nc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:50505)
+    at B.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2313:48326)
+    at B.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:802:76545)
+    at H.rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2363:124810)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2363:121783
+    at b.invokeFunction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:650:684)
+    at H.startup (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2363:121430)
+    at ie.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2387:126237)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js:4:9483
+2024-06-17 10:00:57.675 [info] Started local extension host with pid 4916.
+2024-06-17 10:00:57.760 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-17 10:00:57.765 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 10:00:59.959 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 10:01:00.143 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 10:01:00.303 [error] [Extension Host] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 10:01:00.318 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:01:00.520 [info] [perf] Render performance baseline is 30ms
+2024-06-17 10:01:01.076 [error] [Extension Host] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2024-06-17 10:01:46.141 [info] Started local extension host with pid 5766.
+2024-06-17 10:01:46.228 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-17 10:01:46.234 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 10:01:47.463 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 10:01:47.664 [error] [Extension Host] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 10:01:48.604 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 10:01:48.754 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:01:49.060 [info] [perf] Render performance baseline is 18ms
+2024-06-17 10:06:48.764 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:11:48.792 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:16:48.818 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:21:48.845 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:26:48.871 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:31:48.897 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:36:48.924 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 10:41:48.951 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:23:58.364 [info] Started local extension host with pid 8382.
+2024-06-17 11:23:58.425 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-17 11:23:58.430 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 11:24:00.855 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 11:24:01.134 [error] [Extension Host] [extension] GitHub Copilot could not connect to server. Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 11:24:01.162 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:24:01.335 [info] [perf] Render performance baseline is 42ms
+2024-06-17 11:24:01.476 [error] [Extension Host] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 11:24:02.233 [error] [Extension Host] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2024-06-17 11:29:01.189 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:34:01.217 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:39:01.243 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:44:01.270 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:49:01.297 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:54:01.302 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 11:59:01.329 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:04:01.357 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:09:01.385 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:14:01.413 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:19:34.743 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:24:35.722 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 12:29:36.744 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 13:59:23.883 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:00:12.245 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 14:03:44.524 [error] No expression to evaluate
+2024-06-17 14:04:23.917 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:04:50.218 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-17 14:09:23.945 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:14:23.988 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:19:24.017 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:22:34.886 [error] Ignoring latex-workshop.synctex.indicator.enabled as latex-workshop.synctex.indicator is "rectangle"
+2024-06-17 14:22:49.623 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-17 14:24:24.053 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:29:24.096 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:34:24.140 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:39:24.183 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:44:24.229 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:49:24.278 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:54:24.311 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 14:59:24.338 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:04:24.384 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:09:24.426 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:14:24.442 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:19:24.483 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:24:24.532 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:29:24.569 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:34:24.587 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:39:24.627 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:44:24.673 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:49:24.715 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:54:24.761 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 15:59:24.794 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:04:24.840 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:09:24.885 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:14:24.926 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:19:24.975 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:24:25.019 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:29:25.064 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:34:25.106 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:39:25.130 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:44:25.181 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:49:25.225 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:54:25.271 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 16:59:25.312 [warning] Failed to fetch chat participant registry Offline
+2024-06-17 17:04:25.356 [warning] Failed to fetch chat participant registry Offline

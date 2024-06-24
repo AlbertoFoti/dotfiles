@@ -1,0 +1,172 @@
+{
+    "parameters": {
+      "BUGMAX": {
+        "Units": "[ - ]",
+        "Value": 0,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Maximum value of bug to be used as reference to build the scale function of the altitude control (extracted from the path-planning trajectory)"
+      },
+      "GHVMAX": {
+        "Units": "[ - ]",
+        "Value": 0,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Maximum value of ghv to be used as reference to build the scale function of the down-range control  (extracted from the path-planning"
+      },
+      "Obs Ds": {
+        "Units": "[s]",
+        "Value": 15.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the down-range"
+      },
+      "Obs Dv": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the velocity"
+      },
+      "Obs Dh": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the altitude"
+      },
+      "Obs Dfpa": {
+        "Units": "[s]",
+        "Value": 10.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "Observer time constant of the FPA"
+      },
+      "State FeedBack H": {
+        "Units": "[s]",
+        "Value": 14.00,
+        "Uncertainty Type": "0.00",
+        "Std / Min val": 0,
+        "Max val": 0,
+        "Notes": "State feedback time constant of the altitude closed loop"
+      },
+      "State FeedBack S_1": {
+            "Units": "[s]",
+            "Value": 50.00,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "First state feedback time constant of the down-range closed loop"
+        },
+        "State FeedBack S_2": {
+          "Units": "[s]",
+          "Value": 100.00,
+          "Uncertainty Type": "0.00",
+          "Std / Min val": 0,
+          "Max val": 0,
+          "Notes": "Second state feedback time constant of the down-range closed loop"
+        },
+        "STPDWNDUR": {
+            "Units": "[ - ]",
+            "Value": 50.00,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Duration of the stepdown function to turn off the down-range closed loop component of the down-range control law"
+        },
+        "TSTPDWN": {
+            "Units": "[ - ]",
+            "Value": 180.00,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Time to start the stepdown function to turn off the down-range closed loop component of the down-range control law"
+        },
+        "ugMax": {
+            "Units": "[ - ]",
+            "Value": 0.90,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Maximum commanded value of the cosine of the bank angle"
+        },
+        "ugMin": {
+            "Units": "[ - ]",
+            "Value": -0.90,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Minimum commanded value of the cosine of the bank angle"
+        },
+        "DistF H": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the altitude control disturbance compensation portion of the control law"
+        },
+        "DistF S": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the down-range control disturbance compensation portion of the control law"
+        },
+        "StateFF H": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the altitude control closed loop portion of the control law"
+        },
+        "StateFF S": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the down-range control closed loop portion of the control law"
+        },
+        "DrObsFlagH": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the altitude control observer"
+        },
+        "DrObsFlagS": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the downrange control observer"
+        },
+        "CrClFlag": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0.00",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the lateral control"
+        },
+        "GuiFlag": {
+            "Units": "[ - ]",
+            "Value": 1,
+            "Uncertainty Type": "0",
+            "Std / Min val": 0,
+            "Max val": 0,
+            "Notes": "Flag to automatically turn ON/OFF the path-planning computation"
+        }
+    }
+  }

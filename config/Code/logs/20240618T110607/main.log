@@ -1,0 +1,30 @@
+2024-06-18 11:06:07.290 [info] update#setState idle
+2024-06-18 11:06:09.424 [error] update#isLatestVersion(): failed to check for updates
+2024-06-18 11:06:09.424 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-18 11:06:37.294 [info] update#setState checking for updates
+2024-06-18 11:06:37.300 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-18 11:06:37.300 [info] update#setState idle
+2024-06-18 13:42:40.614 [info] update#setState checking for updates
+2024-06-18 13:42:40.620 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-18 13:42:40.620 [info] update#setState idle
+2024-06-18 14:16:15.439 [info] Extension host with pid 8795 exited with code: 0, signal: unknown.
+2024-06-18 14:17:24.044 [info] Extension host with pid 13310 exited with code: 0, signal: unknown.
+2024-06-18 14:17:43.671 [info] Extension host with pid 15080 exited with code: 0, signal: unknown.
+2024-06-18 14:42:40.616 [info] update#setState checking for updates
+2024-06-18 14:42:41.451 [info] update#setState idle
+2024-06-18 15:42:40.621 [info] update#setState checking for updates
+2024-06-18 15:42:41.271 [info] update#setState idle
+2024-06-18 16:42:40.626 [info] update#setState checking for updates
+2024-06-18 16:42:41.583 [info] update#setState idle
+2024-06-18 17:42:40.634 [info] update#setState checking for updates
+2024-06-18 17:42:40.646 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-06-18 17:42:40.646 [info] update#setState idle
+2024-06-18 18:10:55.897 [info] Extension host with pid 15235 exited with code: 0, signal: unknown.

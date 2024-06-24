@@ -1,0 +1,20 @@
+# Add source files
+set(SOURCES
+    E2E.cpp
+    E2E_inpout.hxx
+    RW_DHSDM_IF.hxx
+    timing_E2E.hxx
+    E2E_define.hxx
+    E2E_TypeEquiv.hxx
+    typedefs_E2E.hxx
+    globals_E2E.hxx
+    E2E_routil.hxx
+    E2E_nrecipes.hxx
+    object_public_typedefs.hxx
+    E2E_Rk4.hxx
+    E2E_enum.hxx
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(e2e ${SOURCES})

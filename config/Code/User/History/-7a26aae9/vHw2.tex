@@ -1,0 +1,108 @@
+\newpage
+\chapter{Notation and Conventions}
+
+   \begin{enumerate}
+      \item An \textbf{\textit{Inertial Reference Frame}} is defined given by the attitude and orbit of the target planet
+         and the stars, at a fixed time.
+         The origin is assumed fixed at the center of the planet.
+
+         $$\mathcal{R}_{I}=\{ \mathcal{O}_{I},\: \textbf{i}_{I},\:\textbf{j}_I,\: \textbf{k}_I \}$$
+
+      \item A \textbf{\textit{Target Planet reference Frame}} is defined with 
+         origin as $\mathcal{R}_{I}$ and rotating with respect to it with an angular
+         velocity $\omega_{P}\cdot \mathcal{O}_{P}$.
+         $\textbf{i}_{P}$ points to the prime meridian, $\textbf{k}_{P}$ points to the
+         north pole (the rotation axis) and $\textbf{j}_{P}$ completes according
+         to the right-hand-rule.
+
+         $$\mathcal{R}_{P}=\{ \mathcal{O}_{P},\: \textbf{i}_{P},\:\textbf{j}_P,\: \textbf{k}_P \}$$
+
+         The capsule position spherical coordinates on $\mathcal{R}_{I}$ are the radial position
+         ($r$), longitude ($\Lambda$) and latitude ($\lambda$) of the capsule.
+      
+         $$
+            \textbf{x}_{CoM} = [\: r,\:\Lambda,\:\lambda \:]
+         $$
+
+      \item A \textbf{\textit{North, East, Down (NED) Reference Frame}} is defined, with origin $\mathcal{O}_{NED}$
+         corresponding to the capsule Center of Mass (CoM) position, with $\textbf{i}_{NED}$
+         pointing tangent to the curve going to the North Pole or the target planet (extended at
+         the altitude of the capsule), $\textbf{j}_{NED}$ pointing East and $\textbf{k}_{NED}$
+         pointing directly to the center of the target planet (downwards).
+
+         $$\mathcal{R}_{NED}=\{ \mathcal{O}_{NED},\: \textbf{i}_{NED},\:\textbf{j}_{NED},\: \textbf{k}_{NED} \}$$
+
+         The co-rotating velocity ($\textbf{v}_{p}$), in spherical coordinates on $\mathcal{R}_{NED}$, is the velocity module ($v_{m}$), 
+         the flight path angle (FPA, $\gamma$), and heading ($\chi$) of the capsule.
+      
+         $$
+            \textbf{v}_{CoM} = [\: v_{p},\:\gamma,\:\chi \:]
+         $$
+
+      \item The \textbf{\textit{Local Vertical (LV) Reference Frame}} can be obtained from
+         the $\mathcal{R}_{NED}$ by a rotation of angle $\chi$ around $\textbf{k}_{NED}$.
+
+      \item The \textbf{Velocity (V) Reference Frame} is defined by rotating the LV reference frame
+         of angle $\gamma$ around the $\textbf{j}_{LV}$ vector. As a result, the $\textbf{i}_{v}$ vector points
+         in the direction of the velocity $\textbf{v}_{p}$
+
+         $$\mathcal{R}_{v}=\{ \mathcal{O}_{v},\: \textbf{i}_{v},\:\textbf{j}_{v},\: \textbf{k}_{v} \}$$
+   \end{enumerate}
+
+   \vspace{0.5cm}
+
+   Since the aerodynamic forces depend on the attitude of the capsule wrt its velocity (assuming no wind), it's
+   useful to describe the attitude of $\mathcal{R}_{v}$ wrt $\mathcal{R}_{b}$ (body reference frame).
+
+   The \textbf{Body (B) Reference Frame} can be defined starting from the $\mathcal{R}_{v}$ reference frame and
+   applying the following rotations (1-2-1):
+
+   \begin{enumerate}
+      \item One rotation is needed to arrive from $\mathcal{R}_v$ to $\mathcal{R}_w$ about $\textbf{i}_v$ providing
+         the \textbf{Aerodynamic bank angle $\mu$}.
+      \item One rotation is needed to arrive from $\mathcal{R}_w$ to $\mathcal{R}_{as}$ about $\textbf{j}_w$ providing
+         the \textbf{Total Angle of Attack (AoA, $\alpha$)}.
+      \item One rotation is needed to arrive from $\mathcal{R}_{as}$ to $\mathcal{R}_{b}$ about $\textbf{i}_{as}$ providing
+         the \textbf{Aerodynamic Roll ($\eta$)}.
+   \end{enumerate}
+
+   The intermediate reference frames \textbf{Wind (w) Reference Frame} and \textbf{Axis Symmentric (AS) Reference Frame} are called
+   $\mathcal{R}_w$ and $\mathcal{R}_{as}$.
+
+   Two additional reference frames can be defined:
+
+   \begin{enumerate}
+      \item Aerodynamic Data Base: $\mathcal{R}_{a}$ fixed to the capsule, is parallel to $\mathcal{R}_b$ and considers
+         only a displacement of $\mathcal{O}_a$ wrt $\mathcal{O}_b$ = CoM . This reference frame is needed since the aerodynamic
+         characteristics (coefficients) of the capsule are given wrt to Ra , not to Rb . In fact, it is possible that
+         Ob moves wrt Oa during the entry phased.
+      
+      12) Descent Module Reference Frame: RDMRF  ODMRF , iDMRF , jDMRF , kDMRF
+       fixed to the capsule, is
+      parallel to Rb . Its origin is placed at the back of the back shell of the capsule over the symmetry
+      axis. This reference frame is used as the reference frame of the descent module to which all
+      numerical coordinates should be referred to avoid ambiguity.
+   \end{enumerate}
+
+   
+
+
+\newpage
+\subsubsection{NED Reference Frame}
+
+   The common reference frame is the LVLH (Local Vertical Local Horizontal), in the ENU (East, North, Up) variant.
+   The naming convention for the axis follow the standard for the general LVLH, therefore the following equivalences are valid
+
+   $$
+      East\: (E) \quad\to\quad x
+   $$
+
+   $$
+      North\: (N) \quad\to\quad y
+   $$
+
+   $$
+      Up (U)\: \quad\to\quad z
+   $$
+
+Further details on other reference frames used can be found in Appendix A.

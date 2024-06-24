@@ -1,0 +1,54 @@
+{
+    "parameters": [
+      {
+        "Parameter Name": "gravDR",
+        "Doc Symbol": "gravDR",
+        "Units": "[ m/s^2]",
+        "Value": "003.72E+00",
+        "Uncertainty Type": "0.00",
+        "Std / Min val": "0.00",
+        "Max val": "0.00",
+        "Notes": "Nominal gravity of the 2DOF simulator"
+      },
+      {
+        "Parameter Name": "cDDR",
+        "Doc Symbol": "cDDR",
+        "Units": "[ - ]",
+        "Value": "001.31E+00",
+        "Uncertainty Type": "0.00",
+        "Std / Min val": "0.00",
+        "Max val": "0.00",
+        "Notes": "Nominal drag coefficient of the 2DOF simulator (overcommed by the lookup table)"
+      },
+      {
+        "Parameter Name": "cLDR",
+        "Doc Symbol": "cLDR",
+        "Units": "[ - ]",
+        "Value": "-350.00E-03",
+        "Uncertainty Type": "0.00",
+        "Std / Min val": "0.00",
+        "Max val": "0.00",
+        "Notes": "Nominal lift coefficient of the 2DOF simulator (overcommed by the lookup table)"
+      },
+      {
+        "Parameter Name": "rhosDR",
+        "Doc Symbol": "rhosDR",
+        "Units": "[kg/m^3]",
+        "Value": "015.00E-03",
+        "Uncertainty Type": "0.00",
+        "Std / Min val": "0.00",
+        "Max val": "0.00",
+        "Notes": "Nominal density at the surface of the 2DOF simulator (overcommed by the lookup table)"
+      },
+      {
+        "Parameter Name": "HatmDR",
+        "Doc Symbol": "HatmDR",
+        "Units": "[m]",
+        "Value": "009.30E+03",
+        "Uncertainty Type": "0.00",
+        "Std / Min val": "0.00",
+        "Max val": "0.00",
+        "Notes": "Nominal spatial constant of the density of the 2DOF simulator (overcommed by the lookup table)"
+      }
+    ]
+  }

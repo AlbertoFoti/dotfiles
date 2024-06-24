@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.28.0)
+project(simulation_guided_entry VERSION 0.1.0 LANGUAGES C CXX)
+
+add_subdirectory(Log)
+
+include_directories(Log)
+
+set(SOURCES 
+    
+)
+
+add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
+
+target_link_libraries(${PROJECT_NAME} PUBLIC util_log)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+set(CPACK_CXX_STANDARD 20)
+include(CPack)
+
+
+
+

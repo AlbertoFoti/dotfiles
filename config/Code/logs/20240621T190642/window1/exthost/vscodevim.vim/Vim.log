@@ -1,0 +1,30 @@
+2024-06-21 19:06:47.045 [info] Configuration changed
+2024-06-21 19:06:55.018 [warning] invalid cursor position. [[12, 3] | [12, 0]].
+2024-06-21 19:07:09.184 [info] Executing :w
+2024-06-21 19:07:11.733 [info] Executing :
+2024-06-21 19:07:14.094 [info] Executing :w
+2024-06-21 19:07:15.134 [info] Executing :
+2024-06-21 19:07:16.850 [info] Executing :w
+2024-06-21 19:07:17.557 [info] Executing :
+2024-06-21 19:07:18.857 [info] Executing :w
+2024-06-21 19:07:20.257 [info] Executing :w
+2024-06-21 19:07:21.207 [info] Executing :w
+2024-06-21 19:07:22.109 [info] Executing :w
+2024-06-21 19:07:28.334 [info] extension-output-ms-vscode.cmake-tools-#1-CMake/Build closed
+2024-06-21 19:07:28.438 [info] Configuration changed
+2024-06-21 19:08:48.307 [info] Active editor: output:extension-output-esbenp.prettier-vscode-%231-Prettier
+2024-06-21 19:08:51.028 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp
+2024-06-21 19:09:12.585 [info] Active editor: output:extension-output-esbenp.prettier-vscode-%231-Prettier
+2024-06-21 19:09:22.791 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp
+2024-06-21 19:09:22.816 [info] extension-output-esbenp.prettier-vscode-#1-Prettier closed
+2024-06-21 19:09:26.258 [info] Active editor: output:extension-output-esbenp.prettier-vscode-%231-Prettier
+2024-06-21 19:09:28.356 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp
+2024-06-21 19:09:50.824 [info] /home/albertofots/.config/Code/User/settings.json closed
+2024-06-21 19:09:50.865 [info] Configuration changed
+2024-06-21 19:12:50.796 [info] /settings/user closed
+2024-06-21 19:12:50.946 [info] /settings/resourceLanguage closed
+2024-06-21 19:12:50.948 [info] /ignoredSettings closed
+2024-06-21 19:12:51.001 [info] /launch closed
+2024-06-21 19:12:51.004 [info] /token-styling closed
+2024-06-21 19:12:51.005 [info] /textmate-colors closed
+2024-06-21 19:12:51.009 [info] /workbench-colors closed

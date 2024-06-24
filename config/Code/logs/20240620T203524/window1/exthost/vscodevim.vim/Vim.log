@@ -1,0 +1,19 @@
+2024-06-20 20:35:28.223 [info] /home/albertofots/.config/Code/User/settings.json closed
+2024-06-20 20:35:28.394 [info] /home/albertofots/.config/Code/User/keybindings.json closed
+2024-06-20 20:35:29.421 [info] Configuration changed
+2024-06-20 20:36:02.702 [info] Configuration changed
+2024-06-20 20:36:02.724 [info] Configuration changed
+2024-06-20 20:36:26.916 [info] Active editor: untitled:Untitled-1
+2024-06-20 20:36:43.942 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/player.hxx
+2024-06-20 20:36:47.899 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp
+2024-06-20 20:43:03.357 [info] extension-output-ms-vscode.cmake-tools-#1-CMake/Build closed
+2024-06-20 20:43:24.339 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/player.hxx
+2024-06-20 23:09:12.834 [info] Executing :w
+2024-06-20 23:09:30.629 [info] Executing :w
+2024-06-20 23:09:35.900 [info] Executing :q
+2024-06-20 23:09:35.912 [info] /home/albertofots/Vault/dev/learn_vim/player.hxx closed
+2024-06-20 23:09:35.914 [warning] getLineLength() called with out-of-bounds line 6
+2024-06-20 23:09:35.914 [warning] getLineLength() called with out-of-bounds line 6
+2024-06-20 23:09:35.920 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp
+2024-06-20 23:09:55.592 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/CMakeLists.txt
+2024-06-20 23:10:29.881 [info] Active editor: file:///home/albertofots/Vault/dev/learn_vim/main.cpp

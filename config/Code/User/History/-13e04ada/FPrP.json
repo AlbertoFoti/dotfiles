@@ -1,0 +1,52 @@
+{
+    "parameters": {
+        "r0Nom": {
+            "Units": "[m]",
+            "Initial value": "003.5162E+06",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal radial position at EIP (dispersion ignored)"
+        },
+        "lon0Nom": {
+            "Units": "[rad]",
+            "Initial value": "-661.4798E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal longitude at EIP (dispersion ignored)"
+        },
+        "lat0Nom": {
+            "Units": "[rad]",
+            "Initial value": "370.8825E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal latitude at EIP (dispersion ignored)"
+        },
+        "vAbs0Nom": {
+            "Units": "[m/s]",
+            "Initial value": "005.3154E+03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal co-rotating velocity at EIP (dispersion ignored)"
+        },
+        "fpa0Nom": {
+            "Units": "[rad]",
+            "Initial value": "-226.8928E-03",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal co-rotating FPA at EIP (dispersion ignored)"
+        },
+        "head0Nom": {
+            "Units": "[rad]",
+            "Initial value": "001.7597E+00",
+            "Uncertainty Type": "0.00",
+            "Std / Min val": "0.00",
+            "Max val": "0.00",
+            "Notes": "Nominal co-rotating heading at EIP (dispersion ignored)"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+# Add source files
+set(SOURCES
+    path_planning.hxx
+    path_planning.cpp
+    # Add more source files as needed
+)
+
+# Add the library target
+add_library(path_planning ${SOURCES})

@@ -1,0 +1,11 @@
+# Add source files
+set(SOURCES
+    MemHandling.cpp
+    SPA_Matrix.cpp
+    # Add more source files as needed
+)
+
+include_directories(../PathTracking/GNC)
+
+# Add the library target
+add_library(utils ${SOURCES})

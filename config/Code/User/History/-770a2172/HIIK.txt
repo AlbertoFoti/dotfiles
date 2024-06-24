@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+# include_directories(LkupTable20)
+# include_directories(LkupTable1000)
+
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+# file(GLOB HEADERS_20 "./LkupTable20/*.hxx")
+# file(GLOB SOURCES_20 "./LkupTable20/*.cpp")
+
+# file(GLOB HEADERS_1000 "./LkupTable1000/*.hxx")
+# file(GLOB SOURCES_1000 "./LkupTable1000/*.cpp")
+
+# Create a library target
+add_library(utils_lkuptable STATIC 
+    ${HEADERS} ${SOURCES}
+    # ${HEADERS_20} ${SOURCES_20}
+    # ${HEADERS_1000} ${SOURCES_1000} 
+)

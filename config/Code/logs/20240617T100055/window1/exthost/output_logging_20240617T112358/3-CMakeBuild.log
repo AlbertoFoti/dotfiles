@@ -1,0 +1,60 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/albertofots/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/c89-gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: dev 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/c89-gcc "-S/home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev" "-B/home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/build" -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/build
+[main] Building folder: dev all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build "/home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/build" --config Debug --target all -j 18 --
+[build] [  5%] Built target util_log
+[build] [ 22%] Built target utils_linsyssolve
+[build] [ 34%] Built target utils_lkuptable
+[build] [ 42%] Built target utils_matrixinverse
+[build] [ 60%] Built target planning_library
+[build] [ 74%] Built target utils_lib
+[build] [ 85%] Built target mission_scenario
+[build] [ 91%] Built target path_planning
+[build] [100%] Built target guided_entry
+[driver] Build completed: 00:00:00.238
+[build] Build finished with exit code 0
+[main] Building folder: dev all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build "/home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/build" --config Debug --target all -j 18 --
+[build] [  5%] Built target util_log
+[build] [ 22%] Built target utils_linsyssolve
+[build] [ 31%] Built target utils_matrixinverse
+[build] [ 42%] Built target utils_lkuptable
+[build] [ 60%] Built target planning_library
+[build] [ 74%] Built target utils_lib
+[build] [ 85%] Built target mission_scenario
+[build] [ 91%] Built target path_planning
+[build] [100%] Built target guided_entry
+[driver] Build completed: 00:00:00.607
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[main] Building folder: dev all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build "/home/albertofots/Vault/my_life/Personal/A - Career/work/borsa/MARS_GUIDED_ENTRY/dev/build" --config Debug --target all -j 18 --
+[build] [ 31%] Built target utils_lkuptable
+[build] [ 28%] Built target util_log
+[build] [ 34%] Built target utils_linsyssolve
+[build] [ 51%] Built target planning_library
+[build] [ 60%] Built target utils_matrixinverse
+[build] [ 74%] Built target utils_lib
+[build] [ 85%] Built target mission_scenario
+[build] [ 88%] Building CXX object PathPlanning/CMakeFiles/path_planning.dir/GE_Path_Planning.cpp.o
+[build] [ 91%] Linking CXX static library libpath_planning.a
+[build] [ 91%] Built target path_planning
+[build] [ 94%] Linking CXX executable guided_entry
+[build] [100%] Built target guided_entry
+[driver] Build completed: 00:00:02.642
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version

@@ -1,0 +1,80 @@
+2024-06-17 19:21:26.791 [info] Extension host with pid 6853 started
+2024-06-17 19:21:26.847 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 19:21:26.849 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-06-17 19:21:26.869 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 19:21:26.890 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 19:21:26.934 [info] Eager extensions activated
+2024-06-17 19:21:26.939 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-17 19:21:26.949 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:26.950 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:26.955 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:26.959 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:26.984 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.268 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.312 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.314 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.320 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.335 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:27.373 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:35.685 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-17 19:21:35.697 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new A (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+    at Proxy.z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+    at N.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:43281)
+    at Object.resolveProxy (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:31146)
+    at useProxySettings (/usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:165:16)
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:13
+    at /usr/share/code/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:459:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-06-17 19:21:35.702 [info] Extension host with pid 6853 exiting with code 0
+2024-06-17 19:21:36.271 [info] Extension host with pid 6996 started
+2024-06-17 19:21:36.271 [info] Skipping acquiring lock for /home/albertofots/.config/Code/User/workspaceStorage/b0a8c1dcbcc33f0e55908e18696ad2e3.
+2024-06-17 19:21:36.284 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-17 19:21:36.288 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2024-06-17 19:21:36.577 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2024-06-17 19:21:36.646 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-17 19:21:36.647 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-06-17 19:21:36.687 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-17 19:21:36.707 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-17 19:21:36.843 [info] Eager extensions activated
+2024-06-17 19:21:36.896 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:36.898 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:36.905 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:36.912 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:36.940 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.022 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.078 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.081 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.086 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.100 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.146 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-17 19:21:37.276 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-17 19:22:01.991 [info] ExtensionService#_doActivateExtension TomRijndorp.find-it-faster, startup: false, activationEvent: 'onCommand:find-it-faster.findWithinFiles'
+2024-06-17 19:30:35.538 [warning] TextEditor is closed/disposed
+2024-06-17 19:30:35.538 [warning] TextEditor is closed/disposed
+2024-06-17 19:30:35.542 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-06-17 19:30:35.542 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model1)
+2024-06-17 19:30:59.827 [warning] TextEditor is closed/disposed
+2024-06-17 19:30:59.827 [warning] TextEditor is closed/disposed
+2024-06-17 19:30:59.831 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-06-17 19:30:59.831 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model1)
+2024-06-17 19:31:10.653 [warning] TextEditor is closed/disposed
+2024-06-17 19:31:10.653 [warning] TextEditor is closed/disposed
+2024-06-17 19:31:10.658 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-06-17 19:31:10.658 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model1)
+2024-06-17 21:18:05.195 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-17 21:18:05.244 [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/albertofots/.vscode/extensions/vscodevim.vim-1.27.3/out/extension.js:2:642593)
+    at Object.t.deactivate (/home/albertofots/.vscode/extensions/vscodevim.vim-1.27.3/out/extension.js:2:176670)
+    at u.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9796)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+    at Array.map (<anonymous>)
+    at u.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+    at u.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+    at f.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-06-17 21:18:05.258 [info] Extension host with pid 6996 exiting with code 0

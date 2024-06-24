@@ -1,0 +1,48 @@
+cmake_minimum_required(VERSION 3.28.0)
+project(guided_entry VERSION 0.1.0 LANGUAGES C CXX)
+
+## Testing
+include(CTest)
+enable_testing()
+
+## Add subdirectories
+add_subdirectory(PathPlanning)
+add_subdirectory(MissionScenario)
+add_subdirectory(UtilsLib)
+add_subdirectory(Log)
+add_subdirectory(matplotplusplus)
+
+## Include subdirectories
+include_directories(PathPlanning)
+include_directories(MissionScenario)
+include_directories(UtilsLib)
+include_directories(Log)
+
+set(SOURCES
+    SimulationManager.hxx
+    SimulationManager.cpp
+)
+
+## Entry Point
+add_executable(guided_entry main.cpp ${SOURCES})
+
+## Link libraries
+target_link_libraries(${PROJECT_NAME} path_planning)
+target_link_libraries(${PROJECT_NAME} mission_scenario)
+target_link_libraries(${PROJECT_NAME} utils_lib)
+target_link_libraries(${PROJECT_NAME} util_log)
+target_link_libraries(${PROJECT_NAME} matplot)
+
+## Config folder
+# Specify source directory of the "Config" folder
+set(ConfigFolder "${CMAKE_SOURCE_DIR}/Config")
+# Specify destination directory where you want to copy the folder (build folder)
+set(BuildFolder "${CMAKE_BINARY_DIR}")
+# Copy the folder during the build step
+file(COPY ${ConfigFolder} DESTINATION ${BuildFolder})
+
+## CPACK
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+set(CMAKE_CXX_STANDARD 20)
+include(CPack)

@@ -1,0 +1,8 @@
+build
+slprj
+aGuided_Entry_EXM
+aGuided_Entry_EXM02
+*.slxc
+*.r20*
+
+documents/.vscode

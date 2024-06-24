@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.28.0)
+
+file(GLOB HEADERS "*.hxx")
+file(GLOB SOURCES "*.cpp")
+
+add_subdirectory(LkupTable)
+add_subdirectory(MatrixInverse)
+add_subdirectory(LinSysSolve)
+
+include_directories(LkupTable)
+include_directories(MatrixInverse)
+include_directories(LinSysSolve)
+include_directories(../Log)
+include_directories(../MissionScenario)
+
+# Create a library target
+add_library(utils_lib STATIC 
+    ${SOURCES} ${HEADERS} 
+)
+
+target_link_libraries(utils_lib utils_lkuptable utils_matrixinverse utils_linsyssolve)

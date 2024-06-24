@@ -1,0 +1,25 @@
+2024-06-17 10:01:00.288 [error] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 10:01:01.074 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}
+2024-06-17 10:01:47.661 [error] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 11:24:01.476 [error] [auth] Extension activation failed: "getaddrinfo EAI_AGAIN api.github.com"
+2024-06-17 11:24:02.232 [error] [default] Error sending telemetry FetchError: getaddrinfo EAI_AGAIN copilot-telemetry.githubusercontent.com
+    at fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Qq.fetch (/home/albertofots/.vscode/extensions/github.copilot-1.203.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'EAI_AGAIN',
+  errno: -3001,
+  erroredSysCall: 'getaddrinfo'
+}

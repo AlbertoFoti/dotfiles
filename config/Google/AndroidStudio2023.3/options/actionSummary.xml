@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="WelcomeScreen.RunAndroidSdkManager">
+      <i c="1" l="1715503581427" />
+    </e>
+    <e n="WelcomeScreen.RunDeviceManager2">
+      <i c="1" l="1715504238346" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="1" l="1715504242654" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1715503573510" />
+    </e>
+  </component>
+</application>

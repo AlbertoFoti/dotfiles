@@ -1,0 +1,17 @@
+2024/05/31-14:57:08.467 4 Reusing MANIFEST /home/albertofots/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2024/05/31-14:57:08.468 4 Recovering log #32
+2024/05/31-14:57:08.468 4 Level-0 table #35: started
+2024/05/31-14:57:08.470 4 Level-0 table #35: 14576 bytes OK
+2024/05/31-14:57:08.471 4 Recovering log #35
+2024/05/31-14:57:08.471 4 Reusing old log /home/albertofots/.config/google-chrome/Default/Session Storage/000035.log 
+2024/05/31-14:57:08.474 4 Delete type=0 #32
+2024/05/31-14:57:08.474 4 Delete type=2 #36
+2024/05/31-14:57:08.474 6 Compacting 4@0 + 1@1 files
+2024/05/31-14:57:08.478 6 Generated table #36@0: 981 keys, 22743 bytes
+2024/05/31-14:57:08.478 6 Compacted 4@0 + 1@1 files => 22743 bytes
+2024/05/31-14:57:08.480 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/31-14:57:08.480 6 Delete type=2 #33
+2024/05/31-14:57:08.480 6 Delete type=2 #31
+2024/05/31-14:57:08.480 6 Delete type=2 #26
+2024/05/31-14:57:08.480 6 Delete type=2 #28
+2024/05/31-14:57:08.480 6 Delete type=2 #35
