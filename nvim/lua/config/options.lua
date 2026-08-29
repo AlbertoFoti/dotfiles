@@ -24,6 +24,8 @@ opt.incsearch = true
 opt.hlsearch = false
 
 opt.termguicolors = true
+opt.pumblend = 8
+opt.winblend = 8
 opt.completeopt = { "menu", "menuone", "noselect" }
 opt.pumheight = 10
 opt.laststatus = 3

@@ -33,6 +33,6 @@ vim.api.nvim_create_autocmd("VimEnter", {
   group = group,
   once = true,
   callback = function()
-    vim.notify("Tokyo Night dotfiles loaded — happy coding!", vim.log.levels.INFO)
+    vim.notify("Tokyo Night Moon loaded — happy coding!", vim.log.levels.INFO)
   end,
 })
