@@ -1,7 +1,7 @@
 sudo apt update
 
 sudo apt install nala
-sudo nala install git g++ cmake nvim
+sudo nala install git g++ cmake nvim btop
 sudo nala install -y \
   curl wget git unzip tar gzip \
   build-essential cmake ninja-build pkg-config \
