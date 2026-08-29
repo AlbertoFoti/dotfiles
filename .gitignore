@@ -1,0 +1,40 @@
+# Neovim runtime files
+.nvimlog
+*.swp
+*.swo
+*.swn
+*.shada
+*.shada.tmp
+Session.vim
+
+# Editor and operating-system artifacts
+*~
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and tool caches
+node_modules/
+.npm/
+
+# Local caches and generated coverage data
+.cache/
+.coverage
+coverage/
+htmlcov/
+
+# Local environment files may contain secrets
+.env
+.env.*
+!.env.example
